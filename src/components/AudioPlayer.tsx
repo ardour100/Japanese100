@@ -72,7 +72,7 @@ export default function AudioPlayer({ audioSrc, kanjiId, className = "" }: Audio
       const kanji = kanjiData.default.find(k => k.id === kanjiId);
 
       if (kanji) {
-        const utterance = new SpeechSynthesisUtterance(kanji.hiragana);
+        const utterance = new SpeechSynthesisUtterance(kanji?.hiragana);
         utterance.lang = 'ja-JP';
         utterance.rate = 0.8;
         utterance.pitch = 1.0;
