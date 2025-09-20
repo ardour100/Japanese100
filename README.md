@@ -1,6 +1,7 @@
-# 🌸 漢字学習 - Japanese Kanji Learning App
+# 🌸 漢字学習 - Japanese Kanji Learning
 
-A beautiful Next.js application for learning the most frequent Japanese Kanji characters with an elegant Sakura (cherry blossom) theme, interactive features, and pronunciation support.
+A beautiful Next.js application for learning the most frequent Japanese Kanji characters with an elegant theme.
+
 
 ## Features
 
