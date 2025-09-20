@@ -5,6 +5,8 @@ import Link from "next/link";
 import { ArrowLeftIcon } from "@heroicons/react/24/outline";
 import kanjiData from "@/data/kanji.json";
 import JapaneseBackground from "@/components/JapaneseBackground";
+import ProgressLadder from "@/components/ProgressLadder";
+import { useProgress } from "@/hooks/useProgress";
 
 interface KanjiEntry {
   entryId: number;
@@ -30,6 +32,15 @@ export default function KanjiDetailPage({ params }: PageProps) {
   const kanji = kanjiData.find((item) => item.id === parseInt(resolvedParams.id)) || null;
   const [selectedEntryIndex, setSelectedEntryIndex] = useState(0);
   const currentEntry = kanji?.entries[selectedEntryIndex] || null;
+  const { getKanjiProgress, updateProgress, isLoaded } = useProgress();
+
+  const currentProgress = isLoaded && kanji ? getKanjiProgress(kanji.id) : 0;
+
+  const handleProgressChange = (level: number) => {
+    if (kanji) {
+      updateProgress(kanji.id, level);
+    }
+  };
 
   if (!kanji || !currentEntry) {
     return (
@@ -64,8 +75,10 @@ export default function KanjiDetailPage({ params }: PageProps) {
           </Link>
         </nav>
 
-        {/* Main Content */}
-        <div className="bg-gradient-to-br from-rose-25 to-pink-25 bg-white rounded-2xl shadow-xl p-8 sm:p-12 border border-rose-100">
+        {/* Main Content - Grid Layout */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          {/* Left Column - Kanji Details */}
+          <div className="lg:col-span-2 bg-gradient-to-br from-rose-25 to-pink-25 bg-white rounded-2xl shadow-xl p-8 sm:p-12 border border-rose-100">
           {/* Header with Kanji and Audio */}
           <div className="text-center mb-12">
             {/* Kanji Character */}
@@ -168,6 +181,15 @@ export default function KanjiDetailPage({ params }: PageProps) {
             </Link>
           </div>
         </div>
+
+        {/* Right Column - Progress Ladder */}
+        <div className="lg:col-span-1">
+          <ProgressLadder
+            currentProgress={currentProgress}
+            onProgressChange={handleProgressChange}
+          />
+        </div>
+      </div>
       </div>
     </div>
   );
