@@ -2,19 +2,23 @@
 
 import { use, useState } from "react";
 import Link from "next/link";
-import { ArrowLeftIcon, SpeakerWaveIcon } from "@heroicons/react/24/outline";
+import { ArrowLeftIcon } from "@heroicons/react/24/outline";
 import kanjiData from "@/data/kanji.json";
 import JapaneseBackground from "@/components/JapaneseBackground";
+
+interface KanjiEntry {
+  entryId: number;
+  romaji: string;
+  hiragana: string;
+  meaning: string;
+  wordClass: string;
+  example: string;
+}
 
 interface KanjiItem {
   id: number;
   kanji: string;
-  romaji: string;
-  hiragana: string;
-  katakana: string;
-  meaning: string;
-  example: string;
-  audio: string;
+  entries: KanjiEntry[];
 }
 
 interface PageProps {
@@ -23,29 +27,11 @@ interface PageProps {
 
 export default function KanjiDetailPage({ params }: PageProps) {
   const resolvedParams = use(params);
-  const [isPlaying, setIsPlaying] = useState(false);
-
   const kanji = kanjiData.find((item) => item.id === parseInt(resolvedParams.id)) || null;
+  const [selectedEntryIndex, setSelectedEntryIndex] = useState(0);
+  const currentEntry = kanji?.entries[selectedEntryIndex] || null;
 
-  const playAudio = () => {
-    if (!kanji) return;
-
-    setIsPlaying(true);
-
-    // Use Web Speech API for pronunciation since we don't have actual audio files
-    if ('speechSynthesis' in window) {
-      const utterance = new SpeechSynthesisUtterance(kanji.romaji);
-      utterance.lang = 'ja-JP';
-      utterance.rate = 0.8;
-      utterance.onend = () => setIsPlaying(false);
-      speechSynthesis.speak(utterance);
-    } else {
-      // Fallback if speech synthesis is not available
-      setTimeout(() => setIsPlaying(false), 1000);
-    }
-  };
-
-  if (!kanji) {
+  if (!kanji || !currentEntry) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-rose-50 via-pink-50 to-rose-100 flex items-center justify-center relative">
         <JapaneseBackground />
@@ -82,58 +68,56 @@ export default function KanjiDetailPage({ params }: PageProps) {
         <div className="bg-gradient-to-br from-rose-25 to-pink-25 bg-white rounded-2xl shadow-xl p-8 sm:p-12 border border-rose-100">
           {/* Header with Kanji and Audio */}
           <div className="text-center mb-12">
-            <div className="flex justify-center mb-4">
-              <div className="text-3xl">🌸</div>
-            </div>
-            <div className="relative inline-block">
-              <h1 className="text-8xl sm:text-9xl font-bold text-rose-800 mb-4 drop-shadow-sm">
+            {/* Kanji Character */}
+            <div className="mb-6">
+              <h1 className="text-8xl sm:text-9xl font-bold text-rose-800 drop-shadow-sm">
                 {kanji.kanji}
               </h1>
-              <div className="absolute -top-2 -right-2">
-                <button
-                  onClick={playAudio}
-                  disabled={isPlaying}
-                  className={`p-3 rounded-full transition-all ${
-                    isPlaying
-                      ? 'bg-rose-200 text-rose-600'
-                      : 'bg-gradient-to-r from-rose-400 to-pink-500 text-white hover:from-rose-500 hover:to-pink-600'
-                  } shadow-lg`}
-                >
-                  <SpeakerWaveIcon className="w-6 h-6" />
-                </button>
-              </div>
             </div>
+
+            {/* Entry Selection - only show if multiple entries */}
+            {kanji.entries.length > 1 && (
+              <div className="flex justify-center gap-2 mb-4">
+                {kanji.entries.map((entry, index) => (
+                  <button
+                    key={entry.entryId}
+                    onClick={() => setSelectedEntryIndex(index)}
+                    className={`px-4 py-2 rounded-lg transition-all ${
+                      selectedEntryIndex === index
+                        ? 'bg-gradient-to-r from-rose-400 to-pink-500 text-white shadow-md'
+                        : 'bg-rose-100 text-rose-700 hover:bg-rose-200'
+                    }`}
+                  >
+                    {entry.wordClass}
+                  </button>
+                ))}
+              </div>
+            )}
+
 
             {/* Romaji */}
             <div className="text-3xl sm:text-4xl font-semibold text-rose-600 mb-2">
-              {kanji.romaji}
+              {currentEntry.romaji}
             </div>
 
-            {/* Meaning */}
+            {/* Meaning and Word Class */}
             <div className="text-xl text-rose-500 italic">
-              {kanji.meaning}
+              {currentEntry.meaning}
+            </div>
+            <div className="text-sm text-rose-400 mt-1">
+              [{currentEntry.wordClass}]
             </div>
           </div>
 
           {/* Reading Information */}
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
+          <div className="max-w-md mx-auto mb-12">
             {/* Hiragana */}
             <div className="bg-gradient-to-br from-pink-50 to-rose-100 rounded-xl p-6 text-center border border-pink-200 shadow-sm">
               <h3 className="text-lg font-semibold text-rose-700 mb-3">
                 ひらがな (Hiragana)
               </h3>
               <div className="text-4xl font-bold text-pink-600">
-                {kanji.hiragana}
-              </div>
-            </div>
-
-            {/* Katakana */}
-            <div className="bg-gradient-to-br from-rose-50 to-pink-100 rounded-xl p-6 text-center border border-rose-200 shadow-sm">
-              <h3 className="text-lg font-semibold text-rose-700 mb-3">
-                カタカナ (Katakana)
-              </h3>
-              <div className="text-4xl font-bold text-rose-600">
-                {kanji.katakana}
+                {currentEntry.hiragana}
               </div>
             </div>
           </div>
@@ -144,11 +128,8 @@ export default function KanjiDetailPage({ params }: PageProps) {
               🌸 Example Sentence 🌸
             </h3>
             <div className="text-center">
-              <div className="text-2xl font-medium text-rose-800 mb-2">
-                {kanji.example}
-              </div>
-              <div className="text-rose-600">
-                Click the audio button to hear the pronunciation
+              <div className="text-lg font-medium text-rose-800 mb-2 leading-relaxed">
+                {currentEntry.example}
               </div>
             </div>
           </div>
@@ -167,13 +148,18 @@ export default function KanjiDetailPage({ params }: PageProps) {
             </Link>
 
             <div className="text-rose-600 font-medium">
-              🌸 {kanji.id} of 100 🌸
+              🌸 {kanji.id} of {kanjiData.length} 🌸
+              {kanji.entries.length > 1 && (
+                <div className="text-sm text-rose-400 mt-1">
+                  Entry {selectedEntryIndex + 1} of {kanji.entries.length}
+                </div>
+              )}
             </div>
 
             <Link
-              href={`/kanji/${Math.min(100, kanji.id + 1)}`}
+              href={`/kanji/${Math.min(kanjiData.length, kanji.id + 1)}`}
               className={`px-6 py-3 rounded-lg transition-all shadow-sm ${
-                kanji.id === 100
+                kanji.id === kanjiData.length
                   ? 'bg-rose-100 text-rose-300 cursor-not-allowed border border-rose-200'
                   : 'bg-gradient-to-r from-rose-400 to-pink-500 text-white hover:from-rose-500 hover:to-pink-600 hover:shadow-md'
               }`}

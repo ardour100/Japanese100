@@ -1,6 +1,6 @@
 "use client";
 
-import { SakuraIcon, ToriiIcon, SushiIcon, KoiIcon, KimonoIcon, DoraemonIcon } from './JapaneseIcons';
+import { SakuraIcon, ToriiIcon, SushiIcon, KoiIcon, KimonoIcon, DoraemonIcon, PikachuIcon, HelloKittyIcon, DetectiveConanIcon } from './JapaneseIcons';
 
 // Static arrangement of icons for visibility
 const backgroundElements = [
@@ -26,6 +26,18 @@ const backgroundElements = [
 
   // Doraemon icons
   { Icon: DoraemonIcon, color: 'text-cyan-400', top: '85%', right: '15%', size: 'w-16 h-16', rotation: '-rotate-90' },
+
+  // Pikachu icons
+  { Icon: PikachuIcon, color: 'text-yellow-400', top: '30%', left: '25%', size: 'w-14 h-14', rotation: 'rotate-15' },
+  { Icon: PikachuIcon, color: 'text-yellow-300', top: '75%', right: '35%', size: 'w-12 h-12', rotation: '-rotate-75' },
+
+  // Hello Kitty icons
+  { Icon: HelloKittyIcon, color: 'text-pink-400', top: '50%', right: '5%', size: 'w-16 h-16', rotation: 'rotate-45' },
+  { Icon: HelloKittyIcon, color: 'text-pink-300', top: '15%', left: '60%', size: 'w-13 h-13', rotation: '-rotate-30' },
+
+  // Detective Conan icons
+  { Icon: DetectiveConanIcon, color: 'text-blue-400', top: '60%', left: '70%', size: 'w-15 h-15', rotation: 'rotate-120' },
+  { Icon: DetectiveConanIcon, color: 'text-blue-300', top: '90%', left: '40%', size: 'w-12 h-12', rotation: '-rotate-45' },
 ];
 
 export default function JapaneseBackground() {
@@ -71,6 +83,15 @@ export default function JapaneseBackground() {
       </div>
       <div className="absolute top-1/5 right-1/3 w-8 h-8 text-cyan-400 opacity-35">
         <DoraemonIcon className="w-full h-full animate-bounce" style={{ animationDuration: '5s', animationDelay: '3s' }} />
+      </div>
+      <div className="absolute bottom-1/3 right-1/2 w-9 h-9 text-yellow-400 opacity-40">
+        <PikachuIcon className="w-full h-full animate-pulse" style={{ animationDuration: '3s', animationDelay: '1.5s' }} />
+      </div>
+      <div className="absolute top-2/3 left-1/5 w-7 h-7 text-pink-400 opacity-35">
+        <HelloKittyIcon className="w-full h-full animate-bounce" style={{ animationDuration: '4.5s', animationDelay: '2.5s' }} />
+      </div>
+      <div className="absolute top-1/6 left-1/2 w-8 h-8 text-blue-400 opacity-40">
+        <DetectiveConanIcon className="w-full h-full animate-spin" style={{ animationDuration: '25s', animationDelay: '4s' }} />
       </div>
 
       {/* CSS for floating animation */}

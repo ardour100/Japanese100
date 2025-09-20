@@ -94,6 +94,30 @@ Feel free to contribute by:
 - Enhancing the UI/UX
 - Adding new features like favorites or progress tracking
 
+## Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/ardour100/Japanese100.git
+cd Japanese100
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Open http://localhost:3000 in your browser
+```
+
+## Screenshots
+
+🌸 **Main Grid View**: Interactive 10x10 Kanji layout with hover effects
+🎌 **Detail Page**: Comprehensive character information with audio
+🎨 **Background**: Animated Japanese cultural icons
+
+Experience the beauty of Japanese language learning! 🌸
+
 ## License
 
 This project is open source and available under the MIT License.

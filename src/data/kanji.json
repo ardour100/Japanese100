@@ -2,1001 +2,2857 @@
   {
     "id": 1,
     "kanji": "一",
-    "romaji": "ichi",
-    "hiragana": "いち",
-    "katakana": "イチ",
-    "meaning": "one",
-    "example": "一つ (ひとつ) - one thing",
-    "audio": "/audio/ichi.mp3"
+    "entries": [
+      {
+        "entryId": 1,
+        "romaji": "ichi",
+        "hiragana": "いち",
+        "meaning": "one",
+        "wordClass": "number",
+        "example": "一つのリンゴを食べました。(I ate one apple.)"
+      }
+    ]
   },
   {
     "id": 2,
     "kanji": "二",
-    "romaji": "ni",
-    "hiragana": "に",
-    "katakana": "ニ",
-    "meaning": "two",
-    "example": "二つ (ふたつ) - two things",
-    "audio": "/audio/ni.mp3"
+    "entries": [
+      {
+        "entryId": 2,
+        "romaji": "ni",
+        "hiragana": "に",
+        "meaning": "two",
+        "wordClass": "number",
+        "example": "二人の友達と映画を見ました。(I watched a movie with two friends.)"
+      }
+    ]
   },
   {
     "id": 3,
     "kanji": "三",
-    "romaji": "san",
-    "hiragana": "さん",
-    "katakana": "サン",
-    "meaning": "three",
-    "example": "三つ (みっつ) - three things",
-    "audio": "/audio/san.mp3"
+    "entries": [
+      {
+        "entryId": 3,
+        "romaji": "san",
+        "hiragana": "さん",
+        "meaning": "three",
+        "wordClass": "number",
+        "example": "三時に会議があります。(There is a meeting at three o'clock.)"
+      }
+    ]
   },
   {
     "id": 4,
     "kanji": "四",
-    "romaji": "shi/yon",
-    "hiragana": "し/よん",
-    "katakana": "シ/ヨン",
-    "meaning": "four",
-    "example": "四つ (よっつ) - four things",
-    "audio": "/audio/shi.mp3"
+    "entries": [
+      {
+        "entryId": 4,
+        "romaji": "yon",
+        "hiragana": "よん",
+        "meaning": "four",
+        "wordClass": "number",
+        "example": "四季がある国に住んでいます。(I live in a country with four seasons.)"
+      }
+    ]
   },
   {
     "id": 5,
     "kanji": "五",
-    "romaji": "go",
-    "hiragana": "ご",
-    "katakana": "ゴ",
-    "meaning": "five",
-    "example": "五つ (いつつ) - five things",
-    "audio": "/audio/go.mp3"
+    "entries": [
+      {
+        "entryId": 5,
+        "romaji": "go",
+        "hiragana": "ご",
+        "meaning": "five",
+        "wordClass": "number",
+        "example": "五分後に出発します。(We will leave in five minutes.)"
+      }
+    ]
   },
   {
     "id": 6,
     "kanji": "六",
-    "romaji": "roku",
-    "hiragana": "ろく",
-    "katakana": "ロク",
-    "meaning": "six",
-    "example": "六つ (むっつ) - six things",
-    "audio": "/audio/roku.mp3"
+    "entries": [
+      {
+        "entryId": 6,
+        "romaji": "roku",
+        "hiragana": "ろく",
+        "meaning": "six",
+        "wordClass": "number",
+        "example": "六時に起きました。(I woke up at six o'clock.)"
+      }
+    ]
   },
   {
     "id": 7,
     "kanji": "七",
-    "romaji": "shichi/nana",
-    "hiragana": "しち/なな",
-    "katakana": "シチ/ナナ",
-    "meaning": "seven",
-    "example": "七つ (ななつ) - seven things",
-    "audio": "/audio/shichi.mp3"
+    "entries": [
+      {
+        "entryId": 7,
+        "romaji": "nana",
+        "hiragana": "なな",
+        "meaning": "seven",
+        "wordClass": "number",
+        "example": "七月は夏です。(July is summer.)"
+      }
+    ]
   },
   {
     "id": 8,
     "kanji": "八",
-    "romaji": "hachi",
-    "hiragana": "はち",
-    "katakana": "ハチ",
-    "meaning": "eight",
-    "example": "八つ (やっつ) - eight things",
-    "audio": "/audio/hachi.mp3"
+    "entries": [
+      {
+        "entryId": 8,
+        "romaji": "hachi",
+        "hiragana": "はち",
+        "meaning": "eight",
+        "wordClass": "number",
+        "example": "八時に学校が始まります。(School starts at eight o'clock.)"
+      }
+    ]
   },
   {
     "id": 9,
     "kanji": "九",
-    "romaji": "kyuu/ku",
-    "hiragana": "きゅう/く",
-    "katakana": "キュウ/ク",
-    "meaning": "nine",
-    "example": "九つ (ここのつ) - nine things",
-    "audio": "/audio/kyuu.mp3"
+    "entries": [
+      {
+        "entryId": 9,
+        "romaji": "kyuu",
+        "hiragana": "きゅう",
+        "meaning": "nine",
+        "wordClass": "number",
+        "example": "九月に新学期が始まります。(The new semester starts in September.)"
+      }
+    ]
   },
   {
     "id": 10,
     "kanji": "十",
-    "romaji": "juu",
-    "hiragana": "じゅう",
-    "katakana": "ジュウ",
-    "meaning": "ten",
-    "example": "十人 (じゅうにん) - ten people",
-    "audio": "/audio/juu.mp3"
+    "entries": [
+      {
+        "entryId": 10,
+        "romaji": "juu",
+        "hiragana": "じゅう",
+        "meaning": "ten",
+        "wordClass": "number",
+        "example": "十人の学生がいます。(There are ten students.)"
+      }
+    ]
   },
   {
     "id": 11,
     "kanji": "人",
-    "romaji": "jin/nin/hito",
-    "hiragana": "じん/にん/ひと",
-    "katakana": "ジン/ニン/ヒト",
-    "meaning": "person",
-    "example": "人間 (にんげん) - human being",
-    "audio": "/audio/jin.mp3"
+    "entries": [
+      {
+        "entryId": 11,
+        "romaji": "hito",
+        "hiragana": "ひと",
+        "meaning": "person",
+        "wordClass": "noun",
+        "example": "あの人は私の先生です。(That person is my teacher.)"
+      }
+    ]
   },
   {
     "id": 12,
     "kanji": "日",
-    "romaji": "nichi/hi",
-    "hiragana": "にち/ひ",
-    "katakana": "ニチ/ヒ",
-    "meaning": "day/sun",
-    "example": "今日 (きょう) - today",
-    "audio": "/audio/nichi.mp3"
+    "entries": [
+      {
+        "entryId": 12,
+        "romaji": "hi",
+        "hiragana": "ひ",
+        "meaning": "sun, day",
+        "wordClass": "noun",
+        "example": "今日は良い天気です。(Today is good weather.)"
+      }
+    ]
   },
   {
     "id": 13,
     "kanji": "月",
-    "romaji": "getsu/tsuki",
-    "hiragana": "げつ/つき",
-    "katakana": "ゲツ/ツキ",
-    "meaning": "month/moon",
-    "example": "月曜日 (げつようび) - Monday",
-    "audio": "/audio/getsu.mp3"
+    "entries": [
+      {
+        "entryId": 13,
+        "romaji": "tsuki",
+        "hiragana": "つき",
+        "meaning": "moon, month",
+        "wordClass": "noun",
+        "example": "来月は忙しくなります。(Next month will be busy.)"
+      }
+    ]
   },
   {
     "id": 14,
     "kanji": "年",
-    "romaji": "nen/toshi",
-    "hiragana": "ねん/とし",
-    "katakana": "ネン/トシ",
-    "meaning": "year",
-    "example": "今年 (ことし) - this year",
-    "audio": "/audio/nen.mp3"
+    "entries": [
+      {
+        "entryId": 14,
+        "romaji": "toshi",
+        "hiragana": "とし",
+        "meaning": "year",
+        "wordClass": "noun",
+        "example": "今年はとても暑いです。(This year is very hot.)"
+      }
+    ]
   },
   {
     "id": 15,
     "kanji": "時",
-    "romaji": "ji/toki",
-    "hiragana": "じ/とき",
-    "katakana": "ジ/トキ",
-    "meaning": "time",
-    "example": "時間 (じかん) - time",
-    "audio": "/audio/ji.mp3"
+    "entries": [
+      {
+        "entryId": 15,
+        "romaji": "toki",
+        "hiragana": "とき",
+        "meaning": "time",
+        "wordClass": "noun",
+        "example": "子供の時によく公園で遊びました。(I often played in the park when I was a child.)"
+      }
+    ]
   },
   {
     "id": 16,
-    "kanji": "水",
-    "romaji": "sui/mizu",
-    "hiragana": "すい/みず",
-    "katakana": "スイ/ミズ",
-    "meaning": "water",
-    "example": "水曜日 (すいようび) - Wednesday",
-    "audio": "/audio/sui.mp3"
+    "kanji": "分",
+    "entries": [
+      {
+        "entryId": 16,
+        "romaji": "fun",
+        "hiragana": "ふん",
+        "meaning": "minute",
+        "wordClass": "noun",
+        "example": "三十分待ちました。(I waited for thirty minutes.)"
+      }
+    ]
   },
   {
     "id": 17,
-    "kanji": "火",
-    "romaji": "ka/hi",
-    "hiragana": "か/ひ",
-    "katakana": "カ/ヒ",
-    "meaning": "fire",
-    "example": "火曜日 (かようび) - Tuesday",
-    "audio": "/audio/ka.mp3"
+    "kanji": "書",
+    "entries": [
+      {
+        "entryId": 17,
+        "romaji": "sho",
+        "hiragana": "しょ",
+        "meaning": "writing, book",
+        "wordClass": "noun",
+        "example": "この書は古い時代のものです。(This writing is from an ancient period.)"
+      },
+      {
+        "entryId": 18,
+        "romaji": "kaku",
+        "hiragana": "かく",
+        "meaning": "to write",
+        "wordClass": "verb",
+        "example": "毎日日記を書いています。(I write in my diary every day.)"
+      }
+    ]
   },
   {
     "id": 18,
-    "kanji": "木",
-    "romaji": "boku/ki",
-    "hiragana": "ぼく/き",
-    "katakana": "ボク/キ",
-    "meaning": "tree/wood",
-    "example": "木曜日 (もくようび) - Thursday",
-    "audio": "/audio/boku.mp3"
+    "kanji": "食",
+    "entries": [
+      {
+        "entryId": 19,
+        "romaji": "shoku",
+        "hiragana": "しょく",
+        "meaning": "food, meal",
+        "wordClass": "noun",
+        "example": "日本の食は健康的です。(Japanese food is healthy.)"
+      },
+      {
+        "entryId": 20,
+        "romaji": "taberu",
+        "hiragana": "たべる",
+        "meaning": "to eat",
+        "wordClass": "verb",
+        "example": "朝ごはんを食べませんでした。(I didn't eat breakfast.)"
+      }
+    ]
   },
   {
     "id": 19,
-    "kanji": "金",
-    "romaji": "kin/kane",
-    "hiragana": "きん/かね",
-    "katakana": "キン/カネ",
-    "meaning": "gold/money",
-    "example": "金曜日 (きんようび) - Friday",
-    "audio": "/audio/kin.mp3"
+    "kanji": "学",
+    "entries": [
+      {
+        "entryId": 21,
+        "romaji": "gaku",
+        "hiragana": "がく",
+        "meaning": "learning, study",
+        "wordClass": "noun",
+        "example": "数学は難しい学問です。(Mathematics is a difficult field of study.)"
+      },
+      {
+        "entryId": 22,
+        "romaji": "manabu",
+        "hiragana": "まなぶ",
+        "meaning": "to learn, to study",
+        "wordClass": "verb",
+        "example": "大学で経済を学んでいます。(I am studying economics at university.)"
+      }
+    ]
   },
   {
     "id": 20,
-    "kanji": "土",
-    "romaji": "do/tsuchi",
-    "hiragana": "ど/つち",
-    "katakana": "ド/ツチ",
-    "meaning": "earth/soil",
-    "example": "土曜日 (どようび) - Saturday",
-    "audio": "/audio/do.mp3"
+    "kanji": "見",
+    "entries": [
+      {
+        "entryId": 23,
+        "romaji": "ken",
+        "hiragana": "けん",
+        "meaning": "view, sight",
+        "wordClass": "noun",
+        "example": "その意見には賛成です。(I agree with that opinion.)"
+      },
+      {
+        "entryId": 24,
+        "romaji": "miru",
+        "hiragana": "みる",
+        "meaning": "to see, to look",
+        "wordClass": "verb",
+        "example": "昨日映画を見ました。(I watched a movie yesterday.)"
+      }
+    ]
   },
   {
     "id": 21,
-    "kanji": "大",
-    "romaji": "dai/oo",
-    "hiragana": "だい/おお",
-    "katakana": "ダイ/オオ",
-    "meaning": "big",
-    "example": "大きい (おおきい) - big",
-    "audio": "/audio/dai.mp3"
+    "kanji": "読",
+    "entries": [
+      {
+        "entryId": 25,
+        "romaji": "doku",
+        "hiragana": "どく",
+        "meaning": "reading",
+        "wordClass": "noun",
+        "example": "読書は良い習慣です。(Reading is a good habit.)"
+      },
+      {
+        "entryId": 26,
+        "romaji": "yomu",
+        "hiragana": "よむ",
+        "meaning": "to read",
+        "wordClass": "verb",
+        "example": "新聞を読む時間がありません。(I don't have time to read the newspaper.)"
+      }
+    ]
   },
   {
     "id": 22,
-    "kanji": "小",
-    "romaji": "shou/chii",
-    "hiragana": "しょう/ちい",
-    "katakana": "ショウ/チイ",
-    "meaning": "small",
-    "example": "小さい (ちいさい) - small",
-    "audio": "/audio/shou.mp3"
+    "kanji": "水",
+    "entries": [
+      {
+        "entryId": 27,
+        "romaji": "mizu",
+        "hiragana": "みず",
+        "meaning": "water",
+        "wordClass": "noun",
+        "example": "冷たい水を飲みました。(I drank cold water.)"
+      }
+    ]
   },
   {
     "id": 23,
-    "kanji": "上",
-    "romaji": "jou/ue",
-    "hiragana": "じょう/うえ",
-    "katakana": "ジョウ/ウエ",
-    "meaning": "up/above",
-    "example": "上手 (じょうず) - skillful",
-    "audio": "/audio/jou.mp3"
+    "kanji": "火",
+    "entries": [
+      {
+        "entryId": 28,
+        "romaji": "hi",
+        "hiragana": "ひ",
+        "meaning": "fire",
+        "wordClass": "noun",
+        "example": "火を消してください。(Please put out the fire.)"
+      }
+    ]
   },
   {
     "id": 24,
-    "kanji": "下",
-    "romaji": "ka/shita",
-    "hiragana": "か/した",
-    "katakana": "カ/シタ",
-    "meaning": "down/below",
-    "example": "下手 (へた) - unskillful",
-    "audio": "/audio/ka.mp3"
+    "kanji": "木",
+    "entries": [
+      {
+        "entryId": 29,
+        "romaji": "ki",
+        "hiragana": "き",
+        "meaning": "tree, wood",
+        "wordClass": "noun",
+        "example": "大きな木の下で休みました。(I rested under a big tree.)"
+      }
+    ]
   },
   {
     "id": 25,
-    "kanji": "中",
-    "romaji": "chuu/naka",
-    "hiragana": "ちゅう/なか",
-    "katakana": "チュウ/ナカ",
-    "meaning": "middle/inside",
-    "example": "中国 (ちゅうごく) - China",
-    "audio": "/audio/chuu.mp3"
+    "kanji": "金",
+    "entries": [
+      {
+        "entryId": 30,
+        "romaji": "kin",
+        "hiragana": "きん",
+        "meaning": "gold, money",
+        "wordClass": "noun",
+        "example": "金曜日は忙しいです。(Friday is busy.)"
+      }
+    ]
   },
   {
     "id": 26,
-    "kanji": "外",
-    "romaji": "gai/soto",
-    "hiragana": "がい/そと",
-    "katakana": "ガイ/ソト",
-    "meaning": "outside",
-    "example": "外国 (がいこく) - foreign country",
-    "audio": "/audio/gai.mp3"
+    "kanji": "土",
+    "entries": [
+      {
+        "entryId": 31,
+        "romaji": "tsuchi",
+        "hiragana": "つち",
+        "meaning": "earth, soil",
+        "wordClass": "noun",
+        "example": "土曜日に買い物をします。(I go shopping on Saturday.)"
+      }
+    ]
   },
   {
     "id": 27,
-    "kanji": "国",
-    "romaji": "koku/kuni",
-    "hiragana": "こく/くに",
-    "katakana": "コク/クニ",
-    "meaning": "country",
-    "example": "日本国 (にほんこく) - Japan",
-    "audio": "/audio/koku.mp3"
+    "kanji": "大",
+    "entries": [
+      {
+        "entryId": 32,
+        "romaji": "oo",
+        "hiragana": "おお",
+        "meaning": "big, large",
+        "wordClass": "adjective",
+        "example": "大きな家に住んでいます。(I live in a big house.)"
+      }
+    ]
   },
   {
     "id": 28,
-    "kanji": "家",
-    "romaji": "ka/ie",
-    "hiragana": "か/いえ",
-    "katakana": "カ/イエ",
-    "meaning": "house/family",
-    "example": "家族 (かぞく) - family",
-    "audio": "/audio/ka.mp3"
+    "kanji": "小",
+    "entries": [
+      {
+        "entryId": 33,
+        "romaji": "chii",
+        "hiragana": "ちい",
+        "meaning": "small, little",
+        "wordClass": "adjective",
+        "example": "小さな猫がいます。(There is a small cat.)"
+      }
+    ]
   },
   {
     "id": 29,
-    "kanji": "学",
-    "romaji": "gaku/mana",
-    "hiragana": "がく/まな",
-    "katakana": "ガク/マナ",
-    "meaning": "study/learn",
-    "example": "学校 (がっこう) - school",
-    "audio": "/audio/gaku.mp3"
+    "kanji": "上",
+    "entries": [
+      {
+        "entryId": 34,
+        "romaji": "ue",
+        "hiragana": "うえ",
+        "meaning": "up, above",
+        "wordClass": "noun",
+        "example": "机の上に本があります。(There is a book on the desk.)"
+      }
+    ]
   },
   {
     "id": 30,
-    "kanji": "校",
-    "romaji": "kou",
-    "hiragana": "こう",
-    "katakana": "コウ",
-    "meaning": "school",
-    "example": "高校 (こうこう) - high school",
-    "audio": "/audio/kou.mp3"
+    "kanji": "下",
+    "entries": [
+      {
+        "entryId": 35,
+        "romaji": "shita",
+        "hiragana": "した",
+        "meaning": "down, below",
+        "wordClass": "noun",
+        "example": "椅子の下にペンが落ちました。(A pen fell under the chair.)"
+      }
+    ]
   },
   {
     "id": 31,
-    "kanji": "生",
-    "romaji": "sei/nama",
-    "hiragana": "せい/なま",
-    "katakana": "セイ/ナマ",
-    "meaning": "life/birth",
-    "example": "学生 (がくせい) - student",
-    "audio": "/audio/sei.mp3"
+    "kanji": "中",
+    "entries": [
+      {
+        "entryId": 36,
+        "romaji": "naka",
+        "hiragana": "なか",
+        "meaning": "middle, inside",
+        "wordClass": "noun",
+        "example": "箱の中に何がありますか。(What is inside the box?)"
+      }
+    ]
   },
   {
     "id": 32,
-    "kanji": "先",
-    "romaji": "sen/saki",
-    "hiragana": "せん/さき",
-    "katakana": "セン/サキ",
-    "meaning": "previous/ahead",
-    "example": "先生 (せんせい) - teacher",
-    "audio": "/audio/sen.mp3"
+    "kanji": "外",
+    "entries": [
+      {
+        "entryId": 37,
+        "romaji": "soto",
+        "hiragana": "そと",
+        "meaning": "outside",
+        "wordClass": "noun",
+        "example": "外は雨が降っています。(It's raining outside.)"
+      }
+    ]
   },
   {
     "id": 33,
-    "kanji": "食",
-    "romaji": "shoku/ta",
-    "hiragana": "しょく/た",
-    "katakana": "ショク/タ",
-    "meaning": "eat/food",
-    "example": "食べる (たべる) - to eat",
-    "audio": "/audio/shoku.mp3"
+    "kanji": "国",
+    "entries": [
+      {
+        "entryId": 38,
+        "romaji": "kuni",
+        "hiragana": "くに",
+        "meaning": "country",
+        "wordClass": "noun",
+        "example": "日本は美しい国です。(Japan is a beautiful country.)"
+      }
+    ]
   },
   {
     "id": 34,
-    "kanji": "飲",
-    "romaji": "in/no",
-    "hiragana": "いん/の",
-    "katakana": "イン/ノ",
-    "meaning": "drink",
-    "example": "飲み物 (のみもの) - beverage",
-    "audio": "/audio/in.mp3"
+    "kanji": "家",
+    "entries": [
+      {
+        "entryId": 39,
+        "romaji": "ie",
+        "hiragana": "いえ",
+        "meaning": "house, home",
+        "wordClass": "noun",
+        "example": "新しい家を買いました。(I bought a new house.)"
+      }
+    ]
   },
   {
     "id": 35,
-    "kanji": "見",
-    "romaji": "ken/mi",
-    "hiragana": "けん/み",
-    "katakana": "ケン/ミ",
-    "meaning": "see/look",
-    "example": "見る (みる) - to see",
-    "audio": "/audio/ken.mp3"
+    "kanji": "生",
+    "entries": [
+      {
+        "entryId": 40,
+        "romaji": "nama",
+        "hiragana": "なま",
+        "meaning": "life, raw",
+        "wordClass": "noun",
+        "example": "生の魚を食べます。(I eat raw fish.)"
+      }
+    ]
   },
   {
     "id": 36,
-    "kanji": "聞",
-    "romaji": "bun/ki",
-    "hiragana": "ぶん/き",
-    "katakana": "ブン/キ",
-    "meaning": "hear/listen",
-    "example": "聞く (きく) - to hear",
-    "audio": "/audio/bun.mp3"
+    "kanji": "先",
+    "entries": [
+      {
+        "entryId": 41,
+        "romaji": "saki",
+        "hiragana": "さき",
+        "meaning": "ahead, previous",
+        "wordClass": "noun",
+        "example": "先生に質問しました。(I asked the teacher a question.)"
+      }
+    ]
   },
   {
     "id": 37,
-    "kanji": "話",
-    "romaji": "wa/hana",
-    "hiragana": "わ/はな",
-    "katakana": "ワ/ハナ",
-    "meaning": "speak/talk",
-    "example": "話す (はなす) - to speak",
-    "audio": "/audio/wa.mp3"
+    "kanji": "行",
+    "entries": [
+      {
+        "entryId": 42,
+        "romaji": "iku",
+        "hiragana": "いく",
+        "meaning": "to go",
+        "wordClass": "verb",
+        "example": "明日学校に行きます。(I will go to school tomorrow.)"
+      }
+    ]
   },
   {
     "id": 38,
-    "kanji": "読",
-    "romaji": "doku/yo",
-    "hiragana": "どく/よ",
-    "katakana": "ドク/ヨ",
-    "meaning": "read",
-    "example": "読む (よむ) - to read",
-    "audio": "/audio/doku.mp3"
+    "kanji": "来",
+    "entries": [
+      {
+        "entryId": 43,
+        "romaji": "kuru",
+        "hiragana": "くる",
+        "meaning": "to come",
+        "wordClass": "verb",
+        "example": "友達が家に来ました。(My friend came to my house.)"
+      }
+    ]
   },
   {
     "id": 39,
-    "kanji": "書",
-    "romaji": "sho/ka",
-    "hiragana": "しょ/か",
-    "katakana": "ショ/カ",
-    "meaning": "write",
-    "example": "書く (かく) - to write",
-    "audio": "/audio/sho.mp3"
+    "kanji": "入",
+    "entries": [
+      {
+        "entryId": 44,
+        "romaji": "hairu",
+        "hiragana": "はいる",
+        "meaning": "to enter",
+        "wordClass": "verb",
+        "example": "部屋に入ってください。(Please enter the room.)"
+      }
+    ]
   },
   {
     "id": 40,
-    "kanji": "来",
-    "romaji": "rai/ku",
-    "hiragana": "らい/く",
-    "katakana": "ライ/ク",
-    "meaning": "come",
-    "example": "来る (くる) - to come",
-    "audio": "/audio/rai.mp3"
+    "kanji": "出",
+    "entries": [
+      {
+        "entryId": 45,
+        "romaji": "deru",
+        "hiragana": "でる",
+        "meaning": "to exit, to go out",
+        "wordClass": "verb",
+        "example": "七時に家を出ます。(I leave home at seven o'clock.)"
+      }
+    ]
   },
   {
     "id": 41,
-    "kanji": "行",
-    "romaji": "kou/i",
-    "hiragana": "こう/い",
-    "katakana": "コウ/イ",
-    "meaning": "go",
-    "example": "行く (いく) - to go",
-    "audio": "/audio/kou.mp3"
+    "kanji": "立",
+    "entries": [
+      {
+        "entryId": 46,
+        "romaji": "tatsu",
+        "hiragana": "たつ",
+        "meaning": "to stand",
+        "wordClass": "verb",
+        "example": "電車で立っていました。(I was standing on the train.)"
+      }
+    ]
   },
   {
     "id": 42,
-    "kanji": "帰",
-    "romaji": "ki/kae",
-    "hiragana": "き/かえ",
-    "katakana": "キ/カエ",
-    "meaning": "return",
-    "example": "帰る (かえる) - to return",
-    "audio": "/audio/ki.mp3"
+    "kanji": "座",
+    "entries": [
+      {
+        "entryId": 47,
+        "romaji": "suwaru",
+        "hiragana": "すわる",
+        "meaning": "to sit",
+        "wordClass": "verb",
+        "example": "椅子に座ってください。(Please sit on the chair.)"
+      }
+    ]
   },
   {
     "id": 43,
-    "kanji": "出",
-    "romaji": "shutsu/de",
-    "hiragana": "しゅつ/で",
-    "katakana": "シュツ/デ",
-    "meaning": "exit/go out",
-    "example": "出る (でる) - to exit",
-    "audio": "/audio/shutsu.mp3"
+    "kanji": "買",
+    "entries": [
+      {
+        "entryId": 48,
+        "romaji": "kau",
+        "hiragana": "かう",
+        "meaning": "to buy",
+        "wordClass": "verb",
+        "example": "新しい服を買いました。(I bought new clothes.)"
+      }
+    ]
   },
   {
     "id": 44,
-    "kanji": "入",
-    "romaji": "nyuu/hai",
-    "hiragana": "にゅう/はい",
-    "katakana": "ニュウ/ハイ",
-    "meaning": "enter",
-    "example": "入る (はいる) - to enter",
-    "audio": "/audio/nyuu.mp3"
+    "kanji": "売",
+    "entries": [
+      {
+        "entryId": 49,
+        "romaji": "uru",
+        "hiragana": "うる",
+        "meaning": "to sell",
+        "wordClass": "verb",
+        "example": "古い車を売りました。(I sold my old car.)"
+      }
+    ]
   },
   {
     "id": 45,
-    "kanji": "立",
-    "romaji": "ritsu/ta",
-    "hiragana": "りつ/た",
-    "katakana": "リツ/タ",
-    "meaning": "stand",
-    "example": "立つ (たつ) - to stand",
-    "audio": "/audio/ritsu.mp3"
+    "kanji": "作",
+    "entries": [
+      {
+        "entryId": 50,
+        "romaji": "tsukuru",
+        "hiragana": "つくる",
+        "meaning": "to make, to create",
+        "wordClass": "verb",
+        "example": "母がケーキを作りました。(My mother made a cake.)"
+      }
+    ]
   },
   {
     "id": 46,
-    "kanji": "座",
-    "romaji": "za/suwa",
-    "hiragana": "ざ/すわ",
-    "katakana": "ザ/スワ",
-    "meaning": "sit",
-    "example": "座る (すわる) - to sit",
-    "audio": "/audio/za.mp3"
+    "kanji": "使",
+    "entries": [
+      {
+        "entryId": 51,
+        "romaji": "tsukau",
+        "hiragana": "つかう",
+        "meaning": "to use",
+        "wordClass": "verb",
+        "example": "コンピューターを使います。(I use a computer.)"
+      }
+    ]
   },
   {
     "id": 47,
-    "kanji": "買",
-    "romaji": "bai/ka",
-    "hiragana": "ばい/か",
-    "katakana": "バイ/カ",
-    "meaning": "buy",
-    "example": "買う (かう) - to buy",
-    "audio": "/audio/bai.mp3"
+    "kanji": "好",
+    "entries": [
+      {
+        "entryId": 52,
+        "romaji": "suku",
+        "hiragana": "すく",
+        "meaning": "to like",
+        "wordClass": "verb",
+        "example": "音楽が好きです。(I like music.)"
+      }
+    ]
   },
   {
     "id": 48,
-    "kanji": "売",
-    "romaji": "bai/u",
-    "hiragana": "ばい/う",
-    "katakana": "バイ/ウ",
-    "meaning": "sell",
-    "example": "売る (うる) - to sell",
-    "audio": "/audio/bai.mp3"
+    "kanji": "新",
+    "entries": [
+      {
+        "entryId": 53,
+        "romaji": "atarashii",
+        "hiragana": "あたらしい",
+        "meaning": "new",
+        "wordClass": "adjective",
+        "example": "新しい本を読んでいます。(I am reading a new book.)"
+      }
+    ]
   },
   {
     "id": 49,
-    "kanji": "作",
-    "romaji": "saku/tsuku",
-    "hiragana": "さく/つく",
-    "katakana": "サク/ツク",
-    "meaning": "make",
-    "example": "作る (つくる) - to make",
-    "audio": "/audio/saku.mp3"
+    "kanji": "古",
+    "entries": [
+      {
+        "entryId": 54,
+        "romaji": "furui",
+        "hiragana": "ふるい",
+        "meaning": "old",
+        "wordClass": "adjective",
+        "example": "古い建物を見学しました。(I visited an old building.)"
+      }
+    ]
   },
   {
     "id": 50,
-    "kanji": "使",
-    "romaji": "shi/tsuka",
-    "hiragana": "し/つか",
-    "katakana": "シ/ツカ",
-    "meaning": "use",
-    "example": "使う (つかう) - to use",
-    "audio": "/audio/shi.mp3"
+    "kanji": "高",
+    "entries": [
+      {
+        "entryId": 55,
+        "romaji": "takai",
+        "hiragana": "たかい",
+        "meaning": "high, expensive",
+        "wordClass": "adjective",
+        "example": "この時計は高いです。(This watch is expensive.)"
+      }
+    ]
   },
   {
     "id": 51,
-    "kanji": "好",
-    "romaji": "kou/su",
-    "hiragana": "こう/す",
-    "katakana": "コウ/ス",
-    "meaning": "like",
-    "example": "好き (すき) - to like",
-    "audio": "/audio/kou.mp3"
+    "kanji": "赤",
+    "entries": [
+      {
+        "entryId": 56,
+        "romaji": "aka",
+        "hiragana": "あか",
+        "meaning": "red",
+        "wordClass": "noun",
+        "example": "赤い花がきれいです。(The red flowers are beautiful.)"
+      }
+    ]
   },
   {
     "id": 52,
-    "kanji": "新",
-    "romaji": "shin/atara",
-    "hiragana": "しん/あたら",
-    "katakana": "シン/アタラ",
-    "meaning": "new",
-    "example": "新しい (あたらしい) - new",
-    "audio": "/audio/shin.mp3"
+    "kanji": "青",
+    "entries": [
+      {
+        "entryId": 57,
+        "romaji": "ao",
+        "hiragana": "あお",
+        "meaning": "blue",
+        "wordClass": "noun",
+        "example": "青い空を見上げました。(I looked up at the blue sky.)"
+      }
+    ]
   },
   {
     "id": 53,
-    "kanji": "古",
-    "romaji": "ko/furu",
-    "hiragana": "こ/ふる",
-    "katakana": "コ/フル",
-    "meaning": "old",
-    "example": "古い (ふるい) - old",
-    "audio": "/audio/ko.mp3"
+    "kanji": "白",
+    "entries": [
+      {
+        "entryId": 58,
+        "romaji": "shiro",
+        "hiragana": "しろ",
+        "meaning": "white",
+        "wordClass": "noun",
+        "example": "白いシャツを着ています。(I am wearing a white shirt.)"
+      }
+    ]
   },
   {
     "id": 54,
-    "kanji": "高",
-    "romaji": "kou/taka",
-    "hiragana": "こう/たか",
-    "katakana": "コウ/タカ",
-    "meaning": "high/expensive",
-    "example": "高い (たかい) - high/expensive",
-    "audio": "/audio/kou.mp3"
+    "kanji": "黒",
+    "entries": [
+      {
+        "entryId": 59,
+        "romaji": "kuro",
+        "hiragana": "くろ",
+        "meaning": "black",
+        "wordClass": "noun",
+        "example": "黒い猫が道を歩いています。(A black cat is walking down the road.)"
+      }
+    ]
   },
   {
     "id": 55,
-    "kanji": "安",
-    "romaji": "an/yasu",
-    "hiragana": "あん/やす",
-    "katakana": "アン/ヤス",
-    "meaning": "cheap/safe",
-    "example": "安い (やすい) - cheap",
-    "audio": "/audio/an.mp3"
+    "kanji": "手",
+    "entries": [
+      {
+        "entryId": 60,
+        "romaji": "te",
+        "hiragana": "て",
+        "meaning": "hand",
+        "wordClass": "noun",
+        "example": "手を洗ってください。(Please wash your hands.)"
+      }
+    ]
   },
   {
     "id": 56,
-    "kanji": "早",
-    "romaji": "sou/haya",
-    "hiragana": "そう/はや",
-    "katakana": "ソウ/ハヤ",
-    "meaning": "early/fast",
-    "example": "早い (はやい) - early/fast",
-    "audio": "/audio/sou.mp3"
+    "kanji": "足",
+    "entries": [
+      {
+        "entryId": 61,
+        "romaji": "ashi",
+        "hiragana": "あし",
+        "meaning": "foot, leg",
+        "wordClass": "noun",
+        "example": "足が痛いです。(My foot hurts.)"
+      }
+    ]
   },
   {
     "id": 57,
-    "kanji": "遅",
-    "romaji": "chi/oso",
-    "hiragana": "ち/おそ",
-    "katakana": "チ/オソ",
-    "meaning": "late/slow",
-    "example": "遅い (おそい) - late/slow",
-    "audio": "/audio/chi.mp3"
+    "kanji": "頭",
+    "entries": [
+      {
+        "entryId": 62,
+        "romaji": "atama",
+        "hiragana": "あたま",
+        "meaning": "head",
+        "wordClass": "noun",
+        "example": "頭が痛いので薬を飲みました。(I took medicine because I have a headache.)"
+      }
+    ]
   },
   {
     "id": 58,
-    "kanji": "多",
-    "romaji": "ta/oo",
-    "hiragana": "た/おお",
-    "katakana": "タ/オオ",
-    "meaning": "many/much",
-    "example": "多い (おおい) - many",
-    "audio": "/audio/ta.mp3"
+    "kanji": "目",
+    "entries": [
+      {
+        "entryId": 63,
+        "romaji": "me",
+        "hiragana": "め",
+        "meaning": "eye",
+        "wordClass": "noun",
+        "example": "目が疲れています。(My eyes are tired.)"
+      }
+    ]
   },
   {
     "id": 59,
-    "kanji": "少",
-    "romaji": "shou/suku",
-    "hiragana": "しょう/すく",
-    "katakana": "ショウ/スク",
-    "meaning": "few/little",
-    "example": "少ない (すくない) - few",
-    "audio": "/audio/shou.mp3"
+    "kanji": "口",
+    "entries": [
+      {
+        "entryId": 64,
+        "romaji": "kuchi",
+        "hiragana": "くち",
+        "meaning": "mouth",
+        "wordClass": "noun",
+        "example": "口を開けてください。(Please open your mouth.)"
+      }
+    ]
   },
   {
     "id": 60,
-    "kanji": "長",
-    "romaji": "chou/naga",
-    "hiragana": "ちょう/なが",
-    "katakana": "チョウ/ナガ",
-    "meaning": "long",
-    "example": "長い (ながい) - long",
-    "audio": "/audio/chou.mp3"
+    "kanji": "耳",
+    "entries": [
+      {
+        "entryId": 65,
+        "romaji": "mimi",
+        "hiragana": "みみ",
+        "meaning": "ear",
+        "wordClass": "noun",
+        "example": "音楽を耳で聞きます。(I listen to music with my ears.)"
+      }
+    ]
   },
   {
     "id": 61,
-    "kanji": "短",
-    "romaji": "tan/mijika",
-    "hiragana": "たん/みじか",
-    "katakana": "タン/ミジカ",
-    "meaning": "short",
-    "example": "短い (みじかい) - short",
-    "audio": "/audio/tan.mp3"
+    "kanji": "山",
+    "entries": [
+      {
+        "entryId": 66,
+        "romaji": "yama",
+        "hiragana": "やま",
+        "meaning": "mountain",
+        "wordClass": "noun",
+        "example": "高い山に登りました。(I climbed a high mountain.)"
+      }
+    ]
   },
   {
     "id": 62,
-    "kanji": "明",
-    "romaji": "mei/aka",
-    "hiragana": "めい/あか",
-    "katakana": "メイ/アカ",
-    "meaning": "bright",
-    "example": "明るい (あかるい) - bright",
-    "audio": "/audio/mei.mp3"
+    "kanji": "川",
+    "entries": [
+      {
+        "entryId": 67,
+        "romaji": "kawa",
+        "hiragana": "かわ",
+        "meaning": "river",
+        "wordClass": "noun",
+        "example": "川で魚を釣りました。(I caught fish in the river.)"
+      }
+    ]
   },
   {
     "id": 63,
-    "kanji": "暗",
-    "romaji": "an/kura",
-    "hiragana": "あん/くら",
-    "katakana": "アン/クラ",
-    "meaning": "dark",
-    "example": "暗い (くらい) - dark",
-    "audio": "/audio/an.mp3"
+    "kanji": "海",
+    "entries": [
+      {
+        "entryId": 68,
+        "romaji": "umi",
+        "hiragana": "うみ",
+        "meaning": "sea, ocean",
+        "wordClass": "noun",
+        "example": "夏に海で泳ぎました。(I swam in the sea in summer.)"
+      }
+    ]
   },
   {
     "id": 64,
-    "kanji": "青",
-    "romaji": "sei/ao",
-    "hiragana": "せい/あお",
-    "katakana": "セイ/アオ",
-    "meaning": "blue",
-    "example": "青い (あおい) - blue",
-    "audio": "/audio/sei.mp3"
+    "kanji": "空",
+    "entries": [
+      {
+        "entryId": 69,
+        "romaji": "sora",
+        "hiragana": "そら",
+        "meaning": "sky",
+        "wordClass": "noun",
+        "example": "夜の空に星が見えます。(Stars can be seen in the night sky.)"
+      }
+    ]
   },
   {
     "id": 65,
-    "kanji": "赤",
-    "romaji": "seki/aka",
-    "hiragana": "せき/あか",
-    "katakana": "セキ/アカ",
-    "meaning": "red",
-    "example": "赤い (あかい) - red",
-    "audio": "/audio/seki.mp3"
+    "kanji": "雨",
+    "entries": [
+      {
+        "entryId": 70,
+        "romaji": "ame",
+        "hiragana": "あめ",
+        "meaning": "rain",
+        "wordClass": "noun",
+        "example": "今日は雨が降っています。(It is raining today.)"
+      }
+    ]
   },
   {
     "id": 66,
-    "kanji": "白",
-    "romaji": "haku/shiro",
-    "hiragana": "はく/しろ",
-    "katakana": "ハク/シロ",
-    "meaning": "white",
-    "example": "白い (しろい) - white",
-    "audio": "/audio/haku.mp3"
+    "kanji": "風",
+    "entries": [
+      {
+        "entryId": 71,
+        "romaji": "kaze",
+        "hiragana": "かぜ",
+        "meaning": "wind",
+        "wordClass": "noun",
+        "example": "強い風が吹いています。(A strong wind is blowing.)"
+      }
+    ]
   },
   {
     "id": 67,
-    "kanji": "黒",
-    "romaji": "koku/kuro",
-    "hiragana": "こく/くろ",
-    "katakana": "コク/クロ",
-    "meaning": "black",
-    "example": "黒い (くろい) - black",
-    "audio": "/audio/koku.mp3"
+    "kanji": "犬",
+    "entries": [
+      {
+        "entryId": 72,
+        "romaji": "inu",
+        "hiragana": "いぬ",
+        "meaning": "dog",
+        "wordClass": "noun",
+        "example": "犬と一緒に散歩します。(I take a walk with my dog.)"
+      }
+    ]
   },
   {
     "id": 68,
-    "kanji": "車",
-    "romaji": "sha/kuruma",
-    "hiragana": "しゃ/くるま",
-    "katakana": "シャ/クルマ",
-    "meaning": "car",
-    "example": "車 (くるま) - car",
-    "audio": "/audio/sha.mp3"
+    "kanji": "猫",
+    "entries": [
+      {
+        "entryId": 73,
+        "romaji": "neko",
+        "hiragana": "ねこ",
+        "meaning": "cat",
+        "wordClass": "noun",
+        "example": "猫がソファで寝ています。(The cat is sleeping on the sofa.)"
+      }
+    ]
   },
   {
     "id": 69,
-    "kanji": "電",
-    "romaji": "den",
-    "hiragana": "でん",
-    "katakana": "デン",
-    "meaning": "electricity",
-    "example": "電車 (でんしゃ) - train",
-    "audio": "/audio/den.mp3"
+    "kanji": "魚",
+    "entries": [
+      {
+        "entryId": 74,
+        "romaji": "sakana",
+        "hiragana": "さかな",
+        "meaning": "fish",
+        "wordClass": "noun",
+        "example": "魚を料理するのが好きです。(I like cooking fish.)"
+      }
+    ]
   },
   {
     "id": 70,
-    "kanji": "駅",
-    "romaji": "eki",
-    "hiragana": "えき",
-    "katakana": "エキ",
-    "meaning": "station",
-    "example": "駅 (えき) - station",
-    "audio": "/audio/eki.mp3"
+    "kanji": "鳥",
+    "entries": [
+      {
+        "entryId": 75,
+        "romaji": "tori",
+        "hiragana": "とり",
+        "meaning": "bird",
+        "wordClass": "noun",
+        "example": "公園で鳥が歌っています。(Birds are singing in the park.)"
+      }
+    ]
   },
   {
     "id": 71,
-    "kanji": "道",
-    "romaji": "dou/michi",
-    "hiragana": "どう/みち",
-    "katakana": "ドウ/ミチ",
-    "meaning": "road/way",
-    "example": "道 (みち) - road",
-    "audio": "/audio/dou.mp3"
+    "kanji": "米",
+    "entries": [
+      {
+        "entryId": 76,
+        "romaji": "kome",
+        "hiragana": "こめ",
+        "meaning": "rice",
+        "wordClass": "noun",
+        "example": "日本人は米をよく食べます。(Japanese people often eat rice.)"
+      }
+    ]
   },
   {
     "id": 72,
-    "kanji": "川",
-    "romaji": "sen/kawa",
-    "hiragana": "せん/かわ",
-    "katakana": "セン/カワ",
-    "meaning": "river",
-    "example": "川 (かわ) - river",
-    "audio": "/audio/sen.mp3"
+    "kanji": "肉",
+    "entries": [
+      {
+        "entryId": 77,
+        "romaji": "niku",
+        "hiragana": "にく",
+        "meaning": "meat",
+        "wordClass": "noun",
+        "example": "牛肉を焼いて食べました。(I grilled and ate beef.)"
+      }
+    ]
   },
   {
     "id": 73,
-    "kanji": "山",
-    "romaji": "san/yama",
-    "hiragana": "さん/やま",
-    "katakana": "サン/ヤマ",
-    "meaning": "mountain",
-    "example": "山 (やま) - mountain",
-    "audio": "/audio/san.mp3"
+    "kanji": "野",
+    "entries": [
+      {
+        "entryId": 78,
+        "romaji": "no",
+        "hiragana": "の",
+        "meaning": "field, wild",
+        "wordClass": "noun",
+        "example": "野菜を育てています。(I am growing vegetables.)"
+      }
+    ]
   },
   {
     "id": 74,
-    "kanji": "海",
-    "romaji": "kai/umi",
-    "hiragana": "かい/うみ",
-    "katakana": "カイ/ウミ",
-    "meaning": "sea",
-    "example": "海 (うみ) - sea",
-    "audio": "/audio/kai.mp3"
+    "kanji": "果",
+    "entries": [
+      {
+        "entryId": 79,
+        "romaji": "ka",
+        "hiragana": "か",
+        "meaning": "fruit, result",
+        "wordClass": "noun",
+        "example": "果物が好きです。(I like fruit.)"
+      }
+    ]
   },
   {
     "id": 75,
-    "kanji": "空",
-    "romaji": "kuu/sora",
-    "hiragana": "くう/そら",
-    "katakana": "クウ/ソラ",
-    "meaning": "sky",
-    "example": "空 (そら) - sky",
-    "audio": "/audio/kuu.mp3"
+    "kanji": "歩",
+    "entries": [
+      {
+        "entryId": 80,
+        "romaji": "aruku",
+        "hiragana": "あるく",
+        "meaning": "to walk",
+        "wordClass": "verb",
+        "example": "毎朝公園を歩きます。(I walk in the park every morning.)"
+      }
+    ]
   },
   {
     "id": 76,
-    "kanji": "雨",
-    "romaji": "u/ame",
-    "hiragana": "う/あめ",
-    "katakana": "ウ/アメ",
-    "meaning": "rain",
-    "example": "雨 (あめ) - rain",
-    "audio": "/audio/u.mp3"
+    "kanji": "走",
+    "entries": [
+      {
+        "entryId": 81,
+        "romaji": "hashiru",
+        "hiragana": "はしる",
+        "meaning": "to run",
+        "wordClass": "verb",
+        "example": "学校まで走りました。(I ran to school.)"
+      }
+    ]
   },
   {
     "id": 77,
-    "kanji": "風",
-    "romaji": "fuu/kaze",
-    "hiragana": "ふう/かぜ",
-    "katakana": "フウ/カゼ",
-    "meaning": "wind",
-    "example": "風 (かぜ) - wind",
-    "audio": "/audio/fuu.mp3"
+    "kanji": "泳",
+    "entries": [
+      {
+        "entryId": 82,
+        "romaji": "oyogu",
+        "hiragana": "およぐ",
+        "meaning": "to swim",
+        "wordClass": "verb",
+        "example": "プールで泳ぐのが楽しいです。(Swimming in the pool is fun.)"
+      }
+    ]
   },
   {
     "id": 78,
-    "kanji": "雪",
-    "romaji": "setsu/yuki",
-    "hiragana": "せつ/ゆき",
-    "katakana": "セツ/ユキ",
-    "meaning": "snow",
-    "example": "雪 (ゆき) - snow",
-    "audio": "/audio/setsu.mp3"
+    "kanji": "飛",
+    "entries": [
+      {
+        "entryId": 83,
+        "romaji": "tobu",
+        "hiragana": "とぶ",
+        "meaning": "to fly, to jump",
+        "wordClass": "verb",
+        "example": "飛行機が空を飛んでいます。(An airplane is flying in the sky.)"
+      }
+    ]
   },
   {
     "id": 79,
-    "kanji": "花",
-    "romaji": "ka/hana",
-    "hiragana": "か/はな",
-    "katakana": "カ/ハナ",
-    "meaning": "flower",
-    "example": "花 (はな) - flower",
-    "audio": "/audio/ka.mp3"
+    "kanji": "美",
+    "entries": [
+      {
+        "entryId": 84,
+        "romaji": "utsukushii",
+        "hiragana": "うつくしい",
+        "meaning": "beautiful",
+        "wordClass": "adjective",
+        "example": "美しい景色を見ました。(I saw a beautiful view.)"
+      }
+    ]
   },
   {
     "id": 80,
-    "kanji": "犬",
-    "romaji": "ken/inu",
-    "hiragana": "けん/いぬ",
-    "katakana": "ケン/イヌ",
-    "meaning": "dog",
-    "example": "犬 (いぬ) - dog",
-    "audio": "/audio/ken.mp3"
+    "kanji": "楽",
+    "entries": [
+      {
+        "entryId": 85,
+        "romaji": "tanoshii",
+        "hiragana": "たのしい",
+        "meaning": "fun, enjoyable",
+        "wordClass": "adjective",
+        "example": "映画を見るのは楽しいです。(Watching movies is fun.)"
+      }
+    ]
   },
   {
     "id": 81,
-    "kanji": "猫",
-    "romaji": "byou/neko",
-    "hiragana": "びょう/ねこ",
-    "katakana": "ビョウ/ネコ",
-    "meaning": "cat",
-    "example": "猫 (ねこ) - cat",
-    "audio": "/audio/byou.mp3"
+    "kanji": "難",
+    "entries": [
+      {
+        "entryId": 86,
+        "romaji": "muzukashii",
+        "hiragana": "むずかしい",
+        "meaning": "difficult",
+        "wordClass": "adjective",
+        "example": "この問題は難しいです。(This problem is difficult.)"
+      }
+    ]
   },
   {
     "id": 82,
-    "kanji": "魚",
-    "romaji": "gyo/sakana",
-    "hiragana": "ぎょ/さかな",
-    "katakana": "ギョ/サカナ",
-    "meaning": "fish",
-    "example": "魚 (さかな) - fish",
-    "audio": "/audio/gyo.mp3"
+    "kanji": "簡",
+    "entries": [
+      {
+        "entryId": 87,
+        "romaji": "kantan",
+        "hiragana": "かんたん",
+        "meaning": "simple, easy",
+        "wordClass": "adjective",
+        "example": "簡単な料理を作りました。(I made a simple dish.)"
+      }
+    ]
   },
   {
     "id": 83,
-    "kanji": "鳥",
-    "romaji": "chou/tori",
-    "hiragana": "ちょう/とり",
-    "katakana": "チョウ/トリ",
-    "meaning": "bird",
-    "example": "鳥 (とり) - bird",
-    "audio": "/audio/chou.mp3"
+    "kanji": "早",
+    "entries": [
+      {
+        "entryId": 88,
+        "romaji": "hayai",
+        "hiragana": "はやい",
+        "meaning": "early, fast",
+        "wordClass": "adjective",
+        "example": "早い時間に起きました。(I woke up early.)"
+      }
+    ]
   },
   {
     "id": 84,
-    "kanji": "肉",
-    "romaji": "niku",
-    "hiragana": "にく",
-    "katakana": "ニク",
-    "meaning": "meat",
-    "example": "肉 (にく) - meat",
-    "audio": "/audio/niku.mp3"
+    "kanji": "遅",
+    "entries": [
+      {
+        "entryId": 89,
+        "romaji": "osoi",
+        "hiragana": "おそい",
+        "meaning": "late, slow",
+        "wordClass": "adjective",
+        "example": "電車が遅れています。(The train is late.)"
+      }
+    ]
   },
   {
     "id": 85,
-    "kanji": "野",
-    "romaji": "ya/no",
-    "hiragana": "や/の",
-    "katakana": "ヤ/ノ",
-    "meaning": "field",
-    "example": "野菜 (やさい) - vegetables",
-    "audio": "/audio/ya.mp3"
+    "kanji": "長",
+    "entries": [
+      {
+        "entryId": 90,
+        "romaji": "nagai",
+        "hiragana": "ながい",
+        "meaning": "long",
+        "wordClass": "adjective",
+        "example": "長い髪の女性がいます。(There is a woman with long hair.)"
+      }
+    ]
   },
   {
     "id": 86,
-    "kanji": "菜",
-    "romaji": "sai/na",
-    "hiragana": "さい/な",
-    "katakana": "サイ/ナ",
-    "meaning": "vegetable",
-    "example": "野菜 (やさい) - vegetables",
-    "audio": "/audio/sai.mp3"
+    "kanji": "短",
+    "entries": [
+      {
+        "entryId": 91,
+        "romaji": "mijikai",
+        "hiragana": "みじかい",
+        "meaning": "short",
+        "wordClass": "adjective",
+        "example": "短い話を聞きました。(I heard a short story.)"
+      }
+    ]
   },
   {
     "id": 87,
-    "kanji": "米",
-    "romaji": "bei/kome",
-    "hiragana": "べい/こめ",
-    "katakana": "ベイ/コメ",
-    "meaning": "rice",
-    "example": "米 (こめ) - rice",
-    "audio": "/audio/bei.mp3"
+    "kanji": "安",
+    "entries": [
+      {
+        "entryId": 92,
+        "romaji": "yasui",
+        "hiragana": "やすい",
+        "meaning": "cheap, inexpensive",
+        "wordClass": "adjective",
+        "example": "安い服を買いました。(I bought cheap clothes.)"
+      }
+    ]
   },
   {
     "id": 88,
-    "kanji": "茶",
-    "romaji": "cha",
-    "hiragana": "ちゃ",
-    "katakana": "チャ",
-    "meaning": "tea",
-    "example": "お茶 (おちゃ) - tea",
-    "audio": "/audio/cha.mp3"
+    "kanji": "車",
+    "entries": [
+      {
+        "entryId": 93,
+        "romaji": "kuruma",
+        "hiragana": "くるま",
+        "meaning": "car, vehicle",
+        "wordClass": "noun",
+        "example": "新しい車を運転しています。(I am driving a new car.)"
+      }
+    ]
   },
   {
     "id": 89,
-    "kanji": "酒",
-    "romaji": "shu/sake",
-    "hiragana": "しゅ/さけ",
-    "katakana": "シュ/サケ",
-    "meaning": "alcohol",
-    "example": "お酒 (おさけ) - alcohol",
-    "audio": "/audio/shu.mp3"
+    "kanji": "電",
+    "entries": [
+      {
+        "entryId": 94,
+        "romaji": "den",
+        "hiragana": "でん",
+        "meaning": "electricity",
+        "wordClass": "noun",
+        "example": "電車で通勤しています。(I commute by train.)"
+      }
+    ]
   },
   {
     "id": 90,
-    "kanji": "病",
-    "romaji": "byou/ya",
-    "hiragana": "びょう/や",
-    "katakana": "ビョウ/ヤ",
-    "meaning": "illness",
-    "example": "病院 (びょういん) - hospital",
-    "audio": "/audio/byou.mp3"
+    "kanji": "話",
+    "entries": [
+      {
+        "entryId": 95,
+        "romaji": "hanashi",
+        "hiragana": "はなし",
+        "meaning": "story, talk",
+        "wordClass": "noun",
+        "example": "面白い話を聞きました。(I heard an interesting story.)"
+      },
+      {
+        "entryId": 96,
+        "romaji": "hanasu",
+        "hiragana": "はなす",
+        "meaning": "to speak, to talk",
+        "wordClass": "verb",
+        "example": "友達と日本語で話します。(I speak Japanese with my friends.)"
+      }
+    ]
   },
   {
     "id": 91,
-    "kanji": "院",
-    "romaji": "in",
-    "hiragana": "いん",
-    "katakana": "イン",
-    "meaning": "institution",
-    "example": "病院 (びょういん) - hospital",
-    "audio": "/audio/in.mp3"
+    "kanji": "聞",
+    "entries": [
+      {
+        "entryId": 97,
+        "romaji": "kiku",
+        "hiragana": "きく",
+        "meaning": "to hear, to listen",
+        "wordClass": "verb",
+        "example": "音楽を聞くのが好きです。(I like listening to music.)"
+      }
+    ]
   },
   {
     "id": 92,
-    "kanji": "店",
-    "romaji": "ten/mise",
-    "hiragana": "てん/みせ",
-    "katakana": "テン/ミセ",
-    "meaning": "shop",
-    "example": "店 (みせ) - shop",
-    "audio": "/audio/ten.mp3"
+    "kanji": "言",
+    "entries": [
+      {
+        "entryId": 98,
+        "romaji": "iu",
+        "hiragana": "いう",
+        "meaning": "to say, to speak",
+        "wordClass": "verb",
+        "example": "何を言いましたか。(What did you say?)"
+      }
+    ]
   },
   {
     "id": 93,
-    "kanji": "銀",
-    "romaji": "gin",
-    "hiragana": "ぎん",
-    "katakana": "ギン",
-    "meaning": "silver",
-    "example": "銀行 (ぎんこう) - bank",
-    "audio": "/audio/gin.mp3"
+    "kanji": "思",
+    "entries": [
+      {
+        "entryId": 99,
+        "romaji": "omou",
+        "hiragana": "おもう",
+        "meaning": "to think, to feel",
+        "wordClass": "verb",
+        "example": "日本語は面白いと思います。(I think Japanese is interesting.)"
+      }
+    ]
   },
   {
     "id": 94,
-    "kanji": "郵",
-    "romaji": "yuu",
-    "hiragana": "ゆう",
-    "katakana": "ユウ",
-    "meaning": "mail",
-    "example": "郵便局 (ゆうびんきょく) - post office",
-    "audio": "/audio/yuu.mp3"
+    "kanji": "知",
+    "entries": [
+      {
+        "entryId": 100,
+        "romaji": "shiru",
+        "hiragana": "しる",
+        "meaning": "to know",
+        "wordClass": "verb",
+        "example": "彼の名前を知っています。(I know his name.)"
+      }
+    ]
   },
   {
     "id": 95,
-    "kanji": "便",
-    "romaji": "ben",
-    "hiragana": "べん",
-    "katakana": "ベン",
-    "meaning": "convenience",
-    "example": "便利 (べんり) - convenient",
-    "audio": "/audio/ben.mp3"
+    "kanji": "持",
+    "entries": [
+      {
+        "entryId": 101,
+        "romaji": "motsu",
+        "hiragana": "もつ",
+        "meaning": "to hold, to have",
+        "wordClass": "verb",
+        "example": "重い荷物を持っています。(I am carrying heavy luggage.)"
+      }
+    ]
   },
   {
     "id": 96,
-    "kanji": "局",
-    "romaji": "kyoku",
-    "hiragana": "きょく",
-    "katakana": "キョク",
-    "meaning": "bureau",
-    "example": "郵便局 (ゆうびんきょく) - post office",
-    "audio": "/audio/kyoku.mp3"
+    "kanji": "取",
+    "entries": [
+      {
+        "entryId": 102,
+        "romaji": "toru",
+        "hiragana": "とる",
+        "meaning": "to take, to get",
+        "wordClass": "verb",
+        "example": "写真を取りました。(I took a photo.)"
+      }
+    ]
   },
   {
     "id": 97,
-    "kanji": "会",
-    "romaji": "kai/a",
-    "hiragana": "かい/あ",
-    "katakana": "カイ/ア",
-    "meaning": "meet",
-    "example": "会う (あう) - to meet",
-    "audio": "/audio/kai.mp3"
+    "kanji": "着",
+    "entries": [
+      {
+        "entryId": 103,
+        "romaji": "kiru",
+        "hiragana": "きる",
+        "meaning": "to wear, to put on",
+        "wordClass": "verb",
+        "example": "新しい服を着ています。(I am wearing new clothes.)"
+      },
+      {
+        "entryId": 104,
+        "romaji": "tsuku",
+        "hiragana": "つく",
+        "meaning": "to arrive",
+        "wordClass": "verb",
+        "example": "駅に着きました。(I arrived at the station.)"
+      }
+    ]
   },
   {
     "id": 98,
-    "kanji": "社",
-    "romaji": "sha/yashiro",
-    "hiragana": "しゃ/やしろ",
-    "katakana": "シャ/ヤシロ",
-    "meaning": "company",
-    "example": "会社 (かいしゃ) - company",
-    "audio": "/audio/sha.mp3"
+    "kanji": "寝",
+    "entries": [
+      {
+        "entryId": 105,
+        "romaji": "neru",
+        "hiragana": "ねる",
+        "meaning": "to sleep, to go to bed",
+        "wordClass": "verb",
+        "example": "十時に寝ます。(I go to bed at ten o'clock.)"
+      }
+    ]
   },
   {
     "id": 99,
-    "kanji": "名",
-    "romaji": "mei/na",
-    "hiragana": "めい/な",
-    "katakana": "メイ/ナ",
-    "meaning": "name",
-    "example": "名前 (なまえ) - name",
-    "audio": "/audio/mei.mp3"
+    "kanji": "起",
+    "entries": [
+      {
+        "entryId": 106,
+        "romaji": "okiru",
+        "hiragana": "おきる",
+        "meaning": "to wake up, to get up",
+        "wordClass": "verb",
+        "example": "毎朝六時に起きます。(I wake up at six every morning.)"
+      }
+    ]
   },
   {
     "id": 100,
+    "kanji": "働",
+    "entries": [
+      {
+        "entryId": 107,
+        "romaji": "hataraku",
+        "hiragana": "はたらく",
+        "meaning": "to work",
+        "wordClass": "verb",
+        "example": "会社で働いています。(I work at a company.)"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "kanji": "休",
+    "entries": [
+      {
+        "entryId": 108,
+        "romaji": "yasumu",
+        "hiragana": "やすむ",
+        "meaning": "to rest, to take a break",
+        "wordClass": "verb",
+        "example": "少し休みましょう。(Let's take a little break.)"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "kanji": "会",
+    "entries": [
+      {
+        "entryId": 109,
+        "romaji": "au",
+        "hiragana": "あう",
+        "meaning": "to meet",
+        "wordClass": "verb",
+        "example": "友達に会いました。(I met my friend.)"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "kanji": "開",
+    "entries": [
+      {
+        "entryId": 110,
+        "romaji": "akeru",
+        "hiragana": "あける",
+        "meaning": "to open",
+        "wordClass": "verb",
+        "example": "窓を開けてください。(Please open the window.)"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "kanji": "閉",
+    "entries": [
+      {
+        "entryId": 111,
+        "romaji": "shimeru",
+        "hiragana": "しめる",
+        "meaning": "to close",
+        "wordClass": "verb",
+        "example": "ドアを閉めました。(I closed the door.)"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "kanji": "切",
+    "entries": [
+      {
+        "entryId": 112,
+        "romaji": "kiru",
+        "hiragana": "きる",
+        "meaning": "to cut",
+        "wordClass": "verb",
+        "example": "野菜を切って料理しました。(I cut vegetables and cooked.)"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "kanji": "終",
+    "entries": [
+      {
+        "entryId": 113,
+        "romaji": "owaru",
+        "hiragana": "おわる",
+        "meaning": "to end, to finish",
+        "wordClass": "verb",
+        "example": "会議が終わりました。(The meeting ended.)"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "kanji": "始",
+    "entries": [
+      {
+        "entryId": 114,
+        "romaji": "hajimaru",
+        "hiragana": "はじまる",
+        "meaning": "to begin, to start",
+        "wordClass": "verb",
+        "example": "授業が始まります。(The class will begin.)"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "kanji": "忘",
+    "entries": [
+      {
+        "entryId": 115,
+        "romaji": "wasureru",
+        "hiragana": "わすれる",
+        "meaning": "to forget",
+        "wordClass": "verb",
+        "example": "宿題を忘れました。(I forgot my homework.)"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "kanji": "覚",
+    "entries": [
+      {
+        "entryId": 116,
+        "romaji": "oboeru",
+        "hiragana": "おぼえる",
+        "meaning": "to remember, to memorize",
+        "wordClass": "verb",
+        "example": "新しい単語を覚えています。(I am memorizing new words.)"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "kanji": "若",
+    "entries": [
+      {
+        "entryId": 117,
+        "romaji": "wakai",
+        "hiragana": "わかい",
+        "meaning": "young",
+        "wordClass": "adjective",
+        "example": "若い人がたくさんいます。(There are many young people.)"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "kanji": "親",
+    "entries": [
+      {
+        "entryId": 118,
+        "romaji": "oya",
+        "hiragana": "おや",
+        "meaning": "parent",
+        "wordClass": "noun",
+        "example": "親と一緒に住んでいます。(I live with my parents.)"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "kanji": "子",
+    "entries": [
+      {
+        "entryId": 119,
+        "romaji": "ko",
+        "hiragana": "こ",
+        "meaning": "child",
+        "wordClass": "noun",
+        "example": "子供が公園で遊んでいます。(Children are playing in the park.)"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "kanji": "男",
+    "entries": [
+      {
+        "entryId": 120,
+        "romaji": "otoko",
+        "hiragana": "おとこ",
+        "meaning": "man, male",
+        "wordClass": "noun",
+        "example": "男の人が歩いています。(A man is walking.)"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "kanji": "女",
+    "entries": [
+      {
+        "entryId": 121,
+        "romaji": "onna",
+        "hiragana": "おんな",
+        "meaning": "woman, female",
+        "wordClass": "noun",
+        "example": "女の人が本を読んでいます。(A woman is reading a book.)"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "kanji": "友",
+    "entries": [
+      {
+        "entryId": 122,
+        "romaji": "tomo",
+        "hiragana": "とも",
+        "meaning": "friend",
+        "wordClass": "noun",
+        "example": "友達と映画を見ました。(I watched a movie with my friend.)"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "kanji": "町",
+    "entries": [
+      {
+        "entryId": 123,
+        "romaji": "machi",
+        "hiragana": "まち",
+        "meaning": "town, city",
+        "wordClass": "noun",
+        "example": "小さな町に住んでいます。(I live in a small town.)"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "kanji": "村",
+    "entries": [
+      {
+        "entryId": 124,
+        "romaji": "mura",
+        "hiragana": "むら",
+        "meaning": "village",
+        "wordClass": "noun",
+        "example": "静かな村を訪れました。(I visited a quiet village.)"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "kanji": "道",
+    "entries": [
+      {
+        "entryId": 125,
+        "romaji": "michi",
+        "hiragana": "みち",
+        "meaning": "road, path, way",
+        "wordClass": "noun",
+        "example": "この道を歩いて学校に行きます。(I walk on this road to go to school.)"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "kanji": "橋",
+    "entries": [
+      {
+        "entryId": 126,
+        "romaji": "hashi",
+        "hiragana": "はし",
+        "meaning": "bridge",
+        "wordClass": "noun",
+        "example": "川に橋がかかっています。(There is a bridge over the river.)"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "kanji": "駅",
+    "entries": [
+      {
+        "entryId": 127,
+        "romaji": "eki",
+        "hiragana": "えき",
+        "meaning": "station",
+        "wordClass": "noun",
+        "example": "駅で電車を待っています。(I am waiting for the train at the station.)"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "kanji": "店",
+    "entries": [
+      {
+        "entryId": 128,
+        "romaji": "mise",
+        "hiragana": "みせ",
+        "meaning": "store, shop",
+        "wordClass": "noun",
+        "example": "新しい店がオープンしました。(A new store opened.)"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "kanji": "病",
+    "entries": [
+      {
+        "entryId": 129,
+        "romaji": "byou",
+        "hiragana": "びょう",
+        "meaning": "illness, disease",
+        "wordClass": "noun",
+        "example": "病院に行きました。(I went to the hospital.)"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "kanji": "元",
+    "entries": [
+      {
+        "entryId": 130,
+        "romaji": "genki",
+        "hiragana": "げんき",
+        "meaning": "healthy, energetic",
+        "wordClass": "adjective",
+        "example": "元気な子供たちです。(They are healthy children.)"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "kanji": "強",
+    "entries": [
+      {
+        "entryId": 131,
+        "romaji": "tsuyoi",
+        "hiragana": "つよい",
+        "meaning": "strong",
+        "wordClass": "adjective",
+        "example": "強い風が吹いています。(A strong wind is blowing.)"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "kanji": "弱",
+    "entries": [
+      {
+        "entryId": 132,
+        "romaji": "yowai",
+        "hiragana": "よわい",
+        "meaning": "weak",
+        "wordClass": "adjective",
+        "example": "弱い光が見えます。(A weak light is visible.)"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "kanji": "重",
+    "entries": [
+      {
+        "entryId": 133,
+        "romaji": "omoi",
+        "hiragana": "おもい",
+        "meaning": "heavy",
+        "wordClass": "adjective",
+        "example": "重い本を持っています。(I am carrying a heavy book.)"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "kanji": "軽",
+    "entries": [
+      {
+        "entryId": 134,
+        "romaji": "karui",
+        "hiragana": "かるい",
+        "meaning": "light, not heavy",
+        "wordClass": "adjective",
+        "example": "軽い荷物を運びます。(I carry light luggage.)"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "kanji": "明",
+    "entries": [
+      {
+        "entryId": 135,
+        "romaji": "akarui",
+        "hiragana": "あかるい",
+        "meaning": "bright",
+        "wordClass": "adjective",
+        "example": "明るい部屋で勉強します。(I study in a bright room.)"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "kanji": "暗",
+    "entries": [
+      {
+        "entryId": 136,
+        "romaji": "kurai",
+        "hiragana": "くらい",
+        "meaning": "dark",
+        "wordClass": "adjective",
+        "example": "暗い道を歩きました。(I walked on a dark road.)"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "kanji": "冷",
+    "entries": [
+      {
+        "entryId": 137,
+        "romaji": "tsumetai",
+        "hiragana": "つめたい",
+        "meaning": "cold",
+        "wordClass": "adjective",
+        "example": "冷たい飲み物が欲しいです。(I want a cold drink.)"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "kanji": "暖",
+    "entries": [
+      {
+        "entryId": 138,
+        "romaji": "atatakai",
+        "hiragana": "あたたかい",
+        "meaning": "warm",
+        "wordClass": "adjective",
+        "example": "暖かい日です。(It's a warm day.)"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "kanji": "暑",
+    "entries": [
+      {
+        "entryId": 139,
+        "romaji": "atsui",
+        "hiragana": "あつい",
+        "meaning": "hot",
+        "wordClass": "adjective",
+        "example": "今日は暑いです。(It's hot today.)"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "kanji": "寒",
+    "entries": [
+      {
+        "entryId": 140,
+        "romaji": "samui",
+        "hiragana": "さむい",
+        "meaning": "cold (weather)",
+        "wordClass": "adjective",
+        "example": "寒い冬の日です。(It's a cold winter day.)"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "kanji": "春",
+    "entries": [
+      {
+        "entryId": 141,
+        "romaji": "haru",
+        "hiragana": "はる",
+        "meaning": "spring",
+        "wordClass": "noun",
+        "example": "春に桜が咲きます。(Cherry blossoms bloom in spring.)"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "kanji": "夏",
+    "entries": [
+      {
+        "entryId": 142,
+        "romaji": "natsu",
+        "hiragana": "なつ",
+        "meaning": "summer",
+        "wordClass": "noun",
+        "example": "夏は海で泳ぎます。(I swim in the sea in summer.)"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "kanji": "秋",
+    "entries": [
+      {
+        "entryId": 143,
+        "romaji": "aki",
+        "hiragana": "あき",
+        "meaning": "autumn, fall",
+        "wordClass": "noun",
+        "example": "秋は紅葉がきれいです。(The autumn leaves are beautiful in fall.)"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "kanji": "冬",
+    "entries": [
+      {
+        "entryId": 144,
+        "romaji": "fuyu",
+        "hiragana": "ふゆ",
+        "meaning": "winter",
+        "wordClass": "noun",
+        "example": "冬に雪が降ります。(Snow falls in winter.)"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "kanji": "雪",
+    "entries": [
+      {
+        "entryId": 145,
+        "romaji": "yuki",
+        "hiragana": "ゆき",
+        "meaning": "snow",
+        "wordClass": "noun",
+        "example": "白い雪が積もっています。(White snow has accumulated.)"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "kanji": "花",
+    "entries": [
+      {
+        "entryId": 146,
+        "romaji": "hana",
+        "hiragana": "はな",
+        "meaning": "flower",
+        "wordClass": "noun",
+        "example": "きれいな花を見つけました。(I found beautiful flowers.)"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "kanji": "草",
+    "entries": [
+      {
+        "entryId": 147,
+        "romaji": "kusa",
+        "hiragana": "くさ",
+        "meaning": "grass",
+        "wordClass": "noun",
+        "example": "緑の草の上に座りました。(I sat on the green grass.)"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "kanji": "葉",
+    "entries": [
+      {
+        "entryId": 148,
+        "romaji": "ha",
+        "hiragana": "は",
+        "meaning": "leaf",
+        "wordClass": "noun",
+        "example": "秋の葉が落ちています。(Autumn leaves are falling.)"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "kanji": "石",
+    "entries": [
+      {
+        "entryId": 149,
+        "romaji": "ishi",
+        "hiragana": "いし",
+        "meaning": "stone, rock",
+        "wordClass": "noun",
+        "example": "大きな石が道にあります。(There is a big stone on the road.)"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "kanji": "音",
+    "entries": [
+      {
+        "entryId": 150,
+        "romaji": "oto",
+        "hiragana": "おと",
+        "meaning": "sound",
+        "wordClass": "noun",
+        "example": "きれいな音楽を聞いています。(I am listening to beautiful music.)"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "kanji": "色",
+    "entries": [
+      {
+        "entryId": 151,
+        "romaji": "iro",
+        "hiragana": "いろ",
+        "meaning": "color",
+        "wordClass": "noun",
+        "example": "好きな色は何ですか。(What is your favorite color?)"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "kanji": "形",
+    "entries": [
+      {
+        "entryId": 152,
+        "romaji": "katachi",
+        "hiragana": "かたち",
+        "meaning": "shape, form",
+        "wordClass": "noun",
+        "example": "丸い形の時計です。(It's a round-shaped clock.)"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "kanji": "同",
+    "entries": [
+      {
+        "entryId": 153,
+        "romaji": "onaji",
+        "hiragana": "おなじ",
+        "meaning": "same",
+        "wordClass": "adjective",
+        "example": "同じ本を読んでいます。(We are reading the same book.)"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "kanji": "違",
+    "entries": [
+      {
+        "entryId": 154,
+        "romaji": "chigau",
+        "hiragana": "ちがう",
+        "meaning": "to differ, to be different",
+        "wordClass": "verb",
+        "example": "意見が違います。(Our opinions are different.)"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "kanji": "正",
+    "entries": [
+      {
+        "entryId": 155,
+        "romaji": "tadashii",
+        "hiragana": "ただしい",
+        "meaning": "correct, right",
+        "wordClass": "adjective",
+        "example": "正しい答えを教えてください。(Please tell me the correct answer.)"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "kanji": "間",
+    "entries": [
+      {
+        "entryId": 156,
+        "romaji": "ma",
+        "hiragana": "ま",
+        "meaning": "between, interval",
+        "wordClass": "noun",
+        "example": "授業の間に休憩があります。(There is a break between classes.)"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "kanji": "近",
+    "entries": [
+      {
+        "entryId": 157,
+        "romaji": "chikai",
+        "hiragana": "ちかい",
+        "meaning": "near, close",
+        "wordClass": "adjective",
+        "example": "近い場所に住んでいます。(I live in a nearby place.)"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "kanji": "遠",
+    "entries": [
+      {
+        "entryId": 158,
+        "romaji": "tooi",
+        "hiragana": "とおい",
+        "meaning": "far, distant",
+        "wordClass": "adjective",
+        "example": "遠い国から来ました。(I came from a far country.)"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "kanji": "多",
+    "entries": [
+      {
+        "entryId": 159,
+        "romaji": "ooi",
+        "hiragana": "おおい",
+        "meaning": "many, much",
+        "wordClass": "adjective",
+        "example": "多くの人が来ました。(Many people came.)"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "kanji": "少",
+    "entries": [
+      {
+        "entryId": 160,
+        "romaji": "sukunai",
+        "hiragana": "すくない",
+        "meaning": "few, little",
+        "wordClass": "adjective",
+        "example": "少ない時間で終わりました。(It finished in a short time.)"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "kanji": "全",
+    "entries": [
+      {
+        "entryId": 161,
+        "romaji": "zen",
+        "hiragana": "ぜん",
+        "meaning": "all, whole",
+        "wordClass": "noun",
+        "example": "全部食べました。(I ate everything.)"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "kanji": "半",
+    "entries": [
+      {
+        "entryId": 162,
+        "romaji": "han",
+        "hiragana": "はん",
+        "meaning": "half",
+        "wordClass": "noun",
+        "example": "半分のケーキを食べました。(I ate half of the cake.)"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "kanji": "毎",
+    "entries": [
+      {
+        "entryId": 163,
+        "romaji": "mai",
+        "hiragana": "まい",
+        "meaning": "every",
+        "wordClass": "noun",
+        "example": "毎日運動しています。(I exercise every day.)"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "kanji": "今",
+    "entries": [
+      {
+        "entryId": 164,
+        "romaji": "ima",
+        "hiragana": "いま",
+        "meaning": "now, present",
+        "wordClass": "noun",
+        "example": "今何時ですか。(What time is it now?)"
+      }
+    ]
+  },
+  {
+    "id": 158,
     "kanji": "前",
-    "romaji": "zen/mae",
-    "hiragana": "ぜん/まえ",
-    "katakana": "ゼン/マエ",
-    "meaning": "front/before",
-    "example": "前 (まえ) - front",
-    "audio": "/audio/zen.mp3"
+    "entries": [
+      {
+        "entryId": 165,
+        "romaji": "mae",
+        "hiragana": "まえ",
+        "meaning": "before, front",
+        "wordClass": "noun",
+        "example": "学校の前で待っています。(I am waiting in front of the school.)"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "kanji": "後",
+    "entries": [
+      {
+        "entryId": 166,
+        "romaji": "ato",
+        "hiragana": "あと",
+        "meaning": "after, behind",
+        "wordClass": "noun",
+        "example": "食事の後で散歩しました。(I took a walk after the meal.)"
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "kanji": "左",
+    "entries": [
+      {
+        "entryId": 167,
+        "romaji": "hidari",
+        "hiragana": "ひだり",
+        "meaning": "left",
+        "wordClass": "noun",
+        "example": "左に曲がってください。(Please turn left.)"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "kanji": "右",
+    "entries": [
+      {
+        "entryId": 168,
+        "romaji": "migi",
+        "hiragana": "みぎ",
+        "meaning": "right",
+        "wordClass": "noun",
+        "example": "右手にペンを持っています。(I am holding a pen in my right hand.)"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "kanji": "東",
+    "entries": [
+      {
+        "entryId": 169,
+        "romaji": "higashi",
+        "hiragana": "ひがし",
+        "meaning": "east",
+        "wordClass": "noun",
+        "example": "東京は日本の東にあります。(Tokyo is in the east of Japan.)"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "kanji": "西",
+    "entries": [
+      {
+        "entryId": 170,
+        "romaji": "nishi",
+        "hiragana": "にし",
+        "meaning": "west",
+        "wordClass": "noun",
+        "example": "太陽は西に沈みます。(The sun sets in the west.)"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "kanji": "南",
+    "entries": [
+      {
+        "entryId": 171,
+        "romaji": "minami",
+        "hiragana": "みなみ",
+        "meaning": "south",
+        "wordClass": "noun",
+        "example": "南の国は暖かいです。(Southern countries are warm.)"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "kanji": "北",
+    "entries": [
+      {
+        "entryId": 172,
+        "romaji": "kita",
+        "hiragana": "きた",
+        "meaning": "north",
+        "wordClass": "noun",
+        "example": "北風が冷たいです。(The north wind is cold.)"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "kanji": "広",
+    "entries": [
+      {
+        "entryId": 173,
+        "romaji": "hiroi",
+        "hiragana": "ひろい",
+        "meaning": "wide, spacious",
+        "wordClass": "adjective",
+        "example": "広い公園があります。(There is a spacious park.)"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "kanji": "狭",
+    "entries": [
+      {
+        "entryId": 174,
+        "romaji": "semai",
+        "hiragana": "せまい",
+        "meaning": "narrow, small",
+        "wordClass": "adjective",
+        "example": "狭い部屋に住んでいます。(I live in a small room.)"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "kanji": "深",
+    "entries": [
+      {
+        "entryId": 175,
+        "romaji": "fukai",
+        "hiragana": "ふかい",
+        "meaning": "deep",
+        "wordClass": "adjective",
+        "example": "深い湖で泳ぎました。(I swam in a deep lake.)"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "kanji": "浅",
+    "entries": [
+      {
+        "entryId": 176,
+        "romaji": "asai",
+        "hiragana": "あさい",
+        "meaning": "shallow",
+        "wordClass": "adjective",
+        "example": "浅い川を渡りました。(I crossed a shallow river.)"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "kanji": "厚",
+    "entries": [
+      {
+        "entryId": 177,
+        "romaji": "atsui",
+        "hiragana": "あつい",
+        "meaning": "thick",
+        "wordClass": "adjective",
+        "example": "厚いコートを着ています。(I am wearing a thick coat.)"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "kanji": "薄",
+    "entries": [
+      {
+        "entryId": 178,
+        "romaji": "usui",
+        "hiragana": "うすい",
+        "meaning": "thin",
+        "wordClass": "adjective",
+        "example": "薄い本を読みました。(I read a thin book.)"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "kanji": "細",
+    "entries": [
+      {
+        "entryId": 179,
+        "romaji": "hosoi",
+        "hiragana": "ほそい",
+        "meaning": "thin, slender",
+        "wordClass": "adjective",
+        "example": "細い道を歩きました。(I walked on a narrow road.)"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "kanji": "太",
+    "entries": [
+      {
+        "entryId": 180,
+        "romaji": "futoi",
+        "hiragana": "ふとい",
+        "meaning": "thick, fat",
+        "wordClass": "adjective",
+        "example": "太い木があります。(There is a thick tree.)"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "kanji": "丸",
+    "entries": [
+      {
+        "entryId": 181,
+        "romaji": "marui",
+        "hiragana": "まるい",
+        "meaning": "round",
+        "wordClass": "adjective",
+        "example": "丸いテーブルで食事をしました。(I ate at a round table.)"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "kanji": "四",
+    "entries": [
+      {
+        "entryId": 182,
+        "romaji": "shikaku",
+        "hiragana": "しかく",
+        "meaning": "square",
+        "wordClass": "noun",
+        "example": "四角い箱に入れました。(I put it in a square box.)"
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "kanji": "洗",
+    "entries": [
+      {
+        "entryId": 183,
+        "romaji": "arau",
+        "hiragana": "あらう",
+        "meaning": "to wash",
+        "wordClass": "verb",
+        "example": "毎日顔を洗います。(I wash my face every day.)"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "kanji": "拭",
+    "entries": [
+      {
+        "entryId": 184,
+        "romaji": "fuku",
+        "hiragana": "ふく",
+        "meaning": "to wipe",
+        "wordClass": "verb",
+        "example": "机を拭きました。(I wiped the desk.)"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "kanji": "掃",
+    "entries": [
+      {
+        "entryId": 185,
+        "romaji": "sou",
+        "hiragana": "そう",
+        "meaning": "to sweep, to clean",
+        "wordClass": "verb",
+        "example": "部屋を掃除しました。(I cleaned the room.)"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "kanji": "投",
+    "entries": [
+      {
+        "entryId": 186,
+        "romaji": "nageru",
+        "hiragana": "なげる",
+        "meaning": "to throw",
+        "wordClass": "verb",
+        "example": "ボールを投げました。(I threw the ball.)"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "kanji": "拾",
+    "entries": [
+      {
+        "entryId": 187,
+        "romaji": "hirou",
+        "hiragana": "ひろう",
+        "meaning": "to pick up",
+        "wordClass": "verb",
+        "example": "落ちた本を拾いました。(I picked up the book that fell.)"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "kanji": "押",
+    "entries": [
+      {
+        "entryId": 188,
+        "romaji": "osu",
+        "hiragana": "おす",
+        "meaning": "to push",
+        "wordClass": "verb",
+        "example": "ボタンを押してください。(Please push the button.)"
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "kanji": "引",
+    "entries": [
+      {
+        "entryId": 189,
+        "romaji": "hiku",
+        "hiragana": "ひく",
+        "meaning": "to pull",
+        "wordClass": "verb",
+        "example": "ドアを引いて開けました。(I pulled the door open.)"
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "kanji": "止",
+    "entries": [
+      {
+        "entryId": 190,
+        "romaji": "tomaru",
+        "hiragana": "とまる",
+        "meaning": "to stop",
+        "wordClass": "verb",
+        "example": "車が信号で止まりました。(The car stopped at the traffic light.)"
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "kanji": "動",
+    "entries": [
+      {
+        "entryId": 191,
+        "romaji": "ugoku",
+        "hiragana": "うごく",
+        "meaning": "to move",
+        "wordClass": "verb",
+        "example": "電車が動き始めました。(The train started to move.)"
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "kanji": "待",
+    "entries": [
+      {
+        "entryId": 192,
+        "romaji": "matsu",
+        "hiragana": "まつ",
+        "meaning": "to wait",
+        "wordClass": "verb",
+        "example": "友達を待っています。(I am waiting for my friend.)"
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "kanji": "急",
+    "entries": [
+      {
+        "entryId": 193,
+        "romaji": "isogu",
+        "hiragana": "いそぐ",
+        "meaning": "to hurry",
+        "wordClass": "verb",
+        "example": "時間がないので急ぎます。(I'm in a hurry because there's no time.)"
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "kanji": "貸",
+    "entries": [
+      {
+        "entryId": 194,
+        "romaji": "kasu",
+        "hiragana": "かす",
+        "meaning": "to lend",
+        "wordClass": "verb",
+        "example": "本を友達に貸しました。(I lent a book to my friend.)"
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "kanji": "借",
+    "entries": [
+      {
+        "entryId": 195,
+        "romaji": "kariru",
+        "hiragana": "かりる",
+        "meaning": "to borrow",
+        "wordClass": "verb",
+        "example": "図書館で本を借りました。(I borrowed a book from the library.)"
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "kanji": "返",
+    "entries": [
+      {
+        "entryId": 196,
+        "romaji": "kaesu",
+        "hiragana": "かえす",
+        "meaning": "to return, to give back",
+        "wordClass": "verb",
+        "example": "借りた本を返します。(I will return the borrowed book.)"
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "kanji": "送",
+    "entries": [
+      {
+        "entryId": 197,
+        "romaji": "okuru",
+        "hiragana": "おくる",
+        "meaning": "to send",
+        "wordClass": "verb",
+        "example": "手紙を送りました。(I sent a letter.)"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "kanji": "受",
+    "entries": [
+      {
+        "entryId": 198,
+        "romaji": "ukeru",
+        "hiragana": "うける",
+        "meaning": "to receive",
+        "wordClass": "verb",
+        "example": "プレゼントを受け取りました。(I received a present.)"
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "kanji": "教",
+    "entries": [
+      {
+        "entryId": 199,
+        "romaji": "oshieru",
+        "hiragana": "おしえる",
+        "meaning": "to teach",
+        "wordClass": "verb",
+        "example": "日本語を教えています。(I am teaching Japanese.)"
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "kanji": "習",
+    "entries": [
+      {
+        "entryId": 200,
+        "romaji": "narau",
+        "hiragana": "ならう",
+        "meaning": "to learn",
+        "wordClass": "verb",
+        "example": "ピアノを習っています。(I am learning piano.)"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "kanji": "質",
+    "entries": [
+      {
+        "entryId": 201,
+        "romaji": "shitsumon",
+        "hiragana": "しつもん",
+        "meaning": "question",
+        "wordClass": "noun",
+        "example": "質問があります。(I have a question.)"
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "kanji": "答",
+    "entries": [
+      {
+        "entryId": 202,
+        "romaji": "kotaeru",
+        "hiragana": "こたえる",
+        "meaning": "to answer",
+        "wordClass": "verb",
+        "example": "質問に答えました。(I answered the question.)"
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "kanji": "試",
+    "entries": [
+      {
+        "entryId": 203,
+        "romaji": "tameshisu",
+        "hiragana": "ためす",
+        "meaning": "to try, to test",
+        "wordClass": "verb",
+        "example": "新しい料理を試しました。(I tried a new dish.)"
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "kanji": "練",
+    "entries": [
+      {
+        "entryId": 204,
+        "romaji": "renshuu",
+        "hiragana": "れんしゅう",
+        "meaning": "practice",
+        "wordClass": "noun",
+        "example": "毎日練習しています。(I practice every day.)"
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "kanji": "勉",
+    "entries": [
+      {
+        "entryId": 205,
+        "romaji": "benkyou",
+        "hiragana": "べんきょう",
+        "meaning": "study",
+        "wordClass": "noun",
+        "example": "勉強が好きです。(I like studying.)"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "kanji": "研",
+    "entries": [
+      {
+        "entryId": 206,
+        "romaji": "kenkyuu",
+        "hiragana": "けんきゅう",
+        "meaning": "research",
+        "wordClass": "noun",
+        "example": "大学で研究しています。(I am doing research at university.)"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "kanji": "験",
+    "entries": [
+      {
+        "entryId": 207,
+        "romaji": "shiken",
+        "hiragana": "しけん",
+        "meaning": "exam, test",
+        "wordClass": "noun",
+        "example": "来週試験があります。(There is an exam next week.)"
+      }
+    ]
   }
 ]
