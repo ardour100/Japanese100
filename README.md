@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌸 漢字学習 - Japanese Kanji Learning App
+
+A beautiful Next.js application for learning the most frequent Japanese Kanji characters with an elegant Sakura (cherry blossom) theme, interactive features, and pronunciation support.
+
+## Features
+
+- **🌸 Sakura Theme**: Beautiful cherry blossom-inspired color palette with soft pinks and roses
+- **🎨 Japanese Cultural Background**: Animated SVG icons including:
+  - 🌸 Sakura (Cherry Blossoms) - floating and spinning animations
+  - ⛩️ Torii Gates - traditional shrine gates
+  - 🍣 Sushi - representing Japanese cuisine
+  - 🐟 Koi Fish - symbol of perseverance and strength
+  - 👘 Kimono - traditional Japanese clothing
+  - 🤖 Doraemon - beloved cultural icon
+- **10x10 Interactive Grid**: Display 100 most frequent Japanese Kanji in an elegant grid layout
+- **Detailed Character Pages**: Click any Kanji to view detailed information including:
+  - Romaji pronunciation displayed prominently above the Kanji
+  - Hiragana (ひらがな) and Katakana (カタカナ) readings in themed sections
+  - Example sentence with the Kanji in context
+  - Audio pronunciation using Web Speech API
+- **Responsive Design**: Beautiful Tailwind CSS styling with Sakura aesthetics that works on all devices
+- **Navigation**: Easy navigation between Kanji with Previous/Next buttons
+- **Modern UI**: Cherry blossom gradients, floating animations, hover effects, and smooth transitions
+
+## Tech Stack
+
+- **Next.js 15** with App Router
+- **TypeScript** for type safety
+- **Tailwind CSS** for styling
+- **Noto Sans JP** font for proper Japanese character display
+- **Heroicons** for beautiful icons
+- **Web Speech API** for audio pronunciation
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository or download the project files
 
+2. Install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. Open [http://localhost:3000](http://localhost:3000) to view the application
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+```
+src/
+├── app/
+│   ├── kanji/[id]/
+│   │   └── page.tsx      # Individual Kanji detail pages
+│   ├── layout.tsx        # Root layout with Japanese font
+│   ├── page.tsx          # Main grid page
+│   └── globals.css       # Global styles
+└── data/
+    └── kanji.json        # Kanji data with 100 most frequent characters
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Data Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Each Kanji entry includes:
+- `id`: Unique identifier
+- `kanji`: The character itself
+- `romaji`: Romanized pronunciation
+- `hiragana`: Hiragana reading
+- `katakana`: Katakana reading
+- `meaning`: English meaning
+- `example`: Example sentence in Japanese
+- `audio`: Audio file path (uses Web Speech API)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Audio Features
 
-## Deploy on Vercel
+The app uses the Web Speech API for pronunciation, providing:
+- Japanese language synthesis (`ja-JP`)
+- Controlled playback speed for clear pronunciation
+- Visual feedback during audio playback
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Responsive Design
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Mobile**: Optimized grid layout and typography
+- **Tablet**: Enhanced spacing and larger text
+- **Desktop**: Full-featured layout with hover effects
+
+## Contributing
+
+Feel free to contribute by:
+- Adding more Kanji characters
+- Improving the pronunciation data
+- Enhancing the UI/UX
+- Adding new features like favorites or progress tracking
+
+## License
+
+This project is open source and available under the MIT License.

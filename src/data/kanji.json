@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "kanji": "一",
+    "romaji": "ichi",
+    "hiragana": "いち",
+    "katakana": "イチ",
+    "meaning": "one",
+    "example": "一つ (ひとつ) - one thing",
+    "audio": "/audio/ichi.mp3"
+  },
+  {
+    "id": 2,
+    "kanji": "二",
+    "romaji": "ni",
+    "hiragana": "に",
+    "katakana": "ニ",
+    "meaning": "two",
+    "example": "二つ (ふたつ) - two things",
+    "audio": "/audio/ni.mp3"
+  },
+  {
+    "id": 3,
+    "kanji": "三",
+    "romaji": "san",
+    "hiragana": "さん",
+    "katakana": "サン",
+    "meaning": "three",
+    "example": "三つ (みっつ) - three things",
+    "audio": "/audio/san.mp3"
+  },
+  {
+    "id": 4,
+    "kanji": "四",
+    "romaji": "shi/yon",
+    "hiragana": "し/よん",
+    "katakana": "シ/ヨン",
+    "meaning": "four",
+    "example": "四つ (よっつ) - four things",
+    "audio": "/audio/shi.mp3"
+  },
+  {
+    "id": 5,
+    "kanji": "五",
+    "romaji": "go",
+    "hiragana": "ご",
+    "katakana": "ゴ",
+    "meaning": "five",
+    "example": "五つ (いつつ) - five things",
+    "audio": "/audio/go.mp3"
+  },
+  {
+    "id": 6,
+    "kanji": "六",
+    "romaji": "roku",
+    "hiragana": "ろく",
+    "katakana": "ロク",
+    "meaning": "six",
+    "example": "六つ (むっつ) - six things",
+    "audio": "/audio/roku.mp3"
+  },
+  {
+    "id": 7,
+    "kanji": "七",
+    "romaji": "shichi/nana",
+    "hiragana": "しち/なな",
+    "katakana": "シチ/ナナ",
+    "meaning": "seven",
+    "example": "七つ (ななつ) - seven things",
+    "audio": "/audio/shichi.mp3"
+  },
+  {
+    "id": 8,
+    "kanji": "八",
+    "romaji": "hachi",
+    "hiragana": "はち",
+    "katakana": "ハチ",
+    "meaning": "eight",
+    "example": "八つ (やっつ) - eight things",
+    "audio": "/audio/hachi.mp3"
+  },
+  {
+    "id": 9,
+    "kanji": "九",
+    "romaji": "kyuu/ku",
+    "hiragana": "きゅう/く",
+    "katakana": "キュウ/ク",
+    "meaning": "nine",
+    "example": "九つ (ここのつ) - nine things",
+    "audio": "/audio/kyuu.mp3"
+  },
+  {
+    "id": 10,
+    "kanji": "十",
+    "romaji": "juu",
+    "hiragana": "じゅう",
+    "katakana": "ジュウ",
+    "meaning": "ten",
+    "example": "十人 (じゅうにん) - ten people",
+    "audio": "/audio/juu.mp3"
+  },
+  {
+    "id": 11,
+    "kanji": "人",
+    "romaji": "jin/nin/hito",
+    "hiragana": "じん/にん/ひと",
+    "katakana": "ジン/ニン/ヒト",
+    "meaning": "person",
+    "example": "人間 (にんげん) - human being",
+    "audio": "/audio/jin.mp3"
+  },
+  {
+    "id": 12,
+    "kanji": "日",
+    "romaji": "nichi/hi",
+    "hiragana": "にち/ひ",
+    "katakana": "ニチ/ヒ",
+    "meaning": "day/sun",
+    "example": "今日 (きょう) - today",
+    "audio": "/audio/nichi.mp3"
+  },
+  {
+    "id": 13,
+    "kanji": "月",
+    "romaji": "getsu/tsuki",
+    "hiragana": "げつ/つき",
+    "katakana": "ゲツ/ツキ",
+    "meaning": "month/moon",
+    "example": "月曜日 (げつようび) - Monday",
+    "audio": "/audio/getsu.mp3"
+  },
+  {
+    "id": 14,
+    "kanji": "年",
+    "romaji": "nen/toshi",
+    "hiragana": "ねん/とし",
+    "katakana": "ネン/トシ",
+    "meaning": "year",
+    "example": "今年 (ことし) - this year",
+    "audio": "/audio/nen.mp3"
+  },
+  {
+    "id": 15,
+    "kanji": "時",
+    "romaji": "ji/toki",
+    "hiragana": "じ/とき",
+    "katakana": "ジ/トキ",
+    "meaning": "time",
+    "example": "時間 (じかん) - time",
+    "audio": "/audio/ji.mp3"
+  },
+  {
+    "id": 16,
+    "kanji": "水",
+    "romaji": "sui/mizu",
+    "hiragana": "すい/みず",
+    "katakana": "スイ/ミズ",
+    "meaning": "water",
+    "example": "水曜日 (すいようび) - Wednesday",
+    "audio": "/audio/sui.mp3"
+  },
+  {
+    "id": 17,
+    "kanji": "火",
+    "romaji": "ka/hi",
+    "hiragana": "か/ひ",
+    "katakana": "カ/ヒ",
+    "meaning": "fire",
+    "example": "火曜日 (かようび) - Tuesday",
+    "audio": "/audio/ka.mp3"
+  },
+  {
+    "id": 18,
+    "kanji": "木",
+    "romaji": "boku/ki",
+    "hiragana": "ぼく/き",
+    "katakana": "ボク/キ",
+    "meaning": "tree/wood",
+    "example": "木曜日 (もくようび) - Thursday",
+    "audio": "/audio/boku.mp3"
+  },
+  {
+    "id": 19,
+    "kanji": "金",
+    "romaji": "kin/kane",
+    "hiragana": "きん/かね",
+    "katakana": "キン/カネ",
+    "meaning": "gold/money",
+    "example": "金曜日 (きんようび) - Friday",
+    "audio": "/audio/kin.mp3"
+  },
+  {
+    "id": 20,
+    "kanji": "土",
+    "romaji": "do/tsuchi",
+    "hiragana": "ど/つち",
+    "katakana": "ド/ツチ",
+    "meaning": "earth/soil",
+    "example": "土曜日 (どようび) - Saturday",
+    "audio": "/audio/do.mp3"
+  },
+  {
+    "id": 21,
+    "kanji": "大",
+    "romaji": "dai/oo",
+    "hiragana": "だい/おお",
+    "katakana": "ダイ/オオ",
+    "meaning": "big",
+    "example": "大きい (おおきい) - big",
+    "audio": "/audio/dai.mp3"
+  },
+  {
+    "id": 22,
+    "kanji": "小",
+    "romaji": "shou/chii",
+    "hiragana": "しょう/ちい",
+    "katakana": "ショウ/チイ",
+    "meaning": "small",
+    "example": "小さい (ちいさい) - small",
+    "audio": "/audio/shou.mp3"
+  },
+  {
+    "id": 23,
+    "kanji": "上",
+    "romaji": "jou/ue",
+    "hiragana": "じょう/うえ",
+    "katakana": "ジョウ/ウエ",
+    "meaning": "up/above",
+    "example": "上手 (じょうず) - skillful",
+    "audio": "/audio/jou.mp3"
+  },
+  {
+    "id": 24,
+    "kanji": "下",
+    "romaji": "ka/shita",
+    "hiragana": "か/した",
+    "katakana": "カ/シタ",
+    "meaning": "down/below",
+    "example": "下手 (へた) - unskillful",
+    "audio": "/audio/ka.mp3"
+  },
+  {
+    "id": 25,
+    "kanji": "中",
+    "romaji": "chuu/naka",
+    "hiragana": "ちゅう/なか",
+    "katakana": "チュウ/ナカ",
+    "meaning": "middle/inside",
+    "example": "中国 (ちゅうごく) - China",
+    "audio": "/audio/chuu.mp3"
+  },
+  {
+    "id": 26,
+    "kanji": "外",
+    "romaji": "gai/soto",
+    "hiragana": "がい/そと",
+    "katakana": "ガイ/ソト",
+    "meaning": "outside",
+    "example": "外国 (がいこく) - foreign country",
+    "audio": "/audio/gai.mp3"
+  },
+  {
+    "id": 27,
+    "kanji": "国",
+    "romaji": "koku/kuni",
+    "hiragana": "こく/くに",
+    "katakana": "コク/クニ",
+    "meaning": "country",
+    "example": "日本国 (にほんこく) - Japan",
+    "audio": "/audio/koku.mp3"
+  },
+  {
+    "id": 28,
+    "kanji": "家",
+    "romaji": "ka/ie",
+    "hiragana": "か/いえ",
+    "katakana": "カ/イエ",
+    "meaning": "house/family",
+    "example": "家族 (かぞく) - family",
+    "audio": "/audio/ka.mp3"
+  },
+  {
+    "id": 29,
+    "kanji": "学",
+    "romaji": "gaku/mana",
+    "hiragana": "がく/まな",
+    "katakana": "ガク/マナ",
+    "meaning": "study/learn",
+    "example": "学校 (がっこう) - school",
+    "audio": "/audio/gaku.mp3"
+  },
+  {
+    "id": 30,
+    "kanji": "校",
+    "romaji": "kou",
+    "hiragana": "こう",
+    "katakana": "コウ",
+    "meaning": "school",
+    "example": "高校 (こうこう) - high school",
+    "audio": "/audio/kou.mp3"
+  },
+  {
+    "id": 31,
+    "kanji": "生",
+    "romaji": "sei/nama",
+    "hiragana": "せい/なま",
+    "katakana": "セイ/ナマ",
+    "meaning": "life/birth",
+    "example": "学生 (がくせい) - student",
+    "audio": "/audio/sei.mp3"
+  },
+  {
+    "id": 32,
+    "kanji": "先",
+    "romaji": "sen/saki",
+    "hiragana": "せん/さき",
+    "katakana": "セン/サキ",
+    "meaning": "previous/ahead",
+    "example": "先生 (せんせい) - teacher",
+    "audio": "/audio/sen.mp3"
+  },
+  {
+    "id": 33,
+    "kanji": "食",
+    "romaji": "shoku/ta",
+    "hiragana": "しょく/た",
+    "katakana": "ショク/タ",
+    "meaning": "eat/food",
+    "example": "食べる (たべる) - to eat",
+    "audio": "/audio/shoku.mp3"
+  },
+  {
+    "id": 34,
+    "kanji": "飲",
+    "romaji": "in/no",
+    "hiragana": "いん/の",
+    "katakana": "イン/ノ",
+    "meaning": "drink",
+    "example": "飲み物 (のみもの) - beverage",
+    "audio": "/audio/in.mp3"
+  },
+  {
+    "id": 35,
+    "kanji": "見",
+    "romaji": "ken/mi",
+    "hiragana": "けん/み",
+    "katakana": "ケン/ミ",
+    "meaning": "see/look",
+    "example": "見る (みる) - to see",
+    "audio": "/audio/ken.mp3"
+  },
+  {
+    "id": 36,
+    "kanji": "聞",
+    "romaji": "bun/ki",
+    "hiragana": "ぶん/き",
+    "katakana": "ブン/キ",
+    "meaning": "hear/listen",
+    "example": "聞く (きく) - to hear",
+    "audio": "/audio/bun.mp3"
+  },
+  {
+    "id": 37,
+    "kanji": "話",
+    "romaji": "wa/hana",
+    "hiragana": "わ/はな",
+    "katakana": "ワ/ハナ",
+    "meaning": "speak/talk",
+    "example": "話す (はなす) - to speak",
+    "audio": "/audio/wa.mp3"
+  },
+  {
+    "id": 38,
+    "kanji": "読",
+    "romaji": "doku/yo",
+    "hiragana": "どく/よ",
+    "katakana": "ドク/ヨ",
+    "meaning": "read",
+    "example": "読む (よむ) - to read",
+    "audio": "/audio/doku.mp3"
+  },
+  {
+    "id": 39,
+    "kanji": "書",
+    "romaji": "sho/ka",
+    "hiragana": "しょ/か",
+    "katakana": "ショ/カ",
+    "meaning": "write",
+    "example": "書く (かく) - to write",
+    "audio": "/audio/sho.mp3"
+  },
+  {
+    "id": 40,
+    "kanji": "来",
+    "romaji": "rai/ku",
+    "hiragana": "らい/く",
+    "katakana": "ライ/ク",
+    "meaning": "come",
+    "example": "来る (くる) - to come",
+    "audio": "/audio/rai.mp3"
+  },
+  {
+    "id": 41,
+    "kanji": "行",
+    "romaji": "kou/i",
+    "hiragana": "こう/い",
+    "katakana": "コウ/イ",
+    "meaning": "go",
+    "example": "行く (いく) - to go",
+    "audio": "/audio/kou.mp3"
+  },
+  {
+    "id": 42,
+    "kanji": "帰",
+    "romaji": "ki/kae",
+    "hiragana": "き/かえ",
+    "katakana": "キ/カエ",
+    "meaning": "return",
+    "example": "帰る (かえる) - to return",
+    "audio": "/audio/ki.mp3"
+  },
+  {
+    "id": 43,
+    "kanji": "出",
+    "romaji": "shutsu/de",
+    "hiragana": "しゅつ/で",
+    "katakana": "シュツ/デ",
+    "meaning": "exit/go out",
+    "example": "出る (でる) - to exit",
+    "audio": "/audio/shutsu.mp3"
+  },
+  {
+    "id": 44,
+    "kanji": "入",
+    "romaji": "nyuu/hai",
+    "hiragana": "にゅう/はい",
+    "katakana": "ニュウ/ハイ",
+    "meaning": "enter",
+    "example": "入る (はいる) - to enter",
+    "audio": "/audio/nyuu.mp3"
+  },
+  {
+    "id": 45,
+    "kanji": "立",
+    "romaji": "ritsu/ta",
+    "hiragana": "りつ/た",
+    "katakana": "リツ/タ",
+    "meaning": "stand",
+    "example": "立つ (たつ) - to stand",
+    "audio": "/audio/ritsu.mp3"
+  },
+  {
+    "id": 46,
+    "kanji": "座",
+    "romaji": "za/suwa",
+    "hiragana": "ざ/すわ",
+    "katakana": "ザ/スワ",
+    "meaning": "sit",
+    "example": "座る (すわる) - to sit",
+    "audio": "/audio/za.mp3"
+  },
+  {
+    "id": 47,
+    "kanji": "買",
+    "romaji": "bai/ka",
+    "hiragana": "ばい/か",
+    "katakana": "バイ/カ",
+    "meaning": "buy",
+    "example": "買う (かう) - to buy",
+    "audio": "/audio/bai.mp3"
+  },
+  {
+    "id": 48,
+    "kanji": "売",
+    "romaji": "bai/u",
+    "hiragana": "ばい/う",
+    "katakana": "バイ/ウ",
+    "meaning": "sell",
+    "example": "売る (うる) - to sell",
+    "audio": "/audio/bai.mp3"
+  },
+  {
+    "id": 49,
+    "kanji": "作",
+    "romaji": "saku/tsuku",
+    "hiragana": "さく/つく",
+    "katakana": "サク/ツク",
+    "meaning": "make",
+    "example": "作る (つくる) - to make",
+    "audio": "/audio/saku.mp3"
+  },
+  {
+    "id": 50,
+    "kanji": "使",
+    "romaji": "shi/tsuka",
+    "hiragana": "し/つか",
+    "katakana": "シ/ツカ",
+    "meaning": "use",
+    "example": "使う (つかう) - to use",
+    "audio": "/audio/shi.mp3"
+  },
+  {
+    "id": 51,
+    "kanji": "好",
+    "romaji": "kou/su",
+    "hiragana": "こう/す",
+    "katakana": "コウ/ス",
+    "meaning": "like",
+    "example": "好き (すき) - to like",
+    "audio": "/audio/kou.mp3"
+  },
+  {
+    "id": 52,
+    "kanji": "新",
+    "romaji": "shin/atara",
+    "hiragana": "しん/あたら",
+    "katakana": "シン/アタラ",
+    "meaning": "new",
+    "example": "新しい (あたらしい) - new",
+    "audio": "/audio/shin.mp3"
+  },
+  {
+    "id": 53,
+    "kanji": "古",
+    "romaji": "ko/furu",
+    "hiragana": "こ/ふる",
+    "katakana": "コ/フル",
+    "meaning": "old",
+    "example": "古い (ふるい) - old",
+    "audio": "/audio/ko.mp3"
+  },
+  {
+    "id": 54,
+    "kanji": "高",
+    "romaji": "kou/taka",
+    "hiragana": "こう/たか",
+    "katakana": "コウ/タカ",
+    "meaning": "high/expensive",
+    "example": "高い (たかい) - high/expensive",
+    "audio": "/audio/kou.mp3"
+  },
+  {
+    "id": 55,
+    "kanji": "安",
+    "romaji": "an/yasu",
+    "hiragana": "あん/やす",
+    "katakana": "アン/ヤス",
+    "meaning": "cheap/safe",
+    "example": "安い (やすい) - cheap",
+    "audio": "/audio/an.mp3"
+  },
+  {
+    "id": 56,
+    "kanji": "早",
+    "romaji": "sou/haya",
+    "hiragana": "そう/はや",
+    "katakana": "ソウ/ハヤ",
+    "meaning": "early/fast",
+    "example": "早い (はやい) - early/fast",
+    "audio": "/audio/sou.mp3"
+  },
+  {
+    "id": 57,
+    "kanji": "遅",
+    "romaji": "chi/oso",
+    "hiragana": "ち/おそ",
+    "katakana": "チ/オソ",
+    "meaning": "late/slow",
+    "example": "遅い (おそい) - late/slow",
+    "audio": "/audio/chi.mp3"
+  },
+  {
+    "id": 58,
+    "kanji": "多",
+    "romaji": "ta/oo",
+    "hiragana": "た/おお",
+    "katakana": "タ/オオ",
+    "meaning": "many/much",
+    "example": "多い (おおい) - many",
+    "audio": "/audio/ta.mp3"
+  },
+  {
+    "id": 59,
+    "kanji": "少",
+    "romaji": "shou/suku",
+    "hiragana": "しょう/すく",
+    "katakana": "ショウ/スク",
+    "meaning": "few/little",
+    "example": "少ない (すくない) - few",
+    "audio": "/audio/shou.mp3"
+  },
+  {
+    "id": 60,
+    "kanji": "長",
+    "romaji": "chou/naga",
+    "hiragana": "ちょう/なが",
+    "katakana": "チョウ/ナガ",
+    "meaning": "long",
+    "example": "長い (ながい) - long",
+    "audio": "/audio/chou.mp3"
+  },
+  {
+    "id": 61,
+    "kanji": "短",
+    "romaji": "tan/mijika",
+    "hiragana": "たん/みじか",
+    "katakana": "タン/ミジカ",
+    "meaning": "short",
+    "example": "短い (みじかい) - short",
+    "audio": "/audio/tan.mp3"
+  },
+  {
+    "id": 62,
+    "kanji": "明",
+    "romaji": "mei/aka",
+    "hiragana": "めい/あか",
+    "katakana": "メイ/アカ",
+    "meaning": "bright",
+    "example": "明るい (あかるい) - bright",
+    "audio": "/audio/mei.mp3"
+  },
+  {
+    "id": 63,
+    "kanji": "暗",
+    "romaji": "an/kura",
+    "hiragana": "あん/くら",
+    "katakana": "アン/クラ",
+    "meaning": "dark",
+    "example": "暗い (くらい) - dark",
+    "audio": "/audio/an.mp3"
+  },
+  {
+    "id": 64,
+    "kanji": "青",
+    "romaji": "sei/ao",
+    "hiragana": "せい/あお",
+    "katakana": "セイ/アオ",
+    "meaning": "blue",
+    "example": "青い (あおい) - blue",
+    "audio": "/audio/sei.mp3"
+  },
+  {
+    "id": 65,
+    "kanji": "赤",
+    "romaji": "seki/aka",
+    "hiragana": "せき/あか",
+    "katakana": "セキ/アカ",
+    "meaning": "red",
+    "example": "赤い (あかい) - red",
+    "audio": "/audio/seki.mp3"
+  },
+  {
+    "id": 66,
+    "kanji": "白",
+    "romaji": "haku/shiro",
+    "hiragana": "はく/しろ",
+    "katakana": "ハク/シロ",
+    "meaning": "white",
+    "example": "白い (しろい) - white",
+    "audio": "/audio/haku.mp3"
+  },
+  {
+    "id": 67,
+    "kanji": "黒",
+    "romaji": "koku/kuro",
+    "hiragana": "こく/くろ",
+    "katakana": "コク/クロ",
+    "meaning": "black",
+    "example": "黒い (くろい) - black",
+    "audio": "/audio/koku.mp3"
+  },
+  {
+    "id": 68,
+    "kanji": "車",
+    "romaji": "sha/kuruma",
+    "hiragana": "しゃ/くるま",
+    "katakana": "シャ/クルマ",
+    "meaning": "car",
+    "example": "車 (くるま) - car",
+    "audio": "/audio/sha.mp3"
+  },
+  {
+    "id": 69,
+    "kanji": "電",
+    "romaji": "den",
+    "hiragana": "でん",
+    "katakana": "デン",
+    "meaning": "electricity",
+    "example": "電車 (でんしゃ) - train",
+    "audio": "/audio/den.mp3"
+  },
+  {
+    "id": 70,
+    "kanji": "駅",
+    "romaji": "eki",
+    "hiragana": "えき",
+    "katakana": "エキ",
+    "meaning": "station",
+    "example": "駅 (えき) - station",
+    "audio": "/audio/eki.mp3"
+  },
+  {
+    "id": 71,
+    "kanji": "道",
+    "romaji": "dou/michi",
+    "hiragana": "どう/みち",
+    "katakana": "ドウ/ミチ",
+    "meaning": "road/way",
+    "example": "道 (みち) - road",
+    "audio": "/audio/dou.mp3"
+  },
+  {
+    "id": 72,
+    "kanji": "川",
+    "romaji": "sen/kawa",
+    "hiragana": "せん/かわ",
+    "katakana": "セン/カワ",
+    "meaning": "river",
+    "example": "川 (かわ) - river",
+    "audio": "/audio/sen.mp3"
+  },
+  {
+    "id": 73,
+    "kanji": "山",
+    "romaji": "san/yama",
+    "hiragana": "さん/やま",
+    "katakana": "サン/ヤマ",
+    "meaning": "mountain",
+    "example": "山 (やま) - mountain",
+    "audio": "/audio/san.mp3"
+  },
+  {
+    "id": 74,
+    "kanji": "海",
+    "romaji": "kai/umi",
+    "hiragana": "かい/うみ",
+    "katakana": "カイ/ウミ",
+    "meaning": "sea",
+    "example": "海 (うみ) - sea",
+    "audio": "/audio/kai.mp3"
+  },
+  {
+    "id": 75,
+    "kanji": "空",
+    "romaji": "kuu/sora",
+    "hiragana": "くう/そら",
+    "katakana": "クウ/ソラ",
+    "meaning": "sky",
+    "example": "空 (そら) - sky",
+    "audio": "/audio/kuu.mp3"
+  },
+  {
+    "id": 76,
+    "kanji": "雨",
+    "romaji": "u/ame",
+    "hiragana": "う/あめ",
+    "katakana": "ウ/アメ",
+    "meaning": "rain",
+    "example": "雨 (あめ) - rain",
+    "audio": "/audio/u.mp3"
+  },
+  {
+    "id": 77,
+    "kanji": "風",
+    "romaji": "fuu/kaze",
+    "hiragana": "ふう/かぜ",
+    "katakana": "フウ/カゼ",
+    "meaning": "wind",
+    "example": "風 (かぜ) - wind",
+    "audio": "/audio/fuu.mp3"
+  },
+  {
+    "id": 78,
+    "kanji": "雪",
+    "romaji": "setsu/yuki",
+    "hiragana": "せつ/ゆき",
+    "katakana": "セツ/ユキ",
+    "meaning": "snow",
+    "example": "雪 (ゆき) - snow",
+    "audio": "/audio/setsu.mp3"
+  },
+  {
+    "id": 79,
+    "kanji": "花",
+    "romaji": "ka/hana",
+    "hiragana": "か/はな",
+    "katakana": "カ/ハナ",
+    "meaning": "flower",
+    "example": "花 (はな) - flower",
+    "audio": "/audio/ka.mp3"
+  },
+  {
+    "id": 80,
+    "kanji": "犬",
+    "romaji": "ken/inu",
+    "hiragana": "けん/いぬ",
+    "katakana": "ケン/イヌ",
+    "meaning": "dog",
+    "example": "犬 (いぬ) - dog",
+    "audio": "/audio/ken.mp3"
+  },
+  {
+    "id": 81,
+    "kanji": "猫",
+    "romaji": "byou/neko",
+    "hiragana": "びょう/ねこ",
+    "katakana": "ビョウ/ネコ",
+    "meaning": "cat",
+    "example": "猫 (ねこ) - cat",
+    "audio": "/audio/byou.mp3"
+  },
+  {
+    "id": 82,
+    "kanji": "魚",
+    "romaji": "gyo/sakana",
+    "hiragana": "ぎょ/さかな",
+    "katakana": "ギョ/サカナ",
+    "meaning": "fish",
+    "example": "魚 (さかな) - fish",
+    "audio": "/audio/gyo.mp3"
+  },
+  {
+    "id": 83,
+    "kanji": "鳥",
+    "romaji": "chou/tori",
+    "hiragana": "ちょう/とり",
+    "katakana": "チョウ/トリ",
+    "meaning": "bird",
+    "example": "鳥 (とり) - bird",
+    "audio": "/audio/chou.mp3"
+  },
+  {
+    "id": 84,
+    "kanji": "肉",
+    "romaji": "niku",
+    "hiragana": "にく",
+    "katakana": "ニク",
+    "meaning": "meat",
+    "example": "肉 (にく) - meat",
+    "audio": "/audio/niku.mp3"
+  },
+  {
+    "id": 85,
+    "kanji": "野",
+    "romaji": "ya/no",
+    "hiragana": "や/の",
+    "katakana": "ヤ/ノ",
+    "meaning": "field",
+    "example": "野菜 (やさい) - vegetables",
+    "audio": "/audio/ya.mp3"
+  },
+  {
+    "id": 86,
+    "kanji": "菜",
+    "romaji": "sai/na",
+    "hiragana": "さい/な",
+    "katakana": "サイ/ナ",
+    "meaning": "vegetable",
+    "example": "野菜 (やさい) - vegetables",
+    "audio": "/audio/sai.mp3"
+  },
+  {
+    "id": 87,
+    "kanji": "米",
+    "romaji": "bei/kome",
+    "hiragana": "べい/こめ",
+    "katakana": "ベイ/コメ",
+    "meaning": "rice",
+    "example": "米 (こめ) - rice",
+    "audio": "/audio/bei.mp3"
+  },
+  {
+    "id": 88,
+    "kanji": "茶",
+    "romaji": "cha",
+    "hiragana": "ちゃ",
+    "katakana": "チャ",
+    "meaning": "tea",
+    "example": "お茶 (おちゃ) - tea",
+    "audio": "/audio/cha.mp3"
+  },
+  {
+    "id": 89,
+    "kanji": "酒",
+    "romaji": "shu/sake",
+    "hiragana": "しゅ/さけ",
+    "katakana": "シュ/サケ",
+    "meaning": "alcohol",
+    "example": "お酒 (おさけ) - alcohol",
+    "audio": "/audio/shu.mp3"
+  },
+  {
+    "id": 90,
+    "kanji": "病",
+    "romaji": "byou/ya",
+    "hiragana": "びょう/や",
+    "katakana": "ビョウ/ヤ",
+    "meaning": "illness",
+    "example": "病院 (びょういん) - hospital",
+    "audio": "/audio/byou.mp3"
+  },
+  {
+    "id": 91,
+    "kanji": "院",
+    "romaji": "in",
+    "hiragana": "いん",
+    "katakana": "イン",
+    "meaning": "institution",
+    "example": "病院 (びょういん) - hospital",
+    "audio": "/audio/in.mp3"
+  },
+  {
+    "id": 92,
+    "kanji": "店",
+    "romaji": "ten/mise",
+    "hiragana": "てん/みせ",
+    "katakana": "テン/ミセ",
+    "meaning": "shop",
+    "example": "店 (みせ) - shop",
+    "audio": "/audio/ten.mp3"
+  },
+  {
+    "id": 93,
+    "kanji": "銀",
+    "romaji": "gin",
+    "hiragana": "ぎん",
+    "katakana": "ギン",
+    "meaning": "silver",
+    "example": "銀行 (ぎんこう) - bank",
+    "audio": "/audio/gin.mp3"
+  },
+  {
+    "id": 94,
+    "kanji": "郵",
+    "romaji": "yuu",
+    "hiragana": "ゆう",
+    "katakana": "ユウ",
+    "meaning": "mail",
+    "example": "郵便局 (ゆうびんきょく) - post office",
+    "audio": "/audio/yuu.mp3"
+  },
+  {
+    "id": 95,
+    "kanji": "便",
+    "romaji": "ben",
+    "hiragana": "べん",
+    "katakana": "ベン",
+    "meaning": "convenience",
+    "example": "便利 (べんり) - convenient",
+    "audio": "/audio/ben.mp3"
+  },
+  {
+    "id": 96,
+    "kanji": "局",
+    "romaji": "kyoku",
+    "hiragana": "きょく",
+    "katakana": "キョク",
+    "meaning": "bureau",
+    "example": "郵便局 (ゆうびんきょく) - post office",
+    "audio": "/audio/kyoku.mp3"
+  },
+  {
+    "id": 97,
+    "kanji": "会",
+    "romaji": "kai/a",
+    "hiragana": "かい/あ",
+    "katakana": "カイ/ア",
+    "meaning": "meet",
+    "example": "会う (あう) - to meet",
+    "audio": "/audio/kai.mp3"
+  },
+  {
+    "id": 98,
+    "kanji": "社",
+    "romaji": "sha/yashiro",
+    "hiragana": "しゃ/やしろ",
+    "katakana": "シャ/ヤシロ",
+    "meaning": "company",
+    "example": "会社 (かいしゃ) - company",
+    "audio": "/audio/sha.mp3"
+  },
+  {
+    "id": 99,
+    "kanji": "名",
+    "romaji": "mei/na",
+    "hiragana": "めい/な",
+    "katakana": "メイ/ナ",
+    "meaning": "name",
+    "example": "名前 (なまえ) - name",
+    "audio": "/audio/mei.mp3"
+  },
+  {
+    "id": 100,
+    "kanji": "前",
+    "romaji": "zen/mae",
+    "hiragana": "ぜん/まえ",
+    "katakana": "ゼン/マエ",
+    "meaning": "front/before",
+    "example": "前 (まえ) - front",
+    "audio": "/audio/zen.mp3"
+  }
+]
