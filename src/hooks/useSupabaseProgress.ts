@@ -12,6 +12,12 @@ export const useSupabaseProgress = () => {
   const [progress, setProgress] = useState<KanjiProgress>({});
   const [isLoaded, setIsLoaded] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [isHydrated, setIsHydrated] = useState(false);
+
+  // Handle hydration
+  useEffect(() => {
+    setIsHydrated(true);
+  }, []);
 
   // Load progress from Supabase or localStorage
   const loadProgress = useCallback(async () => {
@@ -138,8 +144,18 @@ export const useSupabaseProgress = () => {
   }, [progress, isAuthenticated, user]);
 
   const getKanjiProgress = useCallback((kanjiId: number): number => {
+    // Before hydration, return 0 to prevent hydration mismatch
+    if (!isHydrated) {
+      return 0;
+    }
+
+    // If user is not authenticated and it's one of the first 10 kanji, show as mastered (100%)
+    if (!isAuthenticated && kanjiId >= 1 && kanjiId <= 10) {
+      return 100;
+    }
+
     return progress[kanjiId] || 0;
-  }, [progress]);
+  }, [progress, isAuthenticated, isHydrated]);
 
   const resetProgress = useCallback(async () => {
     if (isSupabaseConfigured() && isAuthenticated && user) {
@@ -185,7 +201,7 @@ export const useSupabaseProgress = () => {
     getKanjiProgress,
     resetProgress,
     getProgressStats,
-    isLoaded,
+    isLoaded: isLoaded && isHydrated,
     isLoading,
     isAuthenticated: isSupabaseConfigured() ? isAuthenticated : false
   };

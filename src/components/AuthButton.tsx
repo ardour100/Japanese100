@@ -1,10 +1,21 @@
 "use client";
 
+import { useState, useEffect } from 'react';
 import { useAuth } from '@/hooks/useAuth';
 import { UserIcon, ArrowRightOnRectangleIcon } from '@heroicons/react/24/outline';
 
 export default function AuthButton() {
   const { user, loading, signInWithGoogle, signOut, isAuthenticated, isSupabaseConfigured } = useAuth();
+  const [isHydrated, setIsHydrated] = useState(false);
+
+  useEffect(() => {
+    setIsHydrated(true);
+  }, []);
+
+  // Don't render anything until hydrated to prevent mismatch
+  if (!isHydrated) {
+    return <div className="w-24 h-10" />; // Placeholder with similar dimensions
+  }
 
   // Don't show auth button if Supabase is not configured
   if (!isSupabaseConfigured) {
@@ -23,12 +34,12 @@ export default function AuthButton() {
   if (isAuthenticated && user) {
     return (
       <div className="flex items-center space-x-3">
-        {/* User Avatar and Name */}
-        <div className="flex items-center space-x-2">
+        {/* User Avatar Only */}
+        <div className="flex items-center">
           {user.user_metadata?.avatar_url ? (
             <img
               src={user.user_metadata.avatar_url}
-              alt={user.user_metadata?.full_name || 'User'}
+              alt="User"
               className="w-8 h-8 rounded-full border border-rose-200"
             />
           ) : (
@@ -36,12 +47,6 @@ export default function AuthButton() {
               <UserIcon className="w-5 h-5 text-rose-600" />
             </div>
           )}
-          <div className="hidden sm:block">
-            <p className="text-sm font-medium text-rose-700">
-              {user.user_metadata?.full_name || user.email}
-            </p>
-            <p className="text-xs text-rose-500">Signed in</p>
-          </div>
         </div>
 
         {/* Sign Out Button */}
