@@ -9,7 +9,8 @@
         "hiragana": "いち",
         "meaning": "one",
         "wordClass": "number",
-        "example": "一つのリンゴを食べました。(I ate one apple.)"
+        "example": "一つのリンゴを食べました。(I ate one apple.)",
+        "exampleKana": "ひとつのりんごをたべました。"
       }
     ]
   },
@@ -23,7 +24,8 @@
         "hiragana": "に",
         "meaning": "two",
         "wordClass": "number",
-        "example": "二人の友達と映画を見ました。(I watched a movie with two friends.)"
+        "example": "二人の友達と映画を見ました。(I watched a movie with two friends.)",
+        "exampleKana": "ふたりのともだちとえいがをみました。"
       }
     ]
   },
@@ -37,7 +39,8 @@
         "hiragana": "さん",
         "meaning": "three",
         "wordClass": "number",
-        "example": "三時に会議があります。(There is a meeting at three o'clock.)"
+        "example": "三時に会議があります。(There is a meeting at three o'clock.)",
+        "exampleKana": "さんじにかいぎがあります。"
       }
     ]
   },
@@ -51,7 +54,8 @@
         "hiragana": "よん",
         "meaning": "four",
         "wordClass": "number",
-        "example": "四季がある国に住んでいます。(I live in a country with four seasons.)"
+        "example": "四季がある国に住んでいます。(I live in a country with four seasons.)",
+        "exampleKana": "しきがあるくににすんでいます。"
       }
     ]
   },
@@ -65,7 +69,8 @@
         "hiragana": "ご",
         "meaning": "five",
         "wordClass": "number",
-        "example": "五分後に出発します。(We will leave in five minutes.)"
+        "example": "五分後に出発します。(We will leave in five minutes.)",
+        "exampleKana": "ごふんごにしゅっぱつします。"
       }
     ]
   },
@@ -79,7 +84,8 @@
         "hiragana": "ろく",
         "meaning": "six",
         "wordClass": "number",
-        "example": "六時に起きました。(I woke up at six o'clock.)"
+        "example": "六時に起きました。(I woke up at six o'clock.)",
+        "exampleKana": "ろくじにおきました。"
       }
     ]
   },
@@ -93,7 +99,8 @@
         "hiragana": "なな",
         "meaning": "seven",
         "wordClass": "number",
-        "example": "七月は夏です。(July is summer.)"
+        "example": "七月は夏です。(July is summer.)",
+        "exampleKana": "しちがつはなつです。"
       }
     ]
   },
@@ -107,7 +114,8 @@
         "hiragana": "はち",
         "meaning": "eight",
         "wordClass": "number",
-        "example": "八時に学校が始まります。(School starts at eight o'clock.)"
+        "example": "八時に学校が始まります。(School starts at eight o'clock.)",
+        "exampleKana": "はちじにがっこうがはじまります。"
       }
     ]
   },
@@ -121,7 +129,8 @@
         "hiragana": "きゅう",
         "meaning": "nine",
         "wordClass": "number",
-        "example": "九月に新学期が始まります。(The new semester starts in September.)"
+        "example": "九月に新学期が始まります。(The new semester starts in September.)",
+        "exampleKana": "くがつにしんがっきがはじまります。"
       }
     ]
   },
@@ -135,7 +144,8 @@
         "hiragana": "じゅう",
         "meaning": "ten",
         "wordClass": "number",
-        "example": "十人の学生がいます。(There are ten students.)"
+        "example": "十人の学生がいます。(There are ten students.)",
+        "exampleKana": "じゅうにんのがくせいがいます。"
       }
     ]
   },
@@ -149,7 +159,8 @@
         "hiragana": "ひと",
         "meaning": "person",
         "wordClass": "noun",
-        "example": "あの人は私の先生です。(That person is my teacher.)"
+        "example": "あの人は私の先生です。(That person is my teacher.)",
+        "exampleKana": "あのひとはわたしのせんせいです。"
       }
     ]
   },
@@ -163,7 +174,8 @@
         "hiragana": "ひ",
         "meaning": "sun, day",
         "wordClass": "noun",
-        "example": "今日は良い天気です。(Today is good weather.)"
+        "example": "今日は良い天気です。(Today is good weather.)",
+        "exampleKana": "きょうはよいてんきです。"
       }
     ]
   },
@@ -177,7 +189,8 @@
         "hiragana": "つき",
         "meaning": "moon, month",
         "wordClass": "noun",
-        "example": "来月は忙しくなります。(Next month will be busy.)"
+        "example": "来月は忙しくなります。(Next month will be busy.)",
+        "exampleKana": "らいげつはいそがしくなります。"
       }
     ]
   },
@@ -191,7 +204,8 @@
         "hiragana": "とし",
         "meaning": "year",
         "wordClass": "noun",
-        "example": "今年はとても暑いです。(This year is very hot.)"
+        "example": "今年はとても暑いです。(This year is very hot.)",
+        "exampleKana": "ことしはとてもあついです。"
       }
     ]
   },
@@ -205,7 +219,8 @@
         "hiragana": "とき",
         "meaning": "time",
         "wordClass": "noun",
-        "example": "子供の時によく公園で遊びました。(I often played in the park when I was a child.)"
+        "example": "子供の時によく公園で遊びました。(I often played in the park when I was a child.)",
+        "exampleKana": "こどものときによくこうえんであそびました。"
       }
     ]
   },
@@ -219,7 +234,8 @@
         "hiragana": "ふん",
         "meaning": "minute",
         "wordClass": "noun",
-        "example": "三十分待ちました。(I waited for thirty minutes.)"
+        "example": "三十分待ちました。(I waited for thirty minutes.)",
+        "exampleKana": "さんじゅうふんまちました。"
       }
     ]
   },
@@ -233,7 +249,8 @@
         "hiragana": "しょ",
         "meaning": "writing, book",
         "wordClass": "noun",
-        "example": "この書は古い時代のものです。(This writing is from an ancient period.)"
+        "example": "この書は古い時代のものです。(This writing is from an ancient period.)",
+        "exampleKana": "このしょはふるいじだいのものです。"
       },
       {
         "entryId": 18,
@@ -241,7 +258,8 @@
         "hiragana": "かく",
         "meaning": "to write",
         "wordClass": "verb",
-        "example": "毎日日記を書いています。(I write in my diary every day.)"
+        "example": "毎日日記を書いています。(I write in my diary every day.)",
+        "exampleKana": "まいにちにっきをかいています。"
       }
     ]
   },
@@ -255,7 +273,8 @@
         "hiragana": "しょく",
         "meaning": "food, meal",
         "wordClass": "noun",
-        "example": "日本の食は健康的です。(Japanese food is healthy.)"
+        "example": "日本の食は健康的です。(Japanese food is healthy.)",
+        "exampleKana": "にほんのしょくはけんこうてきです。"
       },
       {
         "entryId": 20,
@@ -263,7 +282,8 @@
         "hiragana": "たべる",
         "meaning": "to eat",
         "wordClass": "verb",
-        "example": "朝ごはんを食べませんでした。(I didn't eat breakfast.)"
+        "example": "朝ごはんを食べませんでした。(I didn't eat breakfast.)",
+        "exampleKana": "あさごはんをたべませんでした。"
       }
     ]
   },
@@ -277,7 +297,8 @@
         "hiragana": "がく",
         "meaning": "learning, study",
         "wordClass": "noun",
-        "example": "数学は難しい学問です。(Mathematics is a difficult field of study.)"
+        "example": "数学は難しい学問です。(Mathematics is a difficult field of study.)",
+        "exampleKana": "すうがくはむずかしいがくもんです。"
       },
       {
         "entryId": 22,
@@ -285,7 +306,8 @@
         "hiragana": "まなぶ",
         "meaning": "to learn, to study",
         "wordClass": "verb",
-        "example": "大学で経済を学んでいます。(I am studying economics at university.)"
+        "example": "大学で経済を学んでいます。(I am studying economics at university.)",
+        "exampleKana": "だいがくでけいざいをまなんでいます。"
       }
     ]
   },
@@ -299,7 +321,8 @@
         "hiragana": "けん",
         "meaning": "view, sight",
         "wordClass": "noun",
-        "example": "その意見には賛成です。(I agree with that opinion.)"
+        "example": "その意見には賛成です。(I agree with that opinion.)",
+        "exampleKana": "そのいけんにはさんせいです。"
       },
       {
         "entryId": 24,
@@ -307,7 +330,8 @@
         "hiragana": "みる",
         "meaning": "to see, to look",
         "wordClass": "verb",
-        "example": "昨日映画を見ました。(I watched a movie yesterday.)"
+        "example": "昨日映画を見ました。(I watched a movie yesterday.)",
+        "exampleKana": "きのうえいがをみました。"
       }
     ]
   },
@@ -321,7 +345,8 @@
         "hiragana": "どく",
         "meaning": "reading",
         "wordClass": "noun",
-        "example": "読書は良い習慣です。(Reading is a good habit.)"
+        "example": "読書は良い習慣です。(Reading is a good habit.)",
+        "exampleKana": "どくしょはよいしゅうかんです。"
       },
       {
         "entryId": 26,
@@ -329,7 +354,8 @@
         "hiragana": "よむ",
         "meaning": "to read",
         "wordClass": "verb",
-        "example": "新聞を読む時間がありません。(I don't have time to read the newspaper.)"
+        "example": "新聞を読む時間がありません。(I don't have time to read the newspaper.)",
+        "exampleKana": "しんぶんをよむじかんがありません。"
       }
     ]
   },
@@ -343,7 +369,8 @@
         "hiragana": "みず",
         "meaning": "water",
         "wordClass": "noun",
-        "example": "冷たい水を飲みました。(I drank cold water.)"
+        "example": "冷たい水を飲みました。(I drank cold water.)",
+        "exampleKana": "つめたいみずをのみました。"
       }
     ]
   },
@@ -357,7 +384,8 @@
         "hiragana": "ひ",
         "meaning": "fire",
         "wordClass": "noun",
-        "example": "火を消してください。(Please put out the fire.)"
+        "example": "火を消してください。(Please put out the fire.)",
+        "exampleKana": "ひをけしてください。"
       }
     ]
   },
@@ -371,7 +399,8 @@
         "hiragana": "き",
         "meaning": "tree, wood",
         "wordClass": "noun",
-        "example": "大きな木の下で休みました。(I rested under a big tree.)"
+        "example": "大きな木の下で休みました。(I rested under a big tree.)",
+        "exampleKana": "おおきなきのしたでやすみました。"
       }
     ]
   },
@@ -385,7 +414,8 @@
         "hiragana": "きん",
         "meaning": "gold, money",
         "wordClass": "noun",
-        "example": "金曜日は忙しいです。(Friday is busy.)"
+        "example": "金曜日は忙しいです。(Friday is busy.)",
+        "exampleKana": "きんようびはいそがしいです。"
       }
     ]
   },
@@ -399,7 +429,8 @@
         "hiragana": "つち",
         "meaning": "earth, soil",
         "wordClass": "noun",
-        "example": "土曜日に買い物をします。(I go shopping on Saturday.)"
+        "example": "土曜日に買い物をします。(I go shopping on Saturday.)",
+        "exampleKana": "どようびにかいものをします。"
       }
     ]
   },
@@ -413,7 +444,8 @@
         "hiragana": "おお",
         "meaning": "big, large",
         "wordClass": "adjective",
-        "example": "大きな家に住んでいます。(I live in a big house.)"
+        "example": "大きな家に住んでいます。(I live in a big house.)",
+        "exampleKana": "おおきないえにすんでいます。"
       }
     ]
   },
@@ -427,7 +459,8 @@
         "hiragana": "ちい",
         "meaning": "small, little",
         "wordClass": "adjective",
-        "example": "小さな猫がいます。(There is a small cat.)"
+        "example": "小さな猫がいます。(There is a small cat.)",
+        "exampleKana": "ちいさなねこがいます。"
       }
     ]
   },
@@ -441,7 +474,8 @@
         "hiragana": "うえ",
         "meaning": "up, above",
         "wordClass": "noun",
-        "example": "机の上に本があります。(There is a book on the desk.)"
+        "example": "机の上に本があります。(There is a book on the desk.)",
+        "exampleKana": "つくえのうえにほんがあります。"
       }
     ]
   },
@@ -455,7 +489,8 @@
         "hiragana": "した",
         "meaning": "down, below",
         "wordClass": "noun",
-        "example": "椅子の下にペンが落ちました。(A pen fell under the chair.)"
+        "example": "椅子の下にペンが落ちました。(A pen fell under the chair.)",
+        "exampleKana": "いすのしたにぺんがおちました。"
       }
     ]
   },
@@ -469,7 +504,8 @@
         "hiragana": "なか",
         "meaning": "middle, inside",
         "wordClass": "noun",
-        "example": "箱の中に何がありますか。(What is inside the box?)"
+        "example": "箱の中に何がありますか。(What is inside the box?)",
+        "exampleKana": "はこのなかになにがありますか。"
       }
     ]
   },
@@ -483,7 +519,8 @@
         "hiragana": "そと",
         "meaning": "outside",
         "wordClass": "noun",
-        "example": "外は雨が降っています。(It's raining outside.)"
+        "example": "外は雨が降っています。(It's raining outside.)",
+        "exampleKana": "そとはあめがふっています。"
       }
     ]
   },
@@ -497,7 +534,8 @@
         "hiragana": "くに",
         "meaning": "country",
         "wordClass": "noun",
-        "example": "日本は美しい国です。(Japan is a beautiful country.)"
+        "example": "日本は美しい国です。(Japan is a beautiful country.)",
+        "exampleKana": "にほんはうつくしいくにです。"
       }
     ]
   },
@@ -511,7 +549,8 @@
         "hiragana": "いえ",
         "meaning": "house, home",
         "wordClass": "noun",
-        "example": "新しい家を買いました。(I bought a new house.)"
+        "example": "新しい家を買いました。(I bought a new house.)",
+        "exampleKana": "あたらしいいえをかいました。"
       }
     ]
   },
@@ -525,7 +564,8 @@
         "hiragana": "なま",
         "meaning": "life, raw",
         "wordClass": "noun",
-        "example": "生の魚を食べます。(I eat raw fish.)"
+        "example": "生の魚を食べます。(I eat raw fish.)",
+        "exampleKana": "なまのさかなをたべます。"
       }
     ]
   },
@@ -539,7 +579,8 @@
         "hiragana": "さき",
         "meaning": "ahead, previous",
         "wordClass": "noun",
-        "example": "先生に質問しました。(I asked the teacher a question.)"
+        "example": "先生に質問しました。(I asked the teacher a question.)",
+        "exampleKana": "せんせいにしつもんしました。"
       }
     ]
   },
@@ -553,7 +594,8 @@
         "hiragana": "いく",
         "meaning": "to go",
         "wordClass": "verb",
-        "example": "明日学校に行きます。(I will go to school tomorrow.)"
+        "example": "明日学校に行きます。(I will go to school tomorrow.)",
+        "exampleKana": "あしたがっこうにいきます。"
       }
     ]
   },
@@ -567,7 +609,8 @@
         "hiragana": "くる",
         "meaning": "to come",
         "wordClass": "verb",
-        "example": "友達が家に来ました。(My friend came to my house.)"
+        "example": "友達が家に来ました。(My friend came to my house.)",
+        "exampleKana": "ともだちがいえにきました。"
       }
     ]
   },
@@ -581,7 +624,8 @@
         "hiragana": "はいる",
         "meaning": "to enter",
         "wordClass": "verb",
-        "example": "部屋に入ってください。(Please enter the room.)"
+        "example": "部屋に入ってください。(Please enter the room.)",
+        "exampleKana": "へやにはいってください。"
       }
     ]
   },
@@ -595,7 +639,8 @@
         "hiragana": "でる",
         "meaning": "to exit, to go out",
         "wordClass": "verb",
-        "example": "七時に家を出ます。(I leave home at seven o'clock.)"
+        "example": "七時に家を出ます。(I leave home at seven o'clock.)",
+        "exampleKana": "しちじにいえをでます。"
       }
     ]
   },
@@ -609,7 +654,8 @@
         "hiragana": "たつ",
         "meaning": "to stand",
         "wordClass": "verb",
-        "example": "電車で立っていました。(I was standing on the train.)"
+        "example": "電車で立っていました。(I was standing on the train.)",
+        "exampleKana": "でんしゃでたっていました。"
       }
     ]
   },
@@ -623,7 +669,8 @@
         "hiragana": "すわる",
         "meaning": "to sit",
         "wordClass": "verb",
-        "example": "椅子に座ってください。(Please sit on the chair.)"
+        "example": "椅子に座ってください。(Please sit on the chair.)",
+        "exampleKana": "いすにすわってください。"
       }
     ]
   },
@@ -637,7 +684,8 @@
         "hiragana": "かう",
         "meaning": "to buy",
         "wordClass": "verb",
-        "example": "新しい服を買いました。(I bought new clothes.)"
+        "example": "新しい服を買いました。(I bought new clothes.)",
+        "exampleKana": "あたらしいふくをかいました。"
       }
     ]
   },
@@ -651,7 +699,8 @@
         "hiragana": "うる",
         "meaning": "to sell",
         "wordClass": "verb",
-        "example": "古い車を売りました。(I sold my old car.)"
+        "example": "古い車を売りました。(I sold my old car.)",
+        "exampleKana": "ふるいくるまをうりました。"
       }
     ]
   },
@@ -665,7 +714,8 @@
         "hiragana": "つくる",
         "meaning": "to make, to create",
         "wordClass": "verb",
-        "example": "母がケーキを作りました。(My mother made a cake.)"
+        "example": "母がケーキを作りました。(My mother made a cake.)",
+        "exampleKana": "ははがけーきをつくりました。"
       }
     ]
   },
@@ -679,7 +729,8 @@
         "hiragana": "つかう",
         "meaning": "to use",
         "wordClass": "verb",
-        "example": "コンピューターを使います。(I use a computer.)"
+        "example": "コンピューターを使います。(I use a computer.)",
+        "exampleKana": "こんぴゅーたーをつかいます。"
       }
     ]
   },
@@ -693,7 +744,8 @@
         "hiragana": "すく",
         "meaning": "to like",
         "wordClass": "verb",
-        "example": "音楽が好きです。(I like music.)"
+        "example": "音楽が好きです。(I like music.)",
+        "exampleKana": "おんがくがすきです。"
       }
     ]
   },
@@ -707,7 +759,8 @@
         "hiragana": "あたらしい",
         "meaning": "new",
         "wordClass": "adjective",
-        "example": "新しい本を読んでいます。(I am reading a new book.)"
+        "example": "新しい本を読んでいます。(I am reading a new book.)",
+        "exampleKana": "あたらしいほんをよんでいます。"
       }
     ]
   },
@@ -721,7 +774,8 @@
         "hiragana": "ふるい",
         "meaning": "old",
         "wordClass": "adjective",
-        "example": "古い建物を見学しました。(I visited an old building.)"
+        "example": "古い建物を見学しました。(I visited an old building.)",
+        "exampleKana": "ふるいたてものをけんがくしました。"
       }
     ]
   },
@@ -735,7 +789,8 @@
         "hiragana": "たかい",
         "meaning": "high, expensive",
         "wordClass": "adjective",
-        "example": "この時計は高いです。(This watch is expensive.)"
+        "example": "この時計は高いです。(This watch is expensive.)",
+        "exampleKana": "このとけいはたかいです。"
       }
     ]
   },
@@ -749,7 +804,8 @@
         "hiragana": "あか",
         "meaning": "red",
         "wordClass": "noun",
-        "example": "赤い花がきれいです。(The red flowers are beautiful.)"
+        "example": "赤い花がきれいです。(The red flowers are beautiful.)",
+        "exampleKana": "あかいはながきれいです。"
       }
     ]
   },
@@ -763,7 +819,8 @@
         "hiragana": "あお",
         "meaning": "blue",
         "wordClass": "noun",
-        "example": "青い空を見上げました。(I looked up at the blue sky.)"
+        "example": "青い空を見上げました。(I looked up at the blue sky.)",
+        "exampleKana": "あおいそらをみあげました。"
       }
     ]
   },
@@ -777,7 +834,8 @@
         "hiragana": "しろ",
         "meaning": "white",
         "wordClass": "noun",
-        "example": "白いシャツを着ています。(I am wearing a white shirt.)"
+        "example": "白いシャツを着ています。(I am wearing a white shirt.)",
+        "exampleKana": "しろいしゃつをきています。"
       }
     ]
   },
@@ -791,7 +849,8 @@
         "hiragana": "くろ",
         "meaning": "black",
         "wordClass": "noun",
-        "example": "黒い猫が道を歩いています。(A black cat is walking down the road.)"
+        "example": "黒い猫が道を歩いています。(A black cat is walking down the road.)",
+        "exampleKana": "くろいねこがみちをあるいています。"
       }
     ]
   },
@@ -805,7 +864,8 @@
         "hiragana": "て",
         "meaning": "hand",
         "wordClass": "noun",
-        "example": "手を洗ってください。(Please wash your hands.)"
+        "example": "手を洗ってください。(Please wash your hands.)",
+        "exampleKana": "てをあらってください。"
       }
     ]
   },
@@ -819,7 +879,8 @@
         "hiragana": "あし",
         "meaning": "foot, leg",
         "wordClass": "noun",
-        "example": "足が痛いです。(My foot hurts.)"
+        "example": "足が痛いです。(My foot hurts.)",
+        "exampleKana": "あしがいたいです。"
       }
     ]
   },
@@ -833,7 +894,8 @@
         "hiragana": "あたま",
         "meaning": "head",
         "wordClass": "noun",
-        "example": "頭が痛いので薬を飲みました。(I took medicine because I have a headache.)"
+        "example": "頭が痛いので薬を飲みました。(I took medicine because I have a headache.)",
+        "exampleKana": "あたまがいたいのでくすりをのみました。"
       }
     ]
   },
@@ -847,7 +909,8 @@
         "hiragana": "め",
         "meaning": "eye",
         "wordClass": "noun",
-        "example": "目が疲れています。(My eyes are tired.)"
+        "example": "目が疲れています。(My eyes are tired.)",
+        "exampleKana": "めがつかれています。"
       }
     ]
   },
@@ -861,7 +924,8 @@
         "hiragana": "くち",
         "meaning": "mouth",
         "wordClass": "noun",
-        "example": "口を開けてください。(Please open your mouth.)"
+        "example": "口を開けてください。(Please open your mouth.)",
+        "exampleKana": "くちをあけてください。"
       }
     ]
   },
@@ -875,7 +939,8 @@
         "hiragana": "みみ",
         "meaning": "ear",
         "wordClass": "noun",
-        "example": "音楽を耳で聞きます。(I listen to music with my ears.)"
+        "example": "音楽を耳で聞きます。(I listen to music with my ears.)",
+        "exampleKana": "おんがくをみみでききます。"
       }
     ]
   },
@@ -889,7 +954,8 @@
         "hiragana": "やま",
         "meaning": "mountain",
         "wordClass": "noun",
-        "example": "高い山に登りました。(I climbed a high mountain.)"
+        "example": "高い山に登りました。(I climbed a high mountain.)",
+        "exampleKana": "たかいやまにのぼりました。"
       }
     ]
   },
@@ -903,7 +969,8 @@
         "hiragana": "かわ",
         "meaning": "river",
         "wordClass": "noun",
-        "example": "川で魚を釣りました。(I caught fish in the river.)"
+        "example": "川で魚を釣りました。(I caught fish in the river.)",
+        "exampleKana": "かわでさかなをつりました。"
       }
     ]
   },
@@ -917,7 +984,8 @@
         "hiragana": "うみ",
         "meaning": "sea, ocean",
         "wordClass": "noun",
-        "example": "夏に海で泳ぎました。(I swam in the sea in summer.)"
+        "example": "夏に海で泳ぎました。(I swam in the sea in summer.)",
+        "exampleKana": "なつにうみでおよぎました。"
       }
     ]
   },
@@ -931,7 +999,8 @@
         "hiragana": "そら",
         "meaning": "sky",
         "wordClass": "noun",
-        "example": "夜の空に星が見えます。(Stars can be seen in the night sky.)"
+        "example": "夜の空に星が見えます。(Stars can be seen in the night sky.)",
+        "exampleKana": "よるのそらにほしがみえます。"
       }
     ]
   },
@@ -945,7 +1014,8 @@
         "hiragana": "あめ",
         "meaning": "rain",
         "wordClass": "noun",
-        "example": "今日は雨が降っています。(It is raining today.)"
+        "example": "今日は雨が降っています。(It is raining today.)",
+        "exampleKana": "きょうはあめがふっています。"
       }
     ]
   },
@@ -959,7 +1029,8 @@
         "hiragana": "かぜ",
         "meaning": "wind",
         "wordClass": "noun",
-        "example": "強い風が吹いています。(A strong wind is blowing.)"
+        "example": "強い風が吹いています。(A strong wind is blowing.)",
+        "exampleKana": "つよいかぜがふいています。"
       }
     ]
   },
@@ -973,7 +1044,8 @@
         "hiragana": "いぬ",
         "meaning": "dog",
         "wordClass": "noun",
-        "example": "犬と一緒に散歩します。(I take a walk with my dog.)"
+        "example": "犬と一緒に散歩します。(I take a walk with my dog.)",
+        "exampleKana": "いぬといっしょにさんぽします。"
       }
     ]
   },
@@ -987,7 +1059,8 @@
         "hiragana": "ねこ",
         "meaning": "cat",
         "wordClass": "noun",
-        "example": "猫がソファで寝ています。(The cat is sleeping on the sofa.)"
+        "example": "猫がソファで寝ています。(The cat is sleeping on the sofa.)",
+        "exampleKana": "ねこがそふぁでねています。"
       }
     ]
   },
@@ -1001,7 +1074,8 @@
         "hiragana": "さかな",
         "meaning": "fish",
         "wordClass": "noun",
-        "example": "魚を料理するのが好きです。(I like cooking fish.)"
+        "example": "魚を料理するのが好きです。(I like cooking fish.)",
+        "exampleKana": "さかなをりょうりするのがすきです。"
       }
     ]
   },
@@ -1015,7 +1089,8 @@
         "hiragana": "とり",
         "meaning": "bird",
         "wordClass": "noun",
-        "example": "公園で鳥が歌っています。(Birds are singing in the park.)"
+        "example": "公園で鳥が歌っています。(Birds are singing in the park.)",
+        "exampleKana": "こうえんでとりがうたっています。"
       }
     ]
   },
@@ -1029,7 +1104,8 @@
         "hiragana": "こめ",
         "meaning": "rice",
         "wordClass": "noun",
-        "example": "日本人は米をよく食べます。(Japanese people often eat rice.)"
+        "example": "日本人は米をよく食べます。(Japanese people often eat rice.)",
+        "exampleKana": "にほんじんはこめをよくたべます。"
       }
     ]
   },
@@ -1043,7 +1119,8 @@
         "hiragana": "にく",
         "meaning": "meat",
         "wordClass": "noun",
-        "example": "牛肉を焼いて食べました。(I grilled and ate beef.)"
+        "example": "牛肉を焼いて食べました。(I grilled and ate beef.)",
+        "exampleKana": "ぎゅうにくをやいてたべました。"
       }
     ]
   },
@@ -1057,7 +1134,8 @@
         "hiragana": "の",
         "meaning": "field, wild",
         "wordClass": "noun",
-        "example": "野菜を育てています。(I am growing vegetables.)"
+        "example": "野菜を育てています。(I am growing vegetables.)",
+        "exampleKana": "やさいをそだてています。"
       }
     ]
   },
@@ -1071,7 +1149,8 @@
         "hiragana": "か",
         "meaning": "fruit, result",
         "wordClass": "noun",
-        "example": "果物が好きです。(I like fruit.)"
+        "example": "果物が好きです。(I like fruit.)",
+        "exampleKana": "くだものがすきです。"
       }
     ]
   },
@@ -1085,7 +1164,8 @@
         "hiragana": "あるく",
         "meaning": "to walk",
         "wordClass": "verb",
-        "example": "毎朝公園を歩きます。(I walk in the park every morning.)"
+        "example": "毎朝公園を歩きます。(I walk in the park every morning.)",
+        "exampleKana": "まいあさこうえんをあるきます。"
       }
     ]
   },
@@ -1099,7 +1179,8 @@
         "hiragana": "はしる",
         "meaning": "to run",
         "wordClass": "verb",
-        "example": "学校まで走りました。(I ran to school.)"
+        "example": "学校まで走りました。(I ran to school.)",
+        "exampleKana": "がっこうまではしりました。"
       }
     ]
   },
@@ -1113,7 +1194,8 @@
         "hiragana": "およぐ",
         "meaning": "to swim",
         "wordClass": "verb",
-        "example": "プールで泳ぐのが楽しいです。(Swimming in the pool is fun.)"
+        "example": "プールで泳ぐのが楽しいです。(Swimming in the pool is fun.)",
+        "exampleKana": "ぷーるでおよぐのがたのしいです。"
       }
     ]
   },
@@ -1127,7 +1209,8 @@
         "hiragana": "とぶ",
         "meaning": "to fly, to jump",
         "wordClass": "verb",
-        "example": "飛行機が空を飛んでいます。(An airplane is flying in the sky.)"
+        "example": "飛行機が空を飛んでいます。(An airplane is flying in the sky.)",
+        "exampleKana": "ひこうきがそらをとんでいます。"
       }
     ]
   },
@@ -1141,7 +1224,8 @@
         "hiragana": "うつくしい",
         "meaning": "beautiful",
         "wordClass": "adjective",
-        "example": "美しい景色を見ました。(I saw a beautiful view.)"
+        "example": "美しい景色を見ました。(I saw a beautiful view.)",
+        "exampleKana": "うつくしいけしきをみました。"
       }
     ]
   },
@@ -1155,7 +1239,8 @@
         "hiragana": "たのしい",
         "meaning": "fun, enjoyable",
         "wordClass": "adjective",
-        "example": "映画を見るのは楽しいです。(Watching movies is fun.)"
+        "example": "映画を見るのは楽しいです。(Watching movies is fun.)",
+        "exampleKana": "えいがをみるのはたのしいです。"
       }
     ]
   },
@@ -1169,7 +1254,8 @@
         "hiragana": "むずかしい",
         "meaning": "difficult",
         "wordClass": "adjective",
-        "example": "この問題は難しいです。(This problem is difficult.)"
+        "example": "この問題は難しいです。(This problem is difficult.)",
+        "exampleKana": "このもんだいはむずかしいです。"
       }
     ]
   },
@@ -1183,7 +1269,8 @@
         "hiragana": "かんたん",
         "meaning": "simple, easy",
         "wordClass": "adjective",
-        "example": "簡単な料理を作りました。(I made a simple dish.)"
+        "example": "簡単な料理を作りました。(I made a simple dish.)",
+        "exampleKana": "かんたんなりょうりをつくりました。"
       }
     ]
   },
@@ -1197,7 +1284,8 @@
         "hiragana": "はやい",
         "meaning": "early, fast",
         "wordClass": "adjective",
-        "example": "早い時間に起きました。(I woke up early.)"
+        "example": "早い時間に起きました。(I woke up early.)",
+        "exampleKana": "はやいじかんにおきました。"
       }
     ]
   },
@@ -1211,7 +1299,8 @@
         "hiragana": "おそい",
         "meaning": "late, slow",
         "wordClass": "adjective",
-        "example": "電車が遅れています。(The train is late.)"
+        "example": "電車が遅れています。(The train is late.)",
+        "exampleKana": "でんしゃがおくれています。"
       }
     ]
   },
@@ -1225,7 +1314,8 @@
         "hiragana": "ながい",
         "meaning": "long",
         "wordClass": "adjective",
-        "example": "長い髪の女性がいます。(There is a woman with long hair.)"
+        "example": "長い髪の女性がいます。(There is a woman with long hair.)",
+        "exampleKana": "ながいかみのじょせいがいます。"
       }
     ]
   },
@@ -1239,7 +1329,8 @@
         "hiragana": "みじかい",
         "meaning": "short",
         "wordClass": "adjective",
-        "example": "短い話を聞きました。(I heard a short story.)"
+        "example": "短い話を聞きました。(I heard a short story.)",
+        "exampleKana": "みじかいはなしをききました。"
       }
     ]
   },
@@ -1253,7 +1344,8 @@
         "hiragana": "やすい",
         "meaning": "cheap, inexpensive",
         "wordClass": "adjective",
-        "example": "安い服を買いました。(I bought cheap clothes.)"
+        "example": "安い服を買いました。(I bought cheap clothes.)",
+        "exampleKana": "やすいふくをかいました。"
       }
     ]
   },
@@ -1267,7 +1359,8 @@
         "hiragana": "くるま",
         "meaning": "car, vehicle",
         "wordClass": "noun",
-        "example": "新しい車を運転しています。(I am driving a new car.)"
+        "example": "新しい車を運転しています。(I am driving a new car.)",
+        "exampleKana": "あたらしいくるまをうんてんしています。"
       }
     ]
   },
@@ -1281,7 +1374,8 @@
         "hiragana": "でん",
         "meaning": "electricity",
         "wordClass": "noun",
-        "example": "電車で通勤しています。(I commute by train.)"
+        "example": "電車で通勤しています。(I commute by train.)",
+        "exampleKana": "でんしゃでつうきんしています。"
       }
     ]
   },
@@ -1295,7 +1389,8 @@
         "hiragana": "はなし",
         "meaning": "story, talk",
         "wordClass": "noun",
-        "example": "面白い話を聞きました。(I heard an interesting story.)"
+        "example": "面白い話を聞きました。(I heard an interesting story.)",
+        "exampleKana": "おもしろいはなしをききました。"
       },
       {
         "entryId": 96,
@@ -1303,7 +1398,8 @@
         "hiragana": "はなす",
         "meaning": "to speak, to talk",
         "wordClass": "verb",
-        "example": "友達と日本語で話します。(I speak Japanese with my friends.)"
+        "example": "友達と日本語で話します。(I speak Japanese with my friends.)",
+        "exampleKana": "ともだちとにほんごではなします。"
       }
     ]
   },
@@ -1317,7 +1413,8 @@
         "hiragana": "きく",
         "meaning": "to hear, to listen",
         "wordClass": "verb",
-        "example": "音楽を聞くのが好きです。(I like listening to music.)"
+        "example": "音楽を聞くのが好きです。(I like listening to music.)",
+        "exampleKana": "おんがくをきくのがすきです。"
       }
     ]
   },
@@ -1331,7 +1428,8 @@
         "hiragana": "いう",
         "meaning": "to say, to speak",
         "wordClass": "verb",
-        "example": "何を言いましたか。(What did you say?)"
+        "example": "何を言いましたか。(What did you say?)",
+        "exampleKana": "なにをいいましたか。"
       }
     ]
   },
@@ -1345,7 +1443,8 @@
         "hiragana": "おもう",
         "meaning": "to think, to feel",
         "wordClass": "verb",
-        "example": "日本語は面白いと思います。(I think Japanese is interesting.)"
+        "example": "日本語は面白いと思います。(I think Japanese is interesting.)",
+        "exampleKana": "にほんごはおもしろいとおもいます。"
       }
     ]
   },
@@ -1359,7 +1458,8 @@
         "hiragana": "しる",
         "meaning": "to know",
         "wordClass": "verb",
-        "example": "彼の名前を知っています。(I know his name.)"
+        "example": "彼の名前を知っています。(I know his name.)",
+        "exampleKana": "かれのなまえをしっています。"
       }
     ]
   },
@@ -1373,7 +1473,8 @@
         "hiragana": "もつ",
         "meaning": "to hold, to have",
         "wordClass": "verb",
-        "example": "重い荷物を持っています。(I am carrying heavy luggage.)"
+        "example": "重い荷物を持っています。(I am carrying heavy luggage.)",
+        "exampleKana": "おもいにもつをもっています。"
       }
     ]
   },
@@ -1387,7 +1488,8 @@
         "hiragana": "とる",
         "meaning": "to take, to get",
         "wordClass": "verb",
-        "example": "写真を取りました。(I took a photo.)"
+        "example": "写真を取りました。(I took a photo.)",
+        "exampleKana": "しゃしんをとりました。"
       }
     ]
   },
@@ -1401,7 +1503,8 @@
         "hiragana": "きる",
         "meaning": "to wear, to put on",
         "wordClass": "verb",
-        "example": "新しい服を着ています。(I am wearing new clothes.)"
+        "example": "新しい服を着ています。(I am wearing new clothes.)",
+        "exampleKana": "あたらしいふくをきています。"
       },
       {
         "entryId": 104,
@@ -1409,7 +1512,8 @@
         "hiragana": "つく",
         "meaning": "to arrive",
         "wordClass": "verb",
-        "example": "駅に着きました。(I arrived at the station.)"
+        "example": "駅に着きました。(I arrived at the station.)",
+        "exampleKana": "えきにつきました。"
       }
     ]
   },
@@ -1423,7 +1527,8 @@
         "hiragana": "ねる",
         "meaning": "to sleep, to go to bed",
         "wordClass": "verb",
-        "example": "十時に寝ます。(I go to bed at ten o'clock.)"
+        "example": "十時に寝ます。(I go to bed at ten o'clock.)",
+        "exampleKana": "じゅうじにねます。"
       }
     ]
   },
@@ -1437,7 +1542,8 @@
         "hiragana": "おきる",
         "meaning": "to wake up, to get up",
         "wordClass": "verb",
-        "example": "毎朝六時に起きます。(I wake up at six every morning.)"
+        "example": "毎朝六時に起きます。(I wake up at six every morning.)",
+        "exampleKana": "まいあさろくじにおきます。"
       }
     ]
   },
@@ -1451,7 +1557,8 @@
         "hiragana": "はたらく",
         "meaning": "to work",
         "wordClass": "verb",
-        "example": "会社で働いています。(I work at a company.)"
+        "example": "会社で働いています。(I work at a company.)",
+        "exampleKana": "かいしゃではたらいています。"
       }
     ]
   },
@@ -1465,7 +1572,8 @@
         "hiragana": "やすむ",
         "meaning": "to rest, to take a break",
         "wordClass": "verb",
-        "example": "少し休みましょう。(Let's take a little break.)"
+        "example": "少し休みましょう。(Let's take a little break.)",
+        "exampleKana": "すこしやすみましょう。"
       }
     ]
   },
@@ -1479,7 +1587,8 @@
         "hiragana": "あう",
         "meaning": "to meet",
         "wordClass": "verb",
-        "example": "友達に会いました。(I met my friend.)"
+        "example": "友達に会いました。(I met my friend.)",
+        "exampleKana": "ともだちにあいました。"
       }
     ]
   },
@@ -1493,7 +1602,8 @@
         "hiragana": "あける",
         "meaning": "to open",
         "wordClass": "verb",
-        "example": "窓を開けてください。(Please open the window.)"
+        "example": "窓を開けてください。(Please open the window.)",
+        "exampleKana": "まどをあけてください。"
       }
     ]
   },
@@ -1507,7 +1617,8 @@
         "hiragana": "しめる",
         "meaning": "to close",
         "wordClass": "verb",
-        "example": "ドアを閉めました。(I closed the door.)"
+        "example": "ドアを閉めました。(I closed the door.)",
+        "exampleKana": "どあをしめました。"
       }
     ]
   },
@@ -1521,7 +1632,8 @@
         "hiragana": "きる",
         "meaning": "to cut",
         "wordClass": "verb",
-        "example": "野菜を切って料理しました。(I cut vegetables and cooked.)"
+        "example": "野菜を切って料理しました。(I cut vegetables and cooked.)",
+        "exampleKana": "やさいをきってりょうりしました。"
       }
     ]
   },
@@ -1535,7 +1647,8 @@
         "hiragana": "おわる",
         "meaning": "to end, to finish",
         "wordClass": "verb",
-        "example": "会議が終わりました。(The meeting ended.)"
+        "example": "会議が終わりました。(The meeting ended.)",
+        "exampleKana": "かいぎがおわりました。"
       }
     ]
   },
@@ -1549,7 +1662,8 @@
         "hiragana": "はじまる",
         "meaning": "to begin, to start",
         "wordClass": "verb",
-        "example": "授業が始まります。(The class will begin.)"
+        "example": "授業が始まります。(The class will begin.)",
+        "exampleKana": "じゅぎょうがはじまります。"
       }
     ]
   },
@@ -1563,7 +1677,8 @@
         "hiragana": "わすれる",
         "meaning": "to forget",
         "wordClass": "verb",
-        "example": "宿題を忘れました。(I forgot my homework.)"
+        "example": "宿題を忘れました。(I forgot my homework.)",
+        "exampleKana": "しゅくだいをわすれました。"
       }
     ]
   },
@@ -1577,7 +1692,8 @@
         "hiragana": "おぼえる",
         "meaning": "to remember, to memorize",
         "wordClass": "verb",
-        "example": "新しい単語を覚えています。(I am memorizing new words.)"
+        "example": "新しい単語を覚えています。(I am memorizing new words.)",
+        "exampleKana": "あたらしいたんごをおぼえています。"
       }
     ]
   },
@@ -1591,7 +1707,8 @@
         "hiragana": "わかい",
         "meaning": "young",
         "wordClass": "adjective",
-        "example": "若い人がたくさんいます。(There are many young people.)"
+        "example": "若い人がたくさんいます。(There are many young people.)",
+        "exampleKana": "わかいひとがたくさんいます。"
       }
     ]
   },
@@ -1605,7 +1722,8 @@
         "hiragana": "おや",
         "meaning": "parent",
         "wordClass": "noun",
-        "example": "親と一緒に住んでいます。(I live with my parents.)"
+        "example": "親と一緒に住んでいます。(I live with my parents.)",
+        "exampleKana": "おやといっしょにすんでいます。"
       }
     ]
   },
@@ -1619,7 +1737,8 @@
         "hiragana": "こ",
         "meaning": "child",
         "wordClass": "noun",
-        "example": "子供が公園で遊んでいます。(Children are playing in the park.)"
+        "example": "子供が公園で遊んでいます。(Children are playing in the park.)",
+        "exampleKana": "こどもがこうえんであそんでいます。"
       }
     ]
   },
@@ -1633,7 +1752,8 @@
         "hiragana": "おとこ",
         "meaning": "man, male",
         "wordClass": "noun",
-        "example": "男の人が歩いています。(A man is walking.)"
+        "example": "男の人が歩いています。(A man is walking.)",
+        "exampleKana": "おとこのひとがあるいています。"
       }
     ]
   },
@@ -1647,7 +1767,8 @@
         "hiragana": "おんな",
         "meaning": "woman, female",
         "wordClass": "noun",
-        "example": "女の人が本を読んでいます。(A woman is reading a book.)"
+        "example": "女の人が本を読んでいます。(A woman is reading a book.)",
+        "exampleKana": "おんなのひとがほんをよんでいます。"
       }
     ]
   },
@@ -1661,7 +1782,8 @@
         "hiragana": "とも",
         "meaning": "friend",
         "wordClass": "noun",
-        "example": "友達と映画を見ました。(I watched a movie with my friend.)"
+        "example": "友達と映画を見ました。(I watched a movie with my friend.)",
+        "exampleKana": "ともだちとえいがをみました。"
       }
     ]
   },
@@ -1675,7 +1797,8 @@
         "hiragana": "まち",
         "meaning": "town, city",
         "wordClass": "noun",
-        "example": "小さな町に住んでいます。(I live in a small town.)"
+        "example": "小さな町に住んでいます。(I live in a small town.)",
+        "exampleKana": "ちいさなまちにすんでいます。"
       }
     ]
   },
@@ -1689,7 +1812,8 @@
         "hiragana": "むら",
         "meaning": "village",
         "wordClass": "noun",
-        "example": "静かな村を訪れました。(I visited a quiet village.)"
+        "example": "静かな村を訪れました。(I visited a quiet village.)",
+        "exampleKana": "しずかなむらをたずねました。"
       }
     ]
   },
@@ -1703,7 +1827,8 @@
         "hiragana": "みち",
         "meaning": "road, path, way",
         "wordClass": "noun",
-        "example": "この道を歩いて学校に行きます。(I walk on this road to go to school.)"
+        "example": "この道を歩いて学校に行きます。(I walk on this road to go to school.)",
+        "exampleKana": "このみちをあるいてがっこうにいきます。"
       }
     ]
   },
@@ -1717,7 +1842,8 @@
         "hiragana": "はし",
         "meaning": "bridge",
         "wordClass": "noun",
-        "example": "川に橋がかかっています。(There is a bridge over the river.)"
+        "example": "川に橋がかかっています。(There is a bridge over the river.)",
+        "exampleKana": "かわにはしがかかっています。"
       }
     ]
   },
@@ -1731,7 +1857,8 @@
         "hiragana": "えき",
         "meaning": "station",
         "wordClass": "noun",
-        "example": "駅で電車を待っています。(I am waiting for the train at the station.)"
+        "example": "駅で電車を待っています。(I am waiting for the train at the station.)",
+        "exampleKana": "えきででんしゃをまっています。"
       }
     ]
   },
@@ -1745,7 +1872,8 @@
         "hiragana": "みせ",
         "meaning": "store, shop",
         "wordClass": "noun",
-        "example": "新しい店がオープンしました。(A new store opened.)"
+        "example": "新しい店がオープンしました。(A new store opened.)",
+        "exampleKana": "あたらしいみせがおーぷんしました。"
       }
     ]
   },
@@ -1759,7 +1887,8 @@
         "hiragana": "びょう",
         "meaning": "illness, disease",
         "wordClass": "noun",
-        "example": "病院に行きました。(I went to the hospital.)"
+        "example": "病院に行きました。(I went to the hospital.)",
+        "exampleKana": "びょういんにいきました。"
       }
     ]
   },
@@ -1773,7 +1902,8 @@
         "hiragana": "げんき",
         "meaning": "healthy, energetic",
         "wordClass": "adjective",
-        "example": "元気な子供たちです。(They are healthy children.)"
+        "example": "元気な子供たちです。(They are healthy children.)",
+        "exampleKana": "げんきなこどもたちです。"
       }
     ]
   },
@@ -1787,7 +1917,8 @@
         "hiragana": "つよい",
         "meaning": "strong",
         "wordClass": "adjective",
-        "example": "強い風が吹いています。(A strong wind is blowing.)"
+        "example": "強い風が吹いています。(A strong wind is blowing.)",
+        "exampleKana": "つよいかぜがふいています。"
       }
     ]
   },
@@ -1801,7 +1932,8 @@
         "hiragana": "よわい",
         "meaning": "weak",
         "wordClass": "adjective",
-        "example": "弱い光が見えます。(A weak light is visible.)"
+        "example": "弱い光が見えます。(A weak light is visible.)",
+        "exampleKana": "よわいひかりがみえます。"
       }
     ]
   },
@@ -1815,7 +1947,8 @@
         "hiragana": "おもい",
         "meaning": "heavy",
         "wordClass": "adjective",
-        "example": "重い本を持っています。(I am carrying a heavy book.)"
+        "example": "重い本を持っています。(I am carrying a heavy book.)",
+        "exampleKana": "おもいほんをもっています。"
       }
     ]
   },
@@ -1829,7 +1962,8 @@
         "hiragana": "かるい",
         "meaning": "light, not heavy",
         "wordClass": "adjective",
-        "example": "軽い荷物を運びます。(I carry light luggage.)"
+        "example": "軽い荷物を運びます。(I carry light luggage.)",
+        "exampleKana": "かるいにもつをはこびます。"
       }
     ]
   },
@@ -1843,7 +1977,8 @@
         "hiragana": "あかるい",
         "meaning": "bright",
         "wordClass": "adjective",
-        "example": "明るい部屋で勉強します。(I study in a bright room.)"
+        "example": "明るい部屋で勉強します。(I study in a bright room.)",
+        "exampleKana": "あかるいへやでべんきょうします。"
       }
     ]
   },
@@ -1857,7 +1992,8 @@
         "hiragana": "くらい",
         "meaning": "dark",
         "wordClass": "adjective",
-        "example": "暗い道を歩きました。(I walked on a dark road.)"
+        "example": "暗い道を歩きました。(I walked on a dark road.)",
+        "exampleKana": "くらいみちをあるきました。"
       }
     ]
   },
@@ -1871,7 +2007,8 @@
         "hiragana": "つめたい",
         "meaning": "cold",
         "wordClass": "adjective",
-        "example": "冷たい飲み物が欲しいです。(I want a cold drink.)"
+        "example": "冷たい飲み物が欲しいです。(I want a cold drink.)",
+        "exampleKana": "つめたいのみものがほしいです。"
       }
     ]
   },
@@ -1885,7 +2022,8 @@
         "hiragana": "あたたかい",
         "meaning": "warm",
         "wordClass": "adjective",
-        "example": "暖かい日です。(It's a warm day.)"
+        "example": "暖かい日です。(It's a warm day.)",
+        "exampleKana": "あたたかいひです。"
       }
     ]
   },
@@ -1899,7 +2037,8 @@
         "hiragana": "あつい",
         "meaning": "hot",
         "wordClass": "adjective",
-        "example": "今日は暑いです。(It's hot today.)"
+        "example": "今日は暑いです。(It's hot today.)",
+        "exampleKana": "きょうはあついです。"
       }
     ]
   },
@@ -1913,7 +2052,8 @@
         "hiragana": "さむい",
         "meaning": "cold (weather)",
         "wordClass": "adjective",
-        "example": "寒い冬の日です。(It's a cold winter day.)"
+        "example": "寒い冬の日です。(It's a cold winter day.)",
+        "exampleKana": "さむいふゆのひです。"
       }
     ]
   },
@@ -1927,7 +2067,8 @@
         "hiragana": "はる",
         "meaning": "spring",
         "wordClass": "noun",
-        "example": "春に桜が咲きます。(Cherry blossoms bloom in spring.)"
+        "example": "春に桜が咲きます。(Cherry blossoms bloom in spring.)",
+        "exampleKana": "はるにさくらがさきます。"
       }
     ]
   },
@@ -1941,7 +2082,8 @@
         "hiragana": "なつ",
         "meaning": "summer",
         "wordClass": "noun",
-        "example": "夏は海で泳ぎます。(I swim in the sea in summer.)"
+        "example": "夏は海で泳ぎます。(I swim in the sea in summer.)",
+        "exampleKana": "なつはうみでおよぎます。"
       }
     ]
   },
@@ -1955,7 +2097,8 @@
         "hiragana": "あき",
         "meaning": "autumn, fall",
         "wordClass": "noun",
-        "example": "秋は紅葉がきれいです。(The autumn leaves are beautiful in fall.)"
+        "example": "秋は紅葉がきれいです。(The autumn leaves are beautiful in fall.)",
+        "exampleKana": "あきはこうようがきれいです。"
       }
     ]
   },
@@ -1969,7 +2112,8 @@
         "hiragana": "ふゆ",
         "meaning": "winter",
         "wordClass": "noun",
-        "example": "冬に雪が降ります。(Snow falls in winter.)"
+        "example": "冬に雪が降ります。(Snow falls in winter.)",
+        "exampleKana": "ふゆにゆきがふります。"
       }
     ]
   },
@@ -1983,7 +2127,8 @@
         "hiragana": "ゆき",
         "meaning": "snow",
         "wordClass": "noun",
-        "example": "白い雪が積もっています。(White snow has accumulated.)"
+        "example": "白い雪が積もっています。(White snow has accumulated.)",
+        "exampleKana": "しろいゆきがつもっています。"
       }
     ]
   },
@@ -1997,7 +2142,8 @@
         "hiragana": "はな",
         "meaning": "flower",
         "wordClass": "noun",
-        "example": "きれいな花を見つけました。(I found beautiful flowers.)"
+        "example": "きれいな花を見つけました。(I found beautiful flowers.)",
+        "exampleKana": "きれいなはなをみつけました。"
       }
     ]
   },
@@ -2011,7 +2157,8 @@
         "hiragana": "くさ",
         "meaning": "grass",
         "wordClass": "noun",
-        "example": "緑の草の上に座りました。(I sat on the green grass.)"
+        "example": "緑の草の上に座りました。(I sat on the green grass.)",
+        "exampleKana": "みどりのくさのうえにすわりました。"
       }
     ]
   },
@@ -2025,7 +2172,8 @@
         "hiragana": "は",
         "meaning": "leaf",
         "wordClass": "noun",
-        "example": "秋の葉が落ちています。(Autumn leaves are falling.)"
+        "example": "秋の葉が落ちています。(Autumn leaves are falling.)",
+        "exampleKana": "あきのはがおちています。"
       }
     ]
   },
@@ -2039,7 +2187,8 @@
         "hiragana": "いし",
         "meaning": "stone, rock",
         "wordClass": "noun",
-        "example": "大きな石が道にあります。(There is a big stone on the road.)"
+        "example": "大きな石が道にあります。(There is a big stone on the road.)",
+        "exampleKana": "おおきないしがみちにあります。"
       }
     ]
   },
@@ -2053,7 +2202,8 @@
         "hiragana": "おと",
         "meaning": "sound",
         "wordClass": "noun",
-        "example": "きれいな音楽を聞いています。(I am listening to beautiful music.)"
+        "example": "きれいな音楽を聞いています。(I am listening to beautiful music.)",
+        "exampleKana": "きれいなおんがくをきいています。"
       }
     ]
   },
@@ -2067,7 +2217,8 @@
         "hiragana": "いろ",
         "meaning": "color",
         "wordClass": "noun",
-        "example": "好きな色は何ですか。(What is your favorite color?)"
+        "example": "好きな色は何ですか。(What is your favorite color?)",
+        "exampleKana": "すきないろはなんですか。"
       }
     ]
   },
@@ -2081,7 +2232,8 @@
         "hiragana": "かたち",
         "meaning": "shape, form",
         "wordClass": "noun",
-        "example": "丸い形の時計です。(It's a round-shaped clock.)"
+        "example": "丸い形の時計です。(It's a round-shaped clock.)",
+        "exampleKana": "まるいかたちのとけいです。"
       }
     ]
   },
@@ -2095,7 +2247,8 @@
         "hiragana": "おなじ",
         "meaning": "same",
         "wordClass": "adjective",
-        "example": "同じ本を読んでいます。(We are reading the same book.)"
+        "example": "同じ本を読んでいます。(We are reading the same book.)",
+        "exampleKana": "おなじほんをよんでいます。"
       }
     ]
   },
@@ -2109,7 +2262,8 @@
         "hiragana": "ちがう",
         "meaning": "to differ, to be different",
         "wordClass": "verb",
-        "example": "意見が違います。(Our opinions are different.)"
+        "example": "意見が違います。(Our opinions are different.)",
+        "exampleKana": "いけんがちがいます。"
       }
     ]
   },
@@ -2123,7 +2277,8 @@
         "hiragana": "ただしい",
         "meaning": "correct, right",
         "wordClass": "adjective",
-        "example": "正しい答えを教えてください。(Please tell me the correct answer.)"
+        "example": "正しい答えを教えてください。(Please tell me the correct answer.)",
+        "exampleKana": "ただしいこたえをおしえてください。"
       }
     ]
   },
@@ -2137,7 +2292,8 @@
         "hiragana": "ま",
         "meaning": "between, interval",
         "wordClass": "noun",
-        "example": "授業の間に休憩があります。(There is a break between classes.)"
+        "example": "授業の間に休憩があります。(There is a break between classes.)",
+        "exampleKana": "じゅぎょうのあいだにきゅうけいがあります。"
       }
     ]
   },
@@ -2151,7 +2307,8 @@
         "hiragana": "ちかい",
         "meaning": "near, close",
         "wordClass": "adjective",
-        "example": "近い場所に住んでいます。(I live in a nearby place.)"
+        "example": "近い場所に住んでいます。(I live in a nearby place.)",
+        "exampleKana": "ちかいばしょにすんでいます。"
       }
     ]
   },
@@ -2165,7 +2322,8 @@
         "hiragana": "とおい",
         "meaning": "far, distant",
         "wordClass": "adjective",
-        "example": "遠い国から来ました。(I came from a far country.)"
+        "example": "遠い国から来ました。(I came from a far country.)",
+        "exampleKana": "とおいくにからきました。"
       }
     ]
   },
@@ -2179,7 +2337,8 @@
         "hiragana": "おおい",
         "meaning": "many, much",
         "wordClass": "adjective",
-        "example": "多くの人が来ました。(Many people came.)"
+        "example": "多くの人が来ました。(Many people came.)",
+        "exampleKana": "おおくのひとがきました。"
       }
     ]
   },
@@ -2193,7 +2352,8 @@
         "hiragana": "すくない",
         "meaning": "few, little",
         "wordClass": "adjective",
-        "example": "少ない時間で終わりました。(It finished in a short time.)"
+        "example": "少ない時間で終わりました。(It finished in a short time.)",
+        "exampleKana": "すくないじかんでおわりました。"
       }
     ]
   },
@@ -2207,7 +2367,8 @@
         "hiragana": "ぜん",
         "meaning": "all, whole",
         "wordClass": "noun",
-        "example": "全部食べました。(I ate everything.)"
+        "example": "全部食べました。(I ate everything.)",
+        "exampleKana": "ぜんぶたべました。"
       }
     ]
   },
@@ -2221,7 +2382,8 @@
         "hiragana": "はん",
         "meaning": "half",
         "wordClass": "noun",
-        "example": "半分のケーキを食べました。(I ate half of the cake.)"
+        "example": "半分のケーキを食べました。(I ate half of the cake.)",
+        "exampleKana": "はんぶんのけーきをたべました。"
       }
     ]
   },
@@ -2235,7 +2397,8 @@
         "hiragana": "まい",
         "meaning": "every",
         "wordClass": "noun",
-        "example": "毎日運動しています。(I exercise every day.)"
+        "example": "毎日運動しています。(I exercise every day.)",
+        "exampleKana": "まいにちうんどうしています。"
       }
     ]
   },
@@ -2249,7 +2412,8 @@
         "hiragana": "いま",
         "meaning": "now, present",
         "wordClass": "noun",
-        "example": "今何時ですか。(What time is it now?)"
+        "example": "今何時ですか。(What time is it now?)",
+        "exampleKana": "いまなんじですか。"
       }
     ]
   },
@@ -2263,7 +2427,8 @@
         "hiragana": "まえ",
         "meaning": "before, front",
         "wordClass": "noun",
-        "example": "学校の前で待っています。(I am waiting in front of the school.)"
+        "example": "学校の前で待っています。(I am waiting in front of the school.)",
+        "exampleKana": "がっこうのまえでまっています。"
       }
     ]
   },
@@ -2277,7 +2442,8 @@
         "hiragana": "あと",
         "meaning": "after, behind",
         "wordClass": "noun",
-        "example": "食事の後で散歩しました。(I took a walk after the meal.)"
+        "example": "食事の後で散歩しました。(I took a walk after the meal.)",
+        "exampleKana": "しょくじのあとでさんぽしました。"
       }
     ]
   },
@@ -2291,7 +2457,8 @@
         "hiragana": "ひだり",
         "meaning": "left",
         "wordClass": "noun",
-        "example": "左に曲がってください。(Please turn left.)"
+        "example": "左に曲がってください。(Please turn left.)",
+        "exampleKana": "ひだりにまがってください。"
       }
     ]
   },
@@ -2305,7 +2472,8 @@
         "hiragana": "みぎ",
         "meaning": "right",
         "wordClass": "noun",
-        "example": "右手にペンを持っています。(I am holding a pen in my right hand.)"
+        "example": "右手にペンを持っています。(I am holding a pen in my right hand.)",
+        "exampleKana": "みぎてにぺんをもっています。"
       }
     ]
   },
@@ -2319,7 +2487,8 @@
         "hiragana": "ひがし",
         "meaning": "east",
         "wordClass": "noun",
-        "example": "東京は日本の東にあります。(Tokyo is in the east of Japan.)"
+        "example": "東京は日本の東にあります。(Tokyo is in the east of Japan.)",
+        "exampleKana": "とうきょうはにほんのひがしにあります。"
       }
     ]
   },
@@ -2333,7 +2502,8 @@
         "hiragana": "にし",
         "meaning": "west",
         "wordClass": "noun",
-        "example": "太陽は西に沈みます。(The sun sets in the west.)"
+        "example": "太陽は西に沈みます。(The sun sets in the west.)",
+        "exampleKana": "たいようはにしにしずみます。"
       }
     ]
   },
@@ -2347,7 +2517,8 @@
         "hiragana": "みなみ",
         "meaning": "south",
         "wordClass": "noun",
-        "example": "南の国は暖かいです。(Southern countries are warm.)"
+        "example": "南の国は暖かいです。(Southern countries are warm.)",
+        "exampleKana": "みなみのくにはあたたかいです。"
       }
     ]
   },
@@ -2361,7 +2532,8 @@
         "hiragana": "きた",
         "meaning": "north",
         "wordClass": "noun",
-        "example": "北風が冷たいです。(The north wind is cold.)"
+        "example": "北風が冷たいです。(The north wind is cold.)",
+        "exampleKana": "きたかぜがつめたいです。"
       }
     ]
   },
@@ -2375,7 +2547,8 @@
         "hiragana": "ひろい",
         "meaning": "wide, spacious",
         "wordClass": "adjective",
-        "example": "広い公園があります。(There is a spacious park.)"
+        "example": "広い公園があります。(There is a spacious park.)",
+        "exampleKana": "ひろいこうえんがあります。"
       }
     ]
   },
@@ -2389,7 +2562,8 @@
         "hiragana": "せまい",
         "meaning": "narrow, small",
         "wordClass": "adjective",
-        "example": "狭い部屋に住んでいます。(I live in a small room.)"
+        "example": "狭い部屋に住んでいます。(I live in a small room.)",
+        "exampleKana": "せまいへやにすんでいます。"
       }
     ]
   },
@@ -2403,7 +2577,8 @@
         "hiragana": "ふかい",
         "meaning": "deep",
         "wordClass": "adjective",
-        "example": "深い湖で泳ぎました。(I swam in a deep lake.)"
+        "example": "深い湖で泳ぎました。(I swam in a deep lake.)",
+        "exampleKana": "ふかいみずうみでおよぎました。"
       }
     ]
   },
@@ -2417,7 +2592,8 @@
         "hiragana": "あさい",
         "meaning": "shallow",
         "wordClass": "adjective",
-        "example": "浅い川を渡りました。(I crossed a shallow river.)"
+        "example": "浅い川を渡りました。(I crossed a shallow river.)",
+        "exampleKana": "あさいかわをわたりました。"
       }
     ]
   },
@@ -2431,7 +2607,8 @@
         "hiragana": "あつい",
         "meaning": "thick",
         "wordClass": "adjective",
-        "example": "厚いコートを着ています。(I am wearing a thick coat.)"
+        "example": "厚いコートを着ています。(I am wearing a thick coat.)",
+        "exampleKana": "あついこーとをきています。"
       }
     ]
   },
@@ -2445,7 +2622,8 @@
         "hiragana": "うすい",
         "meaning": "thin",
         "wordClass": "adjective",
-        "example": "薄い本を読みました。(I read a thin book.)"
+        "example": "薄い本を読みました。(I read a thin book.)",
+        "exampleKana": "うすいほんをよみました。"
       }
     ]
   },
@@ -2459,7 +2637,8 @@
         "hiragana": "ほそい",
         "meaning": "thin, slender",
         "wordClass": "adjective",
-        "example": "細い道を歩きました。(I walked on a narrow road.)"
+        "example": "細い道を歩きました。(I walked on a narrow road.)",
+        "exampleKana": "ほそいみちをあるきました。"
       }
     ]
   },
@@ -2473,7 +2652,8 @@
         "hiragana": "ふとい",
         "meaning": "thick, fat",
         "wordClass": "adjective",
-        "example": "太い木があります。(There is a thick tree.)"
+        "example": "太い木があります。(There is a thick tree.)",
+        "exampleKana": "ふといきがあります。"
       }
     ]
   },
@@ -2487,7 +2667,8 @@
         "hiragana": "まるい",
         "meaning": "round",
         "wordClass": "adjective",
-        "example": "丸いテーブルで食事をしました。(I ate at a round table.)"
+        "example": "丸いテーブルで食事をしました。(I ate at a round table.)",
+        "exampleKana": "まるいてーぶるでしょくじをしました。"
       }
     ]
   },
@@ -2501,7 +2682,8 @@
         "hiragana": "しかく",
         "meaning": "square",
         "wordClass": "noun",
-        "example": "四角い箱に入れました。(I put it in a square box.)"
+        "example": "四角い箱に入れました。(I put it in a square box.)",
+        "exampleKana": "しかくいはこにいれました。"
       }
     ]
   },
@@ -2515,7 +2697,8 @@
         "hiragana": "あらう",
         "meaning": "to wash",
         "wordClass": "verb",
-        "example": "毎日顔を洗います。(I wash my face every day.)"
+        "example": "毎日顔を洗います。(I wash my face every day.)",
+        "exampleKana": "まいにちかおをあらいます。"
       }
     ]
   },
@@ -2529,7 +2712,8 @@
         "hiragana": "ふく",
         "meaning": "to wipe",
         "wordClass": "verb",
-        "example": "机を拭きました。(I wiped the desk.)"
+        "example": "机を拭きました。(I wiped the desk.)",
+        "exampleKana": "つくえをふきました。"
       }
     ]
   },
@@ -2543,7 +2727,8 @@
         "hiragana": "そう",
         "meaning": "to sweep, to clean",
         "wordClass": "verb",
-        "example": "部屋を掃除しました。(I cleaned the room.)"
+        "example": "部屋を掃除しました。(I cleaned the room.)",
+        "exampleKana": "へやをそうじしました。"
       }
     ]
   },
@@ -2557,7 +2742,8 @@
         "hiragana": "なげる",
         "meaning": "to throw",
         "wordClass": "verb",
-        "example": "ボールを投げました。(I threw the ball.)"
+        "example": "ボールを投げました。(I threw the ball.)",
+        "exampleKana": "ぼーるをなげました。"
       }
     ]
   },
@@ -2571,7 +2757,8 @@
         "hiragana": "ひろう",
         "meaning": "to pick up",
         "wordClass": "verb",
-        "example": "落ちた本を拾いました。(I picked up the book that fell.)"
+        "example": "落ちた本を拾いました。(I picked up the book that fell.)",
+        "exampleKana": "おちたほんをひろいました。"
       }
     ]
   },
@@ -2585,7 +2772,8 @@
         "hiragana": "おす",
         "meaning": "to push",
         "wordClass": "verb",
-        "example": "ボタンを押してください。(Please push the button.)"
+        "example": "ボタンを押してください。(Please push the button.)",
+        "exampleKana": "ぼたんをおしてください。"
       }
     ]
   },
@@ -2599,7 +2787,8 @@
         "hiragana": "ひく",
         "meaning": "to pull",
         "wordClass": "verb",
-        "example": "ドアを引いて開けました。(I pulled the door open.)"
+        "example": "ドアを引いて開けました。(I pulled the door open.)",
+        "exampleKana": "どあをひいてあけました。"
       }
     ]
   },
@@ -2613,7 +2802,8 @@
         "hiragana": "とまる",
         "meaning": "to stop",
         "wordClass": "verb",
-        "example": "車が信号で止まりました。(The car stopped at the traffic light.)"
+        "example": "車が信号で止まりました。(The car stopped at the traffic light.)",
+        "exampleKana": "くるまがしんごうでとまりました。"
       }
     ]
   },
@@ -2627,7 +2817,8 @@
         "hiragana": "うごく",
         "meaning": "to move",
         "wordClass": "verb",
-        "example": "電車が動き始めました。(The train started to move.)"
+        "example": "電車が動き始めました。(The train started to move.)",
+        "exampleKana": "でんしゃがうごきはじめました。"
       }
     ]
   },
@@ -2641,7 +2832,8 @@
         "hiragana": "まつ",
         "meaning": "to wait",
         "wordClass": "verb",
-        "example": "友達を待っています。(I am waiting for my friend.)"
+        "example": "友達を待っています。(I am waiting for my friend.)",
+        "exampleKana": "ともだちをまっています。"
       }
     ]
   },
@@ -2655,7 +2847,8 @@
         "hiragana": "いそぐ",
         "meaning": "to hurry",
         "wordClass": "verb",
-        "example": "時間がないので急ぎます。(I'm in a hurry because there's no time.)"
+        "example": "時間がないので急ぎます。(I'm in a hurry because there's no time.)",
+        "exampleKana": "じかんがないのでいそぎます。"
       }
     ]
   },
@@ -2669,7 +2862,8 @@
         "hiragana": "かす",
         "meaning": "to lend",
         "wordClass": "verb",
-        "example": "本を友達に貸しました。(I lent a book to my friend.)"
+        "example": "本を友達に貸しました。(I lent a book to my friend.)",
+        "exampleKana": "ほんをともだちにかしました。"
       }
     ]
   },
@@ -2683,7 +2877,8 @@
         "hiragana": "かりる",
         "meaning": "to borrow",
         "wordClass": "verb",
-        "example": "図書館で本を借りました。(I borrowed a book from the library.)"
+        "example": "図書館で本を借りました。(I borrowed a book from the library.)",
+        "exampleKana": "としょかんでほんをかりました。"
       }
     ]
   },
@@ -2697,7 +2892,8 @@
         "hiragana": "かえす",
         "meaning": "to return, to give back",
         "wordClass": "verb",
-        "example": "借りた本を返します。(I will return the borrowed book.)"
+        "example": "借りた本を返します。(I will return the borrowed book.)",
+        "exampleKana": "かりたほんをかえします。"
       }
     ]
   },
@@ -2711,7 +2907,8 @@
         "hiragana": "おくる",
         "meaning": "to send",
         "wordClass": "verb",
-        "example": "手紙を送りました。(I sent a letter.)"
+        "example": "手紙を送りました。(I sent a letter.)",
+        "exampleKana": "てがみをおくりました。"
       }
     ]
   },
@@ -2725,7 +2922,8 @@
         "hiragana": "うける",
         "meaning": "to receive",
         "wordClass": "verb",
-        "example": "プレゼントを受け取りました。(I received a present.)"
+        "example": "プレゼントを受け取りました。(I received a present.)",
+        "exampleKana": "ぷれぜんとをうけとりました。"
       }
     ]
   },
@@ -2739,7 +2937,8 @@
         "hiragana": "おしえる",
         "meaning": "to teach",
         "wordClass": "verb",
-        "example": "日本語を教えています。(I am teaching Japanese.)"
+        "example": "日本語を教えています。(I am teaching Japanese.)",
+        "exampleKana": "にほんごをおしえています。"
       }
     ]
   },
@@ -2753,7 +2952,8 @@
         "hiragana": "ならう",
         "meaning": "to learn",
         "wordClass": "verb",
-        "example": "ピアノを習っています。(I am learning piano.)"
+        "example": "ピアノを習っています。(I am learning piano.)",
+        "exampleKana": "ぴあのをならっています。"
       }
     ]
   },
@@ -2767,7 +2967,8 @@
         "hiragana": "しつもん",
         "meaning": "question",
         "wordClass": "noun",
-        "example": "質問があります。(I have a question.)"
+        "example": "質問があります。(I have a question.)",
+        "exampleKana": "しつもんがあります。"
       }
     ]
   },
@@ -2781,7 +2982,8 @@
         "hiragana": "こたえる",
         "meaning": "to answer",
         "wordClass": "verb",
-        "example": "質問に答えました。(I answered the question.)"
+        "example": "質問に答えました。(I answered the question.)",
+        "exampleKana": "しつもんにこたえました。"
       }
     ]
   },
@@ -2795,7 +2997,8 @@
         "hiragana": "ためす",
         "meaning": "to try, to test",
         "wordClass": "verb",
-        "example": "新しい料理を試しました。(I tried a new dish.)"
+        "example": "新しい料理を試しました。(I tried a new dish.)",
+        "exampleKana": "あたらしいりょうりをためしました。"
       }
     ]
   },
@@ -2809,7 +3012,8 @@
         "hiragana": "れんしゅう",
         "meaning": "practice",
         "wordClass": "noun",
-        "example": "毎日練習しています。(I practice every day.)"
+        "example": "毎日練習しています。(I practice every day.)",
+        "exampleKana": "まいにちれんしゅうしています。"
       }
     ]
   },
@@ -2823,7 +3027,8 @@
         "hiragana": "べんきょう",
         "meaning": "study",
         "wordClass": "noun",
-        "example": "勉強が好きです。(I like studying.)"
+        "example": "勉強が好きです。(I like studying.)",
+        "exampleKana": "べんきょうがすきです。"
       }
     ]
   },
@@ -2837,7 +3042,8 @@
         "hiragana": "けんきゅう",
         "meaning": "research",
         "wordClass": "noun",
-        "example": "大学で研究しています。(I am doing research at university.)"
+        "example": "大学で研究しています。(I am doing research at university.)",
+        "exampleKana": "だいがくでけんきゅうしています。"
       }
     ]
   },
@@ -2851,7 +3057,8 @@
         "hiragana": "しけん",
         "meaning": "exam, test",
         "wordClass": "noun",
-        "example": "来週試験があります。(There is an exam next week.)"
+        "example": "来週試験があります。(There is an exam next week.)",
+        "exampleKana": "らいしゅうしけんがあります。"
       }
     ]
   }

@@ -16,6 +16,7 @@ interface KanjiEntry {
   meaning: string;
   wordClass: string;
   example: string;
+  exampleKana?: string;
 }
 
 interface KanjiItem {
@@ -139,12 +140,24 @@ export default function KanjiDetailPage({ params }: PageProps) {
 
           {/* Example Sentence */}
           <div className="bg-gradient-to-r from-pink-25 to-rose-25 rounded-xl p-8 border border-rose-100 shadow-sm">
-            <h3 className="text-xl font-semibold text-rose-700 mb-4 text-center">
-              🌸 Example Sentence 🌸
-            </h3>
-            <div className="text-center">
-              <div className="text-lg font-medium text-rose-800 mb-2 leading-relaxed">
-                {currentEntry.example}
+            <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <span className="text-lg">📝</span>
+                <div className="text-lg font-medium text-rose-800 leading-relaxed">
+                  {currentEntry.example.split('(')[0].trim()}
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-lg">🌍</span>
+                <div className="text-base text-rose-600 leading-relaxed">
+                  {currentEntry.example.includes('(') ? currentEntry.example.split('(')[1].replace(')', '') : ''}
+                </div>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="text-lg">🗾</span>
+                <div className="text-base text-rose-500 leading-relaxed">
+                  {currentEntry.exampleKana || '[Full sentence kana reading - requires data update]'}
+                </div>
               </div>
             </div>
           </div>
