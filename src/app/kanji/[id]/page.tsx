@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ArrowLeftIcon } from "@heroicons/react/24/outline";
 import kanjiData from "@/data/kanji.json";
 import JapaneseBackground from "@/components/JapaneseBackground";
+import Header from "@/components/Header";
 import ProgressLadder from "@/components/ProgressLadder";
 import { useProgress } from "@/hooks/useProgress";
 
@@ -44,26 +45,30 @@ export default function KanjiDetailPage({ params }: PageProps) {
 
   if (!kanji || !currentEntry) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-rose-50 via-pink-50 to-rose-100 flex items-center justify-center relative">
+      <div className="min-h-screen bg-gradient-to-br from-rose-50 via-pink-50 to-rose-100 relative">
+        <Header />
         <JapaneseBackground />
-        <div className="text-center relative z-10">
-          <h1 className="text-2xl font-bold text-rose-800 mb-4">Kanji not found</h1>
-          <Link
-            href="/"
-            className="inline-flex items-center px-4 py-2 bg-rose-500 text-white rounded-lg hover:bg-rose-600 transition-colors shadow-md"
-          >
-            <ArrowLeftIcon className="w-5 h-5 mr-2" />
-            Back to Grid
-          </Link>
+        <div className="flex items-center justify-center min-h-[calc(100vh-4rem)]">
+          <div className="text-center relative z-10">
+            <h1 className="text-2xl font-bold text-rose-800 mb-4">Kanji not found</h1>
+            <Link
+              href="/"
+              className="inline-flex items-center px-4 py-2 bg-rose-500 text-white rounded-lg hover:bg-rose-600 transition-colors shadow-md"
+            >
+              <ArrowLeftIcon className="w-5 h-5 mr-2" />
+              Back to Grid
+            </Link>
+          </div>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-rose-50 via-pink-50 to-rose-100 p-4 sm:p-8 relative">
+    <div className="min-h-screen bg-gradient-to-br from-rose-50 via-pink-50 to-rose-100 relative">
+      <Header />
       <JapaneseBackground />
-      <div className="max-w-4xl mx-auto relative z-10">
+      <div className="max-w-4xl mx-auto relative z-10 p-4 sm:p-8">
         {/* Navigation */}
         <nav className="mb-8">
           <Link
