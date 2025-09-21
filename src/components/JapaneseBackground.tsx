@@ -41,23 +41,34 @@ const backgroundElements = [
 ];
 
 export default function JapaneseBackground() {
+  // Get animation class based on index
+  const getAnimationClass = (index: number) => {
+    const animations = ['animate-float', 'animate-float-slow', 'animate-float-slower'];
+    return animations[index % 3];
+  };
+
+  // Get delay class based on index
+  const getDelayClass = (index: number) => {
+    const delays = ['', 'animate-delay-1', 'animate-delay-2', 'animate-delay-3', 'animate-delay-4'];
+    return delays[index % 5];
+  };
 
   return (
     <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
       {/* Main decorative icons - all different types clearly visible */}
       {backgroundElements.map((element, index) => {
         const { Icon, color, top, left, right, size, rotation } = element;
+        const animationClass = getAnimationClass(index);
+        const delayClass = getDelayClass(index);
 
         return (
           <div
             key={`icon-${index}`}
-            className={`absolute ${size} ${color} ${rotation} opacity-40 transition-all duration-1000`}
+            className={`absolute ${size} ${color} ${rotation} opacity-40 transition-all duration-1000 ${animationClass} ${delayClass}`}
             style={{
               top,
               left,
               right,
-              animation: `float ${4 + (index % 3)}s ease-in-out infinite`,
-              animationDelay: `${index * 0.7}s`,
             }}
           >
             <Icon className="w-full h-full filter drop-shadow-lg" />
@@ -67,40 +78,33 @@ export default function JapaneseBackground() {
 
       {/* Additional floating elements with mixed icons */}
       <div className="absolute top-1/4 left-1/3 w-8 h-8 text-pink-400 opacity-40">
-        <SakuraIcon className="w-full h-full animate-bounce" style={{ animationDuration: '3s' }} />
+        <SakuraIcon className="w-full h-full animate-bounce-slow" />
       </div>
       <div className="absolute top-3/4 left-2/3 w-10 h-10 text-red-400 opacity-35">
-        <ToriiIcon className="w-full h-full animate-pulse" style={{ animationDuration: '2.5s' }} />
+        <ToriiIcon className="w-full h-full animate-pulse-slow" />
       </div>
       <div className="absolute top-1/2 left-1/4 w-8 h-8 text-orange-400 opacity-40">
-        <SushiIcon className="w-full h-full animate-spin" style={{ animationDuration: '20s' }} />
+        <SushiIcon className="w-full h-full animate-spin-very-slow" />
       </div>
       <div className="absolute top-1/3 right-1/4 w-9 h-9 text-blue-400 opacity-35">
-        <KoiIcon className="w-full h-full animate-bounce" style={{ animationDuration: '4s', animationDelay: '1s' }} />
+        <KoiIcon className="w-full h-full animate-bounce-slower animate-delay-1" />
       </div>
       <div className="absolute bottom-1/4 left-1/2 w-7 h-7 text-purple-400 opacity-40">
-        <KimonoIcon className="w-full h-full animate-pulse" style={{ animationDuration: '3.5s', animationDelay: '2s' }} />
+        <KimonoIcon className="w-full h-full animate-pulse-slower animate-delay-2" />
       </div>
       <div className="absolute top-1/5 right-1/3 w-8 h-8 text-cyan-400 opacity-35">
-        <DoraemonIcon className="w-full h-full animate-bounce" style={{ animationDuration: '5s', animationDelay: '3s' }} />
+        <DoraemonIcon className="w-full h-full animate-bounce-slowest animate-delay-3" />
       </div>
       <div className="absolute bottom-1/3 right-1/2 w-9 h-9 text-yellow-400 opacity-40">
-        <PikachuIcon className="w-full h-full animate-pulse" style={{ animationDuration: '3s', animationDelay: '1.5s' }} />
+        <PikachuIcon className="w-full h-full animate-pulse-slow animate-delay-1" />
       </div>
       <div className="absolute top-2/3 left-1/5 w-7 h-7 text-pink-400 opacity-35">
-        <HelloKittyIcon className="w-full h-full animate-bounce" style={{ animationDuration: '4.5s', animationDelay: '2.5s' }} />
+        <HelloKittyIcon className="w-full h-full animate-bounce-slower animate-delay-2" />
       </div>
       <div className="absolute top-1/6 left-1/2 w-8 h-8 text-blue-400 opacity-40">
-        <DetectiveConanIcon className="w-full h-full animate-spin" style={{ animationDuration: '25s', animationDelay: '4s' }} />
+        <DetectiveConanIcon className="w-full h-full animate-spin-ultra-slow animate-delay-4" />
       </div>
 
-      {/* CSS for floating animation */}
-      <style jsx>{`
-        @keyframes float {
-          0%, 100% { transform: translateY(0px) rotate(0deg); }
-          50% { transform: translateY(-10px) rotate(5deg); }
-        }
-      `}</style>
     </div>
   );
 }
