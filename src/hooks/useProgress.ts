@@ -1,11 +1,14 @@
 "use client";
 
+import { isSupabaseConfigured } from '@/lib/supabase';
+import { useSupabaseProgress } from './useSupabaseProgress';
 import { useState, useEffect } from 'react';
 import { KanjiProgress } from '@/types/progress';
 
 const STORAGE_KEY = 'kanji-progress';
 
-export const useProgress = () => {
+// Fallback localStorage-only hook
+const useLocalStorageProgress = () => {
   const [progress, setProgress] = useState<KanjiProgress>({});
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -42,6 +45,17 @@ export const useProgress = () => {
     updateProgress,
     getKanjiProgress,
     resetProgress,
-    isLoaded
+    isLoaded,
+    isLoading: false,
+    isAuthenticated: false
   };
+};
+
+export const useProgress = () => {
+  // Use Supabase hook if configured, otherwise fall back to localStorage
+  if (isSupabaseConfigured()) {
+    return useSupabaseProgress();
+  } else {
+    return useLocalStorageProgress();
+  }
 };

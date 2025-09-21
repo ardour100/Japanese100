@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import { Suspense } from "react";
 import kanjiData from "@/data/kanji.json";
 import JapaneseBackground from "@/components/JapaneseBackground";
+import Header from "@/components/Header";
 import { useProgress } from "@/hooks/useProgress";
 import { getProgressColors } from "@/types/progress";
 
@@ -21,16 +22,14 @@ function HomeContent() {
   const currentKanji = kanjiData.slice(startIndex, endIndex);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-rose-50 via-pink-50 to-rose-100 p-4 sm:p-8 relative">
+    <div className="min-h-screen bg-gradient-to-br from-rose-50 via-pink-50 to-rose-100 relative">
+      <Header />
       <JapaneseBackground />
-      <div className="max-w-6xl mx-auto relative z-10">
+      <div className="max-w-6xl mx-auto relative z-10 p-4 sm:p-8">
         <header className="text-center mb-8">
-          <h1 className="text-4xl sm:text-5xl font-bold text-rose-800 mb-2 drop-shadow-sm">
-            漢字学習
-          </h1>
-          <p className="text-xl text-rose-600">
+          <h1 className="text-3xl sm:text-4xl font-bold text-rose-800 mb-2 drop-shadow-sm">
             Most Frequent Japanese Kanji
-          </p>
+          </h1>
           <div className="flex justify-center items-center mt-4 gap-4">
             <div className="text-2xl">🌸</div>
             <div className="text-rose-600 font-medium">
