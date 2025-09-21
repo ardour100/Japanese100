@@ -28,7 +28,7 @@ function HomeContent() {
       <div className="max-w-6xl mx-auto relative z-10 p-4 sm:p-8">
         <header className="text-center mb-8">
           <h1 className="text-3xl sm:text-4xl font-bold text-rose-800 mb-2 drop-shadow-sm">
-            Most Frequent Japanese Kanji
+            Most Frequent Kanji
           </h1>
           <div className="flex justify-center items-center mt-4 gap-4">
             <div className="text-2xl">🌸</div>
@@ -58,7 +58,7 @@ function HomeContent() {
           </div>
         </nav>
 
-        <main className="grid grid-cols-10 gap-2 sm:gap-4 max-w-5xl mx-auto">
+        <main className="grid grid-cols-5 sm:grid-cols-10 gap-3 sm:gap-4 max-w-sm sm:max-w-5xl mx-auto">
           {currentKanji.map((kanji) => {
             const progress = isLoaded ? getKanjiProgress(kanji.id) : 0;
             const colors = getProgressColors(progress);
@@ -67,15 +67,15 @@ function HomeContent() {
               <Link
                 key={kanji.id}
                 href={`/kanji/${kanji.id}`}
-                className={`aspect-square rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-110 flex items-center justify-center group backdrop-blur-sm hover:backdrop-blur-none relative ${colors.background} border-2 ${colors.border} hover:border-rose-300`}
+                className={`aspect-square rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 active:scale-95 flex items-center justify-center group backdrop-blur-sm hover:backdrop-blur-none relative ${colors.background} border-2 ${colors.border} hover:border-rose-300`}
               >
-                <span className={`text-xl sm:text-2xl lg:text-3xl font-bold transition-colors drop-shadow-sm ${colors.text} group-hover:text-rose-600`}>
+                <span className={`text-lg sm:text-2xl lg:text-3xl font-bold transition-colors drop-shadow-sm ${colors.text} group-hover:text-rose-600`}>
                   {kanji.kanji}
                 </span>
 
-                {/* Progress indicator badge */}
+                {/* Progress indicator badge - hidden on mobile */}
                 {progress > 0 && (
-                  <div className={`absolute -top-2 -right-2 w-6 h-6 rounded-full ${colors.badge} flex items-center justify-center text-xs font-bold ${colors.text} shadow-sm border-2 border-white`}>
+                  <div className={`absolute -top-2 -right-2 w-6 h-6 rounded-full ${colors.badge} items-center justify-center text-xs font-bold ${colors.text} shadow-sm border-2 border-white hidden sm:flex`}>
                     {progress === 100 ? '✓' : `${progress}`}
                   </div>
                 )}

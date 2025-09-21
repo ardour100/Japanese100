@@ -131,9 +131,6 @@ export default function KanjiDetailPage({ params }: PageProps) {
           <div className="max-w-md mx-auto mb-12">
             {/* Hiragana */}
             <div className="bg-gradient-to-br from-pink-50 to-rose-100 rounded-xl p-6 text-center border border-pink-200 shadow-sm">
-              <h3 className="text-lg font-semibold text-rose-700 mb-3">
-                ひらがな (Hiragana)
-              </h3>
               <div className="text-4xl font-bold text-pink-600">
                 {currentEntry.hiragana}
               </div>
@@ -166,12 +163,9 @@ export default function KanjiDetailPage({ params }: PageProps) {
             </Link>
 
             <div className="text-rose-600 font-medium">
-              🌸 {kanji.id} of {kanjiData.length} 🌸
-              {kanji.entries.length > 1 && (
-                <div className="text-sm text-rose-400 mt-1">
-                  Entry {selectedEntryIndex + 1} of {kanji.entries.length}
-                </div>
-              )}
+              <span className="hidden sm:inline">🌸 </span>
+              {kanji.id} of {kanjiData.length}
+              <span className="hidden sm:inline"> 🌸</span>
             </div>
 
             <Link
