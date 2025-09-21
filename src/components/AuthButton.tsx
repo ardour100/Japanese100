@@ -4,7 +4,12 @@ import { useAuth } from '@/hooks/useAuth';
 import { UserIcon, ArrowRightOnRectangleIcon } from '@heroicons/react/24/outline';
 
 export default function AuthButton() {
-  const { user, loading, signInWithGoogle, signOut, isAuthenticated } = useAuth();
+  const { user, loading, signInWithGoogle, signOut, isAuthenticated, isSupabaseConfigured } = useAuth();
+
+  // Don't show auth button if Supabase is not configured
+  if (!isSupabaseConfigured) {
+    return null;
+  }
 
   if (loading) {
     return (

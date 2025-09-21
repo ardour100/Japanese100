@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { User, Session } from '@supabase/supabase-js';
-import { supabase } from '@/lib/supabase';
+import { supabase, isSupabaseConfigured } from '@/lib/supabase';
 
 export const useAuth = () => {
   const [user, setUser] = useState<User | null>(null);
@@ -10,12 +10,23 @@ export const useAuth = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    // If Supabase is not configured, set loading to false and return
+    if (!isSupabaseConfigured()) {
+      setLoading(false);
+      return;
+    }
+
     // Get initial session
     const getInitialSession = async () => {
-      const { data: { session } } = await supabase.auth.getSession();
-      setSession(session);
-      setUser(session?.user ?? null);
-      setLoading(false);
+      try {
+        const { data: { session } } = await supabase.auth.getSession();
+        setSession(session);
+        setUser(session?.user ?? null);
+      } catch (error) {
+        console.error('Error getting initial session:', error);
+      } finally {
+        setLoading(false);
+      }
     };
 
     getInitialSession();
@@ -39,6 +50,11 @@ export const useAuth = () => {
   }, []);
 
   const signInWithGoogle = async () => {
+    if (!isSupabaseConfigured()) {
+      console.warn('Supabase is not configured. Cannot sign in.');
+      return;
+    }
+
     try {
       setLoading(true);
       const { error } = await supabase.auth.signInWithOAuth({
@@ -59,6 +75,11 @@ export const useAuth = () => {
   };
 
   const signOut = async () => {
+    if (!isSupabaseConfigured()) {
+      console.warn('Supabase is not configured. Cannot sign out.');
+      return;
+    }
+
     try {
       setLoading(true);
       const { error } = await supabase.auth.signOut();
@@ -78,6 +99,7 @@ export const useAuth = () => {
     loading,
     signInWithGoogle,
     signOut,
-    isAuthenticated: !!user
+    isAuthenticated: !!user,
+    isSupabaseConfigured: isSupabaseConfigured()
   };
 };
