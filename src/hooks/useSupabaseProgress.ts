@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from 'react';
-import { supabase } from '@/lib/supabase';
+import { supabase, isSupabaseConfigured } from '@/lib/supabase';
 import { useAuth } from '@/hooks/useAuth';
 import { KanjiProgress } from '@/types/progress';
 
@@ -15,7 +15,7 @@ export const useSupabaseProgress = () => {
 
   // Load progress from Supabase or localStorage
   const loadProgress = useCallback(async () => {
-    if (isAuthenticated && user) {
+    if (isSupabaseConfigured() && isAuthenticated && user) {
       // Load from Supabase for authenticated users
       try {
         setIsLoading(true);
@@ -41,7 +41,7 @@ export const useSupabaseProgress = () => {
         setIsLoading(false);
       }
     } else {
-      // Load from localStorage for anonymous users
+      // Load from localStorage for anonymous users or when Supabase is not configured
       const savedProgress = localStorage.getItem(STORAGE_KEY);
       if (savedProgress) {
         try {
@@ -56,7 +56,7 @@ export const useSupabaseProgress = () => {
 
   // Migrate localStorage progress to Supabase when user logs in
   const migrateLocalProgressToSupabase = useCallback(async () => {
-    if (!isAuthenticated || !user) return;
+    if (!isSupabaseConfigured() || !isAuthenticated || !user) return;
 
     const localProgress = localStorage.getItem(STORAGE_KEY);
     if (!localProgress) return;
@@ -97,7 +97,7 @@ export const useSupabaseProgress = () => {
 
   useEffect(() => {
     // Migrate local progress when user logs in
-    if (isAuthenticated && user && isLoaded) {
+    if (isSupabaseConfigured() && isAuthenticated && user && isLoaded) {
       migrateLocalProgressToSupabase().then(() => {
         // Reload progress after migration
         loadProgress();
@@ -110,7 +110,7 @@ export const useSupabaseProgress = () => {
     const newProgress = { ...progress, [kanjiId]: level };
     setProgress(newProgress);
 
-    if (isAuthenticated && user) {
+    if (isSupabaseConfigured() && isAuthenticated && user) {
       // Save to Supabase for authenticated users
       try {
         const { error } = await supabase
@@ -132,7 +132,7 @@ export const useSupabaseProgress = () => {
         setProgress(progress);
       }
     } else {
-      // Save to localStorage for anonymous users
+      // Save to localStorage for anonymous users or when Supabase is not configured
       localStorage.setItem(STORAGE_KEY, JSON.stringify(newProgress));
     }
   }, [progress, isAuthenticated, user]);
@@ -142,7 +142,7 @@ export const useSupabaseProgress = () => {
   }, [progress]);
 
   const resetProgress = useCallback(async () => {
-    if (isAuthenticated && user) {
+    if (isSupabaseConfigured() && isAuthenticated && user) {
       // Clear from Supabase for authenticated users
       try {
         const { error } = await supabase
@@ -159,7 +159,7 @@ export const useSupabaseProgress = () => {
         return;
       }
     } else {
-      // Clear from localStorage for anonymous users
+      // Clear from localStorage for anonymous users or when Supabase is not configured
       localStorage.removeItem(STORAGE_KEY);
     }
 
@@ -187,6 +187,6 @@ export const useSupabaseProgress = () => {
     getProgressStats,
     isLoaded,
     isLoading,
-    isAuthenticated
+    isAuthenticated: isSupabaseConfigured() ? isAuthenticated : false
   };
 };
