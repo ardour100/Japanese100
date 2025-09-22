@@ -31,6 +31,10 @@ export default function AuthButton() {
   }
 
   if (isAuthenticated && user) {
+    // Debug logging
+    console.log('User authenticated:', user);
+    console.log('Avatar URL:', user.user_metadata?.avatar_url);
+
     return (
       <div className="flex items-center space-x-3">
         {/* User Avatar Only */}
@@ -42,6 +46,9 @@ export default function AuthButton() {
               width={32}
               height={32}
               className="w-8 h-8 rounded-full border border-rose-200"
+              onError={(e) => {
+                console.error('Avatar image failed to load:', e);
+              }}
             />
           ) : (
             <div className="w-8 h-8 bg-rose-100 rounded-full flex items-center justify-center border border-rose-200">
@@ -64,11 +71,23 @@ export default function AuthButton() {
     );
   }
 
+  const handleSignIn = async () => {
+    if (!isSupabaseConfigured) {
+      alert('Authentication is not configured. Please check the Supabase configuration.');
+      return;
+    }
+    await signInWithGoogle();
+  };
+
   return (
     <button
-      onClick={signInWithGoogle}
-      className="inline-flex items-center px-4 py-2 border border-transparent rounded-lg text-sm font-medium text-white bg-gradient-to-r from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 transition-all shadow-sm hover:shadow-md"
-      disabled={loading}
+      onClick={handleSignIn}
+      className={`inline-flex items-center px-4 py-2 border border-transparent rounded-lg text-sm font-medium transition-all shadow-sm hover:shadow-md ${
+        isSupabaseConfigured
+          ? 'text-white bg-gradient-to-r from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700'
+          : 'text-gray-500 bg-gray-200 cursor-not-allowed'
+      }`}
+      disabled={loading || !isSupabaseConfigured}
     >
       <svg className="w-4 h-4 mr-2" viewBox="0 0 24 24">
         <path
@@ -88,8 +107,12 @@ export default function AuthButton() {
           d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
         />
       </svg>
-      <span className="hidden sm:inline">Sign in</span>
-      <span className="sm:hidden">Sign in</span>
+      <span className="hidden sm:inline">
+        {isSupabaseConfigured ? 'Sign in' : 'Auth not configured'}
+      </span>
+      <span className="sm:hidden">
+        {isSupabaseConfigured ? 'Sign in' : 'No auth'}
+      </span>
     </button>
   );
 }
