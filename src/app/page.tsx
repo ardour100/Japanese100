@@ -32,7 +32,7 @@ function HomeContent() {
           </h1>
           <div className="flex justify-center items-center mt-4 gap-4">
             <div className="text-2xl">🌸</div>
-            <div className="text-rose-600 font-medium">
+            <div className="text-slate-600 font-medium">
               Page {currentPage} of {totalPages} ({kanjiData.length} total kanji)
             </div>
             <div className="text-2xl">🌸</div>
@@ -98,7 +98,7 @@ function HomeContent() {
           </Link>
 
           <div className="flex items-center px-4 py-3 bg-white rounded-lg border border-rose-200 shadow-sm">
-            <span className="text-rose-600 font-medium">
+            <span className="text-slate-600 font-medium">
               Showing {startIndex + 1}-{Math.min(endIndex, kanjiData.length)} of {kanjiData.length}
             </span>
           </div>
@@ -117,33 +117,33 @@ function HomeContent() {
 
         {/* Progress Legend */}
         <div className="max-w-4xl mx-auto mt-8 p-4 bg-white rounded-lg shadow-sm border border-rose-200">
-          <h3 className="text-center text-rose-700 font-semibold mb-3">🎯 Learning Progress Legend</h3>
+          <h3 className="text-center text-slate-700 font-semibold mb-3">🎯 Learning Progress Legend</h3>
           <div className="flex flex-wrap justify-center gap-4 text-sm">
             <div className="flex items-center gap-2">
               <div className="w-4 h-4 bg-gray-100 border border-gray-300 rounded"></div>
-              <span className="text-gray-600">Locked (0%)</span>
+              <span className="text-slate-600 font-medium">Locked (0%)</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-4 h-4 bg-red-50 border border-red-200 rounded"></div>
-              <span className="text-red-700">Discovered (20%)</span>
+              <span className="text-slate-700 font-medium">Discovered (20%)</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-4 h-4 bg-yellow-50 border border-yellow-200 rounded"></div>
-              <span className="text-yellow-700">Equipped (60%)</span>
+              <span className="text-slate-700 font-medium">Equipped (60%)</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-4 h-4 bg-blue-50 border border-blue-200 rounded"></div>
-              <span className="text-blue-700">Skilled (80%)</span>
+              <span className="text-slate-700 font-medium">Skilled (80%)</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-4 h-4 bg-green-50 border border-green-200 rounded"></div>
-              <span className="text-green-700">Mastered (100%)</span>
+              <span className="text-slate-700 font-medium">Mastered (100%)</span>
             </div>
           </div>
         </div>
 
-        <footer className="text-center mt-8 text-rose-500 text-sm">
-          <p>🌸 Click on any kanji to learn more and track your progress 🌸</p>
+        <footer className="text-center mt-8 text-slate-500 text-sm">
+          <p className="font-medium">🌸 Click on any kanji to learn more and track your progress 🌸</p>
         </footer>
       </div>
     </div>
