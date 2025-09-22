@@ -19,12 +19,6 @@ interface KanjiEntry {
   exampleKana?: string;
 }
 
-interface KanjiItem {
-  id: number;
-  kanji: string;
-  entries: KanjiEntry[];
-}
-
 interface PageProps {
   params: Promise<{ id: string }>;
 }

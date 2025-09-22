@@ -149,8 +149,8 @@ export const useSupabaseProgress = () => {
       return 0;
     }
 
-    // If user is not authenticated and it's one of the first 10 kanji, show as mastered (100%)
-    if (!isAuthenticated && kanjiId >= 1 && kanjiId <= 10) {
+    // If user is not authenticated and it's the first kanji, show as mastered (100%)
+    if (!isAuthenticated && kanjiId === 1) {
       return 100;
     }
 
