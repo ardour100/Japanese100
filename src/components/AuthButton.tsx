@@ -1,16 +1,31 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useAuth } from '@/hooks/useAuth';
 import Image from 'next/image';
-import { UserIcon, ArrowRightOnRectangleIcon } from '@heroicons/react/24/outline';
+import Link from 'next/link';
+import { UserIcon, ArrowRightOnRectangleIcon, PencilSquareIcon, ChevronDownIcon } from '@heroicons/react/24/outline';
 
 export default function AuthButton() {
   const { user, loading, signInWithGoogle, signOut, isAuthenticated, isSupabaseConfigured } = useAuth();
   const [isHydrated, setIsHydrated] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     setIsHydrated(true);
+  }, []);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsDropdownOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
   // Don't render anything until hydrated to prevent mismatch
@@ -37,36 +52,59 @@ export default function AuthButton() {
 
     return (
       <div className="flex items-center space-x-3">
-        {/* User Avatar Only */}
-        <div className="flex items-center">
-          {user.user_metadata?.avatar_url ? (
-            <Image
-              src={user.user_metadata.avatar_url}
-              alt="User"
-              width={32}
-              height={32}
-              className="w-8 h-8 rounded-full border border-rose-200"
-              onError={(e) => {
-                console.error('Avatar image failed to load:', e);
-              }}
-            />
-          ) : (
-            <div className="w-8 h-8 bg-rose-100 rounded-full flex items-center justify-center border border-rose-200">
-              <UserIcon className="w-5 h-5 text-rose-600" />
+        {/* User Avatar Dropdown */}
+        <div className="relative" ref={dropdownRef}>
+          <button
+            onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+            className="flex items-center space-x-2 p-1 rounded-lg hover:bg-rose-50 transition-colors"
+          >
+            <div className="flex items-center">
+              {user.user_metadata?.avatar_url ? (
+                <Image
+                  src={user.user_metadata.avatar_url}
+                  alt="User"
+                  width={32}
+                  height={32}
+                  className="w-8 h-8 rounded-full border border-rose-200"
+                  onError={(e) => {
+                    console.error('Avatar image failed to load:', e);
+                  }}
+                />
+              ) : (
+                <div className="w-8 h-8 bg-rose-100 rounded-full flex items-center justify-center border border-rose-200">
+                  <UserIcon className="w-5 h-5 text-rose-600" />
+                </div>
+              )}
+            </div>
+            <ChevronDownIcon className={`w-4 h-4 text-rose-600 transition-transform ${isDropdownOpen ? 'rotate-180' : ''}`} />
+          </button>
+
+          {/* Dropdown Menu */}
+          {isDropdownOpen && (
+            <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-rose-200 py-1 z-50">
+              <Link
+                href="/notes"
+                onClick={() => setIsDropdownOpen(false)}
+                className="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-orange-50 hover:text-orange-700 transition-colors"
+              >
+                <PencilSquareIcon className="w-4 h-4 mr-3 text-orange-600" />
+                Notes
+              </Link>
+              <hr className="border-rose-100 my-1" />
+              <button
+                onClick={() => {
+                  setIsDropdownOpen(false);
+                  signOut();
+                }}
+                disabled={loading}
+                className="w-full flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-rose-50 hover:text-rose-700 transition-colors"
+              >
+                <ArrowRightOnRectangleIcon className="w-4 h-4 mr-3" />
+                Sign Out
+              </button>
             </div>
           )}
         </div>
-
-        {/* Sign Out Button */}
-        <button
-          onClick={signOut}
-          className="inline-flex items-center px-3 py-2 border border-rose-300 rounded-lg text-sm font-medium text-rose-700 bg-white hover:bg-rose-50 transition-colors shadow-sm"
-          disabled={loading}
-        >
-          <ArrowRightOnRectangleIcon className="w-4 h-4 mr-2" />
-          <span className="hidden sm:inline">Sign Out</span>
-          <span className="sm:hidden">Out</span>
-        </button>
       </div>
     );
   }
