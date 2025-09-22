@@ -109,6 +109,7 @@ function HomeContent() {
     return `/?${params.toString()}`;
   };
 
+
   // Reset to page 1 when filter changes
   const handleFilterChange = (filter: ProgressFilter) => {
     setProgressFilter(filter);
@@ -320,6 +321,7 @@ function HomeContent() {
           </div>
         </div>
 
+
         <main className="grid grid-cols-5 sm:grid-cols-10 gap-3 sm:gap-4 max-w-sm sm:max-w-5xl mx-auto">
           {currentKanji.length === 0 ? (
             <div className="col-span-full text-center py-16">
@@ -375,6 +377,21 @@ function HomeContent() {
           )}
         </main>
 
+
+        {/* Katakana Entry Button */}
+        <div className="text-center mt-8 mb-6">
+          <Link
+            href="/katakana"
+            className="inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-purple-100 to-violet-100 text-purple-700 rounded-lg hover:from-purple-200 hover:to-violet-200 hover:text-purple-800 transition-all shadow-sm hover:shadow-md transform hover:scale-105 active:scale-95 font-medium border border-purple-200 hover:border-purple-300"
+          >
+            <span className="text-xl">🌸</span>
+            <span>Learn Katakana Words</span>
+            <span className="text-xl">🌸</span>
+          </Link>
+          <p className="text-purple-600 text-sm mt-2">
+            Practice katakana with common English loanwords
+          </p>
+        </div>
 
         <footer className="text-center mt-8 text-slate-500 text-sm">
           <p className="font-medium">🌸 Click on any kanji to learn more and track your progress 🌸</p>

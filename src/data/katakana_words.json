@@ -1,0 +1,257 @@
+[
+  {
+    "kana": "ア",
+    "word": "アイス",
+    "english": "ice / ice cream"
+  },
+  {
+    "kana": "イ",
+    "word": "インターネット",
+    "english": "internet"
+  },
+  {
+    "kana": "ウ",
+    "word": "ウィンドウ",
+    "english": "window"
+  },
+  {
+    "kana": "エ",
+    "word": "エネルギー",
+    "english": "energy"
+  },
+  {
+    "kana": "オ",
+    "word": "オレンジ",
+    "english": "orange"
+  },
+  {
+    "kana": "カ",
+    "word": "カメラ",
+    "english": "camera"
+  },
+  {
+    "kana": "キ",
+    "word": "キャンプ",
+    "english": "camp"
+  },
+  {
+    "kana": "ク",
+    "word": "クラス",
+    "english": "class"
+  },
+  {
+    "kana": "ケ",
+    "word": "ケーキ",
+    "english": "cake"
+  },
+  {
+    "kana": "コ",
+    "word": "コンピューター",
+    "english": "computer"
+  },
+  {
+    "kana": "サ",
+    "word": "サッカー",
+    "english": "soccer"
+  },
+  {
+    "kana": "シ",
+    "word": "システム",
+    "english": "system"
+  },
+  {
+    "kana": "ス",
+    "word": "スーパー",
+    "english": "supermarket"
+  },
+  {
+    "kana": "セ",
+    "word": "セーター",
+    "english": "sweater"
+  },
+  {
+    "kana": "ソ",
+    "word": "ソフト",
+    "english": "software"
+  },
+  {
+    "kana": "タ",
+    "word": "タクシー",
+    "english": "taxi"
+  },
+  {
+    "kana": "チ",
+    "word": "チーズ",
+    "english": "cheese"
+  },
+  {
+    "kana": "ツ",
+    "word": "ツアー",
+    "english": "tour"
+  },
+  {
+    "kana": "テ",
+    "word": "テーブル",
+    "english": "table"
+  },
+  {
+    "kana": "ト",
+    "word": "トマト",
+    "english": "tomato"
+  },
+  {
+    "kana": "ナ",
+    "word": "ナイフ",
+    "english": "knife"
+  },
+  {
+    "kana": "ニ",
+    "word": "ニュース",
+    "english": "news"
+  },
+  {
+    "kana": "ヌ",
+    "word": "ヌードル",
+    "english": "noodle"
+  },
+  {
+    "kana": "ネ",
+    "word": "ネット",
+    "english": "net"
+  },
+  {
+    "kana": "ノ",
+    "word": "ノート",
+    "english": "notebook"
+  },
+  {
+    "kana": "ハ",
+    "word": "ハンバーガー",
+    "english": "hamburger"
+  },
+  {
+    "kana": "ヒ",
+    "word": "ヒーロー",
+    "english": "hero"
+  },
+  {
+    "kana": "フ",
+    "word": "フルーツ",
+    "english": "fruit"
+  },
+  {
+    "kana": "ヘ",
+    "word": "ヘリコプター",
+    "english": "helicopter"
+  },
+  {
+    "kana": "ホ",
+    "word": "ホテル",
+    "english": "hotel"
+  },
+  {
+    "kana": "マ",
+    "word": "マスク",
+    "english": "mask"
+  },
+  {
+    "kana": "ミ",
+    "word": "ミルク",
+    "english": "milk"
+  },
+  {
+    "kana": "ム",
+    "word": "ムービー",
+    "english": "movie"
+  },
+  {
+    "kana": "メ",
+    "word": "メニュー",
+    "english": "menu"
+  },
+  {
+    "kana": "モ",
+    "word": "モデル",
+    "english": "model"
+  },
+  {
+    "kana": "ヤ",
+    "word": "ヤング",
+    "english": "young"
+  },
+  {
+    "kana": "ユ",
+    "word": "ユニフォーム",
+    "english": "uniform"
+  },
+  {
+    "kana": "ヨ",
+    "word": "ヨーグルト",
+    "english": "yogurt"
+  },
+  {
+    "kana": "ラ",
+    "word": "ラジオ",
+    "english": "radio"
+  },
+  {
+    "kana": "リ",
+    "word": "リスト",
+    "english": "list"
+  },
+  {
+    "kana": "ル",
+    "word": "ルール",
+    "english": "rule"
+  },
+  {
+    "kana": "レ",
+    "word": "レストラン",
+    "english": "restaurant"
+  },
+  {
+    "kana": "ロ",
+    "word": "ロボット",
+    "english": "robot"
+  },
+  {
+    "kana": "ワ",
+    "word": "ワイン",
+    "english": "wine"
+  },
+  {
+    "kana": "ヲ",
+    "word": "ヲタク",
+    "english": "otaku (geek)"
+  },
+  {
+    "kana": "ン",
+    "word": "パン",
+    "english": "bread"
+  },
+  {
+    "kana": "ガ",
+    "word": "ガス",
+    "english": "gas"
+  },
+  {
+    "kana": "ギ",
+    "word": "ギター",
+    "english": "guitar"
+  },
+  {
+    "kana": "グ",
+    "word": "グラス",
+    "english": "glass"
+  },
+  {
+    "kana": "ゲ",
+    "word": "ゲーム",
+    "english": "game"
+  },
+  {
+    "kana": "ゴ",
+    "word": "ゴルフ",
+    "english": "golf"
+  }
+]
