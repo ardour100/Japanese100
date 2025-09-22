@@ -337,8 +337,8 @@ function HomeContent() {
                 {progressFilter === 'all'
                   ? "There are no kanji to display."
                   : progressFilter === 'locked'
-                  ? "You've started learning all the kanji! Great progress!"
-                  : `You don't have any ${progressFilter} kanji yet. Keep learning!`
+                  ? "You&apos;ve started learning all the kanji! Great progress!"
+                  : `You don&apos;t have any ${progressFilter} kanji yet. Keep learning!`
                 }
               </p>
               <button

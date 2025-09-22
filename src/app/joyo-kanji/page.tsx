@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import joyoKanjiData from "@/data/joyo-kanji.json";
 import JapaneseBackground from "@/components/JapaneseBackground";
 import Header from "@/components/Header";
 

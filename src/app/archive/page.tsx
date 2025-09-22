@@ -41,7 +41,7 @@ export default function ArchivePage() {
     const maxVisiblePages = 7;
 
     let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
-    let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+    const endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
 
     if (endPage - startPage < maxVisiblePages - 1) {
       startPage = Math.max(1, endPage - maxVisiblePages + 1);
@@ -130,7 +130,7 @@ export default function ArchivePage() {
               <div className="text-6xl mb-4">📦</div>
               <h2 className="text-2xl font-bold text-rose-800 mb-2">No Archived Kanji</h2>
               <p className="text-rose-600 mb-4">
-                You haven't archived any kanji yet. Archive kanji from the main page or detail pages to hide them from your main learning flow.
+                You haven&apos;t archived any kanji yet. Archive kanji from the main page or detail pages to hide them from your main learning flow.
               </p>
               <Link
                 href="/"
