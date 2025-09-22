@@ -238,13 +238,13 @@ export default function IntroductionPage() {
                       Send us your feedback, suggestions, or questions:
                     </p>
                     <a
-                      href="mailto:feedback@kanjilearning.app"
+                      href="mailto:judylovecoding@gmail.com"
                       className="inline-flex items-center justify-center px-4 py-3 sm:py-2 bg-gradient-to-r from-rose-400 to-pink-500 text-white rounded-lg hover:from-rose-500 hover:to-pink-600 transition-colors shadow-md font-medium min-h-[48px] sm:min-h-[auto] w-full sm:w-auto text-center"
                     >
                       <svg className="w-4 h-4 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                       </svg>
-                      <span className="break-all sm:break-normal">feedback@kanjilearning.app</span>
+                      <span className="break-all sm:break-normal">judylovecoding@gmail.com</span>
                     </a>
                   </div>
                 </div>
