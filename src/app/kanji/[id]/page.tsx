@@ -2,7 +2,7 @@
 
 import { use, useState } from "react";
 import Link from "next/link";
-import { ArrowLeftIcon } from "@heroicons/react/24/outline";
+import { ArrowLeftIcon, ArchiveBoxIcon, ArchiveBoxXMarkIcon } from "@heroicons/react/24/outline";
 import kanjiData from "@/data/kanji.json";
 import JapaneseBackground from "@/components/JapaneseBackground";
 import Header from "@/components/Header";
@@ -18,9 +18,10 @@ export default function KanjiDetailPage({ params }: PageProps) {
   const kanji = kanjiData.find((item) => item.id === parseInt(resolvedParams.id)) || null;
   const [selectedEntryIndex, setSelectedEntryIndex] = useState(0);
   const currentEntry = kanji?.entries[selectedEntryIndex] || null;
-  const { getKanjiProgress, updateProgress, isLoaded } = useProgress();
+  const { getKanjiProgress, updateProgress, toggleArchiveKanji, isKanjiArchived, isLoaded } = useProgress();
 
   const currentProgress = isLoaded && kanji ? getKanjiProgress(kanji.id) : 0;
+  const isArchived = isLoaded && kanji ? isKanjiArchived(kanji.id) : false;
 
   // Calculate which page this kanji belongs to
   const kanjiPerPage = 50;
@@ -29,6 +30,12 @@ export default function KanjiDetailPage({ params }: PageProps) {
   const handleProgressChange = (level: number) => {
     if (kanji) {
       updateProgress(kanji.id, level);
+    }
+  };
+
+  const handleToggleArchive = () => {
+    if (kanji) {
+      toggleArchiveKanji(kanji.id);
     }
   };
 
@@ -75,7 +82,24 @@ export default function KanjiDetailPage({ params }: PageProps) {
               <span className="hidden sm:inline"> 🌸</span>
             </div>
 
-            <div className="flex gap-2">
+            <div className="flex gap-2 items-center">
+              {/* Archive Button */}
+              <button
+                onClick={handleToggleArchive}
+                className={`p-2 rounded-lg transition-all shadow-sm ${
+                  isArchived
+                    ? 'bg-amber-500 text-white hover:bg-amber-600'
+                    : 'bg-gray-100 text-gray-600 hover:bg-gray-200 border border-gray-300'
+                }`}
+                title={isArchived ? "Unarchive kanji" : "Archive kanji"}
+              >
+                {isArchived ? (
+                  <ArchiveBoxXMarkIcon className="w-5 h-5" />
+                ) : (
+                  <ArchiveBoxIcon className="w-5 h-5" />
+                )}
+              </button>
+
               <Link
                 href={`/kanji/${Math.max(1, kanji.id - 1)}`}
                 className={`px-4 py-2 rounded-lg transition-all shadow-sm ${
