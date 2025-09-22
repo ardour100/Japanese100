@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { AcademicCapIcon } from '@heroicons/react/24/outline';
+import { AcademicCapIcon, InformationCircleIcon } from '@heroicons/react/24/outline';
 import AuthButton from './AuthButton';
 import GojuonModal from './GojuonModal';
 
@@ -28,8 +28,19 @@ export default function Header() {
               </div>
             </Link>
 
-            {/* Center - Gojuon Button */}
-            <div className="flex items-center">
+            {/* Center - Navigation Links */}
+            <div className="flex items-center gap-3">
+              {/* Introduction Link */}
+              <Link
+                href="/introduction"
+                className="inline-flex items-center px-3 py-2 border border-rose-300 rounded-lg text-sm font-medium text-rose-700 bg-white hover:bg-rose-50 transition-colors shadow-sm"
+              >
+                <InformationCircleIcon className="w-4 h-4 mr-2" />
+                <span className="hidden sm:inline">How to Use</span>
+                <span className="sm:hidden">?</span>
+              </Link>
+
+              {/* Gojuon Button */}
               {isHydrated ? (
                 <button
                   onClick={() => setIsGojuonModalOpen(true)}

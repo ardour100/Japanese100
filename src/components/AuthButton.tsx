@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useAuth } from '@/hooks/useAuth';
+import Image from 'next/image';
 import { UserIcon, ArrowRightOnRectangleIcon } from '@heroicons/react/24/outline';
 
 export default function AuthButton() {
@@ -17,10 +18,8 @@ export default function AuthButton() {
     return <div className="w-24 h-10" />; // Placeholder with similar dimensions
   }
 
-  // Don't show auth button if Supabase is not configured
-  if (!isSupabaseConfigured) {
-    return null;
-  }
+  // Always show the sign-in button, even if Supabase is not fully configured
+  // This allows users to attempt sign-in and see any configuration messages
 
   if (loading) {
     return (
@@ -37,9 +36,11 @@ export default function AuthButton() {
         {/* User Avatar Only */}
         <div className="flex items-center">
           {user.user_metadata?.avatar_url ? (
-            <img
+            <Image
               src={user.user_metadata.avatar_url}
               alt="User"
+              width={32}
+              height={32}
               className="w-8 h-8 rounded-full border border-rose-200"
             />
           ) : (
@@ -87,7 +88,7 @@ export default function AuthButton() {
           d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
         />
       </svg>
-      <span className="hidden sm:inline">Sign in with Google</span>
+      <span className="hidden sm:inline">Sign in</span>
       <span className="sm:hidden">Sign in</span>
     </button>
   );
