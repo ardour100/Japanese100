@@ -169,7 +169,7 @@ export default function KanjiDetailPage({ params }: PageProps) {
               </div>
               <div className="flex items-start gap-3">
                 <span className="text-lg">🌍</span>
-                <div className="text-base text-rose-600 leading-relaxed">
+                <div className="text-base text-slate-700 font-medium leading-relaxed">
                   {currentEntry.example.includes('(') ? currentEntry.example.split('(')[1].replace(')', '') : ''}
                 </div>
               </div>
