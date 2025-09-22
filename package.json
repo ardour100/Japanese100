@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:auth": "node scripts/test-auth-setup.js",
+    "test:health": "curl http://localhost:3000/api/health"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",

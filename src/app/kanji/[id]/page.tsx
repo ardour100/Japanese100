@@ -9,15 +9,6 @@ import Header from "@/components/Header";
 import ProgressLadder from "@/components/ProgressLadder";
 import { useProgress } from "@/hooks/useProgress";
 
-interface KanjiEntry {
-  entryId: number;
-  romaji: string;
-  hiragana: string;
-  meaning: string;
-  wordClass: string;
-  example: string;
-  exampleKana?: string;
-}
 
 interface PageProps {
   params: Promise<{ id: string }>;

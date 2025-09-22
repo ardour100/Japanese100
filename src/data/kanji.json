@@ -4561,5 +4561,455 @@
         "exampleKana": "さいしんのにゅーすをほうこくします。"
       }
     ]
+  },
+  {
+    "id": 301,
+    "kanji": "限",
+    "entries": [
+      {
+        "entryId": 308,
+        "romaji": "gen",
+        "hiragana": "げん",
+        "meaning": "limit, restrict",
+        "wordClass": "noun",
+        "example": "時間に限りがあります。(There is a time limit.)",
+        "exampleKana": "じかんにかぎりがあります。"
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "kanji": "条",
+    "entries": [
+      {
+        "entryId": 309,
+        "romaji": "jou",
+        "hiragana": "じょう",
+        "meaning": "article, clause",
+        "wordClass": "noun",
+        "example": "契約の条件を確認します。(I confirm the contract conditions.)",
+        "exampleKana": "けいやくのじょうけんをかくにんします。"
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "kanji": "件",
+    "entries": [
+      {
+        "entryId": 310,
+        "romaji": "ken",
+        "hiragana": "けん",
+        "meaning": "matter, case",
+        "wordClass": "noun",
+        "example": "この件について話し合いましょう。(Let's discuss this matter.)",
+        "exampleKana": "このけんについてはなしあいましょう。"
+      }
+    ]
+  },
+  {
+    "id": 304,
+    "kanji": "税",
+    "entries": [
+      {
+        "entryId": 311,
+        "romaji": "zei",
+        "hiragana": "ぜい",
+        "meaning": "tax",
+        "wordClass": "noun",
+        "example": "消費税が上がりました。(The consumption tax has increased.)",
+        "exampleKana": "しょうひぜいがあがりました。"
+      }
+    ]
+  },
+  {
+    "id": 305,
+    "kanji": "総",
+    "entries": [
+      {
+        "entryId": 312,
+        "romaji": "sou",
+        "hiragana": "そう",
+        "meaning": "total, general",
+        "wordClass": "noun",
+        "example": "総額は一万円です。(The total amount is 10,000 yen.)",
+        "exampleKana": "そうがくはいちまんえんです。"
+      }
+    ]
+  },
+  {
+    "id": 306,
+    "kanji": "放",
+    "entries": [
+      {
+        "entryId": 313,
+        "romaji": "hou",
+        "hiragana": "ほう",
+        "meaning": "release, let go",
+        "wordClass": "verb",
+        "example": "犬を公園で放しました。(I let the dog loose in the park.)",
+        "exampleKana": "いぬをこうえんではなしました。"
+      }
+    ]
+  },
+  {
+    "id": 307,
+    "kanji": "演",
+    "entries": [
+      {
+        "entryId": 314,
+        "romaji": "en",
+        "hiragana": "えん",
+        "meaning": "perform, act",
+        "wordClass": "verb",
+        "example": "劇を演じます。(I perform in a play.)",
+        "exampleKana": "げきをえんじます。"
+      }
+    ]
+  },
+  {
+    "id": 308,
+    "kanji": "習",
+    "entries": [
+      {
+        "entryId": 315,
+        "romaji": "shuu",
+        "hiragana": "しゅう",
+        "meaning": "learn, practice",
+        "wordClass": "verb",
+        "example": "毎日日本語を習います。(I study Japanese every day.)",
+        "exampleKana": "まいにちにほんごをならいます。"
+      }
+    ]
+  },
+  {
+    "id": 309,
+    "kanji": "検",
+    "entries": [
+      {
+        "entryId": 316,
+        "romaji": "ken",
+        "hiragana": "けん",
+        "meaning": "examine, inspect",
+        "wordClass": "verb",
+        "example": "車を検査します。(I inspect the car.)",
+        "exampleKana": "くるまをけんさします。"
+      }
+    ]
+  },
+  {
+    "id": 310,
+    "kanji": "討",
+    "entries": [
+      {
+        "entryId": 317,
+        "romaji": "tou",
+        "hiragana": "とう",
+        "meaning": "discuss, attack",
+        "wordClass": "verb",
+        "example": "問題を検討します。(I examine the problem.)",
+        "exampleKana": "もんだいをけんとうします。"
+      }
+    ]
+  },
+  {
+    "id": 311,
+    "kanji": "削",
+    "entries": [
+      {
+        "entryId": 318,
+        "romaji": "saku",
+        "hiragana": "さく",
+        "meaning": "cut, reduce",
+        "wordClass": "verb",
+        "example": "予算を削減します。(I reduce the budget.)",
+        "exampleKana": "よさんをさくげんします。"
+      }
+    ]
+  },
+  {
+    "id": 312,
+    "kanji": "探",
+    "entries": [
+      {
+        "entryId": 319,
+        "romaji": "tan",
+        "hiragana": "たん",
+        "meaning": "search, look for",
+        "wordClass": "verb",
+        "example": "鍵を探しています。(I am looking for my keys.)",
+        "exampleKana": "かぎをさがしています。"
+      }
+    ]
+  },
+  {
+    "id": 313,
+    "kanji": "練",
+    "entries": [
+      {
+        "entryId": 320,
+        "romaji": "ren",
+        "hiragana": "れん",
+        "meaning": "practice, train",
+        "wordClass": "verb",
+        "example": "ピアノを練習します。(I practice the piano.)",
+        "exampleKana": "ぴあのをれんしゅうします。"
+      }
+    ]
+  },
+  {
+    "id": 314,
+    "kanji": "質",
+    "entries": [
+      {
+        "entryId": 321,
+        "romaji": "shitsu",
+        "hiragana": "しつ",
+        "meaning": "quality, nature",
+        "wordClass": "noun",
+        "example": "品質が良いです。(The quality is good.)",
+        "exampleKana": "ひんしつがよいです。"
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "kanji": "額",
+    "entries": [
+      {
+        "entryId": 322,
+        "romaji": "gaku",
+        "hiragana": "がく",
+        "meaning": "amount, sum",
+        "wordClass": "noun",
+        "example": "金額を計算します。(I calculate the amount.)",
+        "exampleKana": "きんがくをけいさんします。"
+      }
+    ]
+  },
+  {
+    "id": 316,
+    "kanji": "費",
+    "entries": [
+      {
+        "entryId": 323,
+        "romaji": "hi",
+        "hiragana": "ひ",
+        "meaning": "expense, cost",
+        "wordClass": "noun",
+        "example": "旅行費用を計算しました。(I calculated the travel expenses.)",
+        "exampleKana": "りょこうひようをけいさんしました。"
+      }
+    ]
+  },
+  {
+    "id": 317,
+    "kanji": "軍",
+    "entries": [
+      {
+        "entryId": 324,
+        "romaji": "gun",
+        "hiragana": "ぐん",
+        "meaning": "army, military",
+        "wordClass": "noun",
+        "example": "軍事について学びます。(I study military affairs.)",
+        "exampleKana": "ぐんじについてまなびます。"
+      }
+    ]
+  },
+  {
+    "id": 318,
+    "kanji": "票",
+    "entries": [
+      {
+        "entryId": 325,
+        "romaji": "hyou",
+        "hiragana": "ひょう",
+        "meaning": "vote, ticket",
+        "wordClass": "noun",
+        "example": "選挙で投票しました。(I voted in the election.)",
+        "exampleKana": "せんきょでとうひょうしました。"
+      }
+    ]
+  },
+  {
+    "id": 319,
+    "kanji": "精",
+    "entries": [
+      {
+        "entryId": 326,
+        "romaji": "sei",
+        "hiragana": "せい",
+        "meaning": "spirit, refined",
+        "wordClass": "noun",
+        "example": "精神力が強いです。(Mental strength is strong.)",
+        "exampleKana": "せいしんりょくがつよいです。"
+      }
+    ]
+  },
+  {
+    "id": 320,
+    "kanji": "製",
+    "entries": [
+      {
+        "entryId": 327,
+        "romaji": "sei",
+        "hiragana": "せい",
+        "meaning": "manufacture, make",
+        "wordClass": "verb",
+        "example": "日本製の車です。(It's a Japanese-made car.)",
+        "exampleKana": "にほんせいのくるまです。"
+      }
+    ]
+  },
+  {
+    "id": 321,
+    "kanji": "証",
+    "entries": [
+      {
+        "entryId": 328,
+        "romaji": "shou",
+        "hiragana": "しょう",
+        "meaning": "proof, evidence",
+        "wordClass": "noun",
+        "example": "身分証明書を見せてください。(Please show your ID.)",
+        "exampleKana": "みぶんしょうめいしょをみせてください。"
+      }
+    ]
+  },
+  {
+    "id": 322,
+    "kanji": "類",
+    "entries": [
+      {
+        "entryId": 329,
+        "romaji": "rui",
+        "hiragana": "るい",
+        "meaning": "kind, type",
+        "wordClass": "noun",
+        "example": "この種類の花が好きです。(I like this type of flower.)",
+        "exampleKana": "このしゅるいのはながすきです。"
+      }
+    ]
+  },
+  {
+    "id": 323,
+    "kanji": "装",
+    "entries": [
+      {
+        "entryId": 330,
+        "romaji": "sou",
+        "hiragana": "そう",
+        "meaning": "clothing, equipment",
+        "wordClass": "noun",
+        "example": "正装で出席します。(I will attend in formal wear.)",
+        "exampleKana": "せいそうでしゅっせきします。"
+      }
+    ]
+  },
+  {
+    "id": 324,
+    "kanji": "備",
+    "entries": [
+      {
+        "entryId": 331,
+        "romaji": "bi",
+        "hiragana": "び",
+        "meaning": "prepare, equip",
+        "wordClass": "verb",
+        "example": "旅行の準備をします。(I prepare for the trip.)",
+        "exampleKana": "りょこうのじゅんびをします。"
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "kanji": "護",
+    "entries": [
+      {
+        "entryId": 332,
+        "romaji": "go",
+        "hiragana": "ご",
+        "meaning": "protect, defend",
+        "wordClass": "verb",
+        "example": "家族を護ります。(I protect my family.)",
+        "exampleKana": "かぞくをまもります。"
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "kanji": "危",
+    "entries": [
+      {
+        "entryId": 333,
+        "romaji": "ki",
+        "hiragana": "き",
+        "meaning": "danger, risk",
+        "wordClass": "adjective",
+        "example": "危険な場所です。(It's a dangerous place.)",
+        "exampleKana": "きけんなばしょです。"
+      }
+    ]
+  },
+  {
+    "id": 327,
+    "kanji": "感",
+    "entries": [
+      {
+        "entryId": 334,
+        "romaji": "kan",
+        "hiragana": "かん",
+        "meaning": "feeling, sense",
+        "wordClass": "noun",
+        "example": "素晴らしい感動を受けました。(I was deeply moved.)",
+        "exampleKana": "すばらしいかんどうをうけました。"
+      }
+    ]
+  },
+  {
+    "id": 328,
+    "kanji": "録",
+    "entries": [
+      {
+        "entryId": 335,
+        "romaji": "roku",
+        "hiragana": "ろく",
+        "meaning": "record, register",
+        "wordClass": "verb",
+        "example": "テレビ番組を録画します。(I record a TV program.)",
+        "exampleKana": "てれびばんぐみをろくがします。"
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "kanji": "齢",
+    "entries": [
+      {
+        "entryId": 336,
+        "romaji": "rei",
+        "hiragana": "れい",
+        "meaning": "age, years old",
+        "wordClass": "noun",
+        "example": "年齢を教えてください。(Please tell me your age.)",
+        "exampleKana": "ねんれいをおしえてください。"
+      }
+    ]
+  },
+  {
+    "id": 330,
+    "kanji": "景",
+    "entries": [
+      {
+        "entryId": 337,
+        "romaji": "kei",
+        "hiragana": "けい",
+        "meaning": "scenery, view",
+        "wordClass": "noun",
+        "example": "美しい景色を見ました。(I saw beautiful scenery.)",
+        "exampleKana": "うつくしいけしきをみました。"
+      }
+    ]
   }
 ]
