@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { AcademicCapIcon, InformationCircleIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { AcademicCapIcon, InformationCircleIcon, Bars3Icon, XMarkIcon, ArchiveBoxIcon } from '@heroicons/react/24/outline';
 import AuthButton from './AuthButton';
 import GojuonModal from './GojuonModal';
 
@@ -43,6 +43,16 @@ export default function Header() {
 
             {/* Center - Navigation Links (Desktop) */}
             <div className="hidden sm:flex items-center gap-2 sm:gap-3">
+              {/* Archive Link */}
+              <Link
+                href="/archive"
+                className="inline-flex items-center px-2 sm:px-3 py-2 border border-amber-300 rounded-lg text-sm font-medium text-amber-700 bg-gradient-to-r from-amber-50 to-yellow-50 hover:from-amber-100 hover:to-yellow-100 transition-colors shadow-sm"
+              >
+                <ArchiveBoxIcon className="w-4 h-4 mr-1 sm:mr-2" />
+                <span className="hidden md:inline">Archive</span>
+                <span className="md:hidden">📦</span>
+              </Link>
+
               {/* Joyo Kanji Link */}
               <Link
                 href="/joyo-kanji"
@@ -100,6 +110,16 @@ export default function Header() {
         {isMobileMenuOpen && (
           <div className="sm:hidden border-t border-rose-200 bg-white/95 backdrop-blur-sm">
             <div className="px-4 py-3 space-y-2">
+              {/* Archive Link */}
+              <Link
+                href="/archive"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="flex items-center px-3 py-3 rounded-lg text-amber-700 bg-gradient-to-r from-amber-50 to-yellow-50 hover:from-amber-100 hover:to-yellow-100 transition-colors border border-amber-200"
+              >
+                <ArchiveBoxIcon className="w-5 h-5 mr-3" />
+                <span className="font-medium">Archive</span>
+              </Link>
+
               {/* Joyo Kanji Link */}
               <Link
                 href="/joyo-kanji"

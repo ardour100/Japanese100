@@ -6,10 +6,12 @@ import { useAuth } from '@/hooks/useAuth';
 import { KanjiProgress } from '@/types/progress';
 
 const STORAGE_KEY = 'kanji-progress';
+const ARCHIVE_STORAGE_KEY = 'kanji-archived';
 
 export const useSupabaseProgress = () => {
   const { user, isAuthenticated } = useAuth();
   const [progress, setProgress] = useState<KanjiProgress>({});
+  const [archivedKanji, setArchivedKanji] = useState<Set<number>>(new Set());
   const [isLoaded, setIsLoaded] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [isHydrated, setIsHydrated] = useState(false);
@@ -27,7 +29,7 @@ export const useSupabaseProgress = () => {
         setIsLoading(true);
         const { data, error } = await supabase
           .from('user_progress')
-          .select('kanji_id, progress_level')
+          .select('kanji_id, progress_level, is_archived')
           .eq('user_id', user.id);
 
         if (error) {
@@ -36,11 +38,16 @@ export const useSupabaseProgress = () => {
         }
 
         const progressMap: KanjiProgress = {};
+        const archivedSet = new Set<number>();
         data?.forEach((item) => {
           progressMap[item.kanji_id] = item.progress_level;
+          if (item.is_archived) {
+            archivedSet.add(item.kanji_id);
+          }
         });
 
         setProgress(progressMap);
+        setArchivedKanji(archivedSet);
       } catch (error) {
         console.error('Error loading progress:', error);
       } finally {
@@ -54,6 +61,15 @@ export const useSupabaseProgress = () => {
           setProgress(JSON.parse(savedProgress));
         } catch (error) {
           console.error('Failed to parse saved progress:', error);
+        }
+      }
+
+      const savedArchived = localStorage.getItem(ARCHIVE_STORAGE_KEY);
+      if (savedArchived) {
+        try {
+          setArchivedKanji(new Set(JSON.parse(savedArchived)));
+        } catch (error) {
+          console.error('Failed to parse saved archived kanji:', error);
         }
       }
     }
@@ -195,12 +211,68 @@ export const useSupabaseProgress = () => {
     };
   }, [progress]);
 
+  const toggleArchiveKanji = useCallback(async (kanjiId: number) => {
+    const isCurrentlyArchived = archivedKanji.has(kanjiId);
+    const newArchivedSet = new Set(archivedKanji);
+
+    if (isCurrentlyArchived) {
+      newArchivedSet.delete(kanjiId);
+    } else {
+      newArchivedSet.add(kanjiId);
+    }
+
+    // Optimistically update local state
+    setArchivedKanji(newArchivedSet);
+
+    if (isSupabaseConfigured() && isAuthenticated && user) {
+      // Save to Supabase for authenticated users
+      try {
+        const { error } = await supabase
+          .from('user_progress')
+          .upsert({
+            user_id: user.id,
+            kanji_id: kanjiId,
+            progress_level: progress[kanjiId] || 0,
+            is_archived: !isCurrentlyArchived,
+          }, { onConflict: 'user_id, kanji_id' });
+
+        if (error) {
+          console.error('Error updating archive status in Supabase:', error);
+          // Revert optimistic update
+          setArchivedKanji(archivedKanji);
+        }
+      } catch (error) {
+        console.error('Error updating archive status:', error);
+        // Revert optimistic update
+        setArchivedKanji(archivedKanji);
+      }
+    } else {
+      // Save to localStorage for anonymous users or when Supabase is not configured
+      localStorage.setItem(ARCHIVE_STORAGE_KEY, JSON.stringify(Array.from(newArchivedSet)));
+    }
+  }, [archivedKanji, progress, isAuthenticated, user]);
+
+  const isKanjiArchived = useCallback((kanjiId: number): boolean => {
+    // Before hydration, return false to prevent hydration mismatch
+    if (!isHydrated) {
+      return false;
+    }
+    return archivedKanji.has(kanjiId);
+  }, [archivedKanji, isHydrated]);
+
+  const getArchivedKanji = useCallback((): number[] => {
+    return Array.from(archivedKanji);
+  }, [archivedKanji]);
+
   return {
     progress,
     updateProgress,
     getKanjiProgress,
     resetProgress,
     getProgressStats,
+    toggleArchiveKanji,
+    isKanjiArchived,
+    getArchivedKanji,
     isLoaded: isLoaded && isHydrated,
     isLoading,
     isAuthenticated: isSupabaseConfigured() ? isAuthenticated : false
