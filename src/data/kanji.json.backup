@@ -55,7 +55,11 @@
         "meaning": "four",
         "wordClass": "number",
         "example": "四季がある国に住んでいます。(I live in a country with four seasons.)",
+<<<<<<< HEAD
+        "exampleKana": "しきがあるくににすんでいます。"
+=======
         "exampleKana": "よん季があるくにに住んでいます。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -70,7 +74,11 @@
         "meaning": "five",
         "wordClass": "number",
         "example": "五分後に出発します。(We will leave in five minutes.)",
+<<<<<<< HEAD
+        "exampleKana": "ごふんごにしゅっぱつします。"
+=======
         "exampleKana": "ごふんあとにで発します。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -130,7 +138,11 @@
         "meaning": "nine",
         "wordClass": "number",
         "example": "九月に新学期が始まります。(The new semester starts in September.)",
+<<<<<<< HEAD
+        "exampleKana": "くがつにしんがっきがはじまります。"
+=======
         "exampleKana": "くがつにあたらがく期がはじまります。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -145,7 +157,11 @@
         "meaning": "ten",
         "wordClass": "number",
         "example": "十人の学生がいます。(There are ten students.)",
+<<<<<<< HEAD
+        "exampleKana": "じゅうにんのがくせいがいます。"
+=======
         "exampleKana": "じゅうひとのがくせいがいます。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -160,7 +176,11 @@
         "meaning": "person",
         "wordClass": "noun",
         "example": "あの人は私の先生です。(That person is my teacher.)",
+<<<<<<< HEAD
+        "exampleKana": "あのひとはわたしのせんせいです。"
+=======
         "exampleKana": "あのひとは私のせんせいです。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -175,7 +195,11 @@
         "meaning": "sun, day",
         "wordClass": "noun",
         "example": "今日は良い天気です。(Today is good weather.)",
+<<<<<<< HEAD
+        "exampleKana": "きょうはよいてんきです。"
+=======
         "exampleKana": "きょうは良いてんきです。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -190,7 +214,11 @@
         "meaning": "moon, month",
         "wordClass": "noun",
         "example": "来月は忙しくなります。(Next month will be busy.)",
+<<<<<<< HEAD
+        "exampleKana": "らいげつはいそがしくなります。"
+=======
         "exampleKana": "らいげつは忙しくなります。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -220,7 +248,11 @@
         "meaning": "time",
         "wordClass": "noun",
         "example": "子供の時によく公園で遊びました。(I often played in the park when I was a child.)",
+<<<<<<< HEAD
+        "exampleKana": "こどものときによくこうえんであそびました。"
+=======
         "exampleKana": "こどものじによくこうえんで遊びました。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -235,7 +267,11 @@
         "meaning": "minute",
         "wordClass": "noun",
         "example": "三十分待ちました。(I waited for thirty minutes.)",
+<<<<<<< HEAD
+        "exampleKana": "さんじゅうふんまちました。"
+=======
         "exampleKana": "さんじゅっぷんまちました。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -259,7 +295,11 @@
         "meaning": "to write",
         "wordClass": "verb",
         "example": "毎日日記を書いています。(I write in my diary every day.)",
+<<<<<<< HEAD
+        "exampleKana": "まいにちにっきをかいています。"
+=======
         "exampleKana": "まいにちにっきをしょいています。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -307,7 +347,11 @@
         "meaning": "to learn, to study",
         "wordClass": "verb",
         "example": "大学で経済を学んでいます。(I am studying economics at university.)",
+<<<<<<< HEAD
+        "exampleKana": "だいがくでけいざいをまなんでいます。"
+=======
         "exampleKana": "おおがくでけいざいをがくんでいます。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -346,7 +390,11 @@
         "meaning": "reading",
         "wordClass": "noun",
         "example": "読書は良い習慣です。(Reading is a good habit.)",
+<<<<<<< HEAD
+        "exampleKana": "どくしょはよいしゅうかんです。"
+=======
         "exampleKana": "どくしょは良いしゅうかんです。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       },
       {
         "entryId": 26,
@@ -385,7 +433,11 @@
         "meaning": "fire",
         "wordClass": "noun",
         "example": "火を消してください。(Please put out the fire.)",
+<<<<<<< HEAD
+        "exampleKana": "ひをけしてください。"
+=======
         "exampleKana": "ひを消してください。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -415,7 +467,11 @@
         "meaning": "gold, money",
         "wordClass": "noun",
         "example": "金曜日は忙しいです。(Friday is busy.)",
+<<<<<<< HEAD
+        "exampleKana": "きんようびはいそがしいです。"
+=======
         "exampleKana": "きんようびは忙しいです。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -445,7 +501,11 @@
         "meaning": "big, large",
         "wordClass": "adjective",
         "example": "大きな家に住んでいます。(I live in a big house.)",
+<<<<<<< HEAD
+        "exampleKana": "おおきないえにすんでいます。"
+=======
         "exampleKana": "おおきないえに住んでいます。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -715,7 +775,11 @@
         "meaning": "to make, to create",
         "wordClass": "verb",
         "example": "母がケーキを作りました。(My mother made a cake.)",
+<<<<<<< HEAD
+        "exampleKana": "ははがけーきをつくりました。"
+=======
         "exampleKana": "母がけーきをつくりました。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -775,7 +839,11 @@
         "meaning": "old",
         "wordClass": "adjective",
         "example": "古い建物を見学しました。(I visited an old building.)",
+<<<<<<< HEAD
+        "exampleKana": "ふるいたてものをけんがくしました。"
+=======
         "exampleKana": "ふるいたてものをみがくしました。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -820,7 +888,11 @@
         "meaning": "blue",
         "wordClass": "noun",
         "example": "青い空を見上げました。(I looked up at the blue sky.)",
+<<<<<<< HEAD
+        "exampleKana": "あおいそらをみあげました。"
+=======
         "exampleKana": "あおいそらをみうえげました。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -940,7 +1012,11 @@
         "meaning": "ear",
         "wordClass": "noun",
         "example": "音楽を耳で聞きます。(I listen to music with my ears.)",
+<<<<<<< HEAD
+        "exampleKana": "おんがくをみみでききます。"
+=======
         "exampleKana": "おんがくをみみでぶんきます。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1030,7 +1106,11 @@
         "meaning": "wind",
         "wordClass": "noun",
         "example": "強い風が吹いています。(A strong wind is blowing.)",
+<<<<<<< HEAD
+        "exampleKana": "つよいかぜがふいています。"
+=======
         "exampleKana": "つよいかぜが吹いています。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1045,7 +1125,11 @@
         "meaning": "dog",
         "wordClass": "noun",
         "example": "犬と一緒に散歩します。(I take a walk with my dog.)",
+<<<<<<< HEAD
+        "exampleKana": "いぬといっしょにさんぽします。"
+=======
         "exampleKana": "いぬと一緒にさんぽします。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1060,7 +1144,11 @@
         "meaning": "cat",
         "wordClass": "noun",
         "example": "猫がソファで寝ています。(The cat is sleeping on the sofa.)",
+<<<<<<< HEAD
+        "exampleKana": "ねこがそふぁでねています。"
+=======
         "exampleKana": "ねこがそふァでねています。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1090,7 +1178,11 @@
         "meaning": "bird",
         "wordClass": "noun",
         "example": "公園で鳥が歌っています。(Birds are singing in the park.)",
+<<<<<<< HEAD
+        "exampleKana": "こうえんでとりがうたっています。"
+=======
         "exampleKana": "こうえんでとりが歌っています。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1120,7 +1212,11 @@
         "meaning": "meat",
         "wordClass": "noun",
         "example": "牛肉を焼いて食べました。(I grilled and ate beef.)",
+<<<<<<< HEAD
+        "exampleKana": "ぎゅうにくをやいてたべました。"
+=======
         "exampleKana": "ぎゅうにくを焼いてたべました。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1135,7 +1231,11 @@
         "meaning": "field, wild",
         "wordClass": "noun",
         "example": "野菜を育てています。(I am growing vegetables.)",
+<<<<<<< HEAD
+        "exampleKana": "やさいをそだてています。"
+=======
         "exampleKana": "やさいを育てています。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1195,7 +1295,11 @@
         "meaning": "to swim",
         "wordClass": "verb",
         "example": "プールで泳ぐのが楽しいです。(Swimming in the pool is fun.)",
+<<<<<<< HEAD
+        "exampleKana": "ぷーるでおよぐのがたのしいです。"
+=======
         "exampleKana": "ぷーるでおよぐのががくしいです。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1240,7 +1344,11 @@
         "meaning": "fun, enjoyable",
         "wordClass": "adjective",
         "example": "映画を見るのは楽しいです。(Watching movies is fun.)",
+<<<<<<< HEAD
+        "exampleKana": "えいがをみるのはたのしいです。"
+=======
         "exampleKana": "えいがをみるのはがくしいです。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1270,7 +1378,11 @@
         "meaning": "simple, easy",
         "wordClass": "adjective",
         "example": "簡単な料理を作りました。(I made a simple dish.)",
+<<<<<<< HEAD
+        "exampleKana": "かんたんなりょうりをつくりました。"
+=======
         "exampleKana": "かん単なりょうりをつくりました。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1300,7 +1412,11 @@
         "meaning": "late, slow",
         "wordClass": "adjective",
         "example": "電車が遅れています。(The train is late.)",
+<<<<<<< HEAD
+        "exampleKana": "でんしゃがおくれています。"
+=======
         "exampleKana": "でんしゃがおそれています。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1330,7 +1446,11 @@
         "meaning": "short",
         "wordClass": "adjective",
         "example": "短い話を聞きました。(I heard a short story.)",
+<<<<<<< HEAD
+        "exampleKana": "みじかいはなしをききました。"
+=======
         "exampleKana": "みじかいはなをぶんきました。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1360,7 +1480,11 @@
         "meaning": "car, vehicle",
         "wordClass": "noun",
         "example": "新しい車を運転しています。(I am driving a new car.)",
+<<<<<<< HEAD
+        "exampleKana": "あたらしいくるまをうんてんしています。"
+=======
         "exampleKana": "あたらしいくるまを運転しています。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1375,7 +1499,11 @@
         "meaning": "electricity",
         "wordClass": "noun",
         "example": "電車で通勤しています。(I commute by train.)",
+<<<<<<< HEAD
+        "exampleKana": "でんしゃでつうきんしています。"
+=======
         "exampleKana": "でんしゃで通勤しています。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1390,7 +1518,11 @@
         "meaning": "story, talk",
         "wordClass": "noun",
         "example": "面白い話を聞きました。(I heard an interesting story.)",
+<<<<<<< HEAD
+        "exampleKana": "おもしろいはなしをききました。"
+=======
         "exampleKana": "面しろいはなをぶんきました。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       },
       {
         "entryId": 96,
@@ -1414,7 +1546,11 @@
         "meaning": "to hear, to listen",
         "wordClass": "verb",
         "example": "音楽を聞くのが好きです。(I like listening to music.)",
+<<<<<<< HEAD
+        "exampleKana": "おんがくをきくのがすきです。"
+=======
         "exampleKana": "おんがくをぶんくのがすきです。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1444,7 +1580,11 @@
         "meaning": "to think, to feel",
         "wordClass": "verb",
         "example": "日本語は面白いと思います。(I think Japanese is interesting.)",
+<<<<<<< HEAD
+        "exampleKana": "にほんごはおもしろいとおもいます。"
+=======
         "exampleKana": "にほんごは面しろいとおもいます。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1459,7 +1599,11 @@
         "meaning": "to know",
         "wordClass": "verb",
         "example": "彼の名前を知っています。(I know his name.)",
+<<<<<<< HEAD
+        "exampleKana": "かれのなまえをしっています。"
+=======
         "exampleKana": "彼の名まえをしっています。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1513,7 +1657,11 @@
         "meaning": "to arrive",
         "wordClass": "verb",
         "example": "駅に着きました。(I arrived at the station.)",
+<<<<<<< HEAD
+        "exampleKana": "えきにつきました。"
+=======
         "exampleKana": "えきにききました。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1573,7 +1721,11 @@
         "meaning": "to rest, to take a break",
         "wordClass": "verb",
         "example": "少し休みましょう。(Let's take a little break.)",
+<<<<<<< HEAD
+        "exampleKana": "すこしやすみましょう。"
+=======
         "exampleKana": "すくしやすみましょう。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1723,7 +1875,11 @@
         "meaning": "parent",
         "wordClass": "noun",
         "example": "親と一緒に住んでいます。(I live with my parents.)",
+<<<<<<< HEAD
+        "exampleKana": "おやといっしょにすんでいます。"
+=======
         "exampleKana": "おやと一緒に住んでいます。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1738,7 +1894,11 @@
         "meaning": "child",
         "wordClass": "noun",
         "example": "子供が公園で遊んでいます。(Children are playing in the park.)",
+<<<<<<< HEAD
+        "exampleKana": "こどもがこうえんであそんでいます。"
+=======
         "exampleKana": "こどもがこうえんで遊んでいます。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1798,7 +1958,11 @@
         "meaning": "town, city",
         "wordClass": "noun",
         "example": "小さな町に住んでいます。(I live in a small town.)",
+<<<<<<< HEAD
+        "exampleKana": "ちいさなまちにすんでいます。"
+=======
         "exampleKana": "ちいさなまちに住んでいます。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1813,7 +1977,11 @@
         "meaning": "village",
         "wordClass": "noun",
         "example": "静かな村を訪れました。(I visited a quiet village.)",
+<<<<<<< HEAD
+        "exampleKana": "しずかなむらをたずねました。"
+=======
         "exampleKana": "静かなむらを訪れました。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1903,7 +2071,11 @@
         "meaning": "healthy, energetic",
         "wordClass": "adjective",
         "example": "元気な子供たちです。(They are healthy children.)",
+<<<<<<< HEAD
+        "exampleKana": "げんきなこどもたちです。"
+=======
         "exampleKana": "げん気なこどもたちです。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1918,7 +2090,11 @@
         "meaning": "strong",
         "wordClass": "adjective",
         "example": "強い風が吹いています。(A strong wind is blowing.)",
+<<<<<<< HEAD
+        "exampleKana": "つよいかぜがふいています。"
+=======
         "exampleKana": "つよいかぜが吹いています。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1933,7 +2109,11 @@
         "meaning": "weak",
         "wordClass": "adjective",
         "example": "弱い光が見えます。(A weak light is visible.)",
+<<<<<<< HEAD
+        "exampleKana": "よわいひかりがみえます。"
+=======
         "exampleKana": "よわい光がみえます。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -1963,7 +2143,11 @@
         "meaning": "light, not heavy",
         "wordClass": "adjective",
         "example": "軽い荷物を運びます。(I carry light luggage.)",
+<<<<<<< HEAD
+        "exampleKana": "かるいにもつをはこびます。"
+=======
         "exampleKana": "かるいにもつを運びます。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2008,7 +2192,11 @@
         "meaning": "cold",
         "wordClass": "adjective",
         "example": "冷たい飲み物が欲しいです。(I want a cold drink.)",
+<<<<<<< HEAD
+        "exampleKana": "つめたいのみものがほしいです。"
+=======
         "exampleKana": "つめたいのみものが欲しいです。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2068,7 +2256,11 @@
         "meaning": "spring",
         "wordClass": "noun",
         "example": "春に桜が咲きます。(Cherry blossoms bloom in spring.)",
+<<<<<<< HEAD
+        "exampleKana": "はるにさくらがさきます。"
+=======
         "exampleKana": "はるにさくらが咲きます。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2203,7 +2395,11 @@
         "meaning": "sound",
         "wordClass": "noun",
         "example": "きれいな音楽を聞いています。(I am listening to beautiful music.)",
+<<<<<<< HEAD
+        "exampleKana": "きれいなおんがくをきいています。"
+=======
         "exampleKana": "きれいなおんがくをぶんいています。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2218,7 +2414,11 @@
         "meaning": "color",
         "wordClass": "noun",
         "example": "好きな色は何ですか。(What is your favorite color?)",
+<<<<<<< HEAD
+        "exampleKana": "すきないろはなんですか。"
+=======
         "exampleKana": "すきないろはなにですか。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2293,7 +2493,11 @@
         "meaning": "between, interval",
         "wordClass": "noun",
         "example": "授業の間に休憩があります。(There is a break between classes.)",
+<<<<<<< HEAD
+        "exampleKana": "じゅぎょうのあいだにきゅうけいがあります。"
+=======
         "exampleKana": "じゅぎょうのまにやす憩があります。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2308,7 +2512,11 @@
         "meaning": "near, close",
         "wordClass": "adjective",
         "example": "近い場所に住んでいます。(I live in a nearby place.)",
+<<<<<<< HEAD
+        "exampleKana": "ちかいばしょにすんでいます。"
+=======
         "exampleKana": "ちかい場所に住んでいます。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2368,7 +2576,11 @@
         "meaning": "all, whole",
         "wordClass": "noun",
         "example": "全部食べました。(I ate everything.)",
+<<<<<<< HEAD
+        "exampleKana": "ぜんぶたべました。"
+=======
         "exampleKana": "ぜんへたべました。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2383,7 +2595,11 @@
         "meaning": "half",
         "wordClass": "noun",
         "example": "半分のケーキを食べました。(I ate half of the cake.)",
+<<<<<<< HEAD
+        "exampleKana": "はんぶんのけーきをたべました。"
+=======
         "exampleKana": "はんふんのけーきをたべました。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2413,7 +2629,11 @@
         "meaning": "now, present",
         "wordClass": "noun",
         "example": "今何時ですか。(What time is it now?)",
+<<<<<<< HEAD
+        "exampleKana": "いまなんじですか。"
+=======
         "exampleKana": "いまなにじですか。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2443,7 +2663,11 @@
         "meaning": "after, behind",
         "wordClass": "noun",
         "example": "食事の後で散歩しました。(I took a walk after the meal.)",
+<<<<<<< HEAD
+        "exampleKana": "しょくじのあとでさんぽしました。"
+=======
         "exampleKana": "しょく事のあとでさんぽしました。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2458,7 +2682,11 @@
         "meaning": "left",
         "wordClass": "noun",
         "example": "左に曲がってください。(Please turn left.)",
+<<<<<<< HEAD
+        "exampleKana": "ひだりにまがってください。"
+=======
         "exampleKana": "ひだりに曲がってください。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2488,7 +2716,11 @@
         "meaning": "east",
         "wordClass": "noun",
         "example": "東京は日本の東にあります。(Tokyo is in the east of Japan.)",
+<<<<<<< HEAD
+        "exampleKana": "とうきょうはにほんのひがしにあります。"
+=======
         "exampleKana": "ひがし京はにほんのひがしにあります。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2503,7 +2735,11 @@
         "meaning": "west",
         "wordClass": "noun",
         "example": "太陽は西に沈みます。(The sun sets in the west.)",
+<<<<<<< HEAD
+        "exampleKana": "たいようはにしにしずみます。"
+=======
         "exampleKana": "ふと陽はにしに沈みます。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2563,7 +2799,11 @@
         "meaning": "narrow, small",
         "wordClass": "adjective",
         "example": "狭い部屋に住んでいます。(I live in a small room.)",
+<<<<<<< HEAD
+        "exampleKana": "せまいへやにすんでいます。"
+=======
         "exampleKana": "せまいへやに住んでいます。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2578,7 +2818,11 @@
         "meaning": "deep",
         "wordClass": "adjective",
         "example": "深い湖で泳ぎました。(I swam in a deep lake.)",
+<<<<<<< HEAD
+        "exampleKana": "ふかいみずうみでおよぎました。"
+=======
         "exampleKana": "ふかい湖でおよぎました。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2593,7 +2837,11 @@
         "meaning": "shallow",
         "wordClass": "adjective",
         "example": "浅い川を渡りました。(I crossed a shallow river.)",
+<<<<<<< HEAD
+        "exampleKana": "あさいかわをわたりました。"
+=======
         "exampleKana": "あさいかわを渡りました。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2668,7 +2916,11 @@
         "meaning": "round",
         "wordClass": "adjective",
         "example": "丸いテーブルで食事をしました。(I ate at a round table.)",
+<<<<<<< HEAD
+        "exampleKana": "まるいてーぶるでしょくじをしました。"
+=======
         "exampleKana": "まるいてーぶるでしょく事をしました。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2683,7 +2935,11 @@
         "meaning": "square",
         "wordClass": "noun",
         "example": "四角い箱に入れました。(I put it in a square box.)",
+<<<<<<< HEAD
+        "exampleKana": "しかくいはこにいれました。"
+=======
         "exampleKana": "よん角いはこにはいれました。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2728,7 +2984,11 @@
         "meaning": "to sweep, to clean",
         "wordClass": "verb",
         "example": "部屋を掃除しました。(I cleaned the room.)",
+<<<<<<< HEAD
+        "exampleKana": "へやをそうじしました。"
+=======
         "exampleKana": "へやをそうじょしました。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -2953,7 +3213,11 @@
         "meaning": "to learn",
         "wordClass": "verb",
         "example": "ピアノを習っています。(I am learning piano.)",
+<<<<<<< HEAD
+        "exampleKana": "ぴあのをならっています。"
+=======
         "exampleKana": "ぴあのをしゅうっています。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -3043,7 +3307,11 @@
         "meaning": "research",
         "wordClass": "noun",
         "example": "大学で研究しています。(I am doing research at university.)",
+<<<<<<< HEAD
+        "exampleKana": "だいがくでけんきゅうしています。"
+=======
         "exampleKana": "おおがくでけんきゅうしています。"
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   },
@@ -3059,6 +3327,7 @@
         "wordClass": "noun",
         "example": "来週試験があります。(There is an exam next week.)",
         "exampleKana": "らいしゅうしけんがあります。"
+<<<<<<< HEAD
       }
     ]
   },
@@ -4559,6 +4828,8 @@
         "wordClass": "noun",
         "example": "最新のニュースを報告します。(I report the latest news.)",
         "exampleKana": "さいしんのにゅーすをほうこくします。"
+=======
+>>>>>>> 1251afa (Update kanji detail page layout and add 100 new kanji entries)
       }
     ]
   }
