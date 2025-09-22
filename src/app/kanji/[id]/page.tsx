@@ -72,13 +72,44 @@ export default function KanjiDetailPage({ params }: PageProps) {
       <div className="max-w-4xl mx-auto relative z-10 p-4 sm:p-8">
         {/* Navigation */}
         <nav className="mb-8">
-          <Link
-            href="/"
-            className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-rose-50 to-pink-50 text-rose-700 rounded-lg hover:from-rose-100 hover:to-pink-100 transition-all shadow-md border border-rose-200"
-          >
-            <ArrowLeftIcon className="w-5 h-5 mr-2" />
-            Back to Grid
-          </Link>
+          <div className="flex justify-between items-center">
+            <Link
+              href="/"
+              className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-rose-50 to-pink-50 text-rose-700 rounded-lg hover:from-rose-100 hover:to-pink-100 transition-all shadow-md border border-rose-200"
+            >
+              <ArrowLeftIcon className="w-5 h-5 mr-2" />
+              Back to Grid
+            </Link>
+
+            <div className="text-rose-600 font-medium">
+              <span className="hidden sm:inline">🌸 </span>
+              {kanji.id} of {kanjiData.length}
+              <span className="hidden sm:inline"> 🌸</span>
+            </div>
+
+            <div className="flex gap-2">
+              <Link
+                href={`/kanji/${Math.max(1, kanji.id - 1)}`}
+                className={`px-4 py-2 rounded-lg transition-all shadow-sm ${
+                  kanji.id === 1
+                    ? 'bg-rose-100 text-rose-300 cursor-not-allowed border border-rose-200'
+                    : 'bg-gradient-to-r from-rose-400 to-pink-500 text-white hover:from-rose-500 hover:to-pink-600 hover:shadow-md'
+                }`}
+              >
+                Previous
+              </Link>
+              <Link
+                href={`/kanji/${Math.min(kanjiData.length, kanji.id + 1)}`}
+                className={`px-4 py-2 rounded-lg transition-all shadow-sm ${
+                  kanji.id === kanjiData.length
+                    ? 'bg-rose-100 text-rose-300 cursor-not-allowed border border-rose-200'
+                    : 'bg-gradient-to-r from-rose-400 to-pink-500 text-white hover:from-rose-500 hover:to-pink-600 hover:shadow-md'
+                }`}
+              >
+                Next
+              </Link>
+            </div>
+          </div>
         </nav>
 
         {/* Main Content - Grid Layout */}
@@ -87,16 +118,9 @@ export default function KanjiDetailPage({ params }: PageProps) {
           <div className="lg:col-span-2 bg-gradient-to-br from-rose-25 to-pink-25 bg-white rounded-2xl shadow-xl p-8 sm:p-12 border border-rose-100">
           {/* Header with Kanji and Audio */}
           <div className="text-center mb-12">
-            {/* Kanji Character */}
-            <div className="mb-6">
-              <h1 className="text-8xl sm:text-9xl font-bold text-rose-800 drop-shadow-sm">
-                {kanji.kanji}
-              </h1>
-            </div>
-
             {/* Entry Selection - only show if multiple entries */}
             {kanji.entries.length > 1 && (
-              <div className="flex justify-center gap-2 mb-4">
+              <div className="flex justify-center gap-2 mb-6">
                 {kanji.entries.map((entry, index) => (
                   <button
                     key={entry.entryId}
@@ -113,6 +137,17 @@ export default function KanjiDetailPage({ params }: PageProps) {
               </div>
             )}
 
+            {/* Kana Reading (on top) */}
+            <div className="text-4xl sm:text-5xl font-bold text-pink-600 mb-4">
+              {currentEntry.hiragana}
+            </div>
+
+            {/* Kanji Character */}
+            <div className="mb-4">
+              <h1 className="text-8xl sm:text-9xl font-bold text-rose-800 drop-shadow-sm">
+                {kanji.kanji}
+              </h1>
+            </div>
 
             {/* Romaji */}
             <div className="text-3xl sm:text-4xl font-semibold text-rose-600 mb-2">
@@ -128,19 +163,16 @@ export default function KanjiDetailPage({ params }: PageProps) {
             </div>
           </div>
 
-          {/* Reading Information */}
-          <div className="max-w-md mx-auto mb-12">
-            {/* Hiragana */}
-            <div className="bg-gradient-to-br from-pink-50 to-rose-100 rounded-xl p-6 text-center border border-pink-200 shadow-sm">
-              <div className="text-4xl font-bold text-pink-600">
-                {currentEntry.hiragana}
-              </div>
-            </div>
-          </div>
 
           {/* Example Sentence */}
           <div className="bg-gradient-to-r from-pink-25 to-rose-25 rounded-xl p-8 border border-rose-100 shadow-sm">
             <div className="space-y-4">
+              <div className="flex items-start gap-3">
+                <span className="text-lg">🗾</span>
+                <div className="text-sm text-pink-600 leading-relaxed">
+                  {currentEntry.exampleKana || '[Full sentence kana reading - requires data update]'}
+                </div>
+              </div>
               <div className="flex items-start gap-3">
                 <span className="text-lg">📝</span>
                 <div className="text-lg font-medium text-rose-800 leading-relaxed">
@@ -153,45 +185,9 @@ export default function KanjiDetailPage({ params }: PageProps) {
                   {currentEntry.example.includes('(') ? currentEntry.example.split('(')[1].replace(')', '') : ''}
                 </div>
               </div>
-              <div className="flex items-start gap-3">
-                <span className="text-lg">🗾</span>
-                <div className="text-base text-rose-500 leading-relaxed">
-                  {currentEntry.exampleKana || '[Full sentence kana reading - requires data update]'}
-                </div>
-              </div>
             </div>
           </div>
 
-          {/* Navigation to Next/Previous */}
-          <div className="flex justify-between items-center mt-12 pt-8 border-t border-rose-200">
-            <Link
-              href={`/kanji/${Math.max(1, kanji.id - 1)}`}
-              className={`px-6 py-3 rounded-lg transition-all shadow-sm ${
-                kanji.id === 1
-                  ? 'bg-rose-100 text-rose-300 cursor-not-allowed border border-rose-200'
-                  : 'bg-gradient-to-r from-rose-400 to-pink-500 text-white hover:from-rose-500 hover:to-pink-600 hover:shadow-md'
-              }`}
-            >
-              Previous
-            </Link>
-
-            <div className="text-rose-600 font-medium">
-              <span className="hidden sm:inline">🌸 </span>
-              {kanji.id} of {kanjiData.length}
-              <span className="hidden sm:inline"> 🌸</span>
-            </div>
-
-            <Link
-              href={`/kanji/${Math.min(kanjiData.length, kanji.id + 1)}`}
-              className={`px-6 py-3 rounded-lg transition-all shadow-sm ${
-                kanji.id === kanjiData.length
-                  ? 'bg-rose-100 text-rose-300 cursor-not-allowed border border-rose-200'
-                  : 'bg-gradient-to-r from-rose-400 to-pink-500 text-white hover:from-rose-500 hover:to-pink-600 hover:shadow-md'
-              }`}
-            >
-              Next
-            </Link>
-          </div>
         </div>
 
         {/* Right Column - Progress Ladder */}
