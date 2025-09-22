@@ -38,6 +38,10 @@ export default function KanjiDetailPage({ params }: PageProps) {
 
   const currentProgress = isLoaded && kanji ? getKanjiProgress(kanji.id) : 0;
 
+  // Calculate which page this kanji belongs to
+  const kanjiPerPage = 50;
+  const pageNumber = kanji ? Math.ceil(kanji.id / kanjiPerPage) : 1;
+
   const handleProgressChange = (level: number) => {
     if (kanji) {
       updateProgress(kanji.id, level);
@@ -53,7 +57,7 @@ export default function KanjiDetailPage({ params }: PageProps) {
           <div className="text-center relative z-10">
             <h1 className="text-2xl font-bold text-rose-800 mb-4">Kanji not found</h1>
             <Link
-              href="/"
+              href={`/?page=${pageNumber}`}
               className="inline-flex items-center px-4 py-2 bg-rose-500 text-white rounded-lg hover:bg-rose-600 transition-colors shadow-md"
             >
               <ArrowLeftIcon className="w-5 h-5 mr-2" />
@@ -74,7 +78,7 @@ export default function KanjiDetailPage({ params }: PageProps) {
         <nav className="mb-8">
           <div className="flex justify-between items-center">
             <Link
-              href="/"
+              href={`/?page=${pageNumber}`}
               className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-rose-50 to-pink-50 text-rose-700 rounded-lg hover:from-rose-100 hover:to-pink-100 transition-all shadow-md border border-rose-200"
             >
               <ArrowLeftIcon className="w-5 h-5 mr-2" />
