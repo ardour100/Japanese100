@@ -43,6 +43,16 @@ export interface UserProgress {
   updated_at: string;
 }
 
+export interface KanjiNote {
+  id: string;
+  user_id: string;
+  kanji_id: number;
+  kanji_character: string;
+  content: string;
+  created_at: string;
+  updated_at: string;
+}
+
 export interface Database {
   public: {
     Tables: {
@@ -50,6 +60,11 @@ export interface Database {
         Row: UserProgress;
         Insert: Omit<UserProgress, 'id' | 'created_at' | 'updated_at'>;
         Update: Partial<Omit<UserProgress, 'id' | 'created_at' | 'updated_at'>>;
+      };
+      kanji_notes: {
+        Row: KanjiNote;
+        Insert: Omit<KanjiNote, 'id' | 'created_at' | 'updated_at'>;
+        Update: Partial<Omit<KanjiNote, 'id' | 'created_at' | 'updated_at'>>;
       };
     };
   };

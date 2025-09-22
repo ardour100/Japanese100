@@ -2,11 +2,13 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { AcademicCapIcon, InformationCircleIcon, Bars3Icon, XMarkIcon, ArchiveBoxIcon } from '@heroicons/react/24/outline';
+import { AcademicCapIcon, InformationCircleIcon, Bars3Icon, XMarkIcon, ArchiveBoxIcon, PencilSquareIcon } from '@heroicons/react/24/outline';
 import AuthButton from './AuthButton';
 import GojuonModal from './GojuonModal';
+import { useAuth } from '@/hooks/useAuth';
 
 export default function Header() {
+  const { isAuthenticated } = useAuth();
   const [isGojuonModalOpen, setIsGojuonModalOpen] = useState(false);
   const [isHydrated, setIsHydrated] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -71,6 +73,17 @@ export default function Header() {
                 <InformationCircleIcon className="w-4 h-4 mr-1 sm:mr-2" />
                 <span>How to Use</span>
               </Link>
+
+              {/* Notes Link - only show for non-authenticated users */}
+              {isHydrated && !isAuthenticated && (
+                <Link
+                  href="/notes"
+                  className="inline-flex items-center px-2 sm:px-3 py-2 border border-orange-300 rounded-lg text-sm font-medium text-orange-700 bg-gradient-to-r from-orange-50 to-amber-50 hover:from-orange-100 hover:to-amber-100 transition-colors shadow-sm"
+                >
+                  <PencilSquareIcon className="w-4 h-4 mr-1 sm:mr-2" />
+                  <span>Notes</span>
+                </Link>
+              )}
 
               {/* Gojuon Button */}
               {isHydrated ? (
@@ -139,6 +152,18 @@ export default function Header() {
                 <InformationCircleIcon className="w-5 h-5 mr-3" />
                 <span className="font-medium">How to Use</span>
               </Link>
+
+              {/* Notes Link - only show for non-authenticated users */}
+              {isHydrated && !isAuthenticated && (
+                <Link
+                  href="/notes"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className="flex items-center px-3 py-3 rounded-lg text-orange-700 bg-gradient-to-r from-orange-50 to-amber-50 hover:from-orange-100 hover:to-amber-100 transition-colors border border-orange-200"
+                >
+                  <PencilSquareIcon className="w-5 h-5 mr-3" />
+                  <span className="font-medium">Notes</span>
+                </Link>
+              )}
 
               {/* Gojuon Button */}
               {isHydrated && (

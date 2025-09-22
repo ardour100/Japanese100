@@ -7,6 +7,7 @@ import kanjiData from "@/data/kanji.json";
 import JapaneseBackground from "@/components/JapaneseBackground";
 import Header from "@/components/Header";
 import ProgressLadder from "@/components/ProgressLadder";
+import NotesSection from "@/components/NotesSection";
 import { useProgress } from "@/hooks/useProgress";
 
 interface PageProps {
@@ -127,89 +128,92 @@ export default function KanjiDetailPage({ params }: PageProps) {
         {/* Main Content - Grid Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Left Column - Kanji Details */}
-          <div className="lg:col-span-2 bg-gradient-to-br from-rose-25 to-pink-25 bg-white rounded-2xl shadow-xl p-8 sm:p-12 border border-rose-100">
-          {/* Header with Kanji and Audio */}
-          <div className="text-center mb-12">
-            {/* Entry Selection - only show if multiple entries */}
-            {kanji.entries.length > 1 && (
-              <div className="flex justify-center gap-2 mb-6">
-                {kanji.entries.map((entry, index) => (
-                  <button
-                    key={entry.entryId}
-                    onClick={() => setSelectedEntryIndex(index)}
-                    className={`px-4 py-2 rounded-lg transition-all ${
-                      selectedEntryIndex === index
-                        ? 'bg-gradient-to-r from-rose-400 to-pink-500 text-white shadow-md'
-                        : 'bg-rose-100 text-rose-700 hover:bg-rose-200'
-                    }`}
-                  >
-                    {entry.wordClass}
-                  </button>
-                ))}
+          <div className="lg:col-span-2 space-y-8">
+            <div className="bg-gradient-to-br from-rose-25 to-pink-25 bg-white rounded-2xl shadow-xl p-8 sm:p-12 border border-rose-100">
+              {/* Header with Kanji and Audio */}
+              <div className="text-center mb-12">
+                {/* Entry Selection - only show if multiple entries */}
+                {kanji.entries.length > 1 && (
+                  <div className="flex justify-center gap-2 mb-6">
+                    {kanji.entries.map((entry, index) => (
+                      <button
+                        key={entry.entryId}
+                        onClick={() => setSelectedEntryIndex(index)}
+                        className={`px-4 py-2 rounded-lg transition-all ${
+                          selectedEntryIndex === index
+                            ? 'bg-gradient-to-r from-rose-400 to-pink-500 text-white shadow-md'
+                            : 'bg-rose-100 text-rose-700 hover:bg-rose-200'
+                        }`}
+                      >
+                        {entry.wordClass}
+                      </button>
+                    ))}
+                  </div>
+                )}
+
+                {/* Kana Reading (on top) */}
+                <div className="text-4xl sm:text-5xl font-bold text-pink-600 mb-4">
+                  {currentEntry.hiragana}
+                </div>
+
+                {/* Kanji Character */}
+                <div className="mb-4">
+                  <h1 className="text-8xl sm:text-9xl font-bold text-rose-800 drop-shadow-sm">
+                    {kanji.kanji}
+                  </h1>
+                </div>
+
+                {/* Romaji */}
+                <div className="text-3xl sm:text-4xl font-semibold text-rose-600 mb-2">
+                  {currentEntry.romaji}
+                </div>
+
+                {/* Meaning and Word Class */}
+                <div className="text-xl text-rose-500 italic">
+                  {currentEntry.meaning}
+                </div>
+                <div className="text-sm text-rose-400 mt-1">
+                  [{currentEntry.wordClass}]
+                </div>
               </div>
-            )}
 
-            {/* Kana Reading (on top) */}
-            <div className="text-4xl sm:text-5xl font-bold text-pink-600 mb-4">
-              {currentEntry.hiragana}
+              {/* Example Sentence */}
+              <div className="bg-gradient-to-r from-pink-25 to-rose-25 rounded-xl p-8 border border-rose-100 shadow-sm">
+                <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <span className="text-lg">🗾</span>
+                    <div className="text-sm text-pink-600 leading-relaxed">
+                      {currentEntry.exampleKana || '[Full sentence kana reading - requires data update]'}
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-lg">📝</span>
+                    <div className="text-lg font-medium text-rose-800 leading-relaxed">
+                      {currentEntry.example.split('(')[0].trim()}
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <span className="text-lg">🌍</span>
+                    <div className="text-base text-slate-700 font-medium leading-relaxed">
+                      {currentEntry.example.includes('(') ? currentEntry.example.split('(')[1].replace(')', '') : ''}
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            {/* Kanji Character */}
-            <div className="mb-4">
-              <h1 className="text-8xl sm:text-9xl font-bold text-rose-800 drop-shadow-sm">
-                {kanji.kanji}
-              </h1>
-            </div>
-
-            {/* Romaji */}
-            <div className="text-3xl sm:text-4xl font-semibold text-rose-600 mb-2">
-              {currentEntry.romaji}
-            </div>
-
-            {/* Meaning and Word Class */}
-            <div className="text-xl text-rose-500 italic">
-              {currentEntry.meaning}
-            </div>
-            <div className="text-sm text-rose-400 mt-1">
-              [{currentEntry.wordClass}]
-            </div>
+            {/* Notes Section */}
+            <NotesSection kanjiId={kanji.id} kanjiCharacter={kanji.kanji} />
           </div>
 
-
-          {/* Example Sentence */}
-          <div className="bg-gradient-to-r from-pink-25 to-rose-25 rounded-xl p-8 border border-rose-100 shadow-sm">
-            <div className="space-y-4">
-              <div className="flex items-start gap-3">
-                <span className="text-lg">🗾</span>
-                <div className="text-sm text-pink-600 leading-relaxed">
-                  {currentEntry.exampleKana || '[Full sentence kana reading - requires data update]'}
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <span className="text-lg">📝</span>
-                <div className="text-lg font-medium text-rose-800 leading-relaxed">
-                  {currentEntry.example.split('(')[0].trim()}
-                </div>
-              </div>
-              <div className="flex items-start gap-3">
-                <span className="text-lg">🌍</span>
-                <div className="text-base text-slate-700 font-medium leading-relaxed">
-                  {currentEntry.example.includes('(') ? currentEntry.example.split('(')[1].replace(')', '') : ''}
-                </div>
-              </div>
-            </div>
+          {/* Right Column - Progress Ladder */}
+          <div className="lg:col-span-1">
+            <ProgressLadder
+              currentProgress={currentProgress}
+              onProgressChange={handleProgressChange}
+            />
           </div>
-
         </div>
-
-        {/* Right Column - Progress Ladder */}
-        <div className="lg:col-span-1">
-          <ProgressLadder
-            currentProgress={currentProgress}
-            onProgressChange={handleProgressChange}
-          />
-        </div>
-      </div>
       </div>
     </div>
   );
