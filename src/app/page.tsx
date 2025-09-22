@@ -32,9 +32,9 @@ function HomeContent() {
   // Helper function to categorize progress
   const getProgressCategory = (progress: number): ProgressFilter => {
     if (progress === 0) return 'locked';
-    if (progress > 0 && progress <= 25) return 'discovered';
-    if (progress > 25 && progress <= 50) return 'equipped';
-    if (progress > 50 && progress <= 99) return 'skilled';
+    if (progress === 20) return 'discovered';
+    if (progress === 60) return 'equipped';
+    if (progress === 80) return 'skilled';
     if (progress === 100) return 'mastered';
     return 'locked';
   };
