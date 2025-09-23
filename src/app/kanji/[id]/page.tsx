@@ -8,6 +8,7 @@ import JapaneseBackground from "@/components/JapaneseBackground";
 import Header from "@/components/Header";
 import ProgressLadder from "@/components/ProgressLadder";
 import NotesSection from "@/components/NotesSection";
+import AudioPlayer from "@/components/AudioPlayer";
 import { useProgress } from "@/hooks/useProgress";
 
 interface PageProps {
@@ -201,12 +202,19 @@ export default function KanjiDetailPage({ params }: PageProps) {
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
                     <span className="text-lg">🗾</span>
-                    <div className="text-sm text-pink-600 leading-relaxed">
+                    <div className="flex-1 text-sm text-pink-600 leading-relaxed">
                       {currentEntry.exampleKana
                         ? highlightHiraganaInExample(currentEntry.exampleKana, currentEntry.hiragana)
                         : '[Full sentence kana reading - requires data update]'
                       }
                     </div>
+                    {currentEntry.exampleKana && (
+                      <AudioPlayer
+                        text={currentEntry.exampleKana}
+                        size="sm"
+                        className="flex-shrink-0 ml-2"
+                      />
+                    )}
                   </div>
                   <div className="flex items-start gap-3">
                     <span className="text-lg">📝</span>
