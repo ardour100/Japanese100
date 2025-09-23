@@ -28,6 +28,25 @@ export default function KanjiDetailPage({ params }: PageProps) {
   const kanjiPerPage = 50;
   const pageNumber = kanji ? Math.ceil(kanji.id / kanjiPerPage) : 1;
 
+  // Function to highlight the current kanji's hiragana in the example kana text
+  const highlightHiraganaInExample = (exampleKana: string, hiragana: string) => {
+    if (!exampleKana || !hiragana) return exampleKana;
+
+    const parts = exampleKana.split(hiragana);
+    if (parts.length === 1) return exampleKana; // No match found
+
+    return parts.map((part, index) => (
+      <span key={index}>
+        {part}
+        {index < parts.length - 1 && (
+          <span className="text-green-600 font-bold" style={{ fontSize: '150%' }}>
+            {hiragana}
+          </span>
+        )}
+      </span>
+    ));
+  };
+
   const handleProgressChange = (level: number) => {
     if (kanji) {
       updateProgress(kanji.id, level);
@@ -183,7 +202,10 @@ export default function KanjiDetailPage({ params }: PageProps) {
                   <div className="flex items-start gap-3">
                     <span className="text-lg">🗾</span>
                     <div className="text-sm text-pink-600 leading-relaxed">
-                      {currentEntry.exampleKana || '[Full sentence kana reading - requires data update]'}
+                      {currentEntry.exampleKana
+                        ? highlightHiraganaInExample(currentEntry.exampleKana, currentEntry.hiragana)
+                        : '[Full sentence kana reading - requires data update]'
+                      }
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
