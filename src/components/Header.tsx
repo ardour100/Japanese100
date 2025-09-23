@@ -65,6 +65,16 @@ export default function Header() {
                 <span className="md:hidden">Jōyō</span>
               </Link>
 
+              {/* Daily Phrases Link */}
+              <Link
+                href="/phrases"
+                className="inline-flex items-center px-2 sm:px-3 py-2 border border-green-300 rounded-lg text-sm font-medium text-green-700 bg-gradient-to-r from-green-50 to-emerald-50 hover:from-green-100 hover:to-emerald-100 transition-colors shadow-sm"
+              >
+                <span className="text-sm mr-1 sm:mr-2">💬</span>
+                <span className="hidden md:inline">Phrases</span>
+                <span className="md:hidden">💬</span>
+              </Link>
+
               {/* Introduction Link */}
               <Link
                 href="/introduction"
@@ -141,6 +151,16 @@ export default function Header() {
               >
                 <span className="text-lg mr-3">📚</span>
                 <span className="font-medium">Jōyō Kanji</span>
+              </Link>
+
+              {/* Daily Phrases Link */}
+              <Link
+                href="/phrases"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="flex items-center px-3 py-3 rounded-lg text-green-700 bg-gradient-to-r from-green-50 to-emerald-50 hover:from-green-100 hover:to-emerald-100 transition-colors border border-green-200"
+              >
+                <span className="text-lg mr-3">💬</span>
+                <span className="font-medium">Daily Phrases</span>
               </Link>
 
               {/* Introduction Link */}

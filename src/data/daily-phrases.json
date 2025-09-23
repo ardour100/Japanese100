@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "japanese": "おはよう",
+    "hiragana": "おはよう",
+    "romaji": "ohayou",
+    "english": "Good morning (informal)",
+    "category": "greetings",
+    "formality": "casual"
+  },
+  {
+    "id": 2,
+    "japanese": "おはようございます",
+    "hiragana": "おはようございます",
+    "romaji": "ohayou gozaimasu",
+    "english": "Good morning (formal)",
+    "category": "greetings",
+    "formality": "polite"
+  },
+  {
+    "id": 3,
+    "japanese": "こんにちは",
+    "hiragana": "こんにちは",
+    "romaji": "konnichiwa",
+    "english": "Hello / Good afternoon",
+    "category": "greetings",
+    "formality": "neutral"
+  },
+  {
+    "id": 4,
+    "japanese": "こんばんは",
+    "hiragana": "こんばんは",
+    "romaji": "konbanwa",
+    "english": "Good evening",
+    "category": "greetings",
+    "formality": "neutral"
+  },
+  {
+    "id": 5,
+    "japanese": "さようなら",
+    "hiragana": "さようなら",
+    "romaji": "sayounara",
+    "english": "Goodbye",
+    "category": "farewells",
+    "formality": "neutral"
+  },
+  {
+    "id": 6,
+    "japanese": "また明日",
+    "hiragana": "またあした",
+    "romaji": "mata ashita",
+    "english": "See you tomorrow",
+    "category": "farewells",
+    "formality": "casual"
+  },
+  {
+    "id": 7,
+    "japanese": "ありがとう",
+    "hiragana": "ありがとう",
+    "romaji": "arigatou",
+    "english": "Thank you (informal)",
+    "category": "gratitude",
+    "formality": "casual"
+  },
+  {
+    "id": 8,
+    "japanese": "ありがとうございます",
+    "hiragana": "ありがとうございます",
+    "romaji": "arigatou gozaimasu",
+    "english": "Thank you (formal)",
+    "category": "gratitude",
+    "formality": "polite"
+  },
+  {
+    "id": 9,
+    "japanese": "すみません",
+    "hiragana": "すみません",
+    "romaji": "sumimasen",
+    "english": "Excuse me / I'm sorry",
+    "category": "apology",
+    "formality": "polite"
+  },
+  {
+    "id": 10,
+    "japanese": "ごめんなさい",
+    "hiragana": "ごめんなさい",
+    "romaji": "gomen nasai",
+    "english": "I'm sorry",
+    "category": "apology",
+    "formality": "polite"
+  },
+  {
+    "id": 11,
+    "japanese": "はじめまして",
+    "hiragana": "はじめまして",
+    "romaji": "hajimemashite",
+    "english": "Nice to meet you",
+    "category": "introduction",
+    "formality": "polite"
+  },
+  {
+    "id": 12,
+    "japanese": "よろしくお願いします",
+    "hiragana": "よろしくおねがいします",
+    "romaji": "yoroshiku onegaishimasu",
+    "english": "Please treat me favorably",
+    "category": "introduction",
+    "formality": "polite"
+  },
+  {
+    "id": 13,
+    "japanese": "お疲れさまでした",
+    "hiragana": "おつかれさまでした",
+    "romaji": "otsukaresama deshita",
+    "english": "Good work / Thank you for your hard work",
+    "category": "workplace",
+    "formality": "polite"
+  },
+  {
+    "id": 14,
+    "japanese": "いただきます",
+    "hiragana": "いただきます",
+    "romaji": "itadakimasu",
+    "english": "Thank you for the meal (before eating)",
+    "category": "dining",
+    "formality": "polite"
+  },
+  {
+    "id": 15,
+    "japanese": "ごちそうさまでした",
+    "hiragana": "ごちそうさまでした",
+    "romaji": "gochisousama deshita",
+    "english": "Thank you for the meal (after eating)",
+    "category": "dining",
+    "formality": "polite"
+  },
+  {
+    "id": 16,
+    "japanese": "ただいま",
+    "hiragana": "ただいま",
+    "romaji": "tadaima",
+    "english": "I'm home",
+    "category": "home",
+    "formality": "casual"
+  },
+  {
+    "id": 17,
+    "japanese": "おかえりなさい",
+    "hiragana": "おかえりなさい",
+    "romaji": "okaeri nasai",
+    "english": "Welcome home",
+    "category": "home",
+    "formality": "polite"
+  },
+  {
+    "id": 18,
+    "japanese": "いってきます",
+    "hiragana": "いってきます",
+    "romaji": "ittekimasu",
+    "english": "I'm leaving (and will be back)",
+    "category": "home",
+    "formality": "polite"
+  },
+  {
+    "id": 19,
+    "japanese": "いってらっしゃい",
+    "hiragana": "いってらっしゃい",
+    "romaji": "itterasshai",
+    "english": "Take care / Have a good trip",
+    "category": "home",
+    "formality": "polite"
+  },
+  {
+    "id": 20,
+    "japanese": "おやすみなさい",
+    "hiragana": "おやすみなさい",
+    "romaji": "oyasumi nasai",
+    "english": "Good night",
+    "category": "bedtime",
+    "formality": "polite"
+  },
+  {
+    "id": 21,
+    "japanese": "はい",
+    "hiragana": "はい",
+    "romaji": "hai",
+    "english": "Yes",
+    "category": "responses",
+    "formality": "neutral"
+  },
+  {
+    "id": 22,
+    "japanese": "いいえ",
+    "hiragana": "いいえ",
+    "romaji": "iie",
+    "english": "No",
+    "category": "responses",
+    "formality": "neutral"
+  },
+  {
+    "id": 23,
+    "japanese": "そうです",
+    "hiragana": "そうです",
+    "romaji": "sou desu",
+    "english": "That's right",
+    "category": "responses",
+    "formality": "polite"
+  },
+  {
+    "id": 24,
+    "japanese": "わかりません",
+    "hiragana": "わかりません",
+    "romaji": "wakarimasen",
+    "english": "I don't understand",
+    "category": "understanding",
+    "formality": "polite"
+  },
+  {
+    "id": 25,
+    "japanese": "わかりました",
+    "hiragana": "わかりました",
+    "romaji": "wakarimashita",
+    "english": "I understand",
+    "category": "understanding",
+    "formality": "polite"
+  },
+  {
+    "id": 26,
+    "japanese": "お元気ですか",
+    "hiragana": "おげんきですか",
+    "romaji": "ogenki desu ka",
+    "english": "How are you?",
+    "category": "health",
+    "formality": "polite"
+  },
+  {
+    "id": 27,
+    "japanese": "元気です",
+    "hiragana": "げんきです",
+    "romaji": "genki desu",
+    "english": "I'm fine",
+    "category": "health",
+    "formality": "polite"
+  },
+  {
+    "id": 28,
+    "japanese": "お名前は何ですか",
+    "hiragana": "おなまえはなんですか",
+    "romaji": "onamae wa nan desu ka",
+    "english": "What is your name?",
+    "category": "introduction",
+    "formality": "polite"
+  },
+  {
+    "id": 29,
+    "japanese": "私の名前は〜です",
+    "hiragana": "わたしのなまえは〜です",
+    "romaji": "watashi no namae wa ~ desu",
+    "english": "My name is ~",
+    "category": "introduction",
+    "formality": "polite"
+  },
+  {
+    "id": 30,
+    "japanese": "どこから来ましたか",
+    "hiragana": "どこからきましたか",
+    "romaji": "doko kara kimashita ka",
+    "english": "Where are you from?",
+    "category": "introduction",
+    "formality": "polite"
+  },
+  {
+    "id": 31,
+    "japanese": "〜から来ました",
+    "hiragana": "〜からきました",
+    "romaji": "~ kara kimashita",
+    "english": "I came from ~",
+    "category": "introduction",
+    "formality": "polite"
+  },
+  {
+    "id": 32,
+    "japanese": "何時ですか",
+    "hiragana": "なんじですか",
+    "romaji": "nanji desu ka",
+    "english": "What time is it?",
+    "category": "time",
+    "formality": "polite"
+  },
+  {
+    "id": 33,
+    "japanese": "今何時ですか",
+    "hiragana": "いまなんじですか",
+    "romaji": "ima nanji desu ka",
+    "english": "What time is it now?",
+    "category": "time",
+    "formality": "polite"
+  },
+  {
+    "id": 34,
+    "japanese": "いくらですか",
+    "hiragana": "いくらですか",
+    "romaji": "ikura desu ka",
+    "english": "How much is it?",
+    "category": "shopping",
+    "formality": "polite"
+  },
+  {
+    "id": 35,
+    "japanese": "これをください",
+    "hiragana": "これをください",
+    "romaji": "kore wo kudasai",
+    "english": "Please give me this",
+    "category": "shopping",
+    "formality": "polite"
+  },
+  {
+    "id": 36,
+    "japanese": "お水をください",
+    "hiragana": "おみずをください",
+    "romaji": "omizu wo kudasai",
+    "english": "Please give me water",
+    "category": "dining",
+    "formality": "polite"
+  },
+  {
+    "id": 37,
+    "japanese": "お会計お願いします",
+    "hiragana": "おかいけいおねがいします",
+    "romaji": "okaikei onegaishimasu",
+    "english": "Check, please",
+    "category": "dining",
+    "formality": "polite"
+  },
+  {
+    "id": 38,
+    "japanese": "どこですか",
+    "hiragana": "どこですか",
+    "romaji": "doko desu ka",
+    "english": "Where is it?",
+    "category": "directions",
+    "formality": "polite"
+  },
+  {
+    "id": 39,
+    "japanese": "駅はどこですか",
+    "hiragana": "えきはどこですか",
+    "romaji": "eki wa doko desu ka",
+    "english": "Where is the station?",
+    "category": "directions",
+    "formality": "polite"
+  },
+  {
+    "id": 40,
+    "japanese": "トイレはどこですか",
+    "hiragana": "といれはどこですか",
+    "romaji": "toire wa doko desu ka",
+    "english": "Where is the toilet?",
+    "category": "directions",
+    "formality": "polite"
+  },
+  {
+    "id": 41,
+    "japanese": "ちょっと待ってください",
+    "hiragana": "ちょっとまってください",
+    "romaji": "chotto matte kudasai",
+    "english": "Please wait a moment",
+    "category": "requests",
+    "formality": "polite"
+  },
+  {
+    "id": 42,
+    "japanese": "手伝ってください",
+    "hiragana": "てつだってください",
+    "romaji": "tetsudatte kudasai",
+    "english": "Please help me",
+    "category": "requests",
+    "formality": "polite"
+  },
+  {
+    "id": 43,
+    "japanese": "もう一度お願いします",
+    "hiragana": "もういちどおねがいします",
+    "romaji": "mou ichido onegaishimasu",
+    "english": "Please say it again",
+    "category": "requests",
+    "formality": "polite"
+  },
+  {
+    "id": 44,
+    "japanese": "ゆっくり話してください",
+    "hiragana": "ゆっくりはなしてください",
+    "romaji": "yukkuri hanashite kudasai",
+    "english": "Please speak slowly",
+    "category": "requests",
+    "formality": "polite"
+  },
+  {
+    "id": 45,
+    "japanese": "写真を撮ってください",
+    "hiragana": "しゃしんをとってください",
+    "romaji": "shashin wo totte kudasai",
+    "english": "Please take a photo",
+    "category": "requests",
+    "formality": "polite"
+  },
+  {
+    "id": 46,
+    "japanese": "大丈夫です",
+    "hiragana": "だいじょうぶです",
+    "romaji": "daijoubu desu",
+    "english": "It's okay / I'm fine",
+    "category": "responses",
+    "formality": "polite"
+  },
+  {
+    "id": 47,
+    "japanese": "問題ありません",
+    "hiragana": "もんだいありません",
+    "romaji": "mondai arimasen",
+    "english": "No problem",
+    "category": "responses",
+    "formality": "polite"
+  },
+  {
+    "id": 48,
+    "japanese": "お疲れさま",
+    "hiragana": "おつかれさま",
+    "romaji": "otsukaresama",
+    "english": "Good work (casual)",
+    "category": "workplace",
+    "formality": "casual"
+  },
+  {
+    "id": 49,
+    "japanese": "気をつけて",
+    "hiragana": "きをつけて",
+    "romaji": "ki wo tsukete",
+    "english": "Take care / Be careful",
+    "category": "farewells",
+    "formality": "casual"
+  },
+  {
+    "id": 50,
+    "japanese": "頑張って",
+    "hiragana": "がんばって",
+    "romaji": "ganbatte",
+    "english": "Good luck / Do your best",
+    "category": "encouragement",
+    "formality": "casual"
+  },
+  {
+    "id": 51,
+    "japanese": "お先に失礼します",
+    "hiragana": "おさきにしつれいします",
+    "romaji": "osaki ni shitsurei shimasu",
+    "english": "Excuse me for leaving first",
+    "category": "workplace",
+    "formality": "polite"
+  },
+  {
+    "id": 52,
+    "japanese": "失礼します",
+    "hiragana": "しつれいします",
+    "romaji": "shitsurei shimasu",
+    "english": "Excuse me (when entering/leaving)",
+    "category": "politeness",
+    "formality": "polite"
+  },
+  {
+    "id": 53,
+    "japanese": "お忙しいですか",
+    "hiragana": "おいそがしいですか",
+    "romaji": "oisogashii desu ka",
+    "english": "Are you busy?",
+    "category": "conversation",
+    "formality": "polite"
+  },
+  {
+    "id": 54,
+    "japanese": "忙しいです",
+    "hiragana": "いそがしいです",
+    "romaji": "isogashii desu",
+    "english": "I'm busy",
+    "category": "conversation",
+    "formality": "polite"
+  },
+  {
+    "id": 55,
+    "japanese": "暇です",
+    "hiragana": "ひまです",
+    "romaji": "hima desu",
+    "english": "I'm free / not busy",
+    "category": "conversation",
+    "formality": "polite"
+  },
+  {
+    "id": 56,
+    "japanese": "疲れました",
+    "hiragana": "つかれました",
+    "romaji": "tsukaremashita",
+    "english": "I'm tired",
+    "category": "feelings",
+    "formality": "polite"
+  },
+  {
+    "id": 57,
+    "japanese": "お腹が空きました",
+    "hiragana": "おなかがすきました",
+    "romaji": "onaka ga sukimashita",
+    "english": "I'm hungry",
+    "category": "feelings",
+    "formality": "polite"
+  },
+  {
+    "id": 58,
+    "japanese": "のどが渇きました",
+    "hiragana": "のどがかわきました",
+    "romaji": "nodo ga kawakimashita",
+    "english": "I'm thirsty",
+    "category": "feelings",
+    "formality": "polite"
+  },
+  {
+    "id": 59,
+    "japanese": "眠いです",
+    "hiragana": "ねむいです",
+    "romaji": "nemui desu",
+    "english": "I'm sleepy",
+    "category": "feelings",
+    "formality": "polite"
+  },
+  {
+    "id": 60,
+    "japanese": "寒いです",
+    "hiragana": "さむいです",
+    "romaji": "samui desu",
+    "english": "It's cold",
+    "category": "weather",
+    "formality": "polite"
+  },
+  {
+    "id": 61,
+    "japanese": "暑いです",
+    "hiragana": "あついです",
+    "romaji": "atsui desu",
+    "english": "It's hot",
+    "category": "weather",
+    "formality": "polite"
+  },
+  {
+    "id": 62,
+    "japanese": "今日は天気がいいですね",
+    "hiragana": "きょうはてんきがいいですね",
+    "romaji": "kyou wa tenki ga ii desu ne",
+    "english": "The weather is nice today",
+    "category": "weather",
+    "formality": "polite"
+  },
+  {
+    "id": 63,
+    "japanese": "雨が降っています",
+    "hiragana": "あめがふっています",
+    "romaji": "ame ga futte imasu",
+    "english": "It's raining",
+    "category": "weather",
+    "formality": "polite"
+  },
+  {
+    "id": 64,
+    "japanese": "日本語を勉強しています",
+    "hiragana": "にほんごをべんきょうしています",
+    "romaji": "nihongo wo benkyou shite imasu",
+    "english": "I'm studying Japanese",
+    "category": "study",
+    "formality": "polite"
+  },
+  {
+    "id": 65,
+    "japanese": "日本語が話せます",
+    "hiragana": "にほんごがはなせます",
+    "romaji": "nihongo ga hanasemasu",
+    "english": "I can speak Japanese",
+    "category": "ability",
+    "formality": "polite"
+  },
+  {
+    "id": 66,
+    "japanese": "英語が話せますか",
+    "hiragana": "えいごがはなせますか",
+    "romaji": "eigo ga hanasemasu ka",
+    "english": "Can you speak English?",
+    "category": "ability",
+    "formality": "polite"
+  },
+  {
+    "id": 67,
+    "japanese": "少し話せます",
+    "hiragana": "すこしはなせます",
+    "romaji": "sukoshi hanasemasu",
+    "english": "I can speak a little",
+    "category": "ability",
+    "formality": "polite"
+  },
+  {
+    "id": 68,
+    "japanese": "全然話せません",
+    "hiragana": "ぜんぜんはなせません",
+    "romaji": "zenzen hanasemasen",
+    "english": "I can't speak at all",
+    "category": "ability",
+    "formality": "polite"
+  },
+  {
+    "id": 69,
+    "japanese": "何をしていますか",
+    "hiragana": "なにをしていますか",
+    "romaji": "nani wo shite imasu ka",
+    "english": "What are you doing?",
+    "category": "conversation",
+    "formality": "polite"
+  },
+  {
+    "id": 70,
+    "japanese": "どうですか",
+    "hiragana": "どうですか",
+    "romaji": "dou desu ka",
+    "english": "How is it?",
+    "category": "conversation",
+    "formality": "polite"
+  },
+  {
+    "id": 71,
+    "japanese": "どうしましたか",
+    "hiragana": "どうしましたか",
+    "romaji": "dou shimashita ka",
+    "english": "What happened? / What's wrong?",
+    "category": "conversation",
+    "formality": "polite"
+  },
+  {
+    "id": 72,
+    "japanese": "何も問題ありません",
+    "hiragana": "なにももんだいありません",
+    "romaji": "nanimo mondai arimasen",
+    "english": "There's no problem at all",
+    "category": "responses",
+    "formality": "polite"
+  },
+  {
+    "id": 73,
+    "japanese": "そうですね",
+    "hiragana": "そうですね",
+    "romaji": "sou desu ne",
+    "english": "I see / That's right",
+    "category": "responses",
+    "formality": "polite"
+  },
+  {
+    "id": 74,
+    "japanese": "本当ですか",
+    "hiragana": "ほんとうですか",
+    "romaji": "hontou desu ka",
+    "english": "Really? / Is that true?",
+    "category": "responses",
+    "formality": "polite"
+  },
+  {
+    "id": 75,
+    "japanese": "信じられません",
+    "hiragana": "しんじられません",
+    "romaji": "shinjiremasen",
+    "english": "I can't believe it",
+    "category": "responses",
+    "formality": "polite"
+  },
+  {
+    "id": 76,
+    "japanese": "すごいですね",
+    "hiragana": "すごいですね",
+    "romaji": "sugoi desu ne",
+    "english": "That's amazing",
+    "category": "responses",
+    "formality": "polite"
+  },
+  {
+    "id": 77,
+    "japanese": "面白いですね",
+    "hiragana": "おもしろいですね",
+    "romaji": "omoshiroi desu ne",
+    "english": "That's interesting",
+    "category": "responses",
+    "formality": "polite"
+  },
+  {
+    "id": 78,
+    "japanese": "つまらないです",
+    "hiragana": "つまらないです",
+    "romaji": "tsumaranai desu",
+    "english": "It's boring",
+    "category": "responses",
+    "formality": "polite"
+  },
+  {
+    "id": 79,
+    "japanese": "楽しいです",
+    "hiragana": "たのしいです",
+    "romaji": "tanoshii desu",
+    "english": "It's fun",
+    "category": "feelings",
+    "formality": "polite"
+  },
+  {
+    "id": 80,
+    "japanese": "嬉しいです",
+    "hiragana": "うれしいです",
+    "romaji": "ureshii desu",
+    "english": "I'm happy",
+    "category": "feelings",
+    "formality": "polite"
+  },
+  {
+    "id": 81,
+    "japanese": "悲しいです",
+    "hiragana": "かなしいです",
+    "romaji": "kanashii desu",
+    "english": "I'm sad",
+    "category": "feelings",
+    "formality": "polite"
+  },
+  {
+    "id": 82,
+    "japanese": "心配です",
+    "hiragana": "しんぱいです",
+    "romaji": "shinpai desu",
+    "english": "I'm worried",
+    "category": "feelings",
+    "formality": "polite"
+  },
+  {
+    "id": 83,
+    "japanese": "安心しました",
+    "hiragana": "あんしんしました",
+    "romaji": "anshin shimashita",
+    "english": "I'm relieved",
+    "category": "feelings",
+    "formality": "polite"
+  },
+  {
+    "id": 84,
+    "japanese": "困りました",
+    "hiragana": "こまりました",
+    "romaji": "komarimashita",
+    "english": "I'm in trouble",
+    "category": "feelings",
+    "formality": "polite"
+  },
+  {
+    "id": 85,
+    "japanese": "どういたしまして",
+    "hiragana": "どういたしまして",
+    "romaji": "dou itashimashite",
+    "english": "You're welcome",
+    "category": "gratitude",
+    "formality": "polite"
+  },
+  {
+    "id": 86,
+    "japanese": "お世話になりました",
+    "hiragana": "おせわになりました",
+    "romaji": "osewa ni narimashita",
+    "english": "Thank you for taking care of me",
+    "category": "gratitude",
+    "formality": "polite"
+  },
+  {
+    "id": 87,
+    "japanese": "お気をつけください",
+    "hiragana": "おきをつけください",
+    "romaji": "oki wo tsuke kudasai",
+    "english": "Please be careful",
+    "category": "concern",
+    "formality": "polite"
+  },
+  {
+    "id": 88,
+    "japanese": "お体を大切に",
+    "hiragana": "おからだをたいせつに",
+    "romaji": "okarada wo taisetsu ni",
+    "english": "Take care of your health",
+    "category": "concern",
+    "formality": "polite"
+  },
+  {
+    "id": 89,
+    "japanese": "風邪を引きました",
+    "hiragana": "かぜをひきました",
+    "romaji": "kaze wo hikimashita",
+    "english": "I caught a cold",
+    "category": "health",
+    "formality": "polite"
+  },
+  {
+    "id": 90,
+    "japanese": "病院に行きます",
+    "hiragana": "びょういんにいきます",
+    "romaji": "byouin ni ikimasu",
+    "english": "I'm going to the hospital",
+    "category": "health",
+    "formality": "polite"
+  },
+  {
+    "id": 91,
+    "japanese": "薬を飲みます",
+    "hiragana": "くすりをのみます",
+    "romaji": "kusuri wo nomimasu",
+    "english": "I take medicine",
+    "category": "health",
+    "formality": "polite"
+  },
+  {
+    "id": 92,
+    "japanese": "電話番号を教えてください",
+    "hiragana": "でんわばんごうをおしえてください",
+    "romaji": "denwa bangou wo oshiete kudasai",
+    "english": "Please tell me your phone number",
+    "category": "information",
+    "formality": "polite"
+  },
+  {
+    "id": 93,
+    "japanese": "住所はどこですか",
+    "hiragana": "じゅうしょはどこですか",
+    "romaji": "juusho wa doko desu ka",
+    "english": "What is your address?",
+    "category": "information",
+    "formality": "polite"
+  },
+  {
+    "id": 94,
+    "japanese": "年齢はいくつですか",
+    "hiragana": "ねんれいはいくつですか",
+    "romaji": "nenrei wa ikutsu desu ka",
+    "english": "How old are you?",
+    "category": "information",
+    "formality": "polite"
+  },
+  {
+    "id": 95,
+    "japanese": "お誕生日はいつですか",
+    "hiragana": "おたんじょうびはいつですか",
+    "romaji": "otanjoubi wa itsu desu ka",
+    "english": "When is your birthday?",
+    "category": "information",
+    "formality": "polite"
+  },
+  {
+    "id": 96,
+    "japanese": "趣味は何ですか",
+    "hiragana": "しゅみはなんですか",
+    "romaji": "shumi wa nan desu ka",
+    "english": "What are your hobbies?",
+    "category": "conversation",
+    "formality": "polite"
+  },
+  {
+    "id": 97,
+    "japanese": "好きな食べ物は何ですか",
+    "hiragana": "すきなたべものはなんですか",
+    "romaji": "suki na tabemono wa nan desu ka",
+    "english": "What is your favorite food?",
+    "category": "conversation",
+    "formality": "polite"
+  },
+  {
+    "id": 98,
+    "japanese": "週末は何をしますか",
+    "hiragana": "しゅうまつはなにをしますか",
+    "romaji": "shuumatsu wa nani wo shimasu ka",
+    "english": "What do you do on weekends?",
+    "category": "conversation",
+    "formality": "polite"
+  },
+  {
+    "id": 99,
+    "japanese": "今度一緒に行きましょう",
+    "hiragana": "こんどいっしょにいきましょう",
+    "romaji": "kondo issho ni ikimashou",
+    "english": "Let's go together next time",
+    "category": "invitation",
+    "formality": "polite"
+  },
+  {
+    "id": 100,
+    "japanese": "またお会いしましょう",
+    "hiragana": "またおあいしましょう",
+    "romaji": "mata oai shimashou",
+    "english": "Let's meet again",
+    "category": "farewells",
+    "formality": "polite"
+  }
+]
