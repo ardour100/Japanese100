@@ -164,22 +164,65 @@ function HomeContent() {
             <span className="sm:hidden">Previous</span>
           </Link>
 
-          {/* Page Numbers - Responsive */}
-          <div className="flex justify-center gap-1 sm:gap-2 overflow-x-auto scrollbar-hide">
+          {/* Page Numbers - Smart Pagination */}
+          <div className="flex justify-center gap-1 sm:gap-2 overflow-x-auto">
             <div className="flex gap-1 sm:gap-2 min-w-max px-2">
-              {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
-                <Link
-                  key={page}
-                  href={buildUrl(page)}
-                  className={`px-3 py-2 rounded-lg transition-all text-sm sm:text-base ${
-                    safePage === page
-                      ? 'bg-gradient-to-r from-rose-400 to-pink-500 text-white shadow-md'
-                      : 'bg-rose-100 text-rose-700 hover:bg-rose-200 border border-rose-200'
-                  }`}
-                >
-                  {page}
-                </Link>
-              ))}
+              {(() => {
+                const pages = [];
+                const current = safePage;
+                const total = totalPages;
+
+                // Always show first page
+                if (current > 3) {
+                  pages.push(1);
+                  if (current > 4) {
+                    pages.push('...');
+                  }
+                }
+
+                // Show pages around current page
+                const start = Math.max(1, current - 2);
+                const end = Math.min(total, current + 2);
+
+                for (let i = start; i <= end; i++) {
+                  pages.push(i);
+                }
+
+                // Always show last page
+                if (current < total - 2) {
+                  if (current < total - 3) {
+                    pages.push('...');
+                  }
+                  pages.push(total);
+                }
+
+                return pages.map((page, index) => {
+                  if (page === '...') {
+                    return (
+                      <span
+                        key={`ellipsis-${index}`}
+                        className="px-2 sm:px-3 py-2 text-rose-500 flex-shrink-0"
+                      >
+                        ...
+                      </span>
+                    );
+                  }
+
+                  return (
+                    <Link
+                      key={page}
+                      href={buildUrl(page as number)}
+                      className={`px-2 sm:px-3 py-2 rounded-lg transition-all text-sm sm:text-base flex-shrink-0 ${
+                        safePage === page
+                          ? 'bg-gradient-to-r from-rose-400 to-pink-500 text-white shadow-md'
+                          : 'bg-rose-100 text-rose-700 hover:bg-rose-200 border border-rose-200'
+                      }`}
+                    >
+                      {page}
+                    </Link>
+                  );
+                });
+              })()}
             </div>
           </div>
 
