@@ -1,0 +1,7565 @@
+[
+  {
+    "id": 1,
+    "kanji": "一",
+    "entries": [
+      {
+        "entryId": 1,
+        "romaji": "ichi",
+        "hiragana": "いち",
+        "meaning": "one",
+        "wordClass": "number",
+        "example": "いちばんすきなたべものはすしです。(My most favorite food is sushi.)",
+        "exampleKana": "いちばんすきなたべものはすしです。"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "kanji": "二",
+    "entries": [
+      {
+        "entryId": 2,
+        "romaji": "ni",
+        "hiragana": "に",
+        "meaning": "two",
+        "wordClass": "number",
+        "example": "にほんごをべんきょうしています。(I am studying Japanese.)",
+        "exampleKana": "にほんごをべんきょうしています。"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "kanji": "三",
+    "entries": [
+      {
+        "entryId": 3,
+        "romaji": "san",
+        "hiragana": "さん",
+        "meaning": "three",
+        "wordClass": "number",
+        "example": "三時に会議があります。(There is a meeting at three o'clock.)",
+        "exampleKana": "さんじにかいぎがあります。"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "kanji": "四",
+    "entries": [
+      {
+        "entryId": 4,
+        "romaji": "yon",
+        "hiragana": "よん",
+        "meaning": "four",
+        "wordClass": "number",
+        "example": "四季がある国に住んでいます。(I live in a country with four seasons.)",
+        "exampleKana": "よん季があるくにに住んでいます。"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "kanji": "五",
+    "entries": [
+      {
+        "entryId": 5,
+        "romaji": "go",
+        "hiragana": "ご",
+        "meaning": "five",
+        "wordClass": "number",
+        "example": "五分後に出発します。(We will leave in five minutes.)",
+        "exampleKana": "ごふんあとにで発します。"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "kanji": "六",
+    "entries": [
+      {
+        "entryId": 6,
+        "romaji": "roku",
+        "hiragana": "ろく",
+        "meaning": "six",
+        "wordClass": "number",
+        "example": "六時に起きました。(I woke up at six o'clock.)",
+        "exampleKana": "ろくじにおきました。"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "kanji": "七",
+    "entries": [
+      {
+        "entryId": 7,
+        "romaji": "nana",
+        "hiragana": "なな",
+        "meaning": "seven",
+        "wordClass": "number",
+        "example": "七は私の好きな数字です。(Seven is my favorite number.)",
+        "exampleKana": "ななはわたしのすきなすうじです。"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "kanji": "八",
+    "entries": [
+      {
+        "entryId": 8,
+        "romaji": "hachi",
+        "hiragana": "はち",
+        "meaning": "eight",
+        "wordClass": "number",
+        "example": "八時に学校が始まります。(School starts at eight o'clock.)",
+        "exampleKana": "はちじにがっこうがはじまります。"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "kanji": "九",
+    "entries": [
+      {
+        "entryId": 9,
+        "romaji": "kyuu",
+        "hiragana": "きゅう",
+        "meaning": "nine",
+        "wordClass": "number",
+        "example": "九はとても大きな数字です。(Nine is a very large number.)",
+        "exampleKana": "きゅうはとてもおおきなすうじです。"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "kanji": "十",
+    "entries": [
+      {
+        "entryId": 10,
+        "romaji": "juu",
+        "hiragana": "じゅう",
+        "meaning": "ten",
+        "wordClass": "number",
+        "example": "十人の学生がいます。(There are ten students.)",
+        "exampleKana": "じゅうひとのがくせいがいます。"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "kanji": "人",
+    "entries": [
+      {
+        "entryId": 11,
+        "romaji": "hito",
+        "hiragana": "ひと",
+        "meaning": "person",
+        "wordClass": "noun",
+        "example": "あの人は私の先生です。(That person is my teacher.)",
+        "exampleKana": "あのひとは私のせんせいです。"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "kanji": "日",
+    "entries": [
+      {
+        "entryId": 12,
+        "romaji": "hi",
+        "hiragana": "ひ",
+        "meaning": "sun, day",
+        "wordClass": "noun",
+        "example": "日が明るく照っています。(The sun is shining brightly.)",
+        "exampleKana": "ひがあかるくてらっています。"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "kanji": "月",
+    "entries": [
+      {
+        "entryId": 13,
+        "romaji": "tsuki",
+        "hiragana": "つき",
+        "meaning": "moon, month",
+        "wordClass": "noun",
+        "example": "月がとても美しいです。(The moon is very beautiful.)",
+        "exampleKana": "つきがとてもうつくしいです。"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "kanji": "年",
+    "entries": [
+      {
+        "entryId": 14,
+        "romaji": "toshi",
+        "hiragana": "とし",
+        "meaning": "year",
+        "wordClass": "noun",
+        "example": "今年はとても暑いです。(This year is very hot.)",
+        "exampleKana": "ことしはとてもあついです。"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "kanji": "時",
+    "entries": [
+      {
+        "entryId": 15,
+        "romaji": "toki",
+        "hiragana": "とき",
+        "meaning": "time",
+        "wordClass": "noun",
+        "example": "子供の時によく公園で遊びました。(I often played in the park when I was a child.)",
+        "exampleKana": "こどものときによくこうえんであそびました。"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "kanji": "分",
+    "entries": [
+      {
+        "entryId": 16,
+        "romaji": "fun",
+        "hiragana": "ふん",
+        "meaning": "minute",
+        "wordClass": "noun",
+        "example": "三十分待ちました。(I waited for thirty minutes.)",
+        "exampleKana": "さんじゅうふんまちました。"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "kanji": "書",
+    "entries": [
+      {
+        "entryId": 17,
+        "romaji": "sho",
+        "hiragana": "しょ",
+        "meaning": "writing, book",
+        "wordClass": "noun",
+        "example": "この書は古い時代のものです。(This writing is from an ancient period.)",
+        "exampleKana": "このしょはふるいじだいのものです。"
+      },
+      {
+        "entryId": 18,
+        "romaji": "kaku",
+        "hiragana": "かく",
+        "meaning": "to write",
+        "wordClass": "verb",
+        "example": "手紙をかくのが好きです。(I like writing letters.)",
+        "exampleKana": "てがみをかくのがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "kanji": "食",
+    "entries": [
+      {
+        "entryId": 19,
+        "romaji": "shoku",
+        "hiragana": "しょく",
+        "meaning": "food, meal",
+        "wordClass": "noun",
+        "example": "日本の食は健康的です。(Japanese food is healthy.)",
+        "exampleKana": "にほんのしょくはけんこうてきです。"
+      },
+      {
+        "entryId": 20,
+        "romaji": "taberu",
+        "hiragana": "たべる",
+        "meaning": "to eat",
+        "wordClass": "verb",
+        "example": "毎日たべるものを考えます。(I think about what to eat every day.)",
+        "exampleKana": "まいにちたべるものをかんがえます。"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "kanji": "学",
+    "entries": [
+      {
+        "entryId": 21,
+        "romaji": "gaku",
+        "hiragana": "がく",
+        "meaning": "learning, study",
+        "wordClass": "noun",
+        "example": "数学は難しい学問です。(Mathematics is a difficult field of study.)",
+        "exampleKana": "すうがくはむずかしいがくもんです。"
+      },
+      {
+        "entryId": 22,
+        "romaji": "manabu",
+        "hiragana": "まなぶ",
+        "meaning": "to learn, to study",
+        "wordClass": "verb",
+        "example": "日本語をまなぶのは楽しいです。(Learning Japanese is fun.)",
+        "exampleKana": "にほんごをまなぶのはたのしいです。"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "kanji": "見",
+    "entries": [
+      {
+        "entryId": 23,
+        "romaji": "ken",
+        "hiragana": "けん",
+        "meaning": "view, sight",
+        "wordClass": "noun",
+        "example": "その意見には賛成です。(I agree with that opinion.)",
+        "exampleKana": "そのいけんにはさんせいです。"
+      },
+      {
+        "entryId": 24,
+        "romaji": "miru",
+        "hiragana": "みる",
+        "meaning": "to see, to look",
+        "wordClass": "verb",
+        "example": "映画をみることが好きです。(I like watching movies.)",
+        "exampleKana": "えいがをみることがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "kanji": "読",
+    "entries": [
+      {
+        "entryId": 25,
+        "romaji": "doku",
+        "hiragana": "どく",
+        "meaning": "reading",
+        "wordClass": "noun",
+        "example": "読書は良い習慣です。(Reading is a good habit.)",
+        "exampleKana": "どくしょは良いしゅうかんです。"
+      },
+      {
+        "entryId": 26,
+        "romaji": "yomu",
+        "hiragana": "よむ",
+        "meaning": "to read",
+        "wordClass": "verb",
+        "example": "新聞を読む時間がありません。(I don't have time to read the newspaper.)",
+        "exampleKana": "しんぶんをよむじかんがありません。"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "kanji": "水",
+    "entries": [
+      {
+        "entryId": 27,
+        "romaji": "mizu",
+        "hiragana": "みず",
+        "meaning": "water",
+        "wordClass": "noun",
+        "example": "冷たい水を飲みました。(I drank cold water.)",
+        "exampleKana": "つめたいみずをのみました。"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "kanji": "火",
+    "entries": [
+      {
+        "entryId": 28,
+        "romaji": "hi",
+        "hiragana": "ひ",
+        "meaning": "fire",
+        "wordClass": "noun",
+        "example": "火を消してください。(Please put out the fire.)",
+        "exampleKana": "ひを消してください。"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "kanji": "木",
+    "entries": [
+      {
+        "entryId": 29,
+        "romaji": "ki",
+        "hiragana": "き",
+        "meaning": "tree, wood",
+        "wordClass": "noun",
+        "example": "大きな木の下で休みました。(I rested under a big tree.)",
+        "exampleKana": "おおきなきのしたでやすみました。"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "kanji": "金",
+    "entries": [
+      {
+        "entryId": 30,
+        "romaji": "kin",
+        "hiragana": "きん",
+        "meaning": "gold, money",
+        "wordClass": "noun",
+        "example": "金曜日は忙しいです。(Friday is busy.)",
+        "exampleKana": "きんようびは忙しいです。"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "kanji": "土",
+    "entries": [
+      {
+        "entryId": 31,
+        "romaji": "tsuchi",
+        "hiragana": "つち",
+        "meaning": "earth, soil",
+        "wordClass": "noun",
+        "example": "土曜日に買い物をします。(I go shopping on Saturday.)",
+        "exampleKana": "つちようびにかいものをします。"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "kanji": "大",
+    "entries": [
+      {
+        "entryId": 32,
+        "romaji": "oo",
+        "hiragana": "おお",
+        "meaning": "big, large",
+        "wordClass": "adjective",
+        "example": "大きな家に住んでいます。(I live in a big house.)",
+        "exampleKana": "おおきないえに住んでいます。"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "kanji": "小",
+    "entries": [
+      {
+        "entryId": 33,
+        "romaji": "chii",
+        "hiragana": "ちい",
+        "meaning": "small, little",
+        "wordClass": "adjective",
+        "example": "小さな猫がいます。(There is a small cat.)",
+        "exampleKana": "ちいさなねこがいます。"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "kanji": "上",
+    "entries": [
+      {
+        "entryId": 34,
+        "romaji": "ue",
+        "hiragana": "うえ",
+        "meaning": "up, above",
+        "wordClass": "noun",
+        "example": "机の上に本があります。(There is a book on the desk.)",
+        "exampleKana": "つくえのうえにほんがあります。"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "kanji": "下",
+    "entries": [
+      {
+        "entryId": 35,
+        "romaji": "shita",
+        "hiragana": "した",
+        "meaning": "down, below",
+        "wordClass": "noun",
+        "example": "椅子の下にペンが落ちました。(A pen fell under the chair.)",
+        "exampleKana": "いすのしたにぺんがおちました。"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "kanji": "中",
+    "entries": [
+      {
+        "entryId": 36,
+        "romaji": "naka",
+        "hiragana": "なか",
+        "meaning": "middle, inside",
+        "wordClass": "noun",
+        "example": "箱の中に何がありますか。(What is inside the box?)",
+        "exampleKana": "はこのなかになにがありますか。"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "kanji": "外",
+    "entries": [
+      {
+        "entryId": 37,
+        "romaji": "soto",
+        "hiragana": "そと",
+        "meaning": "outside",
+        "wordClass": "noun",
+        "example": "外は雨が降っています。(It's raining outside.)",
+        "exampleKana": "そとはあめがふっています。"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "kanji": "国",
+    "entries": [
+      {
+        "entryId": 38,
+        "romaji": "kuni",
+        "hiragana": "くに",
+        "meaning": "country",
+        "wordClass": "noun",
+        "example": "日本は美しい国です。(Japan is a beautiful country.)",
+        "exampleKana": "にほんはうつくしいくにです。"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "kanji": "家",
+    "entries": [
+      {
+        "entryId": 39,
+        "romaji": "ie",
+        "hiragana": "いえ",
+        "meaning": "house, home",
+        "wordClass": "noun",
+        "example": "新しい家を買いました。(I bought a new house.)",
+        "exampleKana": "あたらしいいえをかいました。"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "kanji": "生",
+    "entries": [
+      {
+        "entryId": 40,
+        "romaji": "nama",
+        "hiragana": "なま",
+        "meaning": "life, raw",
+        "wordClass": "noun",
+        "example": "生の魚を食べます。(I eat raw fish.)",
+        "exampleKana": "なまのさかなをたべます。"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "kanji": "先",
+    "entries": [
+      {
+        "entryId": 41,
+        "romaji": "saki",
+        "hiragana": "さき",
+        "meaning": "ahead, previous",
+        "wordClass": "noun",
+        "example": "先生に質問しました。(I asked the teacher a question.)",
+        "exampleKana": "さきせいにしつもんしました。"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "kanji": "行",
+    "entries": [
+      {
+        "entryId": 42,
+        "romaji": "iku",
+        "hiragana": "いく",
+        "meaning": "to go",
+        "wordClass": "verb",
+        "example": "明日いくつもりです。(I plan to go tomorrow.)",
+        "exampleKana": "あしたいくつもりです。"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "kanji": "来",
+    "entries": [
+      {
+        "entryId": 43,
+        "romaji": "kuru",
+        "hiragana": "くる",
+        "meaning": "to come",
+        "wordClass": "verb",
+        "example": "友達が家に来ました。(My friend came to my house.)",
+        "exampleKana": "ともだちがいえにくるました。"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "kanji": "入",
+    "entries": [
+      {
+        "entryId": 44,
+        "romaji": "hairu",
+        "hiragana": "はいる",
+        "meaning": "to enter",
+        "wordClass": "verb",
+        "example": "部屋にはいることができます。(I can enter the room.)",
+        "exampleKana": "へやにはいることができます。"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "kanji": "出",
+    "entries": [
+      {
+        "entryId": 45,
+        "romaji": "deru",
+        "hiragana": "でる",
+        "meaning": "to exit, to go out",
+        "wordClass": "verb",
+        "example": "八時にでる予定です。(I plan to leave at eight.)",
+        "exampleKana": "はちじにでるよていです。"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "kanji": "立",
+    "entries": [
+      {
+        "entryId": 46,
+        "romaji": "tatsu",
+        "hiragana": "たつ",
+        "meaning": "to stand",
+        "wordClass": "verb",
+        "example": "ここでたつことにしました。(I decided to stand here.)",
+        "exampleKana": "ここでたつことにしました。"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "kanji": "座",
+    "entries": [
+      {
+        "entryId": 47,
+        "romaji": "suwaru",
+        "hiragana": "すわる",
+        "meaning": "to sit",
+        "wordClass": "verb",
+        "example": "椅子にすわることが好きです。(I like sitting on chairs.)",
+        "exampleKana": "いすにすわることがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "kanji": "買",
+    "entries": [
+      {
+        "entryId": 48,
+        "romaji": "kau",
+        "hiragana": "かう",
+        "meaning": "to buy",
+        "wordClass": "verb",
+        "example": "本をかうのは楽しいです。(Buying books is fun.)",
+        "exampleKana": "ほんをかうのはたのしいです。"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "kanji": "売",
+    "entries": [
+      {
+        "entryId": 49,
+        "romaji": "uru",
+        "hiragana": "うる",
+        "meaning": "to sell",
+        "wordClass": "verb",
+        "example": "車をうることにしました。(I decided to sell the car.)",
+        "exampleKana": "くるまをうることにしました。"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "kanji": "作",
+    "entries": [
+      {
+        "entryId": 50,
+        "romaji": "tsukuru",
+        "hiragana": "つくる",
+        "meaning": "to make, to create",
+        "wordClass": "verb",
+        "example": "ケーキをつくるのが好きです。(I like making cakes.)",
+        "exampleKana": "けーきをつくるのがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "kanji": "使",
+    "entries": [
+      {
+        "entryId": 51,
+        "romaji": "tsukau",
+        "hiragana": "つかう",
+        "meaning": "to use",
+        "wordClass": "verb",
+        "example": "ペンをつかうのが得意です。(I am good at using pens.)",
+        "exampleKana": "ぺんをつかうのがとくいです。"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "kanji": "好",
+    "entries": [
+      {
+        "entryId": 52,
+        "romaji": "suku",
+        "hiragana": "すく",
+        "meaning": "to like",
+        "wordClass": "verb",
+        "example": "すくことができます。(I can to like.)",
+        "exampleKana": "すくことができます。"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "kanji": "新",
+    "entries": [
+      {
+        "entryId": 53,
+        "romaji": "atarashii",
+        "hiragana": "あたらしい",
+        "meaning": "new",
+        "wordClass": "adjective",
+        "example": "新しい本を読んでいます。(I am reading a new book.)",
+        "exampleKana": "あたらしいほんをよんでいます。"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "kanji": "古",
+    "entries": [
+      {
+        "entryId": 54,
+        "romaji": "furui",
+        "hiragana": "ふるい",
+        "meaning": "old",
+        "wordClass": "adjective",
+        "example": "古い建物を見学しました。(I visited an old building.)",
+        "exampleKana": "ふるいたてものをみがくしました。"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "kanji": "高",
+    "entries": [
+      {
+        "entryId": 55,
+        "romaji": "takai",
+        "hiragana": "たかい",
+        "meaning": "high, expensive",
+        "wordClass": "adjective",
+        "example": "この時計は高いです。(This watch is expensive.)",
+        "exampleKana": "このとけいはたかいです。"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "kanji": "赤",
+    "entries": [
+      {
+        "entryId": 56,
+        "romaji": "aka",
+        "hiragana": "あか",
+        "meaning": "red",
+        "wordClass": "noun",
+        "example": "赤い花がきれいです。(The red flowers are beautiful.)",
+        "exampleKana": "あかいはながきれいです。"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "kanji": "青",
+    "entries": [
+      {
+        "entryId": 57,
+        "romaji": "ao",
+        "hiragana": "あお",
+        "meaning": "blue",
+        "wordClass": "noun",
+        "example": "青い空を見上げました。(I looked up at the blue sky.)",
+        "exampleKana": "あおいそらをみうえげました。"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "kanji": "白",
+    "entries": [
+      {
+        "entryId": 58,
+        "romaji": "shiro",
+        "hiragana": "しろ",
+        "meaning": "white",
+        "wordClass": "noun",
+        "example": "白いシャツを着ています。(I am wearing a white shirt.)",
+        "exampleKana": "しろいしゃつをきています。"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "kanji": "黒",
+    "entries": [
+      {
+        "entryId": 59,
+        "romaji": "kuro",
+        "hiragana": "くろ",
+        "meaning": "black",
+        "wordClass": "noun",
+        "example": "黒い猫が道を歩いています。(A black cat is walking down the road.)",
+        "exampleKana": "くろいねこがみちをあるいています。"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "kanji": "手",
+    "entries": [
+      {
+        "entryId": 60,
+        "romaji": "te",
+        "hiragana": "て",
+        "meaning": "hand",
+        "wordClass": "noun",
+        "example": "手を洗ってください。(Please wash your hands.)",
+        "exampleKana": "てをあらってください。"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "kanji": "足",
+    "entries": [
+      {
+        "entryId": 61,
+        "romaji": "ashi",
+        "hiragana": "あし",
+        "meaning": "foot, leg",
+        "wordClass": "noun",
+        "example": "足が痛いです。(My foot hurts.)",
+        "exampleKana": "あしがいたいです。"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "kanji": "頭",
+    "entries": [
+      {
+        "entryId": 62,
+        "romaji": "atama",
+        "hiragana": "あたま",
+        "meaning": "head",
+        "wordClass": "noun",
+        "example": "頭が痛いので薬を飲みました。(I took medicine because I have a headache.)",
+        "exampleKana": "あたまがいたいのでくすりをのみました。"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "kanji": "目",
+    "entries": [
+      {
+        "entryId": 63,
+        "romaji": "me",
+        "hiragana": "め",
+        "meaning": "eye",
+        "wordClass": "noun",
+        "example": "目が疲れています。(My eyes are tired.)",
+        "exampleKana": "めがつかれています。"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "kanji": "口",
+    "entries": [
+      {
+        "entryId": 64,
+        "romaji": "kuchi",
+        "hiragana": "くち",
+        "meaning": "mouth",
+        "wordClass": "noun",
+        "example": "口を開けてください。(Please open your mouth.)",
+        "exampleKana": "くちをあけてください。"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "kanji": "耳",
+    "entries": [
+      {
+        "entryId": 65,
+        "romaji": "mimi",
+        "hiragana": "みみ",
+        "meaning": "ear",
+        "wordClass": "noun",
+        "example": "音楽を耳で聞きます。(I listen to music with my ears.)",
+        "exampleKana": "おんがくをみみでぶんきます。"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "kanji": "山",
+    "entries": [
+      {
+        "entryId": 66,
+        "romaji": "yama",
+        "hiragana": "やま",
+        "meaning": "mountain",
+        "wordClass": "noun",
+        "example": "高い山に登りました。(I climbed a high mountain.)",
+        "exampleKana": "たかいやまにのぼりました。"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "kanji": "川",
+    "entries": [
+      {
+        "entryId": 67,
+        "romaji": "kawa",
+        "hiragana": "かわ",
+        "meaning": "river",
+        "wordClass": "noun",
+        "example": "川で魚を釣りました。(I caught fish in the river.)",
+        "exampleKana": "かわでさかなをつりました。"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "kanji": "海",
+    "entries": [
+      {
+        "entryId": 68,
+        "romaji": "umi",
+        "hiragana": "うみ",
+        "meaning": "sea, ocean",
+        "wordClass": "noun",
+        "example": "夏に海で泳ぎました。(I swam in the sea in summer.)",
+        "exampleKana": "なつにうみでおよぎました。"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "kanji": "空",
+    "entries": [
+      {
+        "entryId": 69,
+        "romaji": "sora",
+        "hiragana": "そら",
+        "meaning": "sky",
+        "wordClass": "noun",
+        "example": "夜の空に星が見えます。(Stars can be seen in the night sky.)",
+        "exampleKana": "よるのそらにほしがみえます。"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "kanji": "雨",
+    "entries": [
+      {
+        "entryId": 70,
+        "romaji": "ame",
+        "hiragana": "あめ",
+        "meaning": "rain",
+        "wordClass": "noun",
+        "example": "今日は雨が降っています。(It is raining today.)",
+        "exampleKana": "きょうはあめがふっています。"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "kanji": "風",
+    "entries": [
+      {
+        "entryId": 71,
+        "romaji": "kaze",
+        "hiragana": "かぜ",
+        "meaning": "wind",
+        "wordClass": "noun",
+        "example": "強い風が吹いています。(A strong wind is blowing.)",
+        "exampleKana": "つよいかぜが吹いています。"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "kanji": "犬",
+    "entries": [
+      {
+        "entryId": 72,
+        "romaji": "inu",
+        "hiragana": "いぬ",
+        "meaning": "dog",
+        "wordClass": "noun",
+        "example": "犬と一緒に散歩します。(I take a walk with my dog.)",
+        "exampleKana": "いぬと一緒にさんぽします。"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "kanji": "猫",
+    "entries": [
+      {
+        "entryId": 73,
+        "romaji": "neko",
+        "hiragana": "ねこ",
+        "meaning": "cat",
+        "wordClass": "noun",
+        "example": "猫がソファで寝ています。(The cat is sleeping on the sofa.)",
+        "exampleKana": "ねこがそふァでねています。"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "kanji": "魚",
+    "entries": [
+      {
+        "entryId": 74,
+        "romaji": "sakana",
+        "hiragana": "さかな",
+        "meaning": "fish",
+        "wordClass": "noun",
+        "example": "魚を料理するのが好きです。(I like cooking fish.)",
+        "exampleKana": "さかなをりょうりするのがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "kanji": "鳥",
+    "entries": [
+      {
+        "entryId": 75,
+        "romaji": "tori",
+        "hiragana": "とり",
+        "meaning": "bird",
+        "wordClass": "noun",
+        "example": "公園で鳥が歌っています。(Birds are singing in the park.)",
+        "exampleKana": "こうえんでとりが歌っています。"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "kanji": "米",
+    "entries": [
+      {
+        "entryId": 76,
+        "romaji": "kome",
+        "hiragana": "こめ",
+        "meaning": "rice",
+        "wordClass": "noun",
+        "example": "日本人は米をよく食べます。(Japanese people often eat rice.)",
+        "exampleKana": "にほんじんはこめをよくたべます。"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "kanji": "肉",
+    "entries": [
+      {
+        "entryId": 77,
+        "romaji": "niku",
+        "hiragana": "にく",
+        "meaning": "meat",
+        "wordClass": "noun",
+        "example": "牛肉を焼いて食べました。(I grilled and ate beef.)",
+        "exampleKana": "ぎゅうにくを焼いてたべました。"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "kanji": "野",
+    "entries": [
+      {
+        "entryId": 78,
+        "romaji": "no",
+        "hiragana": "の",
+        "meaning": "field, wild",
+        "wordClass": "noun",
+        "example": "野のうさぎを見ました。(I saw a wild rabbit.)",
+        "exampleKana": "のうさぎをみました。"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "kanji": "果",
+    "entries": [
+      {
+        "entryId": 79,
+        "romaji": "ka",
+        "hiragana": "か",
+        "meaning": "fruit, result",
+        "wordClass": "noun",
+        "example": "これはかいものです。(This is shopping.)",
+        "exampleKana": "これはかいものです。"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "kanji": "歩",
+    "entries": [
+      {
+        "entryId": 80,
+        "romaji": "aruku",
+        "hiragana": "あるく",
+        "meaning": "to walk",
+        "wordClass": "verb",
+        "example": "公園をあるくのが好きです。(I like walking in the park.)",
+        "exampleKana": "こうえんをあるくのがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "kanji": "走",
+    "entries": [
+      {
+        "entryId": 81,
+        "romaji": "hashiru",
+        "hiragana": "はしる",
+        "meaning": "to run",
+        "wordClass": "verb",
+        "example": "公園ではしることが多いです。(I often run in the park.)",
+        "exampleKana": "こうえんではしることがおおいです。"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "kanji": "泳",
+    "entries": [
+      {
+        "entryId": 82,
+        "romaji": "oyogu",
+        "hiragana": "およぐ",
+        "meaning": "to swim",
+        "wordClass": "verb",
+        "example": "プールで泳ぐのが楽しいです。(Swimming in the pool is fun.)",
+        "exampleKana": "ぷーるでおよぐのががくしいです。"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "kanji": "飛",
+    "entries": [
+      {
+        "entryId": 83,
+        "romaji": "tobu",
+        "hiragana": "とぶ",
+        "meaning": "to fly, to jump",
+        "wordClass": "verb",
+        "example": "鳥がとぶ姿は美しいです。(The sight of birds flying is beautiful.)",
+        "exampleKana": "とりがとぶすがたはうつくしいです。"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "kanji": "美",
+    "entries": [
+      {
+        "entryId": 84,
+        "romaji": "utsukushii",
+        "hiragana": "うつくしい",
+        "meaning": "beautiful",
+        "wordClass": "adjective",
+        "example": "美しい景色を見ました。(I saw a beautiful view.)",
+        "exampleKana": "うつくしいけしきをみました。"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "kanji": "楽",
+    "entries": [
+      {
+        "entryId": 85,
+        "romaji": "tanoshii",
+        "hiragana": "たのしい",
+        "meaning": "fun, enjoyable",
+        "wordClass": "adjective",
+        "example": "とてもたのしいパーティーでした。(It was a very fun party.)",
+        "exampleKana": "とてもたのしいぱーてぃーでした。"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "kanji": "難",
+    "entries": [
+      {
+        "entryId": 86,
+        "romaji": "muzukashii",
+        "hiragana": "むずかしい",
+        "meaning": "difficult",
+        "wordClass": "adjective",
+        "example": "この問題は難しいです。(This problem is difficult.)",
+        "exampleKana": "このもんだいはむずかしいです。"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "kanji": "簡",
+    "entries": [
+      {
+        "entryId": 87,
+        "romaji": "kantan",
+        "hiragana": "かんたん",
+        "meaning": "simple, easy",
+        "wordClass": "adjective",
+        "example": "この問題はかんたんです。(This problem is simple.)",
+        "exampleKana": "このもんだいはかんたんです。"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "kanji": "早",
+    "entries": [
+      {
+        "entryId": 88,
+        "romaji": "hayai",
+        "hiragana": "はやい",
+        "meaning": "early, fast",
+        "wordClass": "adjective",
+        "example": "早い時間に起きました。(I woke up early.)",
+        "exampleKana": "はやいじかんにおきました。"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "kanji": "遅",
+    "entries": [
+      {
+        "entryId": 89,
+        "romaji": "osoi",
+        "hiragana": "おそい",
+        "meaning": "late, slow",
+        "wordClass": "adjective",
+        "example": "電車がおそいです。(The train is late.)",
+        "exampleKana": "でんしゃがおそいです。"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "kanji": "長",
+    "entries": [
+      {
+        "entryId": 90,
+        "romaji": "nagai",
+        "hiragana": "ながい",
+        "meaning": "long",
+        "wordClass": "adjective",
+        "example": "長い髪の女性がいます。(There is a woman with long hair.)",
+        "exampleKana": "ながいかみのじょせいがいます。"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "kanji": "短",
+    "entries": [
+      {
+        "entryId": 91,
+        "romaji": "mijikai",
+        "hiragana": "みじかい",
+        "meaning": "short",
+        "wordClass": "adjective",
+        "example": "短い話を聞きました。(I heard a short story.)",
+        "exampleKana": "みじかいはなをぶんきました。"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "kanji": "安",
+    "entries": [
+      {
+        "entryId": 92,
+        "romaji": "yasui",
+        "hiragana": "やすい",
+        "meaning": "cheap, inexpensive",
+        "wordClass": "adjective",
+        "example": "安い服を買いました。(I bought cheap clothes.)",
+        "exampleKana": "やすいふくをかいました。"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "kanji": "車",
+    "entries": [
+      {
+        "entryId": 93,
+        "romaji": "kuruma",
+        "hiragana": "くるま",
+        "meaning": "car, vehicle",
+        "wordClass": "noun",
+        "example": "新しい車を運転しています。(I am driving a new car.)",
+        "exampleKana": "あたらしいくるまを運転しています。"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "kanji": "電",
+    "entries": [
+      {
+        "entryId": 94,
+        "romaji": "den",
+        "hiragana": "でん",
+        "meaning": "electricity",
+        "wordClass": "noun",
+        "example": "電車で通勤しています。(I commute by train.)",
+        "exampleKana": "でんしゃで通勤しています。"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "kanji": "話",
+    "entries": [
+      {
+        "entryId": 95,
+        "romaji": "hanashi",
+        "hiragana": "はなし",
+        "meaning": "story, talk",
+        "wordClass": "noun",
+        "example": "面白いはなしを聞きました。(I heard an interesting story.)",
+        "exampleKana": "おもしろいはなしをききました。"
+      },
+      {
+        "entryId": 96,
+        "romaji": "hanasu",
+        "hiragana": "はなす",
+        "meaning": "to speak, to talk",
+        "wordClass": "verb",
+        "example": "日本語ではなすのは難しいです。(Speaking Japanese is difficult.)",
+        "exampleKana": "にほんごではなすのはむずかしいです。"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "kanji": "聞",
+    "entries": [
+      {
+        "entryId": 97,
+        "romaji": "kiku",
+        "hiragana": "きく",
+        "meaning": "to hear, to listen",
+        "wordClass": "verb",
+        "example": "音楽をきくのが好きです。(I like listening to music.)",
+        "exampleKana": "おんがくをきくのがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "kanji": "言",
+    "entries": [
+      {
+        "entryId": 98,
+        "romaji": "iu",
+        "hiragana": "いう",
+        "meaning": "to say, to speak",
+        "wordClass": "verb",
+        "example": "何かいうことがありますか。(Do you have something to say?)",
+        "exampleKana": "なにかいうことがありますか。"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "kanji": "思",
+    "entries": [
+      {
+        "entryId": 99,
+        "romaji": "omou",
+        "hiragana": "おもう",
+        "meaning": "to think, to feel",
+        "wordClass": "verb",
+        "example": "そうおもうことがあります。(I sometimes think so.)",
+        "exampleKana": "そうおもうことがあります。"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "kanji": "知",
+    "entries": [
+      {
+        "entryId": 100,
+        "romaji": "shiru",
+        "hiragana": "しる",
+        "meaning": "to know",
+        "wordClass": "verb",
+        "example": "答えをしることは大切です。(Knowing the answer is important.)",
+        "exampleKana": "こたえをしることはたいせつです。"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "kanji": "持",
+    "entries": [
+      {
+        "entryId": 101,
+        "romaji": "motsu",
+        "hiragana": "もつ",
+        "meaning": "to hold, to have",
+        "wordClass": "verb",
+        "example": "重い荷物を持っています。(I am carrying heavy luggage.)",
+        "exampleKana": "おもいにもつをもっています。"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "kanji": "取",
+    "entries": [
+      {
+        "entryId": 102,
+        "romaji": "toru",
+        "hiragana": "とる",
+        "meaning": "to take, to get",
+        "wordClass": "verb",
+        "example": "写真をとることが好きです。(I like taking photos.)",
+        "exampleKana": "しゃしんをとることがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "kanji": "着",
+    "entries": [
+      {
+        "entryId": 103,
+        "romaji": "kiru",
+        "hiragana": "きる",
+        "meaning": "to wear, to put on",
+        "wordClass": "verb",
+        "example": "服をきることを忘れました。(I forgot to wear clothes.)",
+        "exampleKana": "ふくをきることをわすれました。"
+      },
+      {
+        "entryId": 104,
+        "romaji": "tsuku",
+        "hiragana": "つく",
+        "meaning": "to arrive",
+        "wordClass": "verb",
+        "example": "駅につくまで30分です。(It takes 30 minutes to arrive at the station.)",
+        "exampleKana": "えきにつくまでさんじゅっぷんです。"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "kanji": "寝",
+    "entries": [
+      {
+        "entryId": 105,
+        "romaji": "neru",
+        "hiragana": "ねる",
+        "meaning": "to sleep, to go to bed",
+        "wordClass": "verb",
+        "example": "早くねることにしています。(I make it a point to sleep early.)",
+        "exampleKana": "はやくねることにしています。"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "kanji": "起",
+    "entries": [
+      {
+        "entryId": 106,
+        "romaji": "okiru",
+        "hiragana": "おきる",
+        "meaning": "to wake up, to get up",
+        "wordClass": "verb",
+        "example": "早くおきるのが苦手です。(I am not good at waking up early.)",
+        "exampleKana": "はやくおきるのがにがてです。"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "kanji": "働",
+    "entries": [
+      {
+        "entryId": 107,
+        "romaji": "hataraku",
+        "hiragana": "はたらく",
+        "meaning": "to work",
+        "wordClass": "verb",
+        "example": "はたらくことができます。(I can to work.)",
+        "exampleKana": "はたらくことができます。"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "kanji": "休",
+    "entries": [
+      {
+        "entryId": 108,
+        "romaji": "yasumu",
+        "hiragana": "やすむ",
+        "meaning": "to rest, to take a break",
+        "wordClass": "verb",
+        "example": "やすむことができます。(I can to rest, to take a break.)",
+        "exampleKana": "やすむことができます。"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "kanji": "会",
+    "entries": [
+      {
+        "entryId": 109,
+        "romaji": "au",
+        "hiragana": "あう",
+        "meaning": "to meet",
+        "wordClass": "verb",
+        "example": "あうことができます。(I can to meet.)",
+        "exampleKana": "あうことができます。"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "kanji": "開",
+    "entries": [
+      {
+        "entryId": 110,
+        "romaji": "akeru",
+        "hiragana": "あける",
+        "meaning": "to open",
+        "wordClass": "verb",
+        "example": "あけることができます。(I can to open.)",
+        "exampleKana": "あけることができます。"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "kanji": "閉",
+    "entries": [
+      {
+        "entryId": 111,
+        "romaji": "shimeru",
+        "hiragana": "しめる",
+        "meaning": "to close",
+        "wordClass": "verb",
+        "example": "しめることができます。(I can to close.)",
+        "exampleKana": "しめることができます。"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "kanji": "切",
+    "entries": [
+      {
+        "entryId": 112,
+        "romaji": "kiru",
+        "hiragana": "きる",
+        "meaning": "to cut",
+        "wordClass": "verb",
+        "example": "服をきることを忘れました。(I forgot to wear clothes.)",
+        "exampleKana": "ふくをきることをわすれました。"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "kanji": "終",
+    "entries": [
+      {
+        "entryId": 113,
+        "romaji": "owaru",
+        "hiragana": "おわる",
+        "meaning": "to end, to finish",
+        "wordClass": "verb",
+        "example": "おわることができます。(I can to end, to finish.)",
+        "exampleKana": "おわることができます。"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "kanji": "始",
+    "entries": [
+      {
+        "entryId": 114,
+        "romaji": "hajimaru",
+        "hiragana": "はじまる",
+        "meaning": "to begin, to start",
+        "wordClass": "verb",
+        "example": "はじまることができます。(I can to begin, to start.)",
+        "exampleKana": "はじまることができます。"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "kanji": "忘",
+    "entries": [
+      {
+        "entryId": 115,
+        "romaji": "wasureru",
+        "hiragana": "わすれる",
+        "meaning": "to forget",
+        "wordClass": "verb",
+        "example": "わすれることができます。(I can to forget.)",
+        "exampleKana": "わすれることができます。"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "kanji": "覚",
+    "entries": [
+      {
+        "entryId": 116,
+        "romaji": "oboeru",
+        "hiragana": "おぼえる",
+        "meaning": "to remember, to memorize",
+        "wordClass": "verb",
+        "example": "おぼえることができます。(I can to remember, to memorize.)",
+        "exampleKana": "おぼえることができます。"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "kanji": "若",
+    "entries": [
+      {
+        "entryId": 117,
+        "romaji": "wakai",
+        "hiragana": "わかい",
+        "meaning": "young",
+        "wordClass": "adjective",
+        "example": "若い人がたくさんいます。(There are many young people.)",
+        "exampleKana": "わかいひとがたくさんいます。"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "kanji": "親",
+    "entries": [
+      {
+        "entryId": 118,
+        "romaji": "oya",
+        "hiragana": "おや",
+        "meaning": "parent",
+        "wordClass": "noun",
+        "example": "親と一緒に住んでいます。(I live with my parents.)",
+        "exampleKana": "おやと一緒に住んでいます。"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "kanji": "子",
+    "entries": [
+      {
+        "entryId": 119,
+        "romaji": "ko",
+        "hiragana": "こ",
+        "meaning": "child",
+        "wordClass": "noun",
+        "example": "子供が公園で遊んでいます。(Children are playing in the park.)",
+        "exampleKana": "こどもがこうえんで遊んでいます。"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "kanji": "男",
+    "entries": [
+      {
+        "entryId": 120,
+        "romaji": "otoko",
+        "hiragana": "おとこ",
+        "meaning": "man, male",
+        "wordClass": "noun",
+        "example": "男の人が歩いています。(A man is walking.)",
+        "exampleKana": "おとこのひとがあるいています。"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "kanji": "女",
+    "entries": [
+      {
+        "entryId": 121,
+        "romaji": "onna",
+        "hiragana": "おんな",
+        "meaning": "woman, female",
+        "wordClass": "noun",
+        "example": "女の人が本を読んでいます。(A woman is reading a book.)",
+        "exampleKana": "おんなのひとがほんをよんでいます。"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "kanji": "友",
+    "entries": [
+      {
+        "entryId": 122,
+        "romaji": "tomo",
+        "hiragana": "とも",
+        "meaning": "friend",
+        "wordClass": "noun",
+        "example": "友達と映画を見ました。(I watched a movie with my friend.)",
+        "exampleKana": "ともだちとえいがをみました。"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "kanji": "町",
+    "entries": [
+      {
+        "entryId": 123,
+        "romaji": "machi",
+        "hiragana": "まち",
+        "meaning": "town, city",
+        "wordClass": "noun",
+        "example": "小さな町に住んでいます。(I live in a small town.)",
+        "exampleKana": "ちいさなまちに住んでいます。"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "kanji": "村",
+    "entries": [
+      {
+        "entryId": 124,
+        "romaji": "mura",
+        "hiragana": "むら",
+        "meaning": "village",
+        "wordClass": "noun",
+        "example": "静かな村を訪れました。(I visited a quiet village.)",
+        "exampleKana": "静かなむらを訪れました。"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "kanji": "道",
+    "entries": [
+      {
+        "entryId": 125,
+        "romaji": "michi",
+        "hiragana": "みち",
+        "meaning": "road, path, way",
+        "wordClass": "noun",
+        "example": "この道を歩いて学校に行きます。(I walk on this road to go to school.)",
+        "exampleKana": "このみちをあるいてがっこうにいきます。"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "kanji": "橋",
+    "entries": [
+      {
+        "entryId": 126,
+        "romaji": "hashi",
+        "hiragana": "はし",
+        "meaning": "bridge",
+        "wordClass": "noun",
+        "example": "川に橋がかかっています。(There is a bridge over the river.)",
+        "exampleKana": "かわにはしがかかっています。"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "kanji": "駅",
+    "entries": [
+      {
+        "entryId": 127,
+        "romaji": "eki",
+        "hiragana": "えき",
+        "meaning": "station",
+        "wordClass": "noun",
+        "example": "駅で電車を待っています。(I am waiting for the train at the station.)",
+        "exampleKana": "えきででんしゃをまっています。"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "kanji": "店",
+    "entries": [
+      {
+        "entryId": 128,
+        "romaji": "mise",
+        "hiragana": "みせ",
+        "meaning": "store, shop",
+        "wordClass": "noun",
+        "example": "新しい店がオープンしました。(A new store opened.)",
+        "exampleKana": "あたらしいみせがおーぷんしました。"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "kanji": "病",
+    "entries": [
+      {
+        "entryId": 129,
+        "romaji": "byou",
+        "hiragana": "びょう",
+        "meaning": "illness, disease",
+        "wordClass": "noun",
+        "example": "病院に行きました。(I went to the hospital.)",
+        "exampleKana": "びょういんにいきました。"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "kanji": "元",
+    "entries": [
+      {
+        "entryId": 130,
+        "romaji": "genki",
+        "hiragana": "げんき",
+        "meaning": "healthy, energetic",
+        "wordClass": "adjective",
+        "example": "とてもげんきです。(It is very healthy, energetic.)",
+        "exampleKana": "とてもげんきです。"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "kanji": "強",
+    "entries": [
+      {
+        "entryId": 131,
+        "romaji": "tsuyoi",
+        "hiragana": "つよい",
+        "meaning": "strong",
+        "wordClass": "adjective",
+        "example": "強い風が吹いています。(A strong wind is blowing.)",
+        "exampleKana": "つよいかぜが吹いています。"
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "kanji": "弱",
+    "entries": [
+      {
+        "entryId": 132,
+        "romaji": "yowai",
+        "hiragana": "よわい",
+        "meaning": "weak",
+        "wordClass": "adjective",
+        "example": "弱い光が見えます。(A weak light is visible.)",
+        "exampleKana": "よわい光がみえます。"
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "kanji": "重",
+    "entries": [
+      {
+        "entryId": 133,
+        "romaji": "omoi",
+        "hiragana": "おもい",
+        "meaning": "heavy",
+        "wordClass": "adjective",
+        "example": "重い本を持っています。(I am carrying a heavy book.)",
+        "exampleKana": "おもいほんをもっています。"
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "kanji": "軽",
+    "entries": [
+      {
+        "entryId": 134,
+        "romaji": "karui",
+        "hiragana": "かるい",
+        "meaning": "light, not heavy",
+        "wordClass": "adjective",
+        "example": "軽い荷物を運びます。(I carry light luggage.)",
+        "exampleKana": "かるいにもつを運びます。"
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "kanji": "明",
+    "entries": [
+      {
+        "entryId": 135,
+        "romaji": "akarui",
+        "hiragana": "あかるい",
+        "meaning": "bright",
+        "wordClass": "adjective",
+        "example": "明るい部屋で勉強します。(I study in a bright room.)",
+        "exampleKana": "あかるいへやでべんきょうします。"
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "kanji": "暗",
+    "entries": [
+      {
+        "entryId": 136,
+        "romaji": "kurai",
+        "hiragana": "くらい",
+        "meaning": "dark",
+        "wordClass": "adjective",
+        "example": "暗い道を歩きました。(I walked on a dark road.)",
+        "exampleKana": "くらいみちをあるきました。"
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "kanji": "冷",
+    "entries": [
+      {
+        "entryId": 137,
+        "romaji": "tsumetai",
+        "hiragana": "つめたい",
+        "meaning": "cold",
+        "wordClass": "adjective",
+        "example": "冷たい飲み物が欲しいです。(I want a cold drink.)",
+        "exampleKana": "つめたいのみものが欲しいです。"
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "kanji": "暖",
+    "entries": [
+      {
+        "entryId": 138,
+        "romaji": "atatakai",
+        "hiragana": "あたたかい",
+        "meaning": "warm",
+        "wordClass": "adjective",
+        "example": "暖かい日です。(It's a warm day.)",
+        "exampleKana": "あたたかいひです。"
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "kanji": "暑",
+    "entries": [
+      {
+        "entryId": 139,
+        "romaji": "atsui",
+        "hiragana": "あつい",
+        "meaning": "hot",
+        "wordClass": "adjective",
+        "example": "今日は暑いです。(It's hot today.)",
+        "exampleKana": "きょうはあついです。"
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "kanji": "寒",
+    "entries": [
+      {
+        "entryId": 140,
+        "romaji": "samui",
+        "hiragana": "さむい",
+        "meaning": "cold (weather)",
+        "wordClass": "adjective",
+        "example": "寒い冬の日です。(It's a cold winter day.)",
+        "exampleKana": "さむいふゆのひです。"
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "kanji": "春",
+    "entries": [
+      {
+        "entryId": 141,
+        "romaji": "haru",
+        "hiragana": "はる",
+        "meaning": "spring",
+        "wordClass": "noun",
+        "example": "春に桜が咲きます。(Cherry blossoms bloom in spring.)",
+        "exampleKana": "はるにさくらが咲きます。"
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "kanji": "夏",
+    "entries": [
+      {
+        "entryId": 142,
+        "romaji": "natsu",
+        "hiragana": "なつ",
+        "meaning": "summer",
+        "wordClass": "noun",
+        "example": "夏は海で泳ぎます。(I swim in the sea in summer.)",
+        "exampleKana": "なつはうみでおよぎます。"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "kanji": "秋",
+    "entries": [
+      {
+        "entryId": 143,
+        "romaji": "aki",
+        "hiragana": "あき",
+        "meaning": "autumn, fall",
+        "wordClass": "noun",
+        "example": "秋は紅葉がきれいです。(The autumn leaves are beautiful in fall.)",
+        "exampleKana": "あきはこうようがきれいです。"
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "kanji": "冬",
+    "entries": [
+      {
+        "entryId": 144,
+        "romaji": "fuyu",
+        "hiragana": "ふゆ",
+        "meaning": "winter",
+        "wordClass": "noun",
+        "example": "冬に雪が降ります。(Snow falls in winter.)",
+        "exampleKana": "ふゆにゆきがふります。"
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "kanji": "雪",
+    "entries": [
+      {
+        "entryId": 145,
+        "romaji": "yuki",
+        "hiragana": "ゆき",
+        "meaning": "snow",
+        "wordClass": "noun",
+        "example": "白い雪が積もっています。(White snow has accumulated.)",
+        "exampleKana": "しろいゆきがつもっています。"
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "kanji": "花",
+    "entries": [
+      {
+        "entryId": 146,
+        "romaji": "hana",
+        "hiragana": "はな",
+        "meaning": "flower",
+        "wordClass": "noun",
+        "example": "きれいな花を見つけました。(I found beautiful flowers.)",
+        "exampleKana": "きれいなはなをみつけました。"
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "kanji": "草",
+    "entries": [
+      {
+        "entryId": 147,
+        "romaji": "kusa",
+        "hiragana": "くさ",
+        "meaning": "grass",
+        "wordClass": "noun",
+        "example": "緑の草の上に座りました。(I sat on the green grass.)",
+        "exampleKana": "みどりのくさのうえにすわりました。"
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "kanji": "葉",
+    "entries": [
+      {
+        "entryId": 148,
+        "romaji": "ha",
+        "hiragana": "は",
+        "meaning": "leaf",
+        "wordClass": "noun",
+        "example": "秋の葉が落ちています。(Autumn leaves are falling.)",
+        "exampleKana": "あきのはがおちています。"
+      }
+    ]
+  },
+  {
+    "id": 142,
+    "kanji": "石",
+    "entries": [
+      {
+        "entryId": 149,
+        "romaji": "ishi",
+        "hiragana": "いし",
+        "meaning": "stone, rock",
+        "wordClass": "noun",
+        "example": "大きな石が道にあります。(There is a big stone on the road.)",
+        "exampleKana": "おおきないしがみちにあります。"
+      }
+    ]
+  },
+  {
+    "id": 143,
+    "kanji": "音",
+    "entries": [
+      {
+        "entryId": 150,
+        "romaji": "oto",
+        "hiragana": "おと",
+        "meaning": "sound",
+        "wordClass": "noun",
+        "example": "きれいなおとですね。(What a beautiful sound.)",
+        "exampleKana": "きれいなおとですね。"
+      }
+    ]
+  },
+  {
+    "id": 144,
+    "kanji": "色",
+    "entries": [
+      {
+        "entryId": 151,
+        "romaji": "iro",
+        "hiragana": "いろ",
+        "meaning": "color",
+        "wordClass": "noun",
+        "example": "好きな色は何ですか。(What is your favorite color?)",
+        "exampleKana": "すきないろはなにですか。"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "kanji": "形",
+    "entries": [
+      {
+        "entryId": 152,
+        "romaji": "katachi",
+        "hiragana": "かたち",
+        "meaning": "shape, form",
+        "wordClass": "noun",
+        "example": "丸い形の時計です。(It's a round-shaped clock.)",
+        "exampleKana": "まるいかたちのとけいです。"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "kanji": "同",
+    "entries": [
+      {
+        "entryId": 153,
+        "romaji": "onaji",
+        "hiragana": "おなじ",
+        "meaning": "same",
+        "wordClass": "adjective",
+        "example": "同じ本を読んでいます。(We are reading the same book.)",
+        "exampleKana": "おなじほんをよんでいます。"
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "kanji": "違",
+    "entries": [
+      {
+        "entryId": 154,
+        "romaji": "chigau",
+        "hiragana": "ちがう",
+        "meaning": "to differ, to be different",
+        "wordClass": "verb",
+        "example": "ちがうことができます。(I can to differ, to be different.)",
+        "exampleKana": "ちがうことができます。"
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "kanji": "正",
+    "entries": [
+      {
+        "entryId": 155,
+        "romaji": "tadashii",
+        "hiragana": "ただしい",
+        "meaning": "correct, right",
+        "wordClass": "adjective",
+        "example": "正しい答えを教えてください。(Please tell me the correct answer.)",
+        "exampleKana": "ただしいこたえをおしえてください。"
+      }
+    ]
+  },
+  {
+    "id": 149,
+    "kanji": "間",
+    "entries": [
+      {
+        "entryId": 156,
+        "romaji": "ma",
+        "hiragana": "ま",
+        "meaning": "between, interval",
+        "wordClass": "noun",
+        "example": "授業の間に休憩があります。(There is a break between classes.)",
+        "exampleKana": "じゅぎょうのまにやす憩があります。"
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "kanji": "近",
+    "entries": [
+      {
+        "entryId": 157,
+        "romaji": "chikai",
+        "hiragana": "ちかい",
+        "meaning": "near, close",
+        "wordClass": "adjective",
+        "example": "近い場所に住んでいます。(I live in a nearby place.)",
+        "exampleKana": "ちかい場所に住んでいます。"
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "kanji": "遠",
+    "entries": [
+      {
+        "entryId": 158,
+        "romaji": "tooi",
+        "hiragana": "とおい",
+        "meaning": "far, distant",
+        "wordClass": "adjective",
+        "example": "遠い国から来ました。(I came from a far country.)",
+        "exampleKana": "とおいくにからきました。"
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "kanji": "多",
+    "entries": [
+      {
+        "entryId": 159,
+        "romaji": "ooi",
+        "hiragana": "おおい",
+        "meaning": "many, much",
+        "wordClass": "adjective",
+        "example": "とてもおおいです。(It is very many, much.)",
+        "exampleKana": "とてもおおいです。"
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "kanji": "少",
+    "entries": [
+      {
+        "entryId": 160,
+        "romaji": "sukunai",
+        "hiragana": "すくない",
+        "meaning": "few, little",
+        "wordClass": "adjective",
+        "example": "少ない時間で終わりました。(It finished in a short time.)",
+        "exampleKana": "すくないじかんでおわりました。"
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "kanji": "全",
+    "entries": [
+      {
+        "entryId": 161,
+        "romaji": "zen",
+        "hiragana": "ぜん",
+        "meaning": "all, whole",
+        "wordClass": "noun",
+        "example": "全部食べました。(I ate everything.)",
+        "exampleKana": "ぜんへたべました。"
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "kanji": "半",
+    "entries": [
+      {
+        "entryId": 162,
+        "romaji": "han",
+        "hiragana": "はん",
+        "meaning": "half",
+        "wordClass": "noun",
+        "example": "半分のケーキを食べました。(I ate half of the cake.)",
+        "exampleKana": "はんふんのけーきをたべました。"
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "kanji": "毎",
+    "entries": [
+      {
+        "entryId": 163,
+        "romaji": "mai",
+        "hiragana": "まい",
+        "meaning": "every",
+        "wordClass": "noun",
+        "example": "毎日運動しています。(I exercise every day.)",
+        "exampleKana": "まいにちうんどうしています。"
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "kanji": "今",
+    "entries": [
+      {
+        "entryId": 164,
+        "romaji": "ima",
+        "hiragana": "いま",
+        "meaning": "now, present",
+        "wordClass": "noun",
+        "example": "今何時ですか。(What time is it now?)",
+        "exampleKana": "いまなにじですか。"
+      }
+    ]
+  },
+  {
+    "id": 158,
+    "kanji": "前",
+    "entries": [
+      {
+        "entryId": 165,
+        "romaji": "mae",
+        "hiragana": "まえ",
+        "meaning": "before, front",
+        "wordClass": "noun",
+        "example": "学校の前で待っています。(I am waiting in front of the school.)",
+        "exampleKana": "がっこうのまえでまっています。"
+      }
+    ]
+  },
+  {
+    "id": 159,
+    "kanji": "後",
+    "entries": [
+      {
+        "entryId": 166,
+        "romaji": "ato",
+        "hiragana": "あと",
+        "meaning": "after, behind",
+        "wordClass": "noun",
+        "example": "食事の後で散歩しました。(I took a walk after the meal.)",
+        "exampleKana": "しょく事のあとでさんぽしました。"
+      }
+    ]
+  },
+  {
+    "id": 160,
+    "kanji": "左",
+    "entries": [
+      {
+        "entryId": 167,
+        "romaji": "hidari",
+        "hiragana": "ひだり",
+        "meaning": "left",
+        "wordClass": "noun",
+        "example": "左に曲がってください。(Please turn left.)",
+        "exampleKana": "ひだりに曲がってください。"
+      }
+    ]
+  },
+  {
+    "id": 161,
+    "kanji": "右",
+    "entries": [
+      {
+        "entryId": 168,
+        "romaji": "migi",
+        "hiragana": "みぎ",
+        "meaning": "right",
+        "wordClass": "noun",
+        "example": "右手にペンを持っています。(I am holding a pen in my right hand.)",
+        "exampleKana": "みぎてにぺんをもっています。"
+      }
+    ]
+  },
+  {
+    "id": 162,
+    "kanji": "東",
+    "entries": [
+      {
+        "entryId": 169,
+        "romaji": "higashi",
+        "hiragana": "ひがし",
+        "meaning": "east",
+        "wordClass": "noun",
+        "example": "東京は日本の東にあります。(Tokyo is in the east of Japan.)",
+        "exampleKana": "ひがし京はにほんのひがしにあります。"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "kanji": "西",
+    "entries": [
+      {
+        "entryId": 170,
+        "romaji": "nishi",
+        "hiragana": "にし",
+        "meaning": "west",
+        "wordClass": "noun",
+        "example": "太陽は西に沈みます。(The sun sets in the west.)",
+        "exampleKana": "ふと陽はにしに沈みます。"
+      }
+    ]
+  },
+  {
+    "id": 164,
+    "kanji": "南",
+    "entries": [
+      {
+        "entryId": 171,
+        "romaji": "minami",
+        "hiragana": "みなみ",
+        "meaning": "south",
+        "wordClass": "noun",
+        "example": "南の国は暖かいです。(Southern countries are warm.)",
+        "exampleKana": "みなみのくにはあたたかいです。"
+      }
+    ]
+  },
+  {
+    "id": 165,
+    "kanji": "北",
+    "entries": [
+      {
+        "entryId": 172,
+        "romaji": "kita",
+        "hiragana": "きた",
+        "meaning": "north",
+        "wordClass": "noun",
+        "example": "北風が冷たいです。(The north wind is cold.)",
+        "exampleKana": "きたかぜがつめたいです。"
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "kanji": "広",
+    "entries": [
+      {
+        "entryId": 173,
+        "romaji": "hiroi",
+        "hiragana": "ひろい",
+        "meaning": "wide, spacious",
+        "wordClass": "adjective",
+        "example": "広い公園があります。(There is a spacious park.)",
+        "exampleKana": "ひろいこうえんがあります。"
+      }
+    ]
+  },
+  {
+    "id": 167,
+    "kanji": "狭",
+    "entries": [
+      {
+        "entryId": 174,
+        "romaji": "semai",
+        "hiragana": "せまい",
+        "meaning": "narrow, small",
+        "wordClass": "adjective",
+        "example": "狭い部屋に住んでいます。(I live in a small room.)",
+        "exampleKana": "せまいへやに住んでいます。"
+      }
+    ]
+  },
+  {
+    "id": 168,
+    "kanji": "深",
+    "entries": [
+      {
+        "entryId": 175,
+        "romaji": "fukai",
+        "hiragana": "ふかい",
+        "meaning": "deep",
+        "wordClass": "adjective",
+        "example": "深い湖で泳ぎました。(I swam in a deep lake.)",
+        "exampleKana": "ふかい湖でおよぎました。"
+      }
+    ]
+  },
+  {
+    "id": 169,
+    "kanji": "浅",
+    "entries": [
+      {
+        "entryId": 176,
+        "romaji": "asai",
+        "hiragana": "あさい",
+        "meaning": "shallow",
+        "wordClass": "adjective",
+        "example": "浅い川を渡りました。(I crossed a shallow river.)",
+        "exampleKana": "あさいかわを渡りました。"
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "kanji": "厚",
+    "entries": [
+      {
+        "entryId": 177,
+        "romaji": "atsui",
+        "hiragana": "あつい",
+        "meaning": "thick",
+        "wordClass": "adjective",
+        "example": "厚いコートを着ています。(I am wearing a thick coat.)",
+        "exampleKana": "あついこーとをきています。"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "kanji": "薄",
+    "entries": [
+      {
+        "entryId": 178,
+        "romaji": "usui",
+        "hiragana": "うすい",
+        "meaning": "thin",
+        "wordClass": "adjective",
+        "example": "薄い本を読みました。(I read a thin book.)",
+        "exampleKana": "うすいほんをよみました。"
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "kanji": "細",
+    "entries": [
+      {
+        "entryId": 179,
+        "romaji": "hosoi",
+        "hiragana": "ほそい",
+        "meaning": "thin, slender",
+        "wordClass": "adjective",
+        "example": "細い道を歩きました。(I walked on a narrow road.)",
+        "exampleKana": "ほそいみちをあるきました。"
+      }
+    ]
+  },
+  {
+    "id": 173,
+    "kanji": "太",
+    "entries": [
+      {
+        "entryId": 180,
+        "romaji": "futoi",
+        "hiragana": "ふとい",
+        "meaning": "thick, fat",
+        "wordClass": "adjective",
+        "example": "太い木があります。(There is a thick tree.)",
+        "exampleKana": "ふといきがあります。"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "kanji": "丸",
+    "entries": [
+      {
+        "entryId": 181,
+        "romaji": "marui",
+        "hiragana": "まるい",
+        "meaning": "round",
+        "wordClass": "adjective",
+        "example": "丸いテーブルで食事をしました。(I ate at a round table.)",
+        "exampleKana": "まるいてーぶるでしょく事をしました。"
+      }
+    ]
+  },
+  {
+    "id": 175,
+    "kanji": "四",
+    "entries": [
+      {
+        "entryId": 182,
+        "romaji": "shikaku",
+        "hiragana": "しかく",
+        "meaning": "square",
+        "wordClass": "noun",
+        "example": "しかくが好きです。(I like square.)",
+        "exampleKana": "しかくがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 176,
+    "kanji": "洗",
+    "entries": [
+      {
+        "entryId": 183,
+        "romaji": "arau",
+        "hiragana": "あらう",
+        "meaning": "to wash",
+        "wordClass": "verb",
+        "example": "あらうことができます。(I can to wash.)",
+        "exampleKana": "あらうことができます。"
+      }
+    ]
+  },
+  {
+    "id": 177,
+    "kanji": "拭",
+    "entries": [
+      {
+        "entryId": 184,
+        "romaji": "fuku",
+        "hiragana": "ふく",
+        "meaning": "to wipe",
+        "wordClass": "verb",
+        "example": "ふくことができます。(I can to wipe.)",
+        "exampleKana": "ふくことができます。"
+      }
+    ]
+  },
+  {
+    "id": 178,
+    "kanji": "掃",
+    "entries": [
+      {
+        "entryId": 185,
+        "romaji": "sou",
+        "hiragana": "そう",
+        "meaning": "to sweep, to clean",
+        "wordClass": "verb",
+        "example": "部屋を掃除しました。(I cleaned the room.)",
+        "exampleKana": "へやをそうじょしました。"
+      }
+    ]
+  },
+  {
+    "id": 179,
+    "kanji": "投",
+    "entries": [
+      {
+        "entryId": 186,
+        "romaji": "nageru",
+        "hiragana": "なげる",
+        "meaning": "to throw",
+        "wordClass": "verb",
+        "example": "なげることができます。(I can to throw.)",
+        "exampleKana": "なげることができます。"
+      }
+    ]
+  },
+  {
+    "id": 180,
+    "kanji": "拾",
+    "entries": [
+      {
+        "entryId": 187,
+        "romaji": "hirou",
+        "hiragana": "ひろう",
+        "meaning": "to pick up",
+        "wordClass": "verb",
+        "example": "ひろうことができます。(I can to pick up.)",
+        "exampleKana": "ひろうことができます。"
+      }
+    ]
+  },
+  {
+    "id": 181,
+    "kanji": "押",
+    "entries": [
+      {
+        "entryId": 188,
+        "romaji": "osu",
+        "hiragana": "おす",
+        "meaning": "to push",
+        "wordClass": "verb",
+        "example": "おすことができます。(I can to push.)",
+        "exampleKana": "おすことができます。"
+      }
+    ]
+  },
+  {
+    "id": 182,
+    "kanji": "引",
+    "entries": [
+      {
+        "entryId": 189,
+        "romaji": "hiku",
+        "hiragana": "ひく",
+        "meaning": "to pull",
+        "wordClass": "verb",
+        "example": "ひくことができます。(I can to pull.)",
+        "exampleKana": "ひくことができます。"
+      }
+    ]
+  },
+  {
+    "id": 183,
+    "kanji": "止",
+    "entries": [
+      {
+        "entryId": 190,
+        "romaji": "tomaru",
+        "hiragana": "とまる",
+        "meaning": "to stop",
+        "wordClass": "verb",
+        "example": "とまることができます。(I can to stop.)",
+        "exampleKana": "とまることができます。"
+      }
+    ]
+  },
+  {
+    "id": 184,
+    "kanji": "動",
+    "entries": [
+      {
+        "entryId": 191,
+        "romaji": "ugoku",
+        "hiragana": "うごく",
+        "meaning": "to move",
+        "wordClass": "verb",
+        "example": "うごくことができます。(I can to move.)",
+        "exampleKana": "うごくことができます。"
+      }
+    ]
+  },
+  {
+    "id": 185,
+    "kanji": "待",
+    "entries": [
+      {
+        "entryId": 192,
+        "romaji": "matsu",
+        "hiragana": "まつ",
+        "meaning": "to wait",
+        "wordClass": "verb",
+        "example": "まつことができます。(I can to wait.)",
+        "exampleKana": "まつことができます。"
+      }
+    ]
+  },
+  {
+    "id": 186,
+    "kanji": "急",
+    "entries": [
+      {
+        "entryId": 193,
+        "romaji": "isogu",
+        "hiragana": "いそぐ",
+        "meaning": "to hurry",
+        "wordClass": "verb",
+        "example": "いそぐことができます。(I can to hurry.)",
+        "exampleKana": "いそぐことができます。"
+      }
+    ]
+  },
+  {
+    "id": 187,
+    "kanji": "貸",
+    "entries": [
+      {
+        "entryId": 194,
+        "romaji": "kasu",
+        "hiragana": "かす",
+        "meaning": "to lend",
+        "wordClass": "verb",
+        "example": "かすことができます。(I can to lend.)",
+        "exampleKana": "かすことができます。"
+      }
+    ]
+  },
+  {
+    "id": 188,
+    "kanji": "借",
+    "entries": [
+      {
+        "entryId": 195,
+        "romaji": "kariru",
+        "hiragana": "かりる",
+        "meaning": "to borrow",
+        "wordClass": "verb",
+        "example": "かりることができます。(I can to borrow.)",
+        "exampleKana": "かりることができます。"
+      }
+    ]
+  },
+  {
+    "id": 189,
+    "kanji": "返",
+    "entries": [
+      {
+        "entryId": 196,
+        "romaji": "kaesu",
+        "hiragana": "かえす",
+        "meaning": "to return, to give back",
+        "wordClass": "verb",
+        "example": "かえすことができます。(I can to return, to give back.)",
+        "exampleKana": "かえすことができます。"
+      }
+    ]
+  },
+  {
+    "id": 190,
+    "kanji": "送",
+    "entries": [
+      {
+        "entryId": 197,
+        "romaji": "okuru",
+        "hiragana": "おくる",
+        "meaning": "to send",
+        "wordClass": "verb",
+        "example": "おくることができます。(I can to send.)",
+        "exampleKana": "おくることができます。"
+      }
+    ]
+  },
+  {
+    "id": 191,
+    "kanji": "受",
+    "entries": [
+      {
+        "entryId": 198,
+        "romaji": "ukeru",
+        "hiragana": "うける",
+        "meaning": "to receive",
+        "wordClass": "verb",
+        "example": "うけることができます。(I can to receive.)",
+        "exampleKana": "うけることができます。"
+      }
+    ]
+  },
+  {
+    "id": 192,
+    "kanji": "教",
+    "entries": [
+      {
+        "entryId": 199,
+        "romaji": "oshieru",
+        "hiragana": "おしえる",
+        "meaning": "to teach",
+        "wordClass": "verb",
+        "example": "おしえることができます。(I can to teach.)",
+        "exampleKana": "おしえることができます。"
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "kanji": "習",
+    "entries": [
+      {
+        "entryId": 200,
+        "romaji": "narau",
+        "hiragana": "ならう",
+        "meaning": "to learn",
+        "wordClass": "verb",
+        "example": "ならうことができます。(I can to learn.)",
+        "exampleKana": "ならうことができます。"
+      }
+    ]
+  },
+  {
+    "id": 194,
+    "kanji": "質",
+    "entries": [
+      {
+        "entryId": 201,
+        "romaji": "shitsumon",
+        "hiragana": "しつもん",
+        "meaning": "question",
+        "wordClass": "noun",
+        "example": "質問があります。(I have a question.)",
+        "exampleKana": "しつもんがあります。"
+      }
+    ]
+  },
+  {
+    "id": 195,
+    "kanji": "答",
+    "entries": [
+      {
+        "entryId": 202,
+        "romaji": "kotaeru",
+        "hiragana": "こたえる",
+        "meaning": "to answer",
+        "wordClass": "verb",
+        "example": "こたえることができます。(I can to answer.)",
+        "exampleKana": "こたえることができます。"
+      }
+    ]
+  },
+  {
+    "id": 196,
+    "kanji": "試",
+    "entries": [
+      {
+        "entryId": 203,
+        "romaji": "tameshisu",
+        "hiragana": "ためす",
+        "meaning": "to try, to test",
+        "wordClass": "verb",
+        "example": "ためすことができます。(I can to try, to test.)",
+        "exampleKana": "ためすことができます。"
+      }
+    ]
+  },
+  {
+    "id": 197,
+    "kanji": "練",
+    "entries": [
+      {
+        "entryId": 204,
+        "romaji": "renshuu",
+        "hiragana": "れんしゅう",
+        "meaning": "practice",
+        "wordClass": "noun",
+        "example": "毎日練習しています。(I practice every day.)",
+        "exampleKana": "まいにちれんしゅうしています。"
+      }
+    ]
+  },
+  {
+    "id": 198,
+    "kanji": "勉",
+    "entries": [
+      {
+        "entryId": 205,
+        "romaji": "benkyou",
+        "hiragana": "べんきょう",
+        "meaning": "study",
+        "wordClass": "noun",
+        "example": "勉強が好きです。(I like studying.)",
+        "exampleKana": "べんきょうがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "kanji": "研",
+    "entries": [
+      {
+        "entryId": 206,
+        "romaji": "kenkyuu",
+        "hiragana": "けんきゅう",
+        "meaning": "research",
+        "wordClass": "noun",
+        "example": "大学で研究しています。(I am doing research at university.)",
+        "exampleKana": "おおがくでけんきゅうしています。"
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "kanji": "験",
+    "entries": [
+      {
+        "entryId": 207,
+        "romaji": "shiken",
+        "hiragana": "しけん",
+        "meaning": "exam, test",
+        "wordClass": "noun",
+        "example": "来週試験があります。(There is an exam next week.)",
+        "exampleKana": "らいしゅうしけんがあります。"
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "kanji": "説",
+    "entries": [
+      {
+        "entryId": 208,
+        "romaji": "setsu",
+        "hiragana": "せつ",
+        "meaning": "theory, explanation",
+        "wordClass": "noun",
+        "example": "この説明は分かりやすいです。(This explanation is easy to understand.)",
+        "exampleKana": "このせつめいはわかりやすいです。"
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "kanji": "転",
+    "entries": [
+      {
+        "entryId": 209,
+        "romaji": "ten",
+        "hiragana": "てん",
+        "meaning": "turn, revolve",
+        "wordClass": "verb",
+        "example": "てんことができます。(I can turn, revolve.)",
+        "exampleKana": "てんことができます。"
+      }
+    ]
+  },
+  {
+    "id": 203,
+    "kanji": "集",
+    "entries": [
+      {
+        "entryId": 210,
+        "romaji": "shuu",
+        "hiragana": "しゅう",
+        "meaning": "collect, gather",
+        "wordClass": "verb",
+        "example": "しゅうことができます。(I can collect, gather.)",
+        "exampleKana": "しゅうことができます。"
+      }
+    ]
+  },
+  {
+    "id": 204,
+    "kanji": "切",
+    "entries": [
+      {
+        "entryId": 211,
+        "romaji": "setsu",
+        "hiragana": "せつ",
+        "meaning": "cut",
+        "wordClass": "verb",
+        "example": "せつことができます。(I can cut.)",
+        "exampleKana": "せつことができます。"
+      }
+    ]
+  },
+  {
+    "id": 205,
+    "kanji": "伝",
+    "entries": [
+      {
+        "entryId": 212,
+        "romaji": "den",
+        "hiragana": "でん",
+        "meaning": "transmit, convey",
+        "wordClass": "verb",
+        "example": "でんことができます。(I can transmit, convey.)",
+        "exampleKana": "でんことができます。"
+      }
+    ]
+  },
+  {
+    "id": 206,
+    "kanji": "難",
+    "entries": [
+      {
+        "entryId": 213,
+        "romaji": "nan",
+        "hiragana": "なん",
+        "meaning": "difficult",
+        "wordClass": "adjective",
+        "example": "とてもなんです。(It is very difficult.)",
+        "exampleKana": "とてもなんです。"
+      }
+    ]
+  },
+  {
+    "id": 207,
+    "kanji": "求",
+    "entries": [
+      {
+        "entryId": 214,
+        "romaji": "kyuu",
+        "hiragana": "きゅう",
+        "meaning": "seek, request",
+        "wordClass": "verb",
+        "example": "きゅうことができます。(I can seek, request.)",
+        "exampleKana": "きゅうことができます。"
+      }
+    ]
+  },
+  {
+    "id": 208,
+    "kanji": "治",
+    "entries": [
+      {
+        "entryId": 215,
+        "romaji": "chi",
+        "hiragana": "ち",
+        "meaning": "heal, govern",
+        "wordClass": "verb",
+        "example": "病気を治療します。(We treat the illness.)",
+        "exampleKana": "びょうきをちりょうします。"
+      }
+    ]
+  },
+  {
+    "id": 209,
+    "kanji": "法",
+    "entries": [
+      {
+        "entryId": 216,
+        "romaji": "hou",
+        "hiragana": "ほう",
+        "meaning": "law, method",
+        "wordClass": "noun",
+        "example": "新しい法律が施行されました。(A new law was enacted.)",
+        "exampleKana": "あたらしいほうりつがしこうされました。"
+      }
+    ]
+  },
+  {
+    "id": 210,
+    "kanji": "性",
+    "entries": [
+      {
+        "entryId": 217,
+        "romaji": "sei",
+        "hiragana": "せい",
+        "meaning": "nature, sex",
+        "wordClass": "noun",
+        "example": "彼の性格は優しいです。(His personality is kind.)",
+        "exampleKana": "かれのせいかくはやさしいです。"
+      }
+    ]
+  },
+  {
+    "id": 211,
+    "kanji": "情",
+    "entries": [
+      {
+        "entryId": 218,
+        "romaji": "jou",
+        "hiragana": "じょう",
+        "meaning": "emotion, feeling",
+        "wordClass": "noun",
+        "example": "じょうが好きです。(I like emotion, feeling.)",
+        "exampleKana": "じょうがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 212,
+    "kanji": "題",
+    "entries": [
+      {
+        "entryId": 219,
+        "romaji": "dai",
+        "hiragana": "だい",
+        "meaning": "topic, title",
+        "wordClass": "noun",
+        "example": "宿題の題名を書いてください。(Please write the title of the homework.)",
+        "exampleKana": "しゅくだいのだいめいをかいてください。"
+      }
+    ]
+  },
+  {
+    "id": 213,
+    "kanji": "制",
+    "entries": [
+      {
+        "entryId": 220,
+        "romaji": "sei",
+        "hiragana": "せい",
+        "meaning": "system, control",
+        "wordClass": "noun",
+        "example": "学校の制度を変更しました。(We changed the school system.)",
+        "exampleKana": "がっこうのせいどをへんこうしました。"
+      }
+    ]
+  },
+  {
+    "id": 214,
+    "kanji": "化",
+    "entries": [
+      {
+        "entryId": 221,
+        "romaji": "ka",
+        "hiragana": "か",
+        "meaning": "change, transform",
+        "wordClass": "suffix",
+        "example": "国際化が進んでいます。(Internationalization is progressing.)",
+        "exampleKana": "こくさいかがすすんでいます。"
+      }
+    ]
+  },
+  {
+    "id": 215,
+    "kanji": "合",
+    "entries": [
+      {
+        "entryId": 222,
+        "romaji": "gou",
+        "hiragana": "ごう",
+        "meaning": "combine, fit",
+        "wordClass": "verb",
+        "example": "試験に合格しました。(I passed the exam.)",
+        "exampleKana": "しけんにごうかくしました。"
+      }
+    ]
+  },
+  {
+    "id": 216,
+    "kanji": "約",
+    "entries": [
+      {
+        "entryId": 223,
+        "romaji": "yaku",
+        "hiragana": "やく",
+        "meaning": "promise, approximately",
+        "wordClass": "noun",
+        "example": "約束の時間に遅れました。(I was late for the appointment time.)",
+        "exampleKana": "やくそくのじかんにおくれました。"
+      }
+    ]
+  },
+  {
+    "id": 217,
+    "kanji": "指",
+    "entries": [
+      {
+        "entryId": 224,
+        "romaji": "shi",
+        "hiragana": "し",
+        "meaning": "finger, point",
+        "wordClass": "noun",
+        "example": "指で方向を示しました。(I pointed the direction with my finger.)",
+        "exampleKana": "ゆびでほうこうをしめしました。"
+      }
+    ]
+  },
+  {
+    "id": 218,
+    "kanji": "権",
+    "entries": [
+      {
+        "entryId": 225,
+        "romaji": "ken",
+        "hiragana": "けん",
+        "meaning": "right, authority",
+        "wordClass": "noun",
+        "example": "基本的人権を尊重します。(We respect basic human rights.)",
+        "exampleKana": "きほんてきじんけんをそんちょうします。"
+      }
+    ]
+  },
+  {
+    "id": 219,
+    "kanji": "教",
+    "entries": [
+      {
+        "entryId": 226,
+        "romaji": "kyou",
+        "hiragana": "きょう",
+        "meaning": "teach, religion",
+        "wordClass": "verb",
+        "example": "きょうことができます。(I can teach, religion.)",
+        "exampleKana": "きょうことができます。"
+      }
+    ]
+  },
+  {
+    "id": 220,
+    "kanji": "証",
+    "entries": [
+      {
+        "entryId": 227,
+        "romaji": "shou",
+        "hiragana": "しょう",
+        "meaning": "proof, evidence",
+        "wordClass": "noun",
+        "example": "身分証明書を見せてください。(Please show your identification.)",
+        "exampleKana": "みぶんしょうめいしょをみせてください。"
+      }
+    ]
+  },
+  {
+    "id": 221,
+    "kanji": "段",
+    "entries": [
+      {
+        "entryId": 228,
+        "romaji": "dan",
+        "hiragana": "だん",
+        "meaning": "step, stage",
+        "wordClass": "noun",
+        "example": "階段を上りました。(I climbed the stairs.)",
+        "exampleKana": "かいだんをのぼりました。"
+      }
+    ]
+  },
+  {
+    "id": 222,
+    "kanji": "導",
+    "entries": [
+      {
+        "entryId": 229,
+        "romaji": "dou",
+        "hiragana": "どう",
+        "meaning": "guide, lead",
+        "wordClass": "verb",
+        "example": "どうことができます。(I can guide, lead.)",
+        "exampleKana": "どうことができます。"
+      }
+    ]
+  },
+  {
+    "id": 223,
+    "kanji": "整",
+    "entries": [
+      {
+        "entryId": 230,
+        "romaji": "sei",
+        "hiragana": "せい",
+        "meaning": "arrange, organize",
+        "wordClass": "verb",
+        "example": "部屋を整理しました。(I organized the room.)",
+        "exampleKana": "へやをせいりしました。"
+      }
+    ]
+  },
+  {
+    "id": 224,
+    "kanji": "歴",
+    "entries": [
+      {
+        "entryId": 231,
+        "romaji": "reki",
+        "hiragana": "れき",
+        "meaning": "history",
+        "wordClass": "noun",
+        "example": "日本の歴史を勉強します。(I study Japanese history.)",
+        "exampleKana": "にほんのれきしをべんきょうします。"
+      }
+    ]
+  },
+  {
+    "id": 225,
+    "kanji": "器",
+    "entries": [
+      {
+        "entryId": 232,
+        "romaji": "ki",
+        "hiragana": "き",
+        "meaning": "container, device",
+        "wordClass": "noun",
+        "example": "新しい食器を買いました。(I bought new tableware.)",
+        "exampleKana": "あたらしいしょっきをかいました。"
+      }
+    ]
+  },
+  {
+    "id": 226,
+    "kanji": "士",
+    "entries": [
+      {
+        "entryId": 233,
+        "romaji": "shi",
+        "hiragana": "し",
+        "meaning": "samurai, gentleman",
+        "wordClass": "noun",
+        "example": "弁護士になりたいです。(I want to become a lawyer.)",
+        "exampleKana": "べんごしになりたいです。"
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "kanji": "格",
+    "entries": [
+      {
+        "entryId": 234,
+        "romaji": "kaku",
+        "hiragana": "かく",
+        "meaning": "status, case",
+        "wordClass": "noun",
+        "example": "価格が上がりました。(The price went up.)",
+        "exampleKana": "かかくがあがりました。"
+      }
+    ]
+  },
+  {
+    "id": 228,
+    "kanji": "維",
+    "entries": [
+      {
+        "entryId": 235,
+        "romaji": "i",
+        "hiragana": "い",
+        "meaning": "maintain, fiber",
+        "wordClass": "verb",
+        "example": "平和を維持しましょう。(Let's maintain peace.)",
+        "exampleKana": "へいわをいじしましょう。"
+      }
+    ]
+  },
+  {
+    "id": 229,
+    "kanji": "技",
+    "entries": [
+      {
+        "entryId": 236,
+        "romaji": "gi",
+        "hiragana": "ぎ",
+        "meaning": "skill, technique",
+        "wordClass": "noun",
+        "example": "技術が向上しました。(My skills improved.)",
+        "exampleKana": "ぎじゅつがこうじょうしました。"
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "kanji": "芸",
+    "entries": [
+      {
+        "entryId": 237,
+        "romaji": "gei",
+        "hiragana": "げい",
+        "meaning": "art, performance",
+        "wordClass": "noun",
+        "example": "芸術展を見に行きました。(I went to see an art exhibition.)",
+        "exampleKana": "げいじゅつてんをみにいきました。"
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "kanji": "能",
+    "entries": [
+      {
+        "entryId": 238,
+        "romaji": "nou",
+        "hiragana": "のう",
+        "meaning": "ability, skill",
+        "wordClass": "noun",
+        "example": "彼の能力は素晴らしいです。(His ability is wonderful.)",
+        "exampleKana": "かれののうりょくはすばらしいです。"
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "kanji": "術",
+    "entries": [
+      {
+        "entryId": 239,
+        "romaji": "jutsu",
+        "hiragana": "じゅつ",
+        "meaning": "art, technique",
+        "wordClass": "noun",
+        "example": "手術が成功しました。(The surgery was successful.)",
+        "exampleKana": "しゅじゅつがせいこうしました。"
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "kanji": "備",
+    "entries": [
+      {
+        "entryId": 240,
+        "romaji": "bi",
+        "hiragana": "び",
+        "meaning": "prepare, provide",
+        "wordClass": "verb",
+        "example": "明日の準備をしています。(I am preparing for tomorrow.)",
+        "exampleKana": "あしたのじゅんびをしています。"
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "kanji": "製",
+    "entries": [
+      {
+        "entryId": 241,
+        "romaji": "sei",
+        "hiragana": "せい",
+        "meaning": "manufacture, make",
+        "wordClass": "verb",
+        "example": "日本製の車です。(It's a Japanese-made car.)",
+        "exampleKana": "にほんせいのくるまです。"
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "kanji": "複",
+    "entries": [
+      {
+        "entryId": 242,
+        "romaji": "fuku",
+        "hiragana": "ふく",
+        "meaning": "duplicate, complex",
+        "wordClass": "adjective",
+        "example": "複雑な問題です。(It's a complex problem.)",
+        "exampleKana": "ふくざつなもんだいです。"
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "kanji": "票",
+    "entries": [
+      {
+        "entryId": 243,
+        "romaji": "hyou",
+        "hiragana": "ひょう",
+        "meaning": "vote, ticket",
+        "wordClass": "noun",
+        "example": "選挙で投票しました。(I voted in the election.)",
+        "exampleKana": "せんきょでとうひょうしました。"
+      }
+    ]
+  },
+  {
+    "id": 237,
+    "kanji": "類",
+    "entries": [
+      {
+        "entryId": 244,
+        "romaji": "rui",
+        "hiragana": "るい",
+        "meaning": "kind, type",
+        "wordClass": "noun",
+        "example": "動物の種類を調べました。(I investigated the types of animals.)",
+        "exampleKana": "どうぶつのしゅるいをしらべました。"
+      }
+    ]
+  },
+  {
+    "id": 238,
+    "kanji": "模",
+    "entries": [
+      {
+        "entryId": 245,
+        "romaji": "mo",
+        "hiragana": "も",
+        "meaning": "model, pattern",
+        "wordClass": "noun",
+        "example": "模型を作りました。(I made a model.)",
+        "exampleKana": "もけいをつくりました。"
+      }
+    ]
+  },
+  {
+    "id": 239,
+    "kanji": "株",
+    "entries": [
+      {
+        "entryId": 246,
+        "romaji": "kabu",
+        "hiragana": "かぶ",
+        "meaning": "stock, share",
+        "wordClass": "noun",
+        "example": "株式に投資しました。(I invested in stocks.)",
+        "exampleKana": "かぶしきにとうししました。"
+      }
+    ]
+  },
+  {
+    "id": 240,
+    "kanji": "革",
+    "entries": [
+      {
+        "entryId": 247,
+        "romaji": "kaku",
+        "hiragana": "かく",
+        "meaning": "leather, revolution",
+        "wordClass": "noun",
+        "example": "手紙をかくのが好きです。(I like writing letters.)",
+        "exampleKana": "てがみをかくのがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 241,
+    "kanji": "価",
+    "entries": [
+      {
+        "entryId": 248,
+        "romaji": "ka",
+        "hiragana": "か",
+        "meaning": "price, value",
+        "wordClass": "noun",
+        "example": "商品の価値を評価します。(We evaluate the value of the product.)",
+        "exampleKana": "しょうひんのかちをひょうかします。"
+      }
+    ]
+  },
+  {
+    "id": 242,
+    "kanji": "装",
+    "entries": [
+      {
+        "entryId": 249,
+        "romaji": "sou",
+        "hiragana": "そう",
+        "meaning": "dress, equipment",
+        "wordClass": "noun",
+        "example": "新しい装備を準備しました。(I prepared new equipment.)",
+        "exampleKana": "あたらしいそうびをじゅんびしました。"
+      }
+    ]
+  },
+  {
+    "id": 243,
+    "kanji": "個",
+    "entries": [
+      {
+        "entryId": 250,
+        "romaji": "ko",
+        "hiragana": "こ",
+        "meaning": "individual, piece",
+        "wordClass": "counter",
+        "example": "リンゴを三個買いました。(I bought three apples.)",
+        "exampleKana": "りんごをさんこかいました。"
+      }
+    ]
+  },
+  {
+    "id": 244,
+    "kanji": "差",
+    "entries": [
+      {
+        "entryId": 251,
+        "romaji": "sa",
+        "hiragana": "さ",
+        "meaning": "difference",
+        "wordClass": "noun",
+        "example": "年齢の差があります。(There is an age difference.)",
+        "exampleKana": "ねんれいのさがあります。"
+      }
+    ]
+  },
+  {
+    "id": 245,
+    "kanji": "改",
+    "entries": [
+      {
+        "entryId": 252,
+        "romaji": "kai",
+        "hiragana": "かい",
+        "meaning": "reform, improve",
+        "wordClass": "verb",
+        "example": "システムを改善しました。(We improved the system.)",
+        "exampleKana": "しすてむをかいぜんしました。"
+      }
+    ]
+  },
+  {
+    "id": 246,
+    "kanji": "判",
+    "entries": [
+      {
+        "entryId": 253,
+        "romaji": "han",
+        "hiragana": "はん",
+        "meaning": "judge, seal",
+        "wordClass": "verb",
+        "example": "裁判官が判決を下しました。(The judge handed down a verdict.)",
+        "exampleKana": "さいばんかんがはんけつをくだしました。"
+      }
+    ]
+  },
+  {
+    "id": 247,
+    "kanji": "担",
+    "entries": [
+      {
+        "entryId": 254,
+        "romaji": "tan",
+        "hiragana": "たん",
+        "meaning": "carry, bear",
+        "wordClass": "verb",
+        "example": "たんことができます。(I can carry, bear.)",
+        "exampleKana": "たんことができます。"
+      }
+    ]
+  },
+  {
+    "id": 248,
+    "kanji": "確",
+    "entries": [
+      {
+        "entryId": 255,
+        "romaji": "kaku",
+        "hiragana": "かく",
+        "meaning": "certain, sure",
+        "wordClass": "adjective",
+        "example": "確実な方法を選びました。(I chose a reliable method.)",
+        "exampleKana": "かくじつなほうほうをえらびました。"
+      }
+    ]
+  },
+  {
+    "id": 249,
+    "kanji": "保",
+    "entries": [
+      {
+        "entryId": 256,
+        "romaji": "ho",
+        "hiragana": "ほ",
+        "meaning": "protect, maintain",
+        "wordClass": "verb",
+        "example": "ほことができます。(I can protect, maintain.)",
+        "exampleKana": "ほことができます。"
+      }
+    ]
+  },
+  {
+    "id": 250,
+    "kanji": "拡",
+    "entries": [
+      {
+        "entryId": 257,
+        "romaji": "kaku",
+        "hiragana": "かく",
+        "meaning": "expand, enlarge",
+        "wordClass": "verb",
+        "example": "事業を拡大しました。(We expanded the business.)",
+        "exampleKana": "じぎょうをかくだいしました。"
+      }
+    ]
+  },
+  {
+    "id": 251,
+    "kanji": "般",
+    "entries": [
+      {
+        "entryId": 258,
+        "romaji": "han",
+        "hiragana": "はん",
+        "meaning": "general, ordinary",
+        "wordClass": "adjective",
+        "example": "とてもはんです。(It is very general, ordinary.)",
+        "exampleKana": "とてもはんです。"
+      }
+    ]
+  },
+  {
+    "id": 252,
+    "kanji": "精",
+    "entries": [
+      {
+        "entryId": 259,
+        "romaji": "sei",
+        "hiragana": "せい",
+        "meaning": "spirit, refined",
+        "wordClass": "noun",
+        "example": "精神力が強いです。(Mental strength is strong.)",
+        "exampleKana": "せいしんりょくがつよいです。"
+      }
+    ]
+  },
+  {
+    "id": 253,
+    "kanji": "素",
+    "entries": [
+      {
+        "entryId": 260,
+        "romaji": "so",
+        "hiragana": "そ",
+        "meaning": "element, plain",
+        "wordClass": "noun",
+        "example": "素晴らしい演奏でした。(It was a wonderful performance.)",
+        "exampleKana": "すばらしいえんそうでした。"
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "kanji": "総",
+    "entries": [
+      {
+        "entryId": 261,
+        "romaji": "sou",
+        "hiragana": "そう",
+        "meaning": "total, general",
+        "wordClass": "adjective",
+        "example": "総額は千円です。(The total amount is 1000 yen.)",
+        "exampleKana": "そうがくはせんえんです。"
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "kanji": "容",
+    "entries": [
+      {
+        "entryId": 262,
+        "romaji": "you",
+        "hiragana": "よう",
+        "meaning": "contain, appearance",
+        "wordClass": "noun",
+        "example": "容器に水を入れました。(I put water in the container.)",
+        "exampleKana": "ようきにみずをいれました。"
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "kanji": "応",
+    "entries": [
+      {
+        "entryId": 263,
+        "romaji": "ou",
+        "hiragana": "おう",
+        "meaning": "respond, apply",
+        "wordClass": "verb",
+        "example": "質問に応答します。(I respond to the question.)",
+        "exampleKana": "しつもんにおうとうします。"
+      }
+    ]
+  },
+  {
+    "id": 257,
+    "kanji": "演",
+    "entries": [
+      {
+        "entryId": 264,
+        "romaji": "en",
+        "hiragana": "えん",
+        "meaning": "perform, act",
+        "wordClass": "verb",
+        "example": "劇を演じました。(I performed in a play.)",
+        "exampleKana": "げきをえんじました。"
+      }
+    ]
+  },
+  {
+    "id": 258,
+    "kanji": "歌",
+    "entries": [
+      {
+        "entryId": 265,
+        "romaji": "ka",
+        "hiragana": "か",
+        "meaning": "song, sing",
+        "wordClass": "noun",
+        "example": "これはかいものです。(This is shopping.)",
+        "exampleKana": "これはかいものです。"
+      }
+    ]
+  },
+  {
+    "id": 259,
+    "kanji": "算",
+    "entries": [
+      {
+        "entryId": 266,
+        "romaji": "san",
+        "hiragana": "さん",
+        "meaning": "calculate",
+        "wordClass": "verb",
+        "example": "算数の問題を解きました。(I solved arithmetic problems.)",
+        "exampleKana": "さんすうのもんだいをときました。"
+      }
+    ]
+  },
+  {
+    "id": 260,
+    "kanji": "完",
+    "entries": [
+      {
+        "entryId": 267,
+        "romaji": "kan",
+        "hiragana": "かん",
+        "meaning": "complete, perfect",
+        "wordClass": "adjective",
+        "example": "宿題が完成しました。(The homework is completed.)",
+        "exampleKana": "しゅくだいがかんせいしました。"
+      }
+    ]
+  },
+  {
+    "id": 261,
+    "kanji": "息",
+    "entries": [
+      {
+        "entryId": 268,
+        "romaji": "soku",
+        "hiragana": "そく",
+        "meaning": "breath, son",
+        "wordClass": "noun",
+        "example": "そくが好きです。(I like breath, son.)",
+        "exampleKana": "そくがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 262,
+    "kanji": "様",
+    "entries": [
+      {
+        "entryId": 269,
+        "romaji": "sama",
+        "hiragana": "さま",
+        "meaning": "manner, honorific",
+        "wordClass": "noun",
+        "example": "田中様がいらっしゃいました。(Mr. Tanaka has arrived.)",
+        "exampleKana": "たなかさまがいらっしゃいました。"
+      }
+    ]
+  },
+  {
+    "id": 263,
+    "kanji": "功",
+    "entries": [
+      {
+        "entryId": 270,
+        "romaji": "kou",
+        "hiragana": "こう",
+        "meaning": "success, merit",
+        "wordClass": "noun",
+        "example": "努力が成功につながりました。(Effort led to success.)",
+        "exampleKana": "どりょくがせいこうにつながりました。"
+      }
+    ]
+  },
+  {
+    "id": 264,
+    "kanji": "布",
+    "entries": [
+      {
+        "entryId": 271,
+        "romaji": "fu",
+        "hiragana": "ふ",
+        "meaning": "cloth, spread",
+        "wordClass": "noun",
+        "example": "ふが好きです。(I like cloth, spread.)",
+        "exampleKana": "ふがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 265,
+    "kanji": "績",
+    "entries": [
+      {
+        "entryId": 272,
+        "romaji": "seki",
+        "hiragana": "せき",
+        "meaning": "achievement, record",
+        "wordClass": "noun",
+        "example": "良い成績を取りました。(I got good grades.)",
+        "exampleKana": "よいせいせきをとりました。"
+      }
+    ]
+  },
+  {
+    "id": 266,
+    "kanji": "留",
+    "entries": [
+      {
+        "entryId": 273,
+        "romaji": "ryuu",
+        "hiragana": "りゅう",
+        "meaning": "stay, keep",
+        "wordClass": "verb",
+        "example": "留学生として日本にいます。(I am in Japan as an exchange student.)",
+        "exampleKana": "りゅうがくせいとしてにほんにいます。"
+      }
+    ]
+  },
+  {
+    "id": 267,
+    "kanji": "眼",
+    "entries": [
+      {
+        "entryId": 274,
+        "romaji": "gan",
+        "hiragana": "がん",
+        "meaning": "eye, eyeball",
+        "wordClass": "noun",
+        "example": "がんが好きです。(I like eye, eyeball.)",
+        "exampleKana": "がんがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 268,
+    "kanji": "派",
+    "entries": [
+      {
+        "entryId": 275,
+        "romaji": "ha",
+        "hiragana": "は",
+        "meaning": "faction, send",
+        "wordClass": "noun",
+        "example": "新しい派閥ができました。(A new faction was formed.)",
+        "exampleKana": "あたらしいはばつができました。"
+      }
+    ]
+  },
+  {
+    "id": 269,
+    "kanji": "講",
+    "entries": [
+      {
+        "entryId": 276,
+        "romaji": "kou",
+        "hiragana": "こう",
+        "meaning": "lecture, talk",
+        "wordClass": "noun",
+        "example": "大学で講義を受けています。(I am taking lectures at university.)",
+        "exampleKana": "だいがくでこうぎをうけています。"
+      }
+    ]
+  },
+  {
+    "id": 270,
+    "kanji": "評",
+    "entries": [
+      {
+        "entryId": 277,
+        "romaji": "hyou",
+        "hiragana": "ひょう",
+        "meaning": "evaluate, review",
+        "wordClass": "verb",
+        "example": "映画の評判が良いです。(The movie has a good reputation.)",
+        "exampleKana": "えいがのひょうばんがよいです。"
+      }
+    ]
+  },
+  {
+    "id": 271,
+    "kanji": "課",
+    "entries": [
+      {
+        "entryId": 278,
+        "romaji": "ka",
+        "hiragana": "か",
+        "meaning": "section, lesson",
+        "wordClass": "noun",
+        "example": "第一課を勉強しました。(I studied the first lesson.)",
+        "exampleKana": "だいいっかをべんきょうしました。"
+      }
+    ]
+  },
+  {
+    "id": 272,
+    "kanji": "輸",
+    "entries": [
+      {
+        "entryId": 279,
+        "romaji": "yu",
+        "hiragana": "ゆ",
+        "meaning": "transport, carry",
+        "wordClass": "verb",
+        "example": "商品を輸送します。(We transport the goods.)",
+        "exampleKana": "しょうひんをゆそうします。"
+      }
+    ]
+  },
+  {
+    "id": 273,
+    "kanji": "討",
+    "entries": [
+      {
+        "entryId": 280,
+        "romaji": "tou",
+        "hiragana": "とう",
+        "meaning": "attack, discuss",
+        "wordClass": "verb",
+        "example": "問題を検討しました。(We examined the problem.)",
+        "exampleKana": "もんだいをけんとうしました。"
+      }
+    ]
+  },
+  {
+    "id": 274,
+    "kanji": "域",
+    "entries": [
+      {
+        "entryId": 281,
+        "romaji": "iki",
+        "hiragana": "いき",
+        "meaning": "region, area",
+        "wordClass": "noun",
+        "example": "この地域は安全です。(This area is safe.)",
+        "exampleKana": "このちいきはあんぜんです。"
+      }
+    ]
+  },
+  {
+    "id": 275,
+    "kanji": "額",
+    "entries": [
+      {
+        "entryId": 282,
+        "romaji": "gaku",
+        "hiragana": "がく",
+        "meaning": "amount, forehead",
+        "wordClass": "noun",
+        "example": "金額を確認しました。(I confirmed the amount.)",
+        "exampleKana": "きんがくをかくにんしました。"
+      }
+    ]
+  },
+  {
+    "id": 276,
+    "kanji": "態",
+    "entries": [
+      {
+        "entryId": 283,
+        "romaji": "tai",
+        "hiragana": "たい",
+        "meaning": "condition, attitude",
+        "wordClass": "noun",
+        "example": "彼の態度が変わりました。(His attitude changed.)",
+        "exampleKana": "かれのたいどがかわりました。"
+      }
+    ]
+  },
+  {
+    "id": 277,
+    "kanji": "康",
+    "entries": [
+      {
+        "entryId": 284,
+        "romaji": "kou",
+        "hiragana": "こう",
+        "meaning": "health, peace",
+        "wordClass": "noun",
+        "example": "健康に気をつけています。(I am taking care of my health.)",
+        "exampleKana": "けんこうにきをつけています。"
+      }
+    ]
+  },
+  {
+    "id": 278,
+    "kanji": "民",
+    "entries": [
+      {
+        "entryId": 285,
+        "romaji": "min",
+        "hiragana": "みん",
+        "meaning": "people, citizen",
+        "wordClass": "noun",
+        "example": "国民の声を聞きました。(We listened to the voice of the people.)",
+        "exampleKana": "こくみんのこえをききました。"
+      }
+    ]
+  },
+  {
+    "id": 279,
+    "kanji": "連",
+    "entries": [
+      {
+        "entryId": 286,
+        "romaji": "ren",
+        "hiragana": "れん",
+        "meaning": "connect, link",
+        "wordClass": "verb",
+        "example": "友達と連絡を取りました。(I contacted my friend.)",
+        "exampleKana": "ともだちとれんらくをとりました。"
+      }
+    ]
+  },
+  {
+    "id": 280,
+    "kanji": "輪",
+    "entries": [
+      {
+        "entryId": 287,
+        "romaji": "wa",
+        "hiragana": "わ",
+        "meaning": "ring, wheel",
+        "wordClass": "noun",
+        "example": "輪になって座りました。(We sat in a circle.)",
+        "exampleKana": "わになってすわりました。"
+      }
+    ]
+  },
+  {
+    "id": 281,
+    "kanji": "律",
+    "entries": [
+      {
+        "entryId": 288,
+        "romaji": "ritsu",
+        "hiragana": "りつ",
+        "meaning": "law, rhythm",
+        "wordClass": "noun",
+        "example": "規律を守りましょう。(Let's follow the rules.)",
+        "exampleKana": "きりつをまもりましょう。"
+      }
+    ]
+  },
+  {
+    "id": 282,
+    "kanji": "選",
+    "entries": [
+      {
+        "entryId": 289,
+        "romaji": "sen",
+        "hiragana": "せん",
+        "meaning": "select, choose",
+        "wordClass": "verb",
+        "example": "せんことができます。(I can select, choose.)",
+        "exampleKana": "せんことができます。"
+      }
+    ]
+  },
+  {
+    "id": 283,
+    "kanji": "列",
+    "entries": [
+      {
+        "entryId": 290,
+        "romaji": "retsu",
+        "hiragana": "れつ",
+        "meaning": "row, line",
+        "wordClass": "noun",
+        "example": "列に並んで待ちました。(I waited in line.)",
+        "exampleKana": "れつにならんでまちました。"
+      }
+    ]
+  },
+  {
+    "id": 284,
+    "kanji": "島",
+    "entries": [
+      {
+        "entryId": 291,
+        "romaji": "tou",
+        "hiragana": "とう",
+        "meaning": "island",
+        "wordClass": "noun",
+        "example": "とうが好きです。(I like island.)",
+        "exampleKana": "とうがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 285,
+    "kanji": "級",
+    "entries": [
+      {
+        "entryId": 292,
+        "romaji": "kyuu",
+        "hiragana": "きゅう",
+        "meaning": "class, grade",
+        "wordClass": "noun",
+        "example": "きゅうことができます。(I can seek, request.)",
+        "exampleKana": "きゅうことができます。"
+      }
+    ]
+  },
+  {
+    "id": 286,
+    "kanji": "史",
+    "entries": [
+      {
+        "entryId": 293,
+        "romaji": "shi",
+        "hiragana": "し",
+        "meaning": "history",
+        "wordClass": "noun",
+        "example": "世界史を学んでいます。(I am studying world history.)",
+        "exampleKana": "せかいしをまなんでいます。"
+      }
+    ]
+  },
+  {
+    "id": 287,
+    "kanji": "編",
+    "entries": [
+      {
+        "entryId": 294,
+        "romaji": "hen",
+        "hiragana": "へん",
+        "meaning": "edit, compile",
+        "wordClass": "verb",
+        "example": "新しい本を編集しました。(I edited a new book.)",
+        "exampleKana": "あたらしいほんをへんしゅうしました。"
+      }
+    ]
+  },
+  {
+    "id": 288,
+    "kanji": "典",
+    "entries": [
+      {
+        "entryId": 295,
+        "romaji": "ten",
+        "hiragana": "てん",
+        "meaning": "ceremony, dictionary",
+        "wordClass": "noun",
+        "example": "辞典で言葉を調べました。(I looked up words in the dictionary.)",
+        "exampleKana": "じてんでことばをしらべました。"
+      }
+    ]
+  },
+  {
+    "id": 289,
+    "kanji": "普",
+    "entries": [
+      {
+        "entryId": 296,
+        "romaji": "fu",
+        "hiragana": "ふ",
+        "meaning": "universal, common",
+        "wordClass": "adjective",
+        "example": "普通の日本語を話します。(I speak ordinary Japanese.)",
+        "exampleKana": "ふつうのにほんごをはなします。"
+      }
+    ]
+  },
+  {
+    "id": 290,
+    "kanji": "京",
+    "entries": [
+      {
+        "entryId": 297,
+        "romaji": "kyou",
+        "hiragana": "きょう",
+        "meaning": "capital",
+        "wordClass": "noun",
+        "example": "東京に住んでいます。(I live in Tokyo.)",
+        "exampleKana": "とうきょうにすんでいます。"
+      }
+    ]
+  },
+  {
+    "id": 291,
+    "kanji": "命",
+    "entries": [
+      {
+        "entryId": 298,
+        "romaji": "mei",
+        "hiragana": "めい",
+        "meaning": "life, order",
+        "wordClass": "noun",
+        "example": "めいについて話しました。(I talked about name, famous.)",
+        "exampleKana": "めいについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 292,
+    "kanji": "助",
+    "entries": [
+      {
+        "entryId": 299,
+        "romaji": "jo",
+        "hiragana": "じょ",
+        "meaning": "help, assist",
+        "wordClass": "verb",
+        "example": "じょについて話しました。(I talked about help, assist.)",
+        "exampleKana": "じょについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 293,
+    "kanji": "努",
+    "entries": [
+      {
+        "entryId": 300,
+        "romaji": "do",
+        "hiragana": "ど",
+        "meaning": "effort, strive",
+        "wordClass": "verb",
+        "example": "目標に向かって努力します。(I strive toward my goal.)",
+        "exampleKana": "もくひょうにむかってどりょくします。"
+      }
+    ]
+  },
+  {
+    "id": 294,
+    "kanji": "労",
+    "entries": [
+      {
+        "entryId": 301,
+        "romaji": "rou",
+        "hiragana": "ろう",
+        "meaning": "labor, work",
+        "wordClass": "noun",
+        "example": "労働者の権利を守ります。(We protect workers' rights.)",
+        "exampleKana": "ろうどうしゃのけんりをまもります。"
+      }
+    ]
+  },
+  {
+    "id": 295,
+    "kanji": "基",
+    "entries": [
+      {
+        "entryId": 302,
+        "romaji": "ki",
+        "hiragana": "き",
+        "meaning": "foundation, base",
+        "wordClass": "noun",
+        "example": "基礎から学びましょう。(Let's learn from the basics.)",
+        "exampleKana": "きそからまなびましょう。"
+      }
+    ]
+  },
+  {
+    "id": 296,
+    "kanji": "若",
+    "entries": [
+      {
+        "entryId": 303,
+        "romaji": "jaku",
+        "hiragana": "じゃく",
+        "meaning": "young",
+        "wordClass": "adjective",
+        "example": "じゃくについて話しました。(I talked about young.)",
+        "exampleKana": "じゃくについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 297,
+    "kanji": "営",
+    "entries": [
+      {
+        "entryId": 304,
+        "romaji": "ei",
+        "hiragana": "えい",
+        "meaning": "operate, manage",
+        "wordClass": "verb",
+        "example": "店を営業しています。(I am operating a store.)",
+        "exampleKana": "みせをえいぎょうしています。"
+      }
+    ]
+  },
+  {
+    "id": 298,
+    "kanji": "領",
+    "entries": [
+      {
+        "entryId": 305,
+        "romaji": "ryou",
+        "hiragana": "りょう",
+        "meaning": "territory, receive",
+        "wordClass": "noun",
+        "example": "新しい領域を開拓します。(We pioneer new territories.)",
+        "exampleKana": "あたらしいりょういきをかいたくします。"
+      }
+    ]
+  },
+  {
+    "id": 299,
+    "kanji": "設",
+    "entries": [
+      {
+        "entryId": 306,
+        "romaji": "setsu",
+        "hiragana": "せつ",
+        "meaning": "establish, install",
+        "wordClass": "verb",
+        "example": "新しい施設を設立しました。(We established a new facility.)",
+        "exampleKana": "あたらしいしせつをせつりつしました。"
+      }
+    ]
+  },
+  {
+    "id": 300,
+    "kanji": "報",
+    "entries": [
+      {
+        "entryId": 307,
+        "romaji": "hou",
+        "hiragana": "ほう",
+        "meaning": "report, news",
+        "wordClass": "noun",
+        "example": "最新のニュースを報告します。(I report the latest news.)",
+        "exampleKana": "さいしんのにゅーすをほうこくします。"
+      }
+    ]
+  },
+  {
+    "id": 301,
+    "kanji": "丁",
+    "entries": [
+      {
+        "entryId": 308,
+        "romaji": "chou",
+        "hiragana": "ちょう",
+        "meaning": "street block, counter for blocks",
+        "wordClass": "noun",
+        "example": "三丁目に住んでいます。(I live in the 3rd block.)",
+        "exampleKana": "さんちょうめにすんでいます。"
+      }
+    ]
+  },
+  {
+    "id": 302,
+    "kanji": "万",
+    "entries": [
+      {
+        "entryId": 309,
+        "romaji": "man",
+        "hiragana": "まん",
+        "meaning": "ten thousand",
+        "wordClass": "number",
+        "example": "一万円を払いました。(I paid ten thousand yen.)",
+        "exampleKana": "いちまんえんをはらいました。"
+      }
+    ]
+  },
+  {
+    "id": 303,
+    "kanji": "世",
+    "entries": [
+      {
+        "entryId": 310,
+        "romaji": "sei",
+        "hiragana": "せい",
+        "meaning": "world, generation",
+        "wordClass": "noun",
+        "example": "せいについて話しました。(I talked about world, generation.)",
+        "exampleKana": "せいについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 304,
+    "kanji": "両",
+    "entries": [
+      {
+        "entryId": 311,
+        "romaji": "ryou",
+        "hiragana": "りょう",
+        "meaning": "both, pair",
+        "wordClass": "noun",
+        "example": "両手を使います。(I use both hands.)",
+        "exampleKana": "りょうてをつかいます。"
+      }
+    ]
+  },
+  {
+    "id": 305,
+    "kanji": "主",
+    "entries": [
+      {
+        "entryId": 312,
+        "romaji": "shu",
+        "hiragana": "しゅ",
+        "meaning": "main, master, owner",
+        "wordClass": "noun",
+        "example": "主人は会社員です。(My husband is a company employee.)",
+        "exampleKana": "しゅじんはかいしゃいんです。"
+      }
+    ]
+  },
+  {
+    "id": 306,
+    "kanji": "乗",
+    "entries": [
+      {
+        "entryId": 313,
+        "romaji": "jou",
+        "hiragana": "じょう",
+        "meaning": "ride, board, multiply",
+        "wordClass": "verb",
+        "example": "じょうが好きです。(I like emotion, feeling.)",
+        "exampleKana": "じょうがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 307,
+    "kanji": "予",
+    "entries": [
+      {
+        "entryId": 314,
+        "romaji": "yo",
+        "hiragana": "よ",
+        "meaning": "advance, beforehand",
+        "wordClass": "prefix",
+        "example": "予定を立てました。(I made a plan.)",
+        "exampleKana": "よていをたてました。"
+      }
+    ]
+  },
+  {
+    "id": 308,
+    "kanji": "事",
+    "entries": [
+      {
+        "entryId": 315,
+        "romaji": "ji",
+        "hiragana": "じ",
+        "meaning": "matter, thing, fact",
+        "wordClass": "noun",
+        "example": "じについて話しました。(I talked about matter, thing, fact.)",
+        "exampleKana": "じについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 309,
+    "kanji": "交",
+    "entries": [
+      {
+        "entryId": 316,
+        "romaji": "kou",
+        "hiragana": "こう",
+        "meaning": "exchange, intersect",
+        "wordClass": "noun",
+        "example": "国際交流をします。(We do international exchange.)",
+        "exampleKana": "こくさいこうりゅうをします。"
+      }
+    ]
+  },
+  {
+    "id": 310,
+    "kanji": "仕",
+    "entries": [
+      {
+        "entryId": 317,
+        "romaji": "shi",
+        "hiragana": "し",
+        "meaning": "serve, work",
+        "wordClass": "verb",
+        "example": "仕事をしています。(I am working.)",
+        "exampleKana": "しごとをしています。"
+      }
+    ]
+  },
+  {
+    "id": 311,
+    "kanji": "他",
+    "entries": [
+      {
+        "entryId": 318,
+        "romaji": "ta",
+        "hiragana": "た",
+        "meaning": "other, another",
+        "wordClass": "noun",
+        "example": "他の人に聞きました。(I asked another person.)",
+        "exampleKana": "たのひとにききました。"
+      }
+    ]
+  },
+  {
+    "id": 312,
+    "kanji": "代",
+    "entries": [
+      {
+        "entryId": 319,
+        "romaji": "dai",
+        "hiragana": "だい",
+        "meaning": "generation, substitute, cost",
+        "wordClass": "noun",
+        "example": "電話代を払いました。(I paid the phone bill.)",
+        "exampleKana": "でんわだいをはらいました。"
+      }
+    ]
+  },
+  {
+    "id": 313,
+    "kanji": "以",
+    "entries": [
+      {
+        "entryId": 320,
+        "romaji": "i",
+        "hiragana": "い",
+        "meaning": "by means of, because",
+        "wordClass": "particle",
+        "example": "三時以降に来てください。(Please come after 3 o'clock.)",
+        "exampleKana": "さんじいこうにきてください。"
+      }
+    ]
+  },
+  {
+    "id": 314,
+    "kanji": "位",
+    "entries": [
+      {
+        "entryId": 321,
+        "romaji": "i",
+        "hiragana": "い",
+        "meaning": "rank, position, about",
+        "wordClass": "noun",
+        "example": "一位になりました。(I became first place.)",
+        "exampleKana": "いちいになりました。"
+      }
+    ]
+  },
+  {
+    "id": 315,
+    "kanji": "住",
+    "entries": [
+      {
+        "entryId": 322,
+        "romaji": "juu",
+        "hiragana": "じゅう",
+        "meaning": "live, dwell",
+        "wordClass": "verb",
+        "example": "じゅうについて話しました。(I talked about live, dwell.)",
+        "exampleKana": "じゅうについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 316,
+    "kanji": "体",
+    "entries": [
+      {
+        "entryId": 323,
+        "romaji": "tai",
+        "hiragana": "たい",
+        "meaning": "body, form",
+        "wordClass": "noun",
+        "example": "たいについて話しました。(I talked about body, form.)",
+        "exampleKana": "たいについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 317,
+    "kanji": "何",
+    "entries": [
+      {
+        "entryId": 324,
+        "romaji": "nani",
+        "hiragana": "なに",
+        "meaning": "what",
+        "wordClass": "pronoun",
+        "example": "何を食べますか。(What do you eat?)",
+        "exampleKana": "なにをたべますか。"
+      }
+    ]
+  },
+  {
+    "id": 318,
+    "kanji": "係",
+    "entries": [
+      {
+        "entryId": 325,
+        "romaji": "kakari",
+        "hiragana": "かかり",
+        "meaning": "person in charge, clerk",
+        "wordClass": "noun",
+        "example": "かかりについて話しました。(I talked about person in charge, clerk.)",
+        "exampleKana": "かかりについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 319,
+    "kanji": "倍",
+    "entries": [
+      {
+        "entryId": 326,
+        "romaji": "bai",
+        "hiragana": "ばい",
+        "meaning": "double, times",
+        "wordClass": "noun",
+        "example": "二倍になりました。(It became double.)",
+        "exampleKana": "にばいになりました。"
+      }
+    ]
+  },
+  {
+    "id": 320,
+    "kanji": "億",
+    "entries": [
+      {
+        "entryId": 327,
+        "romaji": "oku",
+        "hiragana": "おく",
+        "meaning": "hundred million",
+        "wordClass": "number",
+        "example": "一億人の人口です。(It's a population of 100 million people.)",
+        "exampleKana": "いちおくにんのじんこうです。"
+      }
+    ]
+  },
+  {
+    "id": 321,
+    "kanji": "兄",
+    "entries": [
+      {
+        "entryId": 328,
+        "romaji": "ani",
+        "hiragana": "あに",
+        "meaning": "older brother",
+        "wordClass": "noun",
+        "example": "兄は大学生です。(My older brother is a university student.)",
+        "exampleKana": "あにはだいがくせいです。"
+      }
+    ]
+  },
+  {
+    "id": 322,
+    "kanji": "光",
+    "entries": [
+      {
+        "entryId": 329,
+        "romaji": "kou",
+        "hiragana": "こう",
+        "meaning": "light, shine",
+        "wordClass": "noun",
+        "example": "こうについて話しました。(I talked about happiness, fortune.)",
+        "exampleKana": "こうについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 323,
+    "kanji": "公",
+    "entries": [
+      {
+        "entryId": 330,
+        "romaji": "kou",
+        "hiragana": "こう",
+        "meaning": "public, official",
+        "wordClass": "noun",
+        "example": "公園で遊びました。(I played in the park.)",
+        "exampleKana": "こうえんであそびました。"
+      }
+    ]
+  },
+  {
+    "id": 324,
+    "kanji": "具",
+    "entries": [
+      {
+        "entryId": 331,
+        "romaji": "gu",
+        "hiragana": "ぐ",
+        "meaning": "tool, ingredient",
+        "wordClass": "noun",
+        "example": "料理の具を買いました。(I bought cooking ingredients.)",
+        "exampleKana": "りょうりのぐをかいました。"
+      }
+    ]
+  },
+  {
+    "id": 325,
+    "kanji": "内",
+    "entries": [
+      {
+        "entryId": 332,
+        "romaji": "nai",
+        "hiragana": "ない",
+        "meaning": "inside, within",
+        "wordClass": "noun",
+        "example": "ないについて話しました。(I talked about inside, within.)",
+        "exampleKana": "ないについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 326,
+    "kanji": "円",
+    "entries": [
+      {
+        "entryId": 333,
+        "romaji": "en",
+        "hiragana": "えん",
+        "meaning": "yen, circle",
+        "wordClass": "noun",
+        "example": "千円を使いました。(I spent 1000 yen.)",
+        "exampleKana": "せんえんをつかいました。"
+      }
+    ]
+  },
+  {
+    "id": 327,
+    "kanji": "写",
+    "entries": [
+      {
+        "entryId": 334,
+        "romaji": "sha",
+        "hiragana": "しゃ",
+        "meaning": "copy, photograph",
+        "wordClass": "verb",
+        "example": "写真を撮りました。(I took a photograph.)",
+        "exampleKana": "しゃしんをとりました。"
+      }
+    ]
+  },
+  {
+    "id": 328,
+    "kanji": "刀",
+    "entries": [
+      {
+        "entryId": 335,
+        "romaji": "tou",
+        "hiragana": "とう",
+        "meaning": "sword, blade",
+        "wordClass": "noun",
+        "example": "日本刀は美しいです。(Japanese swords are beautiful.)",
+        "exampleKana": "にほんとうはうつくしいです。"
+      }
+    ]
+  },
+  {
+    "id": 329,
+    "kanji": "力",
+    "entries": [
+      {
+        "entryId": 336,
+        "romaji": "chikara",
+        "hiragana": "ちから",
+        "meaning": "power, strength",
+        "wordClass": "noun",
+        "example": "力が強いです。(The strength is strong.)",
+        "exampleKana": "ちからがつよいです。"
+      }
+    ]
+  },
+  {
+    "id": 330,
+    "kanji": "加",
+    "entries": [
+      {
+        "entryId": 337,
+        "romaji": "ka",
+        "hiragana": "か",
+        "meaning": "add, join",
+        "wordClass": "verb",
+        "example": "グループに参加しました。(I joined the group.)",
+        "exampleKana": "ぐるーぷにさんかしました。"
+      }
+    ]
+  },
+  {
+    "id": 331,
+    "kanji": "勝",
+    "entries": [
+      {
+        "entryId": 338,
+        "romaji": "shou",
+        "hiragana": "しょう",
+        "meaning": "win, victory",
+        "wordClass": "verb",
+        "example": "しょうについて話しました。(I talked about erase, extinguish.)",
+        "exampleKana": "しょうについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 332,
+    "kanji": "区",
+    "entries": [
+      {
+        "entryId": 339,
+        "romaji": "ku",
+        "hiragana": "く",
+        "meaning": "district, ward",
+        "wordClass": "noun",
+        "example": "渋谷区に住んでいます。(I live in Shibuya ward.)",
+        "exampleKana": "しぶやくにすんでいます。"
+      }
+    ]
+  },
+  {
+    "id": 333,
+    "kanji": "医",
+    "entries": [
+      {
+        "entryId": 340,
+        "romaji": "i",
+        "hiragana": "い",
+        "meaning": "medicine, doctor",
+        "wordClass": "noun",
+        "example": "医者に行きました。(I went to the doctor.)",
+        "exampleKana": "いしゃにいきました。"
+      }
+    ]
+  },
+  {
+    "id": 334,
+    "kanji": "千",
+    "entries": [
+      {
+        "entryId": 341,
+        "romaji": "sen",
+        "hiragana": "せん",
+        "meaning": "thousand",
+        "wordClass": "number",
+        "example": "千人の学生がいます。(There are 1000 students.)",
+        "exampleKana": "せんにんのがくせいがいます。"
+      }
+    ]
+  },
+  {
+    "id": 335,
+    "kanji": "午",
+    "entries": [
+      {
+        "entryId": 342,
+        "romaji": "go",
+        "hiragana": "ご",
+        "meaning": "noon, horse (zodiac)",
+        "wordClass": "noun",
+        "example": "午後に会いましょう。(Let's meet in the afternoon.)",
+        "exampleKana": "ごごにあいましょう。"
+      }
+    ]
+  },
+  {
+    "id": 336,
+    "kanji": "印",
+    "entries": [
+      {
+        "entryId": 343,
+        "romaji": "in",
+        "hiragana": "いん",
+        "meaning": "seal, stamp, print",
+        "wordClass": "noun",
+        "example": "印鑑を押しました。(I stamped my seal.)",
+        "exampleKana": "いんかんをおしました。"
+      }
+    ]
+  },
+  {
+    "id": 337,
+    "kanji": "原",
+    "entries": [
+      {
+        "entryId": 344,
+        "romaji": "gen",
+        "hiragana": "げん",
+        "meaning": "origin, field, plain",
+        "wordClass": "noun",
+        "example": "原因を調べました。(I investigated the cause.)",
+        "exampleKana": "げんいんをしらべました。"
+      }
+    ]
+  },
+  {
+    "id": 338,
+    "kanji": "去",
+    "entries": [
+      {
+        "entryId": 345,
+        "romaji": "kyo",
+        "hiragana": "きょ",
+        "meaning": "past, leave",
+        "wordClass": "verb",
+        "example": "去年の夏は暑かったです。(Last year's summer was hot.)",
+        "exampleKana": "きょねんのなつはあつかったです。"
+      }
+    ]
+  },
+  {
+    "id": 339,
+    "kanji": "反",
+    "entries": [
+      {
+        "entryId": 346,
+        "romaji": "han",
+        "hiragana": "はん",
+        "meaning": "anti, opposite",
+        "wordClass": "prefix",
+        "example": "反対意見を言いました。(I expressed an opposing opinion.)",
+        "exampleKana": "はんたいいけんをいいました。"
+      }
+    ]
+  },
+  {
+    "id": 340,
+    "kanji": "台",
+    "entries": [
+      {
+        "entryId": 347,
+        "romaji": "dai",
+        "hiragana": "だい",
+        "meaning": "platform, counter for machines",
+        "wordClass": "noun",
+        "example": "コンピューター三台があります。(There are three computers.)",
+        "exampleKana": "こんぴゅーたーさんだいがあります。"
+      }
+    ]
+  },
+  {
+    "id": 341,
+    "kanji": "号",
+    "entries": [
+      {
+        "entryId": 348,
+        "romaji": "gou",
+        "hiragana": "ごう",
+        "meaning": "number, issue",
+        "wordClass": "noun",
+        "example": "第一号の雑誌です。(It's the first issue of the magazine.)",
+        "exampleKana": "だいいちごうのざっしです。"
+      }
+    ]
+  },
+  {
+    "id": 342,
+    "kanji": "各",
+    "entries": [
+      {
+        "entryId": 349,
+        "romaji": "kaku",
+        "hiragana": "かく",
+        "meaning": "each, every",
+        "wordClass": "prefix",
+        "example": "各国から来ました。(They came from each country.)",
+        "exampleKana": "かくこくからきました。"
+      }
+    ]
+  },
+  {
+    "id": 343,
+    "kanji": "名",
+    "entries": [
+      {
+        "entryId": 350,
+        "romaji": "mei",
+        "hiragana": "めい",
+        "meaning": "name, famous",
+        "wordClass": "noun",
+        "example": "めいについて話しました。(I talked about name, famous.)",
+        "exampleKana": "めいについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 344,
+    "kanji": "向",
+    "entries": [
+      {
+        "entryId": 351,
+        "romaji": "kou",
+        "hiragana": "こう",
+        "meaning": "face, direction",
+        "wordClass": "verb",
+        "example": "こうについて話しました。(I talked about happiness, fortune.)",
+        "exampleKana": "こうについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 345,
+    "kanji": "君",
+    "entries": [
+      {
+        "entryId": 352,
+        "romaji": "kun",
+        "hiragana": "くん",
+        "meaning": "you, suffix for boys' names",
+        "wordClass": "pronoun",
+        "example": "田中君は元気ですか。(Is Tanaka-kun well?)",
+        "exampleKana": "たなかくんはげんきですか。"
+      }
+    ]
+  },
+  {
+    "id": 346,
+    "kanji": "味",
+    "entries": [
+      {
+        "entryId": 353,
+        "romaji": "aji",
+        "hiragana": "あじ",
+        "meaning": "taste, flavor",
+        "wordClass": "noun",
+        "example": "あじについて話しました。(I talked about taste, flavor.)",
+        "exampleKana": "あじについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 347,
+    "kanji": "和",
+    "entries": [
+      {
+        "entryId": 354,
+        "romaji": "wa",
+        "hiragana": "わ",
+        "meaning": "harmony, Japanese",
+        "wordClass": "noun",
+        "example": "和食が好きです。(I like Japanese food.)",
+        "exampleKana": "わしょくがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 348,
+    "kanji": "品",
+    "entries": [
+      {
+        "entryId": 355,
+        "romaji": "hin",
+        "hiragana": "ひん",
+        "meaning": "goods, article, quality",
+        "wordClass": "noun",
+        "example": "ひんについて話しました。(I talked about goods, article, quality.)",
+        "exampleKana": "ひんについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 349,
+    "kanji": "員",
+    "entries": [
+      {
+        "entryId": 356,
+        "romaji": "in",
+        "hiragana": "いん",
+        "meaning": "member, staff",
+        "wordClass": "noun",
+        "example": "会社員として働いています。(I work as a company employee.)",
+        "exampleKana": "かいしゃいんとしてはたらいています。"
+      }
+    ]
+  },
+  {
+    "id": 350,
+    "kanji": "商",
+    "entries": [
+      {
+        "entryId": 357,
+        "romaji": "shou",
+        "hiragana": "しょう",
+        "meaning": "commerce, trade",
+        "wordClass": "noun",
+        "example": "商品を売っています。(I sell products.)",
+        "exampleKana": "しょうひんをうっています。"
+      }
+    ]
+  },
+  {
+    "id": 351,
+    "kanji": "問",
+    "entries": [
+      {
+        "entryId": 358,
+        "romaji": "mon",
+        "hiragana": "もん",
+        "meaning": "question, problem",
+        "wordClass": "noun",
+        "example": "質問があります。(I have a question.)",
+        "exampleKana": "しつもんがあります。"
+      }
+    ]
+  },
+  {
+    "id": 352,
+    "kanji": "喜",
+    "entries": [
+      {
+        "entryId": 359,
+        "romaji": "ki",
+        "hiragana": "き",
+        "meaning": "joy, delight",
+        "wordClass": "verb",
+        "example": "大きなきがあります。(There is a big tree.)",
+        "exampleKana": "おおきなきがあります。"
+      }
+    ]
+  },
+  {
+    "id": 353,
+    "kanji": "回",
+    "entries": [
+      {
+        "entryId": 360,
+        "romaji": "kai",
+        "hiragana": "かい",
+        "meaning": "time, round, rotate",
+        "wordClass": "noun",
+        "example": "三回行きました。(I went three times.)",
+        "exampleKana": "さんかいいきました。"
+      }
+    ]
+  },
+  {
+    "id": 354,
+    "kanji": "囲",
+    "entries": [
+      {
+        "entryId": 361,
+        "romaji": "i",
+        "hiragana": "い",
+        "meaning": "surround, enclose",
+        "wordClass": "verb",
+        "example": "いについて話しました。(I talked about surround, enclose.)",
+        "exampleKana": "いについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 355,
+    "kanji": "図",
+    "entries": [
+      {
+        "entryId": 362,
+        "romaji": "zu",
+        "hiragana": "ず",
+        "meaning": "diagram, drawing",
+        "wordClass": "noun",
+        "example": "ずについて話しました。(I talked about diagram, drawing.)",
+        "exampleKana": "ずについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 356,
+    "kanji": "園",
+    "entries": [
+      {
+        "entryId": 363,
+        "romaji": "en",
+        "hiragana": "えん",
+        "meaning": "garden, park",
+        "wordClass": "noun",
+        "example": "幼稚園に行きました。(I went to kindergarten.)",
+        "exampleKana": "ようちえんにいきました。"
+      }
+    ]
+  },
+  {
+    "id": 357,
+    "kanji": "地",
+    "entries": [
+      {
+        "entryId": 364,
+        "romaji": "chi",
+        "hiragana": "ち",
+        "meaning": "earth, ground, land",
+        "wordClass": "noun",
+        "example": "この土地は高いです。(This land is expensive.)",
+        "exampleKana": "このとちはたかいです。"
+      }
+    ]
+  },
+  {
+    "id": 358,
+    "kanji": "坂",
+    "entries": [
+      {
+        "entryId": 365,
+        "romaji": "saka",
+        "hiragana": "さか",
+        "meaning": "slope, hill",
+        "wordClass": "noun",
+        "example": "急な坂を登りました。(I climbed a steep slope.)",
+        "exampleKana": "きゅうなさかをのぼりました。"
+      }
+    ]
+  },
+  {
+    "id": 359,
+    "kanji": "場",
+    "entries": [
+      {
+        "entryId": 366,
+        "romaji": "ba",
+        "hiragana": "ば",
+        "meaning": "place, location",
+        "wordClass": "noun",
+        "example": "良い場所を見つけました。(I found a good place.)",
+        "exampleKana": "よいばしょをみつけました。"
+      }
+    ]
+  },
+  {
+    "id": 360,
+    "kanji": "塩",
+    "entries": [
+      {
+        "entryId": 367,
+        "romaji": "shio",
+        "hiragana": "しお",
+        "meaning": "salt",
+        "wordClass": "noun",
+        "example": "料理に塩を入れます。(I add salt to the cooking.)",
+        "exampleKana": "りょうりにしおをいれます。"
+      }
+    ]
+  },
+  {
+    "id": 361,
+    "kanji": "声",
+    "entries": [
+      {
+        "entryId": 368,
+        "romaji": "koe",
+        "hiragana": "こえ",
+        "meaning": "voice, sound",
+        "wordClass": "noun",
+        "example": "大きな声で話します。(I speak in a loud voice.)",
+        "exampleKana": "おおきなこえではなします。"
+      }
+    ]
+  },
+  {
+    "id": 362,
+    "kanji": "夕",
+    "entries": [
+      {
+        "entryId": 369,
+        "romaji": "yuu",
+        "hiragana": "ゆう",
+        "meaning": "evening",
+        "wordClass": "noun",
+        "example": "夕方に帰ります。(I return in the evening.)",
+        "exampleKana": "ゆうがたにかえります。"
+      }
+    ]
+  },
+  {
+    "id": 363,
+    "kanji": "夜",
+    "entries": [
+      {
+        "entryId": 370,
+        "romaji": "yoru",
+        "hiragana": "よる",
+        "meaning": "night",
+        "wordClass": "noun",
+        "example": "夜は静かです。(The night is quiet.)",
+        "exampleKana": "よるはしずかです。"
+      }
+    ]
+  },
+  {
+    "id": 364,
+    "kanji": "天",
+    "entries": [
+      {
+        "entryId": 371,
+        "romaji": "ten",
+        "hiragana": "てん",
+        "meaning": "heaven, sky",
+        "wordClass": "noun",
+        "example": "天気が良いです。(The weather is good.)",
+        "exampleKana": "てんきがよいです。"
+      }
+    ]
+  },
+  {
+    "id": 365,
+    "kanji": "央",
+    "entries": [
+      {
+        "entryId": 372,
+        "romaji": "ou",
+        "hiragana": "おう",
+        "meaning": "center, middle",
+        "wordClass": "noun",
+        "example": "中央駅で待ちます。(I wait at the central station.)",
+        "exampleKana": "ちゅうおうえきでまちます。"
+      }
+    ]
+  },
+  {
+    "id": 366,
+    "kanji": "妹",
+    "entries": [
+      {
+        "entryId": 373,
+        "romaji": "imouto",
+        "hiragana": "いもうと",
+        "meaning": "younger sister",
+        "wordClass": "noun",
+        "example": "妹は高校生です。(My younger sister is a high school student.)",
+        "exampleKana": "いもうとはこうこうせいです。"
+      }
+    ]
+  },
+  {
+    "id": 367,
+    "kanji": "姉",
+    "entries": [
+      {
+        "entryId": 374,
+        "romaji": "ane",
+        "hiragana": "あね",
+        "meaning": "older sister",
+        "wordClass": "noun",
+        "example": "姉は看護師です。(My older sister is a nurse.)",
+        "exampleKana": "あねはかんごしです。"
+      }
+    ]
+  },
+  {
+    "id": 368,
+    "kanji": "委",
+    "entries": [
+      {
+        "entryId": 375,
+        "romaji": "i",
+        "hiragana": "い",
+        "meaning": "committee, entrust",
+        "wordClass": "noun",
+        "example": "委員会に参加します。(I participate in the committee.)",
+        "exampleKana": "いいんかいにさんかします。"
+      }
+    ]
+  },
+  {
+    "id": 369,
+    "kanji": "字",
+    "entries": [
+      {
+        "entryId": 376,
+        "romaji": "ji",
+        "hiragana": "じ",
+        "meaning": "letter, character",
+        "wordClass": "noun",
+        "example": "漢字を覚えました。(I learned kanji characters.)",
+        "exampleKana": "かんじをおぼえました。"
+      }
+    ]
+  },
+  {
+    "id": 370,
+    "kanji": "季",
+    "entries": [
+      {
+        "entryId": 377,
+        "romaji": "ki",
+        "hiragana": "き",
+        "meaning": "season",
+        "wordClass": "noun",
+        "example": "春の季節が好きです。(I like the spring season.)",
+        "exampleKana": "はるのきせつがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 371,
+    "kanji": "守",
+    "entries": [
+      {
+        "entryId": 378,
+        "romaji": "mamoru",
+        "hiragana": "まもる",
+        "meaning": "protect, guard",
+        "wordClass": "verb",
+        "example": "まもるについて話しました。(I talked about protect, guard.)",
+        "exampleKana": "まもるについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 372,
+    "kanji": "官",
+    "entries": [
+      {
+        "entryId": 379,
+        "romaji": "kan",
+        "hiragana": "かん",
+        "meaning": "government official",
+        "wordClass": "noun",
+        "example": "警察官に質問しました。(I asked a police officer.)",
+        "exampleKana": "けいさつかんにしつもんしました。"
+      }
+    ]
+  },
+  {
+    "id": 373,
+    "kanji": "定",
+    "entries": [
+      {
+        "entryId": 380,
+        "romaji": "tei",
+        "hiragana": "てい",
+        "meaning": "determine, fix",
+        "wordClass": "verb",
+        "example": "時間を決定しました。(I decided the time.)",
+        "exampleKana": "じかんをけっていしました。"
+      }
+    ]
+  },
+  {
+    "id": 374,
+    "kanji": "実",
+    "entries": [
+      {
+        "entryId": 381,
+        "romaji": "jitsu",
+        "hiragana": "じつ",
+        "meaning": "reality, truth",
+        "wordClass": "noun",
+        "example": "じつについて話しました。(I talked about reality, truth.)",
+        "exampleKana": "じつについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 375,
+    "kanji": "客",
+    "entries": [
+      {
+        "entryId": 382,
+        "romaji": "kyaku",
+        "hiragana": "きゃく",
+        "meaning": "customer, guest",
+        "wordClass": "noun",
+        "example": "お客様がいらっしゃいました。(A customer has arrived.)",
+        "exampleKana": "おきゃくさまがいらっしゃいました。"
+      }
+    ]
+  },
+  {
+    "id": 376,
+    "kanji": "室",
+    "entries": [
+      {
+        "entryId": 383,
+        "romaji": "shitsu",
+        "hiragana": "しつ",
+        "meaning": "room",
+        "wordClass": "noun",
+        "example": "教室で授業を受けます。(I take classes in the classroom.)",
+        "exampleKana": "きょうしつでじゅぎょうをうけます。"
+      }
+    ]
+  },
+  {
+    "id": 377,
+    "kanji": "宮",
+    "entries": [
+      {
+        "entryId": 384,
+        "romaji": "kyuu",
+        "hiragana": "きゅう",
+        "meaning": "palace, shrine",
+        "wordClass": "noun",
+        "example": "きゅうことができます。(I can seek, request.)",
+        "exampleKana": "きゅうことができます。"
+      }
+    ]
+  },
+  {
+    "id": 378,
+    "kanji": "害",
+    "entries": [
+      {
+        "entryId": 385,
+        "romaji": "gai",
+        "hiragana": "がい",
+        "meaning": "harm, damage",
+        "wordClass": "noun",
+        "example": "災害に備えます。(I prepare for disasters.)",
+        "exampleKana": "さいがいにそなえます。"
+      }
+    ]
+  },
+  {
+    "id": 379,
+    "kanji": "宿",
+    "entries": [
+      {
+        "entryId": 386,
+        "romaji": "yado",
+        "hiragana": "やど",
+        "meaning": "inn, lodging",
+        "wordClass": "noun",
+        "example": "やどについて話しました。(I talked about inn, lodging.)",
+        "exampleKana": "やどについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 380,
+    "kanji": "寺",
+    "entries": [
+      {
+        "entryId": 387,
+        "romaji": "tera",
+        "hiragana": "てら",
+        "meaning": "temple",
+        "wordClass": "noun",
+        "example": "お寺を見学しました。(I visited the temple.)",
+        "exampleKana": "おてらをけんがくしました。"
+      }
+    ]
+  },
+  {
+    "id": 381,
+    "kanji": "対",
+    "entries": [
+      {
+        "entryId": 388,
+        "romaji": "tai",
+        "hiragana": "たい",
+        "meaning": "against, opposite, pair",
+        "wordClass": "noun",
+        "example": "問題に対処します。(I deal with the problem.)",
+        "exampleKana": "もんだいにたいしょします。"
+      }
+    ]
+  },
+  {
+    "id": 382,
+    "kanji": "局",
+    "entries": [
+      {
+        "entryId": 389,
+        "romaji": "kyoku",
+        "hiragana": "きょく",
+        "meaning": "bureau, office",
+        "wordClass": "noun",
+        "example": "郵便局に行きました。(I went to the post office.)",
+        "exampleKana": "ゆうびんきょくにいきました。"
+      }
+    ]
+  },
+  {
+    "id": 383,
+    "kanji": "屋",
+    "entries": [
+      {
+        "entryId": 390,
+        "romaji": "ya",
+        "hiragana": "や",
+        "meaning": "shop, house",
+        "wordClass": "noun",
+        "example": "パン屋でパンを買いました。(I bought bread at the bakery.)",
+        "exampleKana": "ぱんやでぱんをかいました。"
+      }
+    ]
+  },
+  {
+    "id": 384,
+    "kanji": "岩",
+    "entries": [
+      {
+        "entryId": 391,
+        "romaji": "iwa",
+        "hiragana": "いわ",
+        "meaning": "rock, crag",
+        "wordClass": "noun",
+        "example": "大きな岩がありました。(There was a big rock.)",
+        "exampleKana": "おおきないわがありました。"
+      }
+    ]
+  },
+  {
+    "id": 385,
+    "kanji": "岸",
+    "entries": [
+      {
+        "entryId": 392,
+        "romaji": "kishi",
+        "hiragana": "きし",
+        "meaning": "shore, bank",
+        "wordClass": "noun",
+        "example": "川の岸に立ちました。(I stood on the river bank.)",
+        "exampleKana": "かわのきしにたちました。"
+      }
+    ]
+  },
+  {
+    "id": 386,
+    "kanji": "州",
+    "entries": [
+      {
+        "entryId": 393,
+        "romaji": "shuu",
+        "hiragana": "しゅう",
+        "meaning": "state, province",
+        "wordClass": "noun",
+        "example": "九州に住んでいます。(I live in Kyushu.)",
+        "exampleKana": "きゅうしゅうにすんでいます。"
+      }
+    ]
+  },
+  {
+    "id": 387,
+    "kanji": "工",
+    "entries": [
+      {
+        "entryId": 394,
+        "romaji": "kou",
+        "hiragana": "こう",
+        "meaning": "craft, construction",
+        "wordClass": "noun",
+        "example": "工場で働いています。(I work at a factory.)",
+        "exampleKana": "こうじょうではたらいています。"
+      }
+    ]
+  },
+  {
+    "id": 388,
+    "kanji": "市",
+    "entries": [
+      {
+        "entryId": 395,
+        "romaji": "shi",
+        "hiragana": "し",
+        "meaning": "city",
+        "wordClass": "noun",
+        "example": "大阪市に引っ越しました。(I moved to Osaka city.)",
+        "exampleKana": "おおさかしにひっこしました。"
+      }
+    ]
+  },
+  {
+    "id": 389,
+    "kanji": "希",
+    "entries": [
+      {
+        "entryId": 396,
+        "romaji": "ki",
+        "hiragana": "き",
+        "meaning": "hope, rare",
+        "wordClass": "noun",
+        "example": "希望を持っています。(I have hope.)",
+        "exampleKana": "きぼうをもっています。"
+      }
+    ]
+  },
+  {
+    "id": 390,
+    "kanji": "帰",
+    "entries": [
+      {
+        "entryId": 397,
+        "romaji": "kaeru",
+        "hiragana": "かえる",
+        "meaning": "return, go back",
+        "wordClass": "verb",
+        "example": "かえるについて話しました。(I talked about return, go back.)",
+        "exampleKana": "かえるについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 391,
+    "kanji": "帳",
+    "entries": [
+      {
+        "entryId": 398,
+        "romaji": "chou",
+        "hiragana": "ちょう",
+        "meaning": "notebook, register",
+        "wordClass": "noun",
+        "example": "手帳を買いました。(I bought a notebook.)",
+        "exampleKana": "てちょうをかいました。"
+      }
+    ]
+  },
+  {
+    "id": 392,
+    "kanji": "平",
+    "entries": [
+      {
+        "entryId": 399,
+        "romaji": "hei",
+        "hiragana": "へい",
+        "meaning": "flat, peace",
+        "wordClass": "noun",
+        "example": "平和な時代です。(It's a peaceful era.)",
+        "exampleKana": "へいわなじだいです。"
+      }
+    ]
+  },
+  {
+    "id": 393,
+    "kanji": "幸",
+    "entries": [
+      {
+        "entryId": 400,
+        "romaji": "kou",
+        "hiragana": "こう",
+        "meaning": "happiness, fortune",
+        "wordClass": "noun",
+        "example": "こうについて話しました。(I talked about happiness, fortune.)",
+        "exampleKana": "こうについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 394,
+    "kanji": "度",
+    "entries": [
+      {
+        "entryId": 401,
+        "romaji": "do",
+        "hiragana": "ど",
+        "meaning": "degree, time",
+        "wordClass": "noun",
+        "example": "何度も練習しました。(I practiced many times.)",
+        "exampleKana": "なんどもれんしゅうしました。"
+      }
+    ]
+  },
+  {
+    "id": 395,
+    "kanji": "庫",
+    "entries": [
+      {
+        "entryId": 402,
+        "romaji": "ko",
+        "hiragana": "こ",
+        "meaning": "warehouse, garage",
+        "wordClass": "noun",
+        "example": "車庫に車を入れました。(I put the car in the garage.)",
+        "exampleKana": "しゃこにくるまをいれました。"
+      }
+    ]
+  },
+  {
+    "id": 396,
+    "kanji": "庭",
+    "entries": [
+      {
+        "entryId": 403,
+        "romaji": "niwa",
+        "hiragana": "にわ",
+        "meaning": "garden, yard",
+        "wordClass": "noun",
+        "example": "庭で花を植えました。(I planted flowers in the garden.)",
+        "exampleKana": "にわではなをうえました。"
+      }
+    ]
+  },
+  {
+    "id": 397,
+    "kanji": "式",
+    "entries": [
+      {
+        "entryId": 404,
+        "romaji": "shiki",
+        "hiragana": "しき",
+        "meaning": "ceremony, style",
+        "wordClass": "noun",
+        "example": "結婚式に出席しました。(I attended a wedding ceremony.)",
+        "exampleKana": "けっこんしきにしゅっせきしました。"
+      }
+    ]
+  },
+  {
+    "id": 398,
+    "kanji": "弓",
+    "entries": [
+      {
+        "entryId": 405,
+        "romaji": "yumi",
+        "hiragana": "ゆみ",
+        "meaning": "bow, archery",
+        "wordClass": "noun",
+        "example": "ゆみについて話しました。(I talked about bow, archery.)",
+        "exampleKana": "ゆみについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 399,
+    "kanji": "弟",
+    "entries": [
+      {
+        "entryId": 406,
+        "romaji": "otouto",
+        "hiragana": "おとうと",
+        "meaning": "younger brother",
+        "wordClass": "noun",
+        "example": "弟は中学生です。(My younger brother is a middle school student.)",
+        "exampleKana": "おとうとはちゅうがくせいです。"
+      }
+    ]
+  },
+  {
+    "id": 400,
+    "kanji": "当",
+    "entries": [
+      {
+        "entryId": 407,
+        "romaji": "tou",
+        "hiragana": "とう",
+        "meaning": "hit, appropriate",
+        "wordClass": "verb",
+        "example": "とうが好きです。(I like island.)",
+        "exampleKana": "とうがすきです。"
+      }
+    ]
+  },
+  {
+    "id": 401,
+    "kanji": "役",
+    "entries": [
+      {
+        "entryId": 408,
+        "romaji": "yaku",
+        "hiragana": "やく",
+        "meaning": "role, duty",
+        "wordClass": "noun",
+        "example": "重要な役割があります。(There is an important role.)",
+        "exampleKana": "じゅうようなやくわりがあります。"
+      }
+    ]
+  },
+  {
+    "id": 402,
+    "kanji": "心",
+    "entries": [
+      {
+        "entryId": 409,
+        "romaji": "kokoro",
+        "hiragana": "こころ",
+        "meaning": "heart, mind",
+        "wordClass": "noun",
+        "example": "優しい心を持っています。(I have a kind heart.)",
+        "exampleKana": "やさしいこころをもっています。"
+      }
+    ]
+  },
+  {
+    "id": 403,
+    "kanji": "悲",
+    "entries": [
+      {
+        "entryId": 410,
+        "romaji": "kanashii",
+        "hiragana": "かなしい",
+        "meaning": "sad, sorrow",
+        "wordClass": "adjective",
+        "example": "悲しい映画を見ました。(I watched a sad movie.)",
+        "exampleKana": "かなしいえいがをみました。"
+      }
+    ]
+  },
+  {
+    "id": 404,
+    "kanji": "想",
+    "entries": [
+      {
+        "entryId": 411,
+        "romaji": "sou",
+        "hiragana": "そう",
+        "meaning": "think, imagine",
+        "wordClass": "verb",
+        "example": "いろいろ想像しました。(I imagined various things.)",
+        "exampleKana": "いろいろそうぞうしました。"
+      }
+    ]
+  },
+  {
+    "id": 405,
+    "kanji": "意",
+    "entries": [
+      {
+        "entryId": 412,
+        "romaji": "i",
+        "hiragana": "い",
+        "meaning": "meaning, intention",
+        "wordClass": "noun",
+        "example": "意味が分かりません。(I don't understand the meaning.)",
+        "exampleKana": "いみがわかりません。"
+      }
+    ]
+  },
+  {
+    "id": 406,
+    "kanji": "感",
+    "entries": [
+      {
+        "entryId": 413,
+        "romaji": "kan",
+        "hiragana": "かん",
+        "meaning": "feeling, sensation",
+        "wordClass": "noun",
+        "example": "良い感じがします。(I have a good feeling.)",
+        "exampleKana": "よいかんじがします。"
+      }
+    ]
+  },
+  {
+    "id": 407,
+    "kanji": "戸",
+    "entries": [
+      {
+        "entryId": 414,
+        "romaji": "to",
+        "hiragana": "と",
+        "meaning": "door, household",
+        "wordClass": "noun",
+        "example": "戸を閉めました。(I closed the door.)",
+        "exampleKana": "とをしめました。"
+      }
+    ]
+  },
+  {
+    "id": 408,
+    "kanji": "所",
+    "entries": [
+      {
+        "entryId": 415,
+        "romaji": "tokoro",
+        "hiragana": "ところ",
+        "meaning": "place, location",
+        "wordClass": "noun",
+        "example": "良い所を見つけました。(I found a good place.)",
+        "exampleKana": "よいところをみつけました。"
+      }
+    ]
+  },
+  {
+    "id": 409,
+    "kanji": "才",
+    "entries": [
+      {
+        "entryId": 416,
+        "romaji": "sai",
+        "hiragana": "さい",
+        "meaning": "years old, talent",
+        "wordClass": "noun",
+        "example": "二十歳になりました。(I became 20 years old.)",
+        "exampleKana": "にじゅっさいになりました。"
+      }
+    ]
+  },
+  {
+    "id": 410,
+    "kanji": "打",
+    "entries": [
+      {
+        "entryId": 417,
+        "romaji": "utsu",
+        "hiragana": "うつ",
+        "meaning": "hit, strike",
+        "wordClass": "verb",
+        "example": "うつについて話しました。(I talked about hit, strike.)",
+        "exampleKana": "うつについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 411,
+    "kanji": "放",
+    "entries": [
+      {
+        "entryId": 418,
+        "romaji": "hou",
+        "hiragana": "ほう",
+        "meaning": "release, broadcast",
+        "wordClass": "verb",
+        "example": "テレビを放送します。(They broadcast on television.)",
+        "exampleKana": "てれびをほうそうします。"
+      }
+    ]
+  },
+  {
+    "id": 412,
+    "kanji": "救",
+    "entries": [
+      {
+        "entryId": 419,
+        "romaji": "kyuu",
+        "hiragana": "きゅう",
+        "meaning": "rescue, save",
+        "wordClass": "verb",
+        "example": "人を救助しました。(I rescued a person.)",
+        "exampleKana": "ひとをきゅうじょしました。"
+      }
+    ]
+  },
+  {
+    "id": 413,
+    "kanji": "数",
+    "entries": [
+      {
+        "entryId": 420,
+        "romaji": "suu",
+        "hiragana": "すう",
+        "meaning": "number, count",
+        "wordClass": "noun",
+        "example": "数学を勉強します。(I study mathematics.)",
+        "exampleKana": "すうがくをべんきょうします。"
+      }
+    ]
+  },
+  {
+    "id": 414,
+    "kanji": "文",
+    "entries": [
+      {
+        "entryId": 421,
+        "romaji": "bun",
+        "hiragana": "ぶん",
+        "meaning": "sentence, literature",
+        "wordClass": "noun",
+        "example": "長い文を書きました。(I wrote a long sentence.)",
+        "exampleKana": "ながいぶんをかきました。"
+      }
+    ]
+  },
+  {
+    "id": 415,
+    "kanji": "方",
+    "entries": [
+      {
+        "entryId": 422,
+        "romaji": "hou",
+        "hiragana": "ほう",
+        "meaning": "direction, way, person",
+        "wordClass": "noun",
+        "example": "ほうについて話しました。(I talked about direction, way, person.)",
+        "exampleKana": "ほうについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 416,
+    "kanji": "旅",
+    "entries": [
+      {
+        "entryId": 423,
+        "romaji": "tabi",
+        "hiragana": "たび",
+        "meaning": "travel, journey",
+        "wordClass": "noun",
+        "example": "たびについて話しました。(I talked about travel, journey.)",
+        "exampleKana": "たびについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 417,
+    "kanji": "族",
+    "entries": [
+      {
+        "entryId": 424,
+        "romaji": "zoku",
+        "hiragana": "ぞく",
+        "meaning": "tribe, family",
+        "wordClass": "noun",
+        "example": "家族と過ごしました。(I spent time with my family.)",
+        "exampleKana": "かぞくとすごしました。"
+      }
+    ]
+  },
+  {
+    "id": 418,
+    "kanji": "旗",
+    "entries": [
+      {
+        "entryId": 425,
+        "romaji": "hata",
+        "hiragana": "はた",
+        "meaning": "flag, banner",
+        "wordClass": "noun",
+        "example": "日本の旗は赤と白です。(Japan's flag is red and white.)",
+        "exampleKana": "にほんのはたはあかとしろです。"
+      }
+    ]
+  },
+  {
+    "id": 419,
+    "kanji": "昔",
+    "entries": [
+      {
+        "entryId": 426,
+        "romaji": "mukashi",
+        "hiragana": "むかし",
+        "meaning": "long ago, old times",
+        "wordClass": "noun",
+        "example": "昔の話を聞きました。(I heard stories from long ago.)",
+        "exampleKana": "むかしのはなしをききました。"
+      }
+    ]
+  },
+  {
+    "id": 420,
+    "kanji": "星",
+    "entries": [
+      {
+        "entryId": 427,
+        "romaji": "hoshi",
+        "hiragana": "ほし",
+        "meaning": "star",
+        "wordClass": "noun",
+        "example": "夜空に星が見えます。(I can see stars in the night sky.)",
+        "exampleKana": "よぞらにほしがみえます。"
+      }
+    ]
+  },
+  {
+    "id": 421,
+    "kanji": "昭",
+    "entries": [
+      {
+        "entryId": 428,
+        "romaji": "shou",
+        "hiragana": "しょう",
+        "meaning": "bright, Showa era",
+        "wordClass": "noun",
+        "example": "昭和時代の話です。(It's a story from the Showa era.)",
+        "exampleKana": "しょうわじだいのはなしです。"
+      }
+    ]
+  },
+  {
+    "id": 422,
+    "kanji": "昼",
+    "entries": [
+      {
+        "entryId": 429,
+        "romaji": "hiru",
+        "hiragana": "ひる",
+        "meaning": "noon, daytime",
+        "wordClass": "noun",
+        "example": "昼ご飯を食べました。(I ate lunch.)",
+        "exampleKana": "ひるごはんをたべました。"
+      }
+    ]
+  },
+  {
+    "id": 423,
+    "kanji": "晴",
+    "entries": [
+      {
+        "entryId": 430,
+        "romaji": "hare",
+        "hiragana": "はれ",
+        "meaning": "clear weather, sunny",
+        "wordClass": "noun",
+        "example": "今日は晴れです。(Today is sunny.)",
+        "exampleKana": "きょうははれです。"
+      }
+    ]
+  },
+  {
+    "id": 424,
+    "kanji": "曜",
+    "entries": [
+      {
+        "entryId": 431,
+        "romaji": "you",
+        "hiragana": "よう",
+        "meaning": "day of the week",
+        "wordClass": "noun",
+        "example": "月曜日に学校に行きます。(I go to school on Monday.)",
+        "exampleKana": "げつようびにがっこうにいきます。"
+      }
+    ]
+  },
+  {
+    "id": 425,
+    "kanji": "曲",
+    "entries": [
+      {
+        "entryId": 432,
+        "romaji": "kyoku",
+        "hiragana": "きょく",
+        "meaning": "song, curve",
+        "wordClass": "noun",
+        "example": "好きな曲を聞きました。(I listened to my favorite song.)",
+        "exampleKana": "すきなきょくをききました。"
+      }
+    ]
+  },
+  {
+    "id": 426,
+    "kanji": "有",
+    "entries": [
+      {
+        "entryId": 433,
+        "romaji": "yuu",
+        "hiragana": "ゆう",
+        "meaning": "have, exist",
+        "wordClass": "verb",
+        "example": "ゆうについて話しました。(I talked about have, exist.)",
+        "exampleKana": "ゆうについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 427,
+    "kanji": "服",
+    "entries": [
+      {
+        "entryId": 434,
+        "romaji": "fuku",
+        "hiragana": "ふく",
+        "meaning": "clothes, clothing",
+        "wordClass": "noun",
+        "example": "新しい服を買いました。(I bought new clothes.)",
+        "exampleKana": "あたらしいふくをかいました。"
+      }
+    ]
+  },
+  {
+    "id": 428,
+    "kanji": "朝",
+    "entries": [
+      {
+        "entryId": 435,
+        "romaji": "asa",
+        "hiragana": "あさ",
+        "meaning": "morning",
+        "wordClass": "noun",
+        "example": "朝早く起きました。(I woke up early in the morning.)",
+        "exampleKana": "あさはやくおきました。"
+      }
+    ]
+  },
+  {
+    "id": 429,
+    "kanji": "期",
+    "entries": [
+      {
+        "entryId": 436,
+        "romaji": "ki",
+        "hiragana": "き",
+        "meaning": "period, term",
+        "wordClass": "noun",
+        "example": "夏休み期間中です。(It's during summer vacation period.)",
+        "exampleKana": "なつやすみきかんちゅうです。"
+      }
+    ]
+  },
+  {
+    "id": 430,
+    "kanji": "本",
+    "entries": [
+      {
+        "entryId": 437,
+        "romaji": "hon",
+        "hiragana": "ほん",
+        "meaning": "book, main",
+        "wordClass": "noun",
+        "example": "面白い本を読みました。(I read an interesting book.)",
+        "exampleKana": "おもしろいほんをよみました。"
+      }
+    ]
+  },
+  {
+    "id": 431,
+    "kanji": "板",
+    "entries": [
+      {
+        "entryId": 438,
+        "romaji": "ita",
+        "hiragana": "いた",
+        "meaning": "board, plank",
+        "wordClass": "noun",
+        "example": "木の板を切りました。(I cut a wooden board.)",
+        "exampleKana": "きのいたをきりました。"
+      }
+    ]
+  },
+  {
+    "id": 432,
+    "kanji": "林",
+    "entries": [
+      {
+        "entryId": 439,
+        "romaji": "hayashi",
+        "hiragana": "はやし",
+        "meaning": "forest, woods",
+        "wordClass": "noun",
+        "example": "林の中を歩きました。(I walked through the forest.)",
+        "exampleKana": "はやしのなかをあるきました。"
+      }
+    ]
+  },
+  {
+    "id": 433,
+    "kanji": "柱",
+    "entries": [
+      {
+        "entryId": 440,
+        "romaji": "hashira",
+        "hiragana": "はしら",
+        "meaning": "pillar, column",
+        "wordClass": "noun",
+        "example": "家の柱は丈夫です。(The house pillars are sturdy.)",
+        "exampleKana": "いえのはしらはじょうぶです。"
+      }
+    ]
+  },
+  {
+    "id": 434,
+    "kanji": "栄",
+    "entries": [
+      {
+        "entryId": 441,
+        "romaji": "ei",
+        "hiragana": "えい",
+        "meaning": "glory, prosperity",
+        "wordClass": "noun",
+        "example": "栄光を手に入れました。(I obtained glory.)",
+        "exampleKana": "えいこうをてにいれました。"
+      }
+    ]
+  },
+  {
+    "id": 435,
+    "kanji": "校",
+    "entries": [
+      {
+        "entryId": 442,
+        "romaji": "kou",
+        "hiragana": "こう",
+        "meaning": "school",
+        "wordClass": "noun",
+        "example": "学校に遅刻しました。(I was late for school.)",
+        "exampleKana": "がっこうにちこくしました。"
+      }
+    ]
+  },
+  {
+    "id": 436,
+    "kanji": "根",
+    "entries": [
+      {
+        "entryId": 443,
+        "romaji": "ne",
+        "hiragana": "ね",
+        "meaning": "root, basis",
+        "wordClass": "noun",
+        "example": "木の根が深いです。(The tree roots are deep.)",
+        "exampleKana": "きのねがふかいです。"
+      }
+    ]
+  },
+  {
+    "id": 437,
+    "kanji": "案",
+    "entries": [
+      {
+        "entryId": 444,
+        "romaji": "an",
+        "hiragana": "あん",
+        "meaning": "plan, proposal",
+        "wordClass": "noun",
+        "example": "良い案を考えました。(I thought of a good plan.)",
+        "exampleKana": "よいあんをかんがえました。"
+      }
+    ]
+  },
+  {
+    "id": 438,
+    "kanji": "械",
+    "entries": [
+      {
+        "entryId": 445,
+        "romaji": "kai",
+        "hiragana": "かい",
+        "meaning": "machine, mechanism",
+        "wordClass": "noun",
+        "example": "機械を修理しました。(I repaired the machine.)",
+        "exampleKana": "きかいをしゅうりしました。"
+      }
+    ]
+  },
+  {
+    "id": 439,
+    "kanji": "森",
+    "entries": [
+      {
+        "entryId": 446,
+        "romaji": "mori",
+        "hiragana": "もり",
+        "meaning": "forest",
+        "wordClass": "noun",
+        "example": "深い森に入りました。(I entered a deep forest.)",
+        "exampleKana": "ふかいもりにはいりました。"
+      }
+    ]
+  },
+  {
+    "id": 440,
+    "kanji": "植",
+    "entries": [
+      {
+        "entryId": 447,
+        "romaji": "shoku",
+        "hiragana": "しょく",
+        "meaning": "plant, cultivate",
+        "wordClass": "verb",
+        "example": "しょくについて話しました。(I talked about plant, cultivate.)",
+        "exampleKana": "しょくについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 441,
+    "kanji": "業",
+    "entries": [
+      {
+        "entryId": 448,
+        "romaji": "gyou",
+        "hiragana": "ぎょう",
+        "meaning": "business, industry",
+        "wordClass": "noun",
+        "example": "新しい事業を始めました。(I started a new business.)",
+        "exampleKana": "あたらしいじぎょうをはじめました。"
+      }
+    ]
+  },
+  {
+    "id": 442,
+    "kanji": "横",
+    "entries": [
+      {
+        "entryId": 449,
+        "romaji": "yoko",
+        "hiragana": "よこ",
+        "meaning": "side, horizontal",
+        "wordClass": "noun",
+        "example": "横に並んで歩きました。(We walked side by side.)",
+        "exampleKana": "よこにならんであるきました。"
+      }
+    ]
+  },
+  {
+    "id": 443,
+    "kanji": "機",
+    "entries": [
+      {
+        "entryId": 450,
+        "romaji": "ki",
+        "hiragana": "き",
+        "meaning": "machine, opportunity",
+        "wordClass": "noun",
+        "example": "飛行機で旅行しました。(I traveled by airplane.)",
+        "exampleKana": "ひこうきでりょこうしました。"
+      }
+    ]
+  },
+  {
+    "id": 444,
+    "kanji": "次",
+    "entries": [
+      {
+        "entryId": 451,
+        "romaji": "tsugi",
+        "hiragana": "つぎ",
+        "meaning": "next",
+        "wordClass": "noun",
+        "example": "次の電車に乗ります。(I will board the next train.)",
+        "exampleKana": "つぎのでんしゃにのります。"
+      }
+    ]
+  },
+  {
+    "id": 445,
+    "kanji": "歯",
+    "entries": [
+      {
+        "entryId": 452,
+        "romaji": "ha",
+        "hiragana": "は",
+        "meaning": "tooth",
+        "wordClass": "noun",
+        "example": "歯を磨きました。(I brushed my teeth.)",
+        "exampleKana": "はをみがきました。"
+      }
+    ]
+  },
+  {
+    "id": 446,
+    "kanji": "死",
+    "entries": [
+      {
+        "entryId": 453,
+        "romaji": "shi",
+        "hiragana": "し",
+        "meaning": "death, die",
+        "wordClass": "verb",
+        "example": "花が枯れて死にました。(The flowers withered and died.)",
+        "exampleKana": "はながかれてしにました。"
+      }
+    ]
+  },
+  {
+    "id": 447,
+    "kanji": "母",
+    "entries": [
+      {
+        "entryId": 454,
+        "romaji": "haha",
+        "hiragana": "はは",
+        "meaning": "mother",
+        "wordClass": "noun",
+        "example": "母は料理が上手です。(My mother is good at cooking.)",
+        "exampleKana": "ははは りょうりがじょうずです。"
+      }
+    ]
+  },
+  {
+    "id": 448,
+    "kanji": "毛",
+    "entries": [
+      {
+        "entryId": 455,
+        "romaji": "ke",
+        "hiragana": "け",
+        "meaning": "hair, fur",
+        "wordClass": "noun",
+        "example": "猫の毛は柔らかいです。(Cat fur is soft.)",
+        "exampleKana": "ねこのけはやわらかいです。"
+      }
+    ]
+  },
+  {
+    "id": 449,
+    "kanji": "気",
+    "entries": [
+      {
+        "entryId": 456,
+        "romaji": "ki",
+        "hiragana": "き",
+        "meaning": "spirit, air, feeling",
+        "wordClass": "noun",
+        "example": "元気になりました。(I became healthy.)",
+        "exampleKana": "げんきになりました。"
+      }
+    ]
+  },
+  {
+    "id": 450,
+    "kanji": "氷",
+    "entries": [
+      {
+        "entryId": 457,
+        "romaji": "koori",
+        "hiragana": "こおり",
+        "meaning": "ice",
+        "wordClass": "noun",
+        "example": "氷を入れた飲み物です。(It's a drink with ice.)",
+        "exampleKana": "こおりをいれたのみものです。"
+      }
+    ]
+  },
+  {
+    "id": 451,
+    "kanji": "池",
+    "entries": [
+      {
+        "entryId": 458,
+        "romaji": "ike",
+        "hiragana": "いけ",
+        "meaning": "pond",
+        "wordClass": "noun",
+        "example": "池で魚が泳いでいます。(Fish are swimming in the pond.)",
+        "exampleKana": "いけでさかながおよいでいます。"
+      }
+    ]
+  },
+  {
+    "id": 452,
+    "kanji": "決",
+    "entries": [
+      {
+        "entryId": 459,
+        "romaji": "ketsu",
+        "hiragana": "けつ",
+        "meaning": "decide, determine",
+        "wordClass": "verb",
+        "example": "けつについて話しました。(I talked about decide, determine.)",
+        "exampleKana": "けつについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 453,
+    "kanji": "汽",
+    "entries": [
+      {
+        "entryId": 460,
+        "romaji": "ki",
+        "hiragana": "き",
+        "meaning": "steam, vapor",
+        "wordClass": "noun",
+        "example": "汽車で旅をしました。(I traveled by steam train.)",
+        "exampleKana": "きしゃでたびをしました。"
+      }
+    ]
+  },
+  {
+    "id": 454,
+    "kanji": "油",
+    "entries": [
+      {
+        "entryId": 461,
+        "romaji": "abura",
+        "hiragana": "あぶら",
+        "meaning": "oil",
+        "wordClass": "noun",
+        "example": "料理に油を使いました。(I used oil in cooking.)",
+        "exampleKana": "りょうりにあぶらをつかいました。"
+      }
+    ]
+  },
+  {
+    "id": 455,
+    "kanji": "波",
+    "entries": [
+      {
+        "entryId": 462,
+        "romaji": "nami",
+        "hiragana": "なみ",
+        "meaning": "wave",
+        "wordClass": "noun",
+        "example": "大きな波が来ました。(A big wave came.)",
+        "exampleKana": "おおきななみがきました。"
+      }
+    ]
+  },
+  {
+    "id": 456,
+    "kanji": "泣",
+    "entries": [
+      {
+        "entryId": 463,
+        "romaji": "naku",
+        "hiragana": "なく",
+        "meaning": "cry, weep",
+        "wordClass": "verb",
+        "example": "なくについて話しました。(I talked about cry, weep.)",
+        "exampleKana": "なくについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 457,
+    "kanji": "注",
+    "entries": [
+      {
+        "entryId": 464,
+        "romaji": "chuu",
+        "hiragana": "ちゅう",
+        "meaning": "pour, pay attention",
+        "wordClass": "verb",
+        "example": "注意深く聞きました。(I listened carefully.)",
+        "exampleKana": "ちゅういぶかくききました。"
+      }
+    ]
+  },
+  {
+    "id": 458,
+    "kanji": "洋",
+    "entries": [
+      {
+        "entryId": 465,
+        "romaji": "you",
+        "hiragana": "よう",
+        "meaning": "ocean, Western",
+        "wordClass": "noun",
+        "example": "太平洋は広い海です。(The Pacific Ocean is a vast sea.)",
+        "exampleKana": "たいへいようはひろいうみです。"
+      }
+    ]
+  },
+  {
+    "id": 459,
+    "kanji": "活",
+    "entries": [
+      {
+        "entryId": 466,
+        "romaji": "katsu",
+        "hiragana": "かつ",
+        "meaning": "lively, active",
+        "wordClass": "verb",
+        "example": "生活が楽しいです。(Life is enjoyable.)",
+        "exampleKana": "せいかつがたのしいです。"
+      }
+    ]
+  },
+  {
+    "id": 460,
+    "kanji": "流",
+    "entries": [
+      {
+        "entryId": 467,
+        "romaji": "ryuu",
+        "hiragana": "りゅう",
+        "meaning": "flow, current",
+        "wordClass": "verb",
+        "example": "りゅうについて話しました。(I talked about flow, current.)",
+        "exampleKana": "りゅうについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 461,
+    "kanji": "消",
+    "entries": [
+      {
+        "entryId": 468,
+        "romaji": "shou",
+        "hiragana": "しょう",
+        "meaning": "erase, extinguish",
+        "wordClass": "verb",
+        "example": "しょうについて話しました。(I talked about erase, extinguish.)",
+        "exampleKana": "しょうについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 462,
+    "kanji": "温",
+    "entries": [
+      {
+        "entryId": 469,
+        "romaji": "on",
+        "hiragana": "おん",
+        "meaning": "warm, temperature",
+        "wordClass": "noun",
+        "example": "おんについて話しました。(I talked about warm, temperature.)",
+        "exampleKana": "おんについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 463,
+    "kanji": "港",
+    "entries": [
+      {
+        "entryId": 470,
+        "romaji": "minato",
+        "hiragana": "みなと",
+        "meaning": "harbor, port",
+        "wordClass": "noun",
+        "example": "船が港に着きました。(The ship arrived at the harbor.)",
+        "exampleKana": "ふねがみなとにつきました。"
+      }
+    ]
+  },
+  {
+    "id": 464,
+    "kanji": "湖",
+    "entries": [
+      {
+        "entryId": 471,
+        "romaji": "ko",
+        "hiragana": "こ",
+        "meaning": "lake",
+        "wordClass": "noun",
+        "example": "こについて話しました。(I talked about lake.)",
+        "exampleKana": "こについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 465,
+    "kanji": "湯",
+    "entries": [
+      {
+        "entryId": 472,
+        "romaji": "yu",
+        "hiragana": "ゆ",
+        "meaning": "hot water, hot spring",
+        "wordClass": "noun",
+        "example": "お湯を沸かしました。(I boiled hot water.)",
+        "exampleKana": "おゆをわかしました。"
+      }
+    ]
+  },
+  {
+    "id": 466,
+    "kanji": "漢",
+    "entries": [
+      {
+        "entryId": 473,
+        "romaji": "kan",
+        "hiragana": "かん",
+        "meaning": "Chinese, Han",
+        "wordClass": "noun",
+        "example": "漢字を勉強しています。(I am studying kanji.)",
+        "exampleKana": "かんじをべんきょうしています。"
+      }
+    ]
+  },
+  {
+    "id": 467,
+    "kanji": "炭",
+    "entries": [
+      {
+        "entryId": 474,
+        "romaji": "tan",
+        "hiragana": "たん",
+        "meaning": "charcoal, carbon",
+        "wordClass": "noun",
+        "example": "たんことができます。(I can carry, bear.)",
+        "exampleKana": "たんことができます。"
+      }
+    ]
+  },
+  {
+    "id": 468,
+    "kanji": "点",
+    "entries": [
+      {
+        "entryId": 475,
+        "romaji": "ten",
+        "hiragana": "てん",
+        "meaning": "point, dot",
+        "wordClass": "noun",
+        "example": "テストで良い点を取りました。(I got a good score on the test.)",
+        "exampleKana": "てすとでよいてんをとりました。"
+      }
+    ]
+  },
+  {
+    "id": 469,
+    "kanji": "父",
+    "entries": [
+      {
+        "entryId": 476,
+        "romaji": "chichi",
+        "hiragana": "ちち",
+        "meaning": "father",
+        "wordClass": "noun",
+        "example": "父は会社で働いています。(My father works at a company.)",
+        "exampleKana": "ちちはかいしゃではたらいています。"
+      }
+    ]
+  },
+  {
+    "id": 470,
+    "kanji": "牛",
+    "entries": [
+      {
+        "entryId": 477,
+        "romaji": "ushi",
+        "hiragana": "うし",
+        "meaning": "cow, cattle",
+        "wordClass": "noun",
+        "example": "牛が草を食べています。(The cow is eating grass.)",
+        "exampleKana": "うしがくさをたべています。"
+      }
+    ]
+  },
+  {
+    "id": 471,
+    "kanji": "物",
+    "entries": [
+      {
+        "entryId": 478,
+        "romaji": "mono",
+        "hiragana": "もの",
+        "meaning": "thing, object",
+        "wordClass": "noun",
+        "example": "面白い物を見つけました。(I found an interesting thing.)",
+        "exampleKana": "おもしろいものをみつけました。"
+      }
+    ]
+  },
+  {
+    "id": 472,
+    "kanji": "玉",
+    "entries": [
+      {
+        "entryId": 479,
+        "romaji": "tama",
+        "hiragana": "たま",
+        "meaning": "ball, jewel",
+        "wordClass": "noun",
+        "example": "きれいな玉を見つけました。(I found a beautiful ball.)",
+        "exampleKana": "きれいなたまをみつけました。"
+      }
+    ]
+  },
+  {
+    "id": 473,
+    "kanji": "王",
+    "entries": [
+      {
+        "entryId": 480,
+        "romaji": "ou",
+        "hiragana": "おう",
+        "meaning": "king",
+        "wordClass": "noun",
+        "example": "王様が城にいます。(The king is in the castle.)",
+        "exampleKana": "おうさまがしろにいます。"
+      }
+    ]
+  },
+  {
+    "id": 474,
+    "kanji": "球",
+    "entries": [
+      {
+        "entryId": 481,
+        "romaji": "kyuu",
+        "hiragana": "きゅう",
+        "meaning": "ball, sphere",
+        "wordClass": "noun",
+        "example": "野球をしました。(I played baseball.)",
+        "exampleKana": "やきゅうをしました。"
+      }
+    ]
+  },
+  {
+    "id": 475,
+    "kanji": "理",
+    "entries": [
+      {
+        "entryId": 482,
+        "romaji": "ri",
+        "hiragana": "り",
+        "meaning": "reason, logic",
+        "wordClass": "noun",
+        "example": "料理を作りました。(I made a dish.)",
+        "exampleKana": "りょうりをつくりました。"
+      }
+    ]
+  },
+  {
+    "id": 476,
+    "kanji": "用",
+    "entries": [
+      {
+        "entryId": 483,
+        "romaji": "you",
+        "hiragana": "よう",
+        "meaning": "use, business",
+        "wordClass": "verb",
+        "example": "辞書を使用しました。(I used a dictionary.)",
+        "exampleKana": "じしょをしようしました。"
+      }
+    ]
+  },
+  {
+    "id": 477,
+    "kanji": "田",
+    "entries": [
+      {
+        "entryId": 484,
+        "romaji": "ta",
+        "hiragana": "た",
+        "meaning": "rice field",
+        "wordClass": "noun",
+        "example": "田んぼで米を作ります。(I grow rice in the rice field.)",
+        "exampleKana": "たんぼでこめをつくります。"
+      }
+    ]
+  },
+  {
+    "id": 478,
+    "kanji": "由",
+    "entries": [
+      {
+        "entryId": 485,
+        "romaji": "yu",
+        "hiragana": "ゆ",
+        "meaning": "reason, cause",
+        "wordClass": "noun",
+        "example": "理由を教えてください。(Please tell me the reason.)",
+        "exampleKana": "りゆうをおしえてください。"
+      }
+    ]
+  },
+  {
+    "id": 479,
+    "kanji": "申",
+    "entries": [
+      {
+        "entryId": 486,
+        "romaji": "mousu",
+        "hiragana": "もうす",
+        "meaning": "say humbly, monkey",
+        "wordClass": "verb",
+        "example": "もうすについて話しました。(I talked about say humbly, monkey.)",
+        "exampleKana": "もうすについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 480,
+    "kanji": "画",
+    "entries": [
+      {
+        "entryId": 487,
+        "romaji": "ga",
+        "hiragana": "が",
+        "meaning": "picture, drawing",
+        "wordClass": "noun",
+        "example": "美しい絵画を見ました。(I saw a beautiful painting.)",
+        "exampleKana": "うつくしいかいがをみました。"
+      }
+    ]
+  },
+  {
+    "id": 481,
+    "kanji": "界",
+    "entries": [
+      {
+        "entryId": 488,
+        "romaji": "kai",
+        "hiragana": "かい",
+        "meaning": "world, boundary",
+        "wordClass": "noun",
+        "example": "世界中を旅行したいです。(I want to travel around the world.)",
+        "exampleKana": "せかいじゅうをりょこうしたいです。"
+      }
+    ]
+  },
+  {
+    "id": 482,
+    "kanji": "畑",
+    "entries": [
+      {
+        "entryId": 489,
+        "romaji": "hatake",
+        "hiragana": "はたけ",
+        "meaning": "field, farm",
+        "wordClass": "noun",
+        "example": "畑で野菜を育てます。(I grow vegetables in the field.)",
+        "exampleKana": "はたけでやさいをそだてます。"
+      }
+    ]
+  },
+  {
+    "id": 483,
+    "kanji": "番",
+    "entries": [
+      {
+        "entryId": 490,
+        "romaji": "ban",
+        "hiragana": "ばん",
+        "meaning": "number, turn",
+        "wordClass": "noun",
+        "example": "私の番です。(It's my turn.)",
+        "exampleKana": "わたしのばんです。"
+      }
+    ]
+  },
+  {
+    "id": 484,
+    "kanji": "発",
+    "entries": [
+      {
+        "entryId": 491,
+        "romaji": "hatsu",
+        "hiragana": "はつ",
+        "meaning": "emit, start",
+        "wordClass": "verb",
+        "example": "はつについて話しました。(I talked about emit, start.)",
+        "exampleKana": "はつについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 485,
+    "kanji": "登",
+    "entries": [
+      {
+        "entryId": 492,
+        "romaji": "noboru",
+        "hiragana": "のぼる",
+        "meaning": "climb, ascend",
+        "wordClass": "verb",
+        "example": "のぼるについて話しました。(I talked about climb, ascend.)",
+        "exampleKana": "のぼるについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 486,
+    "kanji": "百",
+    "entries": [
+      {
+        "entryId": 493,
+        "romaji": "hyaku",
+        "hiragana": "ひゃく",
+        "meaning": "hundred",
+        "wordClass": "number",
+        "example": "百円を払いました。(I paid 100 yen.)",
+        "exampleKana": "ひゃくえんをはらいました。"
+      }
+    ]
+  },
+  {
+    "id": 487,
+    "kanji": "皮",
+    "entries": [
+      {
+        "entryId": 494,
+        "romaji": "kawa",
+        "hiragana": "かわ",
+        "meaning": "skin, leather",
+        "wordClass": "noun",
+        "example": "革のバッグを買いました。(I bought a leather bag.)",
+        "exampleKana": "かわのばっぐをかいました。"
+      }
+    ]
+  },
+  {
+    "id": 488,
+    "kanji": "皿",
+    "entries": [
+      {
+        "entryId": 495,
+        "romaji": "sara",
+        "hiragana": "さら",
+        "meaning": "plate, dish",
+        "wordClass": "noun",
+        "example": "お皿を洗いました。(I washed the dishes.)",
+        "exampleKana": "おさらをあらいました。"
+      }
+    ]
+  },
+  {
+    "id": 489,
+    "kanji": "直",
+    "entries": [
+      {
+        "entryId": 496,
+        "romaji": "choku",
+        "hiragana": "ちょく",
+        "meaning": "straight, direct",
+        "wordClass": "adverb",
+        "example": "ちょくについて話しました。(I talked about straight, direct.)",
+        "exampleKana": "ちょくについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 490,
+    "kanji": "相",
+    "entries": [
+      {
+        "entryId": 497,
+        "romaji": "sou",
+        "hiragana": "そう",
+        "meaning": "mutual, aspect",
+        "wordClass": "noun",
+        "example": "相談があります。(I have a consultation.)",
+        "exampleKana": "そうだんがあります。"
+      }
+    ]
+  },
+  {
+    "id": 491,
+    "kanji": "県",
+    "entries": [
+      {
+        "entryId": 498,
+        "romaji": "ken",
+        "hiragana": "けん",
+        "meaning": "prefecture",
+        "wordClass": "noun",
+        "example": "東京都と神奈川県に行きました。(I went to Tokyo and Kanagawa Prefecture.)",
+        "exampleKana": "とうきょうととかながわけんにいきました。"
+      }
+    ]
+  },
+  {
+    "id": 492,
+    "kanji": "真",
+    "entries": [
+      {
+        "entryId": 499,
+        "romaji": "shin",
+        "hiragana": "しん",
+        "meaning": "true, real",
+        "wordClass": "noun",
+        "example": "真実を話します。(I tell the truth.)",
+        "exampleKana": "しんじつをはなします。"
+      }
+    ]
+  },
+  {
+    "id": 493,
+    "kanji": "矢",
+    "entries": [
+      {
+        "entryId": 500,
+        "romaji": "ya",
+        "hiragana": "や",
+        "meaning": "arrow",
+        "wordClass": "noun",
+        "example": "矢を放ちました。(I shot an arrow.)",
+        "exampleKana": "やをはなちました。"
+      }
+    ]
+  },
+  {
+    "id": 494,
+    "kanji": "礼",
+    "entries": [
+      {
+        "entryId": 501,
+        "romaji": "rei",
+        "hiragana": "れい",
+        "meaning": "courtesy, thanks",
+        "wordClass": "noun",
+        "example": "お礼を言いました。(I said thanks.)",
+        "exampleKana": "おれいをいいました。"
+      }
+    ]
+  },
+  {
+    "id": 495,
+    "kanji": "社",
+    "entries": [
+      {
+        "entryId": 502,
+        "romaji": "sha",
+        "hiragana": "しゃ",
+        "meaning": "company, shrine",
+        "wordClass": "noun",
+        "example": "会社で働いています。(I work at a company.)",
+        "exampleKana": "かいしゃではたらいています。"
+      }
+    ]
+  },
+  {
+    "id": 496,
+    "kanji": "神",
+    "entries": [
+      {
+        "entryId": 503,
+        "romaji": "kami",
+        "hiragana": "かみ",
+        "meaning": "god, spirit",
+        "wordClass": "noun",
+        "example": "かみについて話しました。(I talked about god, spirit.)",
+        "exampleKana": "かみについてはなしました。"
+      }
+    ]
+  },
+  {
+    "id": 497,
+    "kanji": "祭",
+    "entries": [
+      {
+        "entryId": 504,
+        "romaji": "matsuri",
+        "hiragana": "まつり",
+        "meaning": "festival",
+        "wordClass": "noun",
+        "example": "夏祭りに行きました。(I went to a summer festival.)",
+        "exampleKana": "なつまつりにいきました。"
+      }
+    ]
+  },
+  {
+    "id": 498,
+    "kanji": "福",
+    "entries": [
+      {
+        "entryId": 505,
+        "romaji": "fuku",
+        "hiragana": "ふく",
+        "meaning": "happiness, fortune",
+        "wordClass": "noun",
+        "example": "福岡県に住んでいます。(I live in Fukuoka Prefecture.)",
+        "exampleKana": "ふくおかけんにすんでいます。"
+      }
+    ]
+  },
+  {
+    "id": 499,
+    "kanji": "科",
+    "entries": [
+      {
+        "entryId": 506,
+        "romaji": "ka",
+        "hiragana": "か",
+        "meaning": "subject, science",
+        "wordClass": "noun",
+        "example": "数学科を専攻しています。(I major in mathematics.)",
+        "exampleKana": "すうがくかをせんこうしています。"
+      }
+    ]
+  },
+  {
+    "id": 500,
+    "kanji": "秒",
+    "entries": [
+      {
+        "entryId": 507,
+        "romaji": "byou",
+        "hiragana": "びょう",
+        "meaning": "second (time)",
+        "wordClass": "noun",
+        "example": "三十秒待ってください。(Please wait 30 seconds.)",
+        "exampleKana": "さんじゅうびょうまってください。"
+      }
+    ]
+  }
+]
