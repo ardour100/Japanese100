@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { ArrowLeftIcon, ArchiveBoxXMarkIcon } from "@heroicons/react/24/outline";
-import kanjiData from "@/data/kanji.json";
+import kanjiData from "@/data/kanji_backup_before_expansion_2025-09-23T04-27-58.json";
 import JapaneseBackground from "@/components/JapaneseBackground";
 import Header from "@/components/Header";
 import { useProgress } from "@/hooks/useProgress";
