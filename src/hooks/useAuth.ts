@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { User, Session } from '@supabase/supabase-js';
 import { supabase, isSupabaseConfigured } from '@/lib/supabase';
 
@@ -8,8 +8,15 @@ export const useAuth = () => {
   const [user, setUser] = useState<User | null>(null);
   const [session, setSession] = useState<Session | null>(null);
   const [loading, setLoading] = useState(true);
+  const initialized = useRef(false);
 
   useEffect(() => {
+    // Prevent multiple initializations
+    if (initialized.current) {
+      return;
+    }
+    initialized.current = true;
+
     // If Supabase is not configured, set loading to false and return
     if (!isSupabaseConfigured()) {
       setLoading(false);
@@ -34,8 +41,21 @@ export const useAuth = () => {
     // Listen for auth changes
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
       async (event, session) => {
-        setSession(session);
-        setUser(session?.user ?? null);
+        // Only update state if there's an actual change
+        setSession((prevSession) => {
+          if (prevSession?.access_token !== session?.access_token) {
+            return session;
+          }
+          return prevSession;
+        });
+
+        setUser((prevUser) => {
+          if (prevUser?.id !== session?.user?.id) {
+            return session?.user ?? null;
+          }
+          return prevUser;
+        });
+
         setLoading(false);
 
         // Handle redirect after OAuth
@@ -49,7 +69,7 @@ export const useAuth = () => {
     return () => subscription.unsubscribe();
   }, []);
 
-  const signInWithGoogle = async () => {
+  const signInWithGoogle = useCallback(async () => {
     if (!isSupabaseConfigured()) {
       console.warn('Supabase is not configured. Cannot sign in.');
       return;
@@ -72,9 +92,9 @@ export const useAuth = () => {
       console.error('Error during Google sign in:', error);
       setLoading(false);
     }
-  };
+  }, []);
 
-  const signOut = async () => {
+  const signOut = useCallback(async () => {
     if (!isSupabaseConfigured()) {
       console.warn('Supabase is not configured. Cannot sign out.');
       return;
@@ -91,7 +111,7 @@ export const useAuth = () => {
     } finally {
       setLoading(false);
     }
-  };
+  }, []);
 
   return {
     user,

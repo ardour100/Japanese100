@@ -46,9 +46,6 @@ export default function AuthButton() {
   }
 
   if (isAuthenticated && user) {
-    // Debug logging
-    console.log('User authenticated:', user);
-    console.log('Avatar URL:', user.user_metadata?.avatar_url);
 
     return (
       <div className="flex items-center space-x-3">
@@ -66,8 +63,8 @@ export default function AuthButton() {
                   width={32}
                   height={32}
                   className="w-8 h-8 rounded-full border border-rose-200"
-                  onError={(e) => {
-                    console.error('Avatar image failed to load:', e);
+                  onError={() => {
+                    // Avatar image failed to load - silently handle
                   }}
                 />
               ) : (
