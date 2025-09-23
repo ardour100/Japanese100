@@ -1,4 +1,4 @@
-# 🌸 漢字学習 - Japanese Kanji Learning
+# 🌸 Japanese Learning
 
 A beautiful Next.js application for learning the most frequent Japanese Kanji characters with an elegant theme.
 
@@ -62,30 +62,7 @@ src/
     └── kanji.json        # Kanji data with 100 most frequent characters
 ```
 
-## Data Structure
-
-Each Kanji entry includes:
-- `id`: Unique identifier
-- `kanji`: The character itself
-- `romaji`: Romanized pronunciation
-- `hiragana`: Hiragana reading
-- `katakana`: Katakana reading
-- `meaning`: English meaning
-- `example`: Example sentence in Japanese
-- `audio`: Audio file path (uses Web Speech API)
-
-## Audio Features
-
-The app uses the Web Speech API for pronunciation, providing:
-- Japanese language synthesis (`ja-JP`)
-- Controlled playback speed for clear pronunciation
-- Visual feedback during audio playback
-
-## Responsive Design
-
-- **Mobile**: Optimized grid layout and typography
-- **Tablet**: Enhanced spacing and larger text
-- **Desktop**: Full-featured layout with hover effects
+🚀 Complete Local Supabase Setup Guide with Google OAuth
 
 ## Contributing
 
