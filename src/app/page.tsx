@@ -101,14 +101,14 @@ function JoyoKanjiContent() {
           </div>
         </div>
 
-        {/* Link to Progress Tracking */}
+        {/* Progress Button */}
         <div className="text-center mb-6">
           <Link
             href="/progress"
             className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-rose-500 to-pink-600 text-white font-medium rounded-lg hover:from-rose-600 hover:to-pink-700 transition-all shadow-md hover:shadow-lg"
           >
-            <span className="mr-2">📊</span>
-            <span>Track Your Progress</span>
+            <span className="mr-2">→</span>
+            <span>Start Learning Frequent Kanji</span>
           </Link>
         </div>
 
@@ -219,6 +219,6 @@ function JoyoKanjiContent() {
   );
 }
 
-export default function JoyoKanjiPage() {
+export default function Home() {
   return <JoyoKanjiContent />;
 }
