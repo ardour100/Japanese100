@@ -39,19 +39,27 @@ function HomeContent() {
     return 'locked';
   };
 
+  // Bulk calculate progress for all kanji to avoid individual getKanjiProgress calls
+  const kanjiWithProgress = useMemo(() => {
+    return kanjiData.map(kanji => ({
+      ...kanji,
+      progress: isLoaded ? getKanjiProgress(kanji.id) : 0,
+      isArchived: isLoaded ? isKanjiArchived(kanji.id) : false
+    }));
+  }, [isLoaded, getKanjiProgress, isKanjiArchived]);
+
   // Filter out archived kanji and apply progress filter
   const filteredKanjiData = useMemo(() => {
-    let filtered = kanjiData.filter(kanji => !isKanjiArchived(kanji.id));
+    let filtered = kanjiWithProgress.filter(kanji => !kanji.isArchived);
 
     if (progressFilter !== 'all' && isLoaded) {
       filtered = filtered.filter(kanji => {
-        const progress = getKanjiProgress(kanji.id);
-        return getProgressCategory(progress) === progressFilter;
+        return getProgressCategory(kanji.progress) === progressFilter;
       });
     }
 
     return filtered;
-  }, [progressFilter, isKanjiArchived, isLoaded, getKanjiProgress]);
+  }, [progressFilter, kanjiWithProgress, isLoaded]);
 
   const totalPages = Math.ceil(filteredKanjiData.length / kanjiPerPage);
 
@@ -68,13 +76,8 @@ function HomeContent() {
     // Only calculate progress for authenticated users
     if (!isLoaded || !isAuthenticated) return 0;
 
-    let totalProgressPoints = 0;
-    const totalKanjiCount = kanjiData.length; // Use full dataset for progress calculation
-
-    for (let i = 1; i <= totalKanjiCount; i++) {
-      const kanjiProgress = getKanjiProgress(i);
-      totalProgressPoints += kanjiProgress;
-    }
+    const totalProgressPoints = kanjiWithProgress.reduce((sum, kanji) => sum + kanji.progress, 0);
+    const totalKanjiCount = kanjiWithProgress.length;
 
     // Formula: sum of (each kanji progress * 1) / total kanji count
     const overallPercentage = totalProgressPoints / totalKanjiCount;
@@ -83,21 +86,20 @@ function HomeContent() {
 
   const overallProgress = calculateOverallProgress();
 
-  // Calculate counts for each progress category
+  // Calculate counts for each progress category using precomputed data
   const progressCounts = useMemo(() => {
     if (!isLoaded) return { all: 0, locked: 0, discovered: 0, equipped: 0, skilled: 0, mastered: 0 };
 
-    const nonArchivedKanji = kanjiData.filter(kanji => !isKanjiArchived(kanji.id));
+    const nonArchivedKanji = kanjiWithProgress.filter(kanji => !kanji.isArchived);
     const counts = { all: nonArchivedKanji.length, locked: 0, discovered: 0, equipped: 0, skilled: 0, mastered: 0 };
 
     nonArchivedKanji.forEach(kanji => {
-      const progress = getKanjiProgress(kanji.id);
-      const category = getProgressCategory(progress);
+      const category = getProgressCategory(kanji.progress);
       counts[category]++;
     });
 
     return counts;
-  }, [isLoaded, isKanjiArchived, getKanjiProgress]);
+  }, [isLoaded, kanjiWithProgress]);
 
   // Helper function to build URL with current filter
   const buildUrl = (page: number, filter?: ProgressFilter) => {
@@ -395,13 +397,13 @@ function HomeContent() {
             </div>
           ) : (
             currentKanji.map((kanji) => {
-              const progress = isLoaded ? getKanjiProgress(kanji.id) : 0;
-              const colors = getProgressColors(progress);
+              const colors = getProgressColors(kanji.progress);
 
               return (
                 <Link
                   key={kanji.id}
                   href={`/kanji/${kanji.id}`}
+                  prefetch={false}
                   className={`aspect-square rounded-lg shadow-md hover:shadow-xl transition-all duration-300 transform hover:scale-105 active:scale-95 flex items-center justify-center group backdrop-blur-sm hover:backdrop-blur-none relative ${colors.background} border-2 ${colors.border} hover:border-rose-300`}
                 >
                   <span className={`text-lg sm:text-2xl lg:text-3xl font-bold transition-colors drop-shadow-sm ${colors.text} group-hover:text-rose-600`}>
@@ -409,9 +411,9 @@ function HomeContent() {
                   </span>
 
                   {/* Progress indicator badge - hidden on mobile */}
-                  {progress > 0 && (
+                  {kanji.progress > 0 && (
                     <div className={`absolute -top-2 -right-2 w-6 h-6 rounded-full ${colors.badge} items-center justify-center text-xs font-bold ${colors.text} shadow-sm border-2 border-white hidden sm:flex`}>
-                      {progress === 100 ? '✓' : `${progress}`}
+                      {kanji.progress === 100 ? '✓' : `${kanji.progress}`}
                     </div>
                   )}
                 </Link>

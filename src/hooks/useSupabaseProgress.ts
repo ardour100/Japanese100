@@ -24,7 +24,7 @@ export const useSupabaseProgress = () => {
   // Load progress from Supabase or localStorage
   const loadProgress = useCallback(async () => {
     if (isSupabaseConfigured() && isAuthenticated && user) {
-      // Load from Supabase for authenticated users
+      // Load ALL progress from Supabase in one bulk query for authenticated users
       try {
         setIsLoading(true);
         const { data, error } = await supabase
@@ -37,8 +37,10 @@ export const useSupabaseProgress = () => {
           return;
         }
 
+        // Build complete progress map and archived set from bulk data
         const progressMap: KanjiProgress = {};
         const archivedSet = new Set<number>();
+
         data?.forEach((item) => {
           progressMap[item.kanji_id] = item.progress_level;
           if (item.is_archived) {
