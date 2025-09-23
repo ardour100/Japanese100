@@ -12,19 +12,19 @@ import { getProgressColors } from "@/types/progress";
 
 type ProgressFilter = 'all' | 'locked' | 'discovered' | 'equipped' | 'skilled' | 'mastered';
 
-function HomeContent() {
+function ProgressContent() {
   const searchParams = useSearchParams();
   const currentPage = parseInt(searchParams.get('page') || '1');
   const kanjiPerPage = 50;
   const { getKanjiProgress, isKanjiArchived, isLoaded } = useProgress();
   const { isAuthenticated } = useAuth();
 
-  const [progressFilter, setProgressFilter] = useState<ProgressFilter>('all');
+  const [progressFilter, setProgressFilter] = useState<ProgressFilter>('locked');
 
   // Sync filter with URL params on mount
   useEffect(() => {
     const filterParam = searchParams.get('filter') as ProgressFilter;
-    if (filterParam && ['locked', 'discovered', 'equipped', 'skilled', 'mastered'].includes(filterParam)) {
+    if (filterParam && ['all', 'locked', 'discovered', 'equipped', 'skilled', 'mastered'].includes(filterParam)) {
       setProgressFilter(filterParam);
     }
   }, [searchParams]);
@@ -106,7 +106,7 @@ function HomeContent() {
     if ((filter || progressFilter) !== 'all') {
       params.set('filter', filter || progressFilter);
     }
-    return `/?${params.toString()}`;
+    return `/progress?${params.toString()}`;
   };
 
 
@@ -444,14 +444,14 @@ function HomeContent() {
   );
 }
 
-export default function Home() {
+export default function ProgressPage() {
   return (
     <Suspense fallback={
       <div className="min-h-screen bg-gradient-to-br from-rose-50 via-pink-50 to-rose-100 flex items-center justify-center">
-        <div className="text-rose-600 text-xl">Loading kanji...</div>
+        <div className="text-rose-600 text-xl">Loading progress...</div>
       </div>
     }>
-      <HomeContent />
+      <ProgressContent />
     </Suspense>
   );
 }
