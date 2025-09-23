@@ -19,12 +19,12 @@ function HomeContent() {
   const { getKanjiProgress, isKanjiArchived, isLoaded } = useProgress();
   const { isAuthenticated } = useAuth();
 
-  const [progressFilter, setProgressFilter] = useState<ProgressFilter>('all');
+  const [progressFilter, setProgressFilter] = useState<ProgressFilter>('locked');
 
   // Sync filter with URL params on mount
   useEffect(() => {
     const filterParam = searchParams.get('filter') as ProgressFilter;
-    if (filterParam && ['locked', 'discovered', 'equipped', 'skilled', 'mastered'].includes(filterParam)) {
+    if (filterParam && ['all', 'locked', 'discovered', 'equipped', 'skilled', 'mastered'].includes(filterParam)) {
       setProgressFilter(filterParam);
     }
   }, [searchParams]);
@@ -105,8 +105,9 @@ function HomeContent() {
   const buildUrl = (page: number, filter?: ProgressFilter) => {
     const params = new URLSearchParams();
     params.set('page', page.toString());
-    if ((filter || progressFilter) !== 'all') {
-      params.set('filter', filter || progressFilter);
+    const filterToUse = filter || progressFilter;
+    if (filterToUse !== 'locked') {
+      params.set('filter', filterToUse);
     }
     return `/?${params.toString()}`;
   };
@@ -118,7 +119,7 @@ function HomeContent() {
     // Reset page to 1 when changing filters
     if (typeof window !== 'undefined') {
       const url = new URL(window.location.href);
-      if (filter === 'all') {
+      if (filter === 'locked') {
         url.searchParams.delete('filter');
       } else {
         url.searchParams.set('filter', filter);
