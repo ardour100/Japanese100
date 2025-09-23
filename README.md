@@ -62,7 +62,7 @@ src/
     └── kanji.json        # Kanji data with 100 most frequent characters
 ```
 
-🚀 Complete Local Supabase Setup Guide with Google OAuth
+🚀 [Complete Local Supabase Setup Guide with Google OAuth](https://github.com/ardour100/Japanese100/commit/9a88dca66ecf5047a27592ca6877ea14fcba2d12)
 
 ## Contributing
 
