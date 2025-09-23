@@ -9008,12 +9008,12 @@
     "entries": [
       {
         "entryId": 609,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "ketsu",
+        "hiragana": "けつ",
+        "meaning": "lack, absence",
         "wordClass": "noun",
-        "example": "この漢字は欠です。(This kanji is 欠.)",
-        "exampleKana": "この漢字は欠です"
+        "example": "水が不足して欠乏している。(Water is lacking and in shortage.)",
+        "exampleKana": "みずがふそくしてけつぼうしている。"
       }
     ]
   },
@@ -9023,12 +9023,12 @@
     "entries": [
       {
         "entryId": 610,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "ketsu",
+        "hiragana": "けつ",
+        "meaning": "tie, bind, connect",
         "wordClass": "noun",
-        "example": "この漢字は結です。(This kanji is 結.)",
-        "exampleKana": "この漢字は結です"
+        "example": "友達と固い結束を結んでいます。(I have formed a strong bond with my friends.)",
+        "exampleKana": "ともだちとかたいけつそくをむすんでいます。"
       }
     ]
   },
@@ -9038,12 +9038,12 @@
     "entries": [
       {
         "entryId": 611,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "ken",
+        "hiragana": "けん",
+        "meaning": "build, construct",
         "wordClass": "noun",
-        "example": "この漢字は建です。(This kanji is 建.)",
-        "exampleKana": "この漢字は建です"
+        "example": "新しい家を建設しています。(We are constructing a new house.)",
+        "exampleKana": "あたらしいいえをけんせつしています。"
       }
     ]
   },
@@ -9053,12 +9053,12 @@
     "entries": [
       {
         "entryId": 612,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は健です。(This kanji is 健.)",
-        "exampleKana": "この漢字は健です"
+        "romaji": "ken",
+        "hiragana": "けん",
+        "meaning": "healthy, strong",
+        "wordClass": "adjective",
+        "example": "毎日運動して健康を保っています。(I exercise every day to maintain my health.)",
+        "exampleKana": "まいにちうんどうしてけんこうをたもっています。"
       }
     ]
   },
@@ -9068,12 +9068,12 @@
     "entries": [
       {
         "entryId": 613,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は固です。(This kanji is 固.)",
-        "exampleKana": "この漢字は固です"
+        "romaji": "ko",
+        "hiragana": "こ",
+        "meaning": "hard, solid, firm",
+        "wordClass": "adjective",
+        "example": "このパンは固くて食べにくいです。(This bread is hard and difficult to eat.)",
+        "exampleKana": "このパンはこかくてたべにくいです。"
       }
     ]
   },
@@ -9083,12 +9083,12 @@
     "entries": [
       {
         "entryId": 614,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "kou",
+        "hiragana": "こう",
+        "meaning": "climate, season, wait",
         "wordClass": "noun",
-        "example": "この漢字は候です。(This kanji is 候.)",
-        "exampleKana": "この漢字は候です"
+        "example": "気候が温暖になってきました。(The climate has become warm.)",
+        "exampleKana": "きこうがおんだんになってきました。"
       }
     ]
   },
@@ -9098,12 +9098,12 @@
     "entries": [
       {
         "entryId": 615,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "kou",
+        "hiragana": "こう",
+        "meaning": "navigate, sail",
         "wordClass": "noun",
-        "example": "この漢字は航です。(This kanji is 航.)",
-        "exampleKana": "この漢字は航です"
+        "example": "飛行機が安全に航空しています。(The airplane is flying safely.)",
+        "exampleKana": "ひこうきがあんぜんにこうくうしています。"
       }
     ]
   },
@@ -9113,12 +9113,12 @@
     "entries": [
       {
         "entryId": 616,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は告です。(This kanji is 告.)",
-        "exampleKana": "この漢字は告です"
+        "romaji": "koku",
+        "hiragana": "こく",
+        "meaning": "tell, announce",
+        "wordClass": "verb",
+        "example": "先生に結果を報告しました。(I reported the results to the teacher.)",
+        "exampleKana": "せんせいにけっかをほうこくしました。"
       }
     ]
   },
@@ -9128,12 +9128,12 @@
     "entries": [
       {
         "entryId": 617,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "sai",
+        "hiragana": "さい",
+        "meaning": "vegetable, greens",
         "wordClass": "noun",
-        "example": "この漢字は菜です。(This kanji is 菜.)",
-        "exampleKana": "この漢字は菜です"
+        "example": "毎日新鮮な野菜を食べています。(I eat fresh vegetables every day.)",
+        "exampleKana": "まいにちしんせんなやさいをたべています。"
       }
     ]
   },
@@ -9143,12 +9143,12 @@
     "entries": [
       {
         "entryId": 618,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は最です。(This kanji is 最.)",
-        "exampleKana": "この漢字は最です"
+        "romaji": "sai",
+        "hiragana": "さい",
+        "meaning": "most, highest",
+        "wordClass": "prefix",
+        "example": "これは最高の作品だと思います。(I think this is the best work.)",
+        "exampleKana": "これはさいこうのさくひんだとおもいます。"
       }
     ]
   },
@@ -9158,12 +9158,12 @@
     "entries": [
       {
         "entryId": 619,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "zai",
+        "hiragana": "ざい",
+        "meaning": "material, timber",
         "wordClass": "noun",
-        "example": "この漢字は材です。(This kanji is 材.)",
-        "exampleKana": "この漢字は材です"
+        "example": "この家は木材で作られています。(This house is made of wood materials.)",
+        "exampleKana": "このいえはもくざいでつくられています。"
       }
     ]
   },
@@ -9173,12 +9173,12 @@
     "entries": [
       {
         "entryId": 620,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "saku",
+        "hiragana": "さく",
+        "meaning": "yesterday, past",
         "wordClass": "noun",
-        "example": "この漢字は昨です。(This kanji is 昨.)",
-        "exampleKana": "この漢字は昨です"
+        "example": "昨日は雨が降っていました。(It was raining yesterday.)",
+        "exampleKana": "さくじつはあめがふっていました。"
       }
     ]
   },
@@ -9188,12 +9188,12 @@
     "entries": [
       {
         "entryId": 621,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "satsu",
+        "hiragana": "さつ",
+        "meaning": "bill, note, tag",
         "wordClass": "noun",
-        "example": "この漢字は札です。(This kanji is 札.)",
-        "exampleKana": "この漢字は札です"
+        "example": "銀行でお札を交換しました。(I exchanged bills at the bank.)",
+        "exampleKana": "ぎんこうでおさつをこうかんしました。"
       }
     ]
   },
@@ -9203,12 +9203,12 @@
     "entries": [
       {
         "entryId": 622,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は刷です。(This kanji is 刷.)",
-        "exampleKana": "この漢字は刷です"
+        "romaji": "satsu",
+        "hiragana": "さつ",
+        "meaning": "print, brush",
+        "wordClass": "verb",
+        "example": "本を印刷しています。(We are printing a book.)",
+        "exampleKana": "ほんをいんさつしています。"
       }
     ]
   },
@@ -9218,12 +9218,12 @@
     "entries": [
       {
         "entryId": 623,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は殺です。(This kanji is 殺.)",
-        "exampleKana": "この漢字は殺です"
+        "romaji": "satsu",
+        "hiragana": "さつ",
+        "meaning": "kill, murder",
+        "wordClass": "verb",
+        "example": "殺虫剤で虫を駆除しました。(I exterminated insects with insecticide.)",
+        "exampleKana": "さつちゅうざいでむしをくじょしました。"
       }
     ]
   },
@@ -9233,12 +9233,12 @@
     "entries": [
       {
         "entryId": 624,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は察です。(This kanji is 察.)",
-        "exampleKana": "この漢字は察です"
+        "romaji": "satsu",
+        "hiragana": "さつ",
+        "meaning": "observe, guess",
+        "wordClass": "verb",
+        "example": "彼の気持ちを察してあげました。(I observed his feelings and understood.)",
+        "exampleKana": "かれのきもちをさつしてあげました。"
       }
     ]
   },
@@ -9248,12 +9248,12 @@
     "entries": [
       {
         "entryId": 625,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は参です。(This kanji is 参.)",
-        "exampleKana": "この漢字は参です"
+        "romaji": "san",
+        "hiragana": "さん",
+        "meaning": "participate, visit",
+        "wordClass": "verb",
+        "example": "会議に参加しています。(I am participating in the meeting.)",
+        "exampleKana": "かいぎにさんかしています。"
       }
     ]
   },
@@ -9263,12 +9263,12 @@
     "entries": [
       {
         "entryId": 626,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は産です。(This kanji is 産.)",
-        "exampleKana": "この漢字は産です"
+        "romaji": "san",
+        "hiragana": "さん",
+        "meaning": "give birth, produce",
+        "wordClass": "verb",
+        "example": "この地域は美味しい米が産出されます。(Delicious rice is produced in this region.)",
+        "exampleKana": "このちいきはおいしいこめがさんしゅつされます。"
       }
     ]
   },
@@ -9278,12 +9278,12 @@
     "entries": [
       {
         "entryId": 627,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は散です。(This kanji is 散.)",
-        "exampleKana": "この漢字は散です"
+        "romaji": "san",
+        "hiragana": "さん",
+        "meaning": "scatter, disperse",
+        "wordClass": "verb",
+        "example": "公園で散歩しています。(I am taking a walk in the park.)",
+        "exampleKana": "こうえんでさんぽしています。"
       }
     ]
   },
@@ -9293,12 +9293,12 @@
     "entries": [
       {
         "entryId": 628,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は残です。(This kanji is 残.)",
-        "exampleKana": "この漢字は残です"
+        "romaji": "zan",
+        "hiragana": "ざん",
+        "meaning": "remain, left over",
+        "wordClass": "verb",
+        "example": "料理が少し残っています。(There is a little food left.)",
+        "exampleKana": "りょうりがすこしざんっています。"
       }
     ]
   },
@@ -9308,12 +9308,12 @@
     "entries": [
       {
         "entryId": 629,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は氏です。(This kanji is 氏.)",
-        "exampleKana": "この漢字は氏です"
+        "romaji": "shi",
+        "hiragana": "し",
+        "meaning": "family name, Mr.",
+        "wordClass": "suffix",
+        "example": "田中氏にお会いしました。(I met Mr. Tanaka.)",
+        "exampleKana": "たなかしにおあいしました。"
       }
     ]
   },
@@ -9323,12 +9323,12 @@
     "entries": [
       {
         "entryId": 630,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "shi",
+        "hiragana": "し",
+        "meaning": "director, official",
         "wordClass": "noun",
-        "example": "この漢字は司です。(This kanji is 司.)",
-        "exampleKana": "この漢字は司です"
+        "example": "会社の司法部長です。(He is the director of the legal department.)",
+        "exampleKana": "かいしゃのしほうぶちょうです。"
       }
     ]
   },
@@ -9338,12 +9338,12 @@
     "entries": [
       {
         "entryId": 631,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "ji",
+        "hiragana": "じ",
+        "meaning": "child, infant",
         "wordClass": "noun",
-        "example": "この漢字は児です。(This kanji is 児.)",
-        "exampleKana": "この漢字は児です"
+        "example": "幼児教育は大切です。(Early childhood education is important.)",
+        "exampleKana": "ようじきょういくはたいせつです。"
       }
     ]
   },
@@ -9353,12 +9353,12 @@
     "entries": [
       {
         "entryId": 632,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "ji",
+        "hiragana": "じ",
+        "meaning": "resign, word",
         "wordClass": "noun",
-        "example": "この漢字は辞です。(This kanji is 辞.)",
-        "exampleKana": "この漢字は辞です"
+        "example": "辞書で新しい単語を調べました。(I looked up new words in the dictionary.)",
+        "exampleKana": "じしょであたらしいたんごをしらべました。"
       }
     ]
   },
@@ -9368,12 +9368,12 @@
     "entries": [
       {
         "entryId": 633,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は失です。(This kanji is 失.)",
-        "exampleKana": "この漢字は失です"
+        "romaji": "shitsu",
+        "hiragana": "しつ",
+        "meaning": "lose, mistake",
+        "wordClass": "verb",
+        "example": "失物を找しています。(I am looking for lost items.)",
+        "exampleKana": "しつものをさがしています。"
       }
     ]
   },
@@ -9383,12 +9383,12 @@
     "entries": [
       {
         "entryId": 634,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "shu",
+        "hiragana": "しゅ",
+        "meaning": "seed, kind, type",
         "wordClass": "noun",
-        "example": "この漢字は種です。(This kanji is 種.)",
-        "exampleKana": "この漢字は種です"
+        "example": "広島でいろいろな種類の花を見ました。(I saw various types of flowers in Hiroshima.)",
+        "exampleKana": "ひろしまでいろいろなしゅるいのはなをみました。"
       }
     ]
   },
@@ -9398,12 +9398,12 @@
     "entries": [
       {
         "entryId": 635,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "shuu",
+        "hiragana": "しゅう",
+        "meaning": "circumference, around",
         "wordClass": "noun",
-        "example": "この漢字は周です。(This kanji is 周.)",
-        "exampleKana": "この漢字は周です"
+        "example": "公園の周囲を歩きました。(I walked around the perimeter of the park.)",
+        "exampleKana": "こうえんのしゅういをあるきました。"
       }
     ]
   },
@@ -9413,12 +9413,12 @@
     "entries": [
       {
         "entryId": 636,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は祝です。(This kanji is 祝.)",
-        "exampleKana": "この漢字は祝です"
+        "romaji": "shuku",
+        "hiragana": "しゅく",
+        "meaning": "celebrate, congratulate",
+        "wordClass": "verb",
+        "example": "友達の誕生日を祝いました。(I celebrated my friend's birthday.)",
+        "exampleKana": "ともだちのたんじょうびをしゅくいました。"
       }
     ]
   },
@@ -9428,12 +9428,12 @@
     "entries": [
       {
         "entryId": 637,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "jun",
+        "hiragana": "じゅん",
+        "meaning": "order, sequence",
         "wordClass": "noun",
-        "example": "この漢字は順です。(This kanji is 順.)",
-        "exampleKana": "この漢字は順です"
+        "example": "名前を順番に呼んでください。(Please call the names in order.)",
+        "exampleKana": "なまえをじゅんばんによんでください。"
       }
     ]
   },
@@ -9443,12 +9443,12 @@
     "entries": [
       {
         "entryId": 638,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は初です。(This kanji is 初.)",
-        "exampleKana": "この漢字は初です"
+        "romaji": "sho",
+        "hiragana": "しょ",
+        "meaning": "first, beginning",
+        "wordClass": "prefix",
+        "example": "今日は初めて寿司を作りました。(Today I made sushi for the first time.)",
+        "exampleKana": "きょうははじめてすしをつくりました。"
       }
     ]
   },
@@ -9458,12 +9458,12 @@
     "entries": [
       {
         "entryId": 639,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "matsu",
+        "hiragana": "まつ",
+        "meaning": "pine tree",
         "wordClass": "noun",
-        "example": "この漢字は松です。(This kanji is 松.)",
-        "exampleKana": "この漢字は松です"
+        "example": "庭に大きな松の木があります。(There is a large pine tree in the garden.)",
+        "exampleKana": "にわにおおきなまつのきがあります。"
       }
     ]
   },
@@ -9473,12 +9473,12 @@
     "entries": [
       {
         "entryId": 640,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は笑です。(This kanji is 笑.)",
-        "exampleKana": "この漢字は笑です"
+        "romaji": "warau",
+        "hiragana": "わらう",
+        "meaning": "laugh, smile",
+        "wordClass": "verb",
+        "example": "友達の冗談を聞いて笑った。(I laughed when I heard my friend's joke.)",
+        "exampleKana": "ともだちのじょうだんをきいてわらった"
       }
     ]
   },
@@ -9488,12 +9488,12 @@
     "entries": [
       {
         "entryId": 641,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は唱です。(This kanji is 唱.)",
-        "exampleKana": "この漢字は唱です"
+        "romaji": "shou",
+        "hiragana": "しょう",
+        "meaning": "chant, sing",
+        "wordClass": "verb",
+        "example": "合唱コンサートで歌を唱いました。(I sang songs at the choir concert.)",
+        "exampleKana": "がっしょうコンサートでうたをしょういました。"
       }
     ]
   },
@@ -9503,12 +9503,12 @@
     "entries": [
       {
         "entryId": 642,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は焼です。(This kanji is 焼.)",
-        "exampleKana": "この漢字は焼です"
+        "romaji": "shou",
+        "hiragana": "しょう",
+        "meaning": "burn, bake",
+        "wordClass": "verb",
+        "example": "パンをオーブンで焼いています。(I am baking bread in the oven.)",
+        "exampleKana": "パンをオーブンでしょういています。"
       }
     ]
   },
@@ -9518,12 +9518,12 @@
     "entries": [
       {
         "entryId": 643,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "zou",
+        "hiragana": "ぞう",
+        "meaning": "elephant",
         "wordClass": "noun",
-        "example": "この漢字は象です。(This kanji is 象.)",
-        "exampleKana": "この漢字は象です"
+        "example": "動物園で大きな象を見ました。(I saw a big elephant at the zoo.)",
+        "exampleKana": "どうぶつえんでおおきなぞうをみました。"
       }
     ]
   },
@@ -9533,12 +9533,12 @@
     "entries": [
       {
         "entryId": 644,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は照です。(This kanji is 照.)",
-        "exampleKana": "この漢字は照です"
+        "romaji": "shou",
+        "hiragana": "しょう",
+        "meaning": "illuminate, shine",
+        "wordClass": "verb",
+        "example": "太陽が地面を照らしています。(The sun is shining on the ground.)",
+        "exampleKana": "たいようがじめんをしょうらしています。"
       }
     ]
   },
@@ -9548,12 +9548,12 @@
     "entries": [
       {
         "entryId": 645,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "shou",
+        "hiragana": "しょう",
+        "meaning": "prize, award",
         "wordClass": "noun",
-        "example": "この漢字は賞です。(This kanji is 賞.)",
-        "exampleKana": "この漢字は賞です"
+        "example": "コンテストで一等賞を受賞しました。(I won first prize in the contest.)",
+        "exampleKana": "コンテストでいちとうしょうをじゅしょうしました。"
       }
     ]
   },
@@ -9563,12 +9563,12 @@
     "entries": [
       {
         "entryId": 646,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "shin",
+        "hiragana": "しん",
+        "meaning": "retainer, subject",
         "wordClass": "noun",
-        "example": "この漢字は臣です。(This kanji is 臣.)",
-        "exampleKana": "この漢字は臣です"
+        "example": "武士は主人に仕える臣下でした。(The samurai were retainers serving their lord.)",
+        "exampleKana": "ぶしはしゅじんにつかえるしんかでした。"
       }
     ]
   },
@@ -9578,12 +9578,12 @@
     "entries": [
       {
         "entryId": 647,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "shin",
+        "hiragana": "しん",
+        "meaning": "trust, believe",
         "wordClass": "noun",
-        "example": "この漢字は信です。(This kanji is 信.)",
-        "exampleKana": "この漢字は信です"
+        "example": "友達を信じて秘密を話しました。(I trusted my friend and told them my secret.)",
+        "exampleKana": "ともだちをしんじてひみつをはなしました。"
       }
     ]
   },
@@ -9593,12 +9593,12 @@
     "entries": [
       {
         "entryId": 648,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は成です。(This kanji is 成.)",
-        "exampleKana": "この漢字は成です"
+        "romaji": "sei",
+        "hiragana": "せい",
+        "meaning": "become, achieve",
+        "wordClass": "verb",
+        "example": "努力して夢を成就しました。(I worked hard and achieved my dream.)",
+        "exampleKana": "どりょくしてゆめをせいしゅつしました。"
       }
     ]
   },
@@ -9608,12 +9608,12 @@
     "entries": [
       {
         "entryId": 649,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "shou",
+        "hiragana": "しょう",
+        "meaning": "ministry, reflect",
         "wordClass": "noun",
-        "example": "この漢字は省です。(This kanji is 省.)",
-        "exampleKana": "この漢字は省です"
+        "example": "自分の行動を反省しています。(I am reflecting on my actions.)",
+        "exampleKana": "じぶんのこうどうをはんしょうしています。"
       }
     ]
   },
@@ -9623,12 +9623,12 @@
     "entries": [
       {
         "entryId": 650,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は清です。(This kanji is 清.)",
-        "exampleKana": "この漢字は清です"
+        "romaji": "sei",
+        "hiragana": "せい",
+        "meaning": "pure, clean",
+        "wordClass": "adjective",
+        "example": "山の清い空気を吸いました。(I breathed the clean mountain air.)",
+        "exampleKana": "やまのせいいくうきをすいました。"
       }
     ]
   },
@@ -9638,12 +9638,12 @@
     "entries": [
       {
         "entryId": 651,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は静です。(This kanji is 静.)",
-        "exampleKana": "この漢字は静です"
+        "romaji": "sei",
+        "hiragana": "せい",
+        "meaning": "quiet, calm",
+        "wordClass": "adjective",
+        "example": "図書館はとても静かです。(The library is very quiet.)",
+        "exampleKana": "としょかんはとてもせいかです。"
       }
     ]
   },
@@ -9653,12 +9653,12 @@
     "entries": [
       {
         "entryId": 652,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "seki",
+        "hiragana": "せき",
+        "meaning": "seat, place",
         "wordClass": "noun",
-        "example": "この漢字は席です。(This kanji is 席.)",
-        "exampleKana": "この漢字は席です"
+        "example": "電車で空いている席を見つけました。(I found an empty seat on the train.)",
+        "exampleKana": "でんしゃであいているせきをみつけました。"
       }
     ]
   },
@@ -9668,12 +9668,12 @@
     "entries": [
       {
         "entryId": 653,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は積です。(This kanji is 積.)",
-        "exampleKana": "この漢字は積です"
+        "romaji": "tsumu",
+        "hiragana": "つむ",
+        "meaning": "pile up, accumulate",
+        "wordClass": "verb",
+        "example": "雪が屋根に積もっている。(Snow is piling up on the roof.)",
+        "exampleKana": "ゆきがやねにつもっている"
       }
     ]
   },
@@ -9683,12 +9683,12 @@
     "entries": [
       {
         "entryId": 654,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は折です。(This kanji is 折.)",
-        "exampleKana": "この漢字は折です"
+        "romaji": "oru",
+        "hiragana": "おる",
+        "meaning": "fold, break",
+        "wordClass": "verb",
+        "example": "紙を半分に折った。(I folded the paper in half.)",
+        "exampleKana": "かみをはんぶんにおった"
       }
     ]
   },
@@ -9698,12 +9698,12 @@
     "entries": [
       {
         "entryId": 655,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "setsu",
+        "hiragana": "せつ",
+        "meaning": "section, joint, season",
         "wordClass": "noun",
-        "example": "この漢字は節です。(This kanji is 節.)",
-        "exampleKana": "この漢字は節です"
+        "example": "竹の節が見えます。(You can see the joints of the bamboo.)",
+        "exampleKana": "たけのせつがみえます"
       }
     ]
   },
@@ -9713,12 +9713,12 @@
     "entries": [
       {
         "entryId": 656,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は戦です。(This kanji is 戦.)",
-        "exampleKana": "この漢字は戦です"
+        "romaji": "tatakau",
+        "hiragana": "たたかう",
+        "meaning": "fight, war, battle",
+        "wordClass": "verb",
+        "example": "敵と勇敢に戦った。(We fought bravely against the enemy.)",
+        "exampleKana": "てきとゆうかんにたたかった"
       }
     ]
   },
@@ -9728,12 +9728,12 @@
     "entries": [
       {
         "entryId": 657,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "zen",
+        "hiragana": "ぜん",
+        "meaning": "nature, natural state",
         "wordClass": "noun",
-        "example": "この漢字は然です。(This kanji is 然.)",
-        "exampleKana": "この漢字は然です"
+        "example": "自然の美しさを感じる。(I feel the beauty of nature.)",
+        "exampleKana": "しぜんのうつくしさをかんじる"
       }
     ]
   },
@@ -9743,12 +9743,12 @@
     "entries": [
       {
         "entryId": 658,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は争です。(This kanji is 争.)",
-        "exampleKana": "この漢字は争です"
+        "romaji": "arasou",
+        "hiragana": "あらそう",
+        "meaning": "compete, dispute, fight",
+        "wordClass": "verb",
+        "example": "兄弟がおもちゃを争っている。(The siblings are fighting over a toy.)",
+        "exampleKana": "きょうだいがおもちゃをあらそっている"
       }
     ]
   },
@@ -9758,12 +9758,12 @@
     "entries": [
       {
         "entryId": 659,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "kura",
+        "hiragana": "くら",
+        "meaning": "warehouse, storehouse",
         "wordClass": "noun",
-        "example": "この漢字は倉です。(This kanji is 倉.)",
-        "exampleKana": "この漢字は倉です"
+        "example": "米を倉に保管します。(We store rice in the warehouse.)",
+        "exampleKana": "こめをくらにほかんします"
       }
     ]
   },
@@ -9773,12 +9773,12 @@
     "entries": [
       {
         "entryId": 660,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "su",
+        "hiragana": "す",
+        "meaning": "nest, hive",
         "wordClass": "noun",
-        "example": "この漢字は巣です。(This kanji is 巣.)",
-        "exampleKana": "この漢字は巣です"
+        "example": "鳥が木に巣を作った。(The bird built a nest in the tree.)",
+        "exampleKana": "とりがきにすをつくった"
       }
     ]
   },
@@ -9788,12 +9788,12 @@
     "entries": [
       {
         "entryId": 661,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "taba",
+        "hiragana": "たば",
+        "meaning": "bundle, bunch",
         "wordClass": "noun",
-        "example": "この漢字は束です。(This kanji is 束.)",
-        "exampleKana": "この漢字は束です"
+        "example": "花を束にして渡した。(I gave her a bunch of flowers.)",
+        "exampleKana": "はなをたばにしてわたした"
       }
     ]
   },
@@ -9803,12 +9803,12 @@
     "entries": [
       {
         "entryId": 662,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "gawa",
+        "hiragana": "がわ",
+        "meaning": "side, direction",
         "wordClass": "noun",
-        "example": "この漢字は側です。(This kanji is 側.)",
-        "exampleKana": "この漢字は側です"
+        "example": "川の向こう側に家がある。(There is a house on the other side of the river.)",
+        "exampleKana": "かわのむこうがわにいえがある"
       }
     ]
   },
@@ -9818,12 +9818,12 @@
     "entries": [
       {
         "entryId": 663,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は続です。(This kanji is 続.)",
-        "exampleKana": "この漢字は続です"
+        "romaji": "tsuzuku",
+        "hiragana": "つづく",
+        "meaning": "continue, follow",
+        "wordClass": "verb",
+        "example": "雨が三日間続いた。(It rained for three days straight.)",
+        "exampleKana": "あめがみっかかんつづいた"
       }
     ]
   },
@@ -9833,12 +9833,12 @@
     "entries": [
       {
         "entryId": 664,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "sotsu",
+        "hiragana": "そつ",
+        "meaning": "graduate, finish",
         "wordClass": "noun",
-        "example": "この漢字は卒です。(This kanji is 卒.)",
-        "exampleKana": "この漢字は卒です"
+        "example": "来年大学を卒業します。(I will graduate from university next year.)",
+        "exampleKana": "らいねんだいがくをそつぎょうします"
       }
     ]
   },
@@ -9848,12 +9848,12 @@
     "entries": [
       {
         "entryId": 665,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "mago",
+        "hiragana": "まご",
+        "meaning": "grandchild",
         "wordClass": "noun",
-        "example": "この漢字は孫です。(This kanji is 孫.)",
-        "exampleKana": "この漢字は孫です"
+        "example": "祖母が孫をとても可愛がっている。(Grandmother adores her grandchild.)",
+        "exampleKana": "そぼがまごをとてもかわいがっている"
       }
     ]
   },
@@ -9863,12 +9863,12 @@
     "entries": [
       {
         "entryId": 666,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "obi",
+        "hiragana": "おび",
+        "meaning": "belt, sash, zone",
         "wordClass": "noun",
-        "example": "この漢字は帯です。(This kanji is 帯.)",
-        "exampleKana": "この漢字は帯です"
+        "example": "着物の帯を締めた。(I tied the kimono sash.)",
+        "exampleKana": "きもののおびをしめた"
       }
     ]
   },
@@ -9878,12 +9878,12 @@
     "entries": [
       {
         "entryId": 667,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "tai",
+        "hiragana": "たい",
+        "meaning": "squad, team, unit",
         "wordClass": "noun",
-        "example": "この漢字は隊です。(This kanji is 隊.)",
-        "exampleKana": "この漢字は隊です"
+        "example": "救助隊が現場に向かった。(The rescue squad headed to the scene.)",
+        "exampleKana": "きゅうじょたいがげんばにむかった"
       }
     ]
   },
@@ -9893,12 +9893,12 @@
     "entries": [
       {
         "entryId": 668,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は達です。(This kanji is 達.)",
-        "exampleKana": "この漢字は達です"
+        "romaji": "tatsu",
+        "hiragana": "たつ",
+        "meaning": "reach, achieve",
+        "wordClass": "verb",
+        "example": "目標に達した。(I reached my goal.)",
+        "exampleKana": "もくひょうにたっした"
       }
     ]
   },
@@ -9908,12 +9908,12 @@
     "entries": [
       {
         "entryId": 669,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は単です。(This kanji is 単.)",
-        "exampleKana": "この漢字は単です"
+        "romaji": "tan",
+        "hiragana": "たん",
+        "meaning": "simple, single",
+        "wordClass": "adjective",
+        "example": "単純な問題です。(This is a simple problem.)",
+        "exampleKana": "たんじゅんなもんだいです"
       }
     ]
   },
@@ -9923,12 +9923,12 @@
     "entries": [
       {
         "entryId": 670,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は置です。(This kanji is 置.)",
-        "exampleKana": "この漢字は置です"
+        "romaji": "oku",
+        "hiragana": "おく",
+        "meaning": "place, put, leave",
+        "wordClass": "verb",
+        "example": "本を机の上に置いた。(I placed the book on the desk.)",
+        "exampleKana": "ほんをつくえのうえにおいた"
       }
     ]
   },
@@ -9938,12 +9938,12 @@
     "entries": [
       {
         "entryId": 671,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "naka",
+        "hiragana": "なか",
+        "meaning": "relationship, between",
         "wordClass": "noun",
-        "example": "この漢字は仲です。(This kanji is 仲.)",
-        "exampleKana": "この漢字は仲です"
+        "example": "友達との仲が良い。(I have a good relationship with my friends.)",
+        "exampleKana": "ゆうだちとのなかがよい"
       }
     ]
   },
@@ -9953,12 +9953,12 @@
     "entries": [
       {
         "entryId": 672,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は貯です。(This kanji is 貯.)",
-        "exampleKana": "この漢字は貯です"
+        "romaji": "tameru",
+        "hiragana": "ためる",
+        "meaning": "save, store",
+        "wordClass": "verb",
+        "example": "毎月お金を貯めています。(I save money every month.)",
+        "exampleKana": "まいつきおかねをためています"
       }
     ]
   },
@@ -9968,12 +9968,12 @@
     "entries": [
       {
         "entryId": 673,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "chou",
+        "hiragana": "ちょう",
+        "meaning": "trillion, omen, sign",
         "wordClass": "noun",
-        "example": "この漢字は兆です。(This kanji is 兆.)",
-        "exampleKana": "この漢字は兆です"
+        "example": "一兆円の予算です。(It's a one trillion yen budget.)",
+        "exampleKana": "いちちょうえんのよさんです"
       }
     ]
   },
@@ -9983,12 +9983,12 @@
     "entries": [
       {
         "entryId": 674,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "chou",
+        "hiragana": "ちょう",
+        "meaning": "intestine, bowel",
         "wordClass": "noun",
-        "example": "この漢字は腸です。(This kanji is 腸.)",
-        "exampleKana": "この漢字は腸です"
+        "example": "大腸の検査を受けた。(I had a large intestine examination.)",
+        "exampleKana": "だいちょうのけんさをうけた"
       }
     ]
   },
@@ -9998,12 +9998,12 @@
     "entries": [
       {
         "entryId": 675,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は低です。(This kanji is 低.)",
-        "exampleKana": "この漢字は低です"
+        "romaji": "hikui",
+        "hiragana": "ひくい",
+        "meaning": "low, short",
+        "wordClass": "adjective",
+        "example": "この機械は音が低い。(This machine has a low sound.)",
+        "exampleKana": "このきかいはおとがひくい"
       }
     ]
   },
@@ -10013,12 +10013,12 @@
     "entries": [
       {
         "entryId": 676,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "soko",
+        "hiragana": "そこ",
+        "meaning": "bottom, base",
         "wordClass": "noun",
-        "example": "この漢字は底です。(This kanji is 底.)",
-        "exampleKana": "この漢字は底です"
+        "example": "海の底に沈んだ。(It sank to the bottom of the sea.)",
+        "exampleKana": "うみのそこにしずんだ"
       }
     ]
   },
@@ -10028,12 +10028,12 @@
     "entries": [
       {
         "entryId": 677,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は停です。(This kanji is 停.)",
-        "exampleKana": "この漢字は停です"
+        "romaji": "tomeru",
+        "hiragana": "とめる",
+        "meaning": "stop, halt",
+        "wordClass": "verb",
+        "example": "バスを停車場に停めた。(I stopped the bus at the bus stop.)",
+        "exampleKana": "バスをていしゃじょうにとめた"
       }
     ]
   },
@@ -10043,12 +10043,12 @@
     "entries": [
       {
         "entryId": 678,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "teki",
+        "hiragana": "てき",
+        "meaning": "target, suffix (-like)",
         "wordClass": "noun",
-        "example": "この漢字は的です。(This kanji is 的.)",
-        "exampleKana": "この漢字は的です"
+        "example": "弓道の的を狙った。(I aimed at the archery target.)",
+        "exampleKana": "きゅうどうのまとをねらった"
       }
     ]
   },
@@ -10058,12 +10058,12 @@
     "entries": [
       {
         "entryId": 679,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "to",
+        "hiragana": "と",
+        "meaning": "group, fellow, on foot",
         "wordClass": "noun",
-        "example": "この漢字は徒です。(This kanji is 徒.)",
-        "exampleKana": "この漢字は徒です"
+        "example": "学校に徒歩で通う。(I walk to school on foot.)",
+        "exampleKana": "がっこうにとほでかよう"
       }
     ]
   },
@@ -10073,12 +10073,12 @@
     "entries": [
       {
         "entryId": 680,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "hi",
+        "hiragana": "ひ",
+        "meaning": "lamp, light, fire",
         "wordClass": "noun",
-        "example": "この漢字は灯です。(This kanji is 灯.)",
-        "exampleKana": "この漢字は灯です"
+        "example": "街灯が点灯した。(The street lamps lit up.)",
+        "exampleKana": "がいとうがてんとうした"
       }
     ]
   },
@@ -10088,12 +10088,12 @@
     "entries": [
       {
         "entryId": 681,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "dou",
+        "hiragana": "どう",
+        "meaning": "hall, temple, mansion",
         "wordClass": "noun",
-        "example": "この漢字は堂です。(This kanji is 堂.)",
-        "exampleKana": "この漢字は堂です"
+        "example": "立派な講堂で勉強した。(I studied in a magnificent lecture hall.)",
+        "exampleKana": "りっぱなこうどうでべんきょうした"
       }
     ]
   },
@@ -10103,12 +10103,12 @@
     "entries": [
       {
         "entryId": 682,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は特です。(This kanji is 特.)",
-        "exampleKana": "この漢字は特です"
+        "romaji": "toku",
+        "hiragana": "とく",
+        "meaning": "special, particular",
+        "wordClass": "adjective",
+        "example": "今日は特別な日です。(Today is a special day.)",
+        "exampleKana": "きょうはとくべつなひです"
       }
     ]
   },
@@ -10118,12 +10118,12 @@
     "entries": [
       {
         "entryId": 683,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は得です。(This kanji is 得.)",
-        "exampleKana": "この漢字は得です"
+        "romaji": "eru",
+        "hiragana": "える",
+        "meaning": "get, gain, obtain",
+        "wordClass": "verb",
+        "example": "多くの経験を得た。(I gained a lot of experience.)",
+        "exampleKana": "おおくのけいけんをえた"
       }
     ]
   },
@@ -10133,12 +10133,12 @@
     "entries": [
       {
         "entryId": 684,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "doku",
+        "hiragana": "どく",
+        "meaning": "poison, toxin",
         "wordClass": "noun",
-        "example": "この漢字は毒です。(This kanji is 毒.)",
-        "exampleKana": "この漢字は毒です"
+        "example": "この薬には毒が含まれています。(This medicine contains poison.)",
+        "exampleKana": "このくすりにはどくがふくまれています。"
       }
     ]
   },
@@ -10148,12 +10148,12 @@
     "entries": [
       {
         "entryId": 685,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "netsu",
+        "hiragana": "ねつ",
+        "meaning": "heat, fever",
         "wordClass": "noun",
-        "example": "この漢字は熱です。(This kanji is 熱.)",
-        "exampleKana": "この漢字は熱です"
+        "example": "高い熱があります。(I have a high fever.)",
+        "exampleKana": "たかいねつがあります。"
       }
     ]
   },
@@ -10163,12 +10163,12 @@
     "entries": [
       {
         "entryId": 686,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "nen",
+        "hiragana": "ねん",
+        "meaning": "thought, feeling, wish",
         "wordClass": "noun",
-        "example": "この漢字は念です。(This kanji is 念.)",
-        "exampleKana": "この漢字は念です"
+        "example": "安全に念を入れてください。(Please take care with safety.)",
+        "exampleKana": "あんぜんにねんをいれてください。"
       }
     ]
   },
@@ -10178,12 +10178,12 @@
     "entries": [
       {
         "entryId": 687,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "hai",
+        "hiragana": "はい",
+        "meaning": "defeat, failure",
         "wordClass": "noun",
-        "example": "この漢字は敗です。(This kanji is 敗.)",
-        "exampleKana": "この漢字は敗です"
+        "example": "チームは敗北しました。(The team was defeated.)",
+        "exampleKana": "チームははいぼくしました。"
       }
     ]
   },
@@ -10193,12 +10193,12 @@
     "entries": [
       {
         "entryId": 688,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "ume",
+        "hiragana": "うめ",
+        "meaning": "plum, plum tree",
         "wordClass": "noun",
-        "example": "この漢字は梅です。(This kanji is 梅.)",
-        "exampleKana": "この漢字は梅です"
+        "example": "春に梅の花が咲きます。(Plum blossoms bloom in spring.)",
+        "exampleKana": "はるにうめのはながさきます。"
       }
     ]
   },
@@ -10208,12 +10208,12 @@
     "entries": [
       {
         "entryId": 689,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "haku",
+        "hiragana": "はく",
+        "meaning": "wide, extensive, learned",
         "wordClass": "noun",
-        "example": "この漢字は博です。(This kanji is 博.)",
-        "exampleKana": "この漢字は博です"
+        "example": "博物館を見学しました。(I visited the museum.)",
+        "exampleKana": "はくぶつかんをけんがくしました。"
       }
     ]
   },
@@ -10223,12 +10223,12 @@
     "entries": [
       {
         "entryId": 690,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "han",
+        "hiragana": "はん",
+        "meaning": "cooked rice, meal",
         "wordClass": "noun",
-        "example": "この漢字は飯です。(This kanji is 飯.)",
-        "exampleKana": "この漢字は飯です"
+        "example": "今日の晩ご飯は何ですか。(What is today's dinner?)",
+        "exampleKana": "きょうのばんごはんはなんですか。"
       }
     ]
   },
@@ -10238,12 +10238,12 @@
     "entries": [
       {
         "entryId": 691,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "hi",
+        "hiragana": "ひ",
+        "meaning": "expense, cost, fee",
         "wordClass": "noun",
-        "example": "この漢字は費です。(This kanji is 費.)",
-        "exampleKana": "この漢字は費です"
+        "example": "旅行の費用はいくらですか。(How much is the travel expense?)",
+        "exampleKana": "りょこうのひようはいくらですか。"
       }
     ]
   },
@@ -10253,12 +10253,12 @@
     "entries": [
       {
         "entryId": 692,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は必です。(This kanji is 必.)",
-        "exampleKana": "この漢字は必です"
+        "romaji": "hitsu",
+        "hiragana": "ひつ",
+        "meaning": "necessary, required",
+        "wordClass": "adjective",
+        "example": "パスポートは必要です。(A passport is necessary.)",
+        "exampleKana": "パスポートはひつようです。"
       }
     ]
   },
@@ -10268,12 +10268,12 @@
     "entries": [
       {
         "entryId": 693,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "hyou",
+        "hiragana": "ひょう",
+        "meaning": "mark, sign, target",
         "wordClass": "noun",
-        "example": "この漢字は標です。(This kanji is 標.)",
-        "exampleKana": "この漢字は標です"
+        "example": "目標を達成しました。(I achieved my goal.)",
+        "exampleKana": "もくひょうをたっせいしました。"
       }
     ]
   },
@@ -10283,12 +10283,12 @@
     "entries": [
       {
         "entryId": 694,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は不です。(This kanji is 不.)",
-        "exampleKana": "この漢字は不です"
+        "romaji": "fu",
+        "hiragana": "ふ",
+        "meaning": "not, un-, negative",
+        "wordClass": "prefix",
+        "example": "それは不可能です。(That is impossible.)",
+        "exampleKana": "それはふかのうです。"
       }
     ]
   },
@@ -10298,12 +10298,12 @@
     "entries": [
       {
         "entryId": 695,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "otto",
+        "hiragana": "おっと",
+        "meaning": "husband",
         "wordClass": "noun",
-        "example": "この漢字は夫です。(This kanji is 夫.)",
-        "exampleKana": "この漢字は夫です"
+        "example": "私の夫は医者です。(My husband is a doctor.)",
+        "exampleKana": "わたしのおっとはいしゃです。"
       }
     ]
   },
@@ -10313,12 +10313,12 @@
     "entries": [
       {
         "entryId": 696,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は付です。(This kanji is 付.)",
-        "exampleKana": "この漢字は付です"
+        "romaji": "tsuku",
+        "hiragana": "つく",
+        "meaning": "to attach, accompany",
+        "wordClass": "verb",
+        "example": "送料は付きません。(Shipping is not included.)",
+        "exampleKana": "そうりょうはつきません。"
       }
     ]
   },
@@ -10328,12 +10328,12 @@
     "entries": [
       {
         "entryId": 697,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "fu",
+        "hiragana": "ふ",
+        "meaning": "prefecture, government office",
         "wordClass": "noun",
-        "example": "この漢字は府です。(This kanji is 府.)",
-        "exampleKana": "この漢字は府です"
+        "example": "大阪府に住んでいます。(I live in Osaka Prefecture.)",
+        "exampleKana": "おおさかふにすんでいます。"
       }
     ]
   },
@@ -10343,12 +10343,12 @@
     "entries": [
       {
         "entryId": 698,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は副です。(This kanji is 副.)",
-        "exampleKana": "この漢字は副です"
+        "romaji": "fuku",
+        "hiragana": "ふく",
+        "meaning": "deputy, vice-",
+        "wordClass": "prefix",
+        "example": "副社長の挑拶です。(This is the vice president's greeting.)",
+        "exampleKana": "ふくしゃちょうのあいさつです。"
       }
     ]
   },
@@ -10358,12 +10358,12 @@
     "entries": [
       {
         "entryId": 699,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "kona",
+        "hiragana": "こな",
+        "meaning": "powder, flour",
         "wordClass": "noun",
-        "example": "この漢字は粉です。(This kanji is 粉.)",
-        "exampleKana": "この漢字は粉です"
+        "example": "小麦粉でパンを作ります。(I make bread with wheat flour.)",
+        "exampleKana": "こむぎこなでパンをつくります。"
       }
     ]
   },
@@ -10373,12 +10373,12 @@
     "entries": [
       {
         "entryId": 700,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "hei",
+        "hiragana": "へい",
+        "meaning": "soldier, military personnel",
         "wordClass": "noun",
-        "example": "この漢字は兵です。(This kanji is 兵.)",
-        "exampleKana": "この漢字は兵です"
+        "example": "古い兵器を展示しています。(Old weapons are displayed.)",
+        "exampleKana": "ふるいへいきをてんじしています。"
       }
     ]
   },
@@ -10388,12 +10388,12 @@
     "entries": [
       {
         "entryId": 701,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は別です。(This kanji is 別.)",
-        "exampleKana": "この漢字は別です"
+        "romaji": "betsu",
+        "hiragana": "べつ",
+        "meaning": "separate, different, another",
+        "wordClass": "adjective",
+        "example": "別の方法を考えましょう。(Let's think of another method.)",
+        "exampleKana": "べつのほうほうをかんがえましょう。"
       }
     ]
   },
@@ -10403,12 +10403,12 @@
     "entries": [
       {
         "entryId": 702,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "hen",
+        "hiragana": "へん",
+        "meaning": "area, vicinity, side",
         "wordClass": "noun",
-        "example": "この漢字は辺です。(This kanji is 辺.)",
-        "exampleKana": "この漢字は辺です"
+        "example": "駅の辺りに住んでいます。(I live near the station.)",
+        "exampleKana": "えきのへんりにすんでいます。"
       }
     ]
   },
@@ -10418,12 +10418,12 @@
     "entries": [
       {
         "entryId": 703,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は変です。(This kanji is 変.)",
-        "exampleKana": "この漢字は変です"
+        "romaji": "hen",
+        "hiragana": "へん",
+        "meaning": "strange, change",
+        "wordClass": "adjective",
+        "example": "天気が変わりました。(The weather has changed.)",
+        "exampleKana": "てんきがへんわりました。"
       }
     ]
   },
@@ -10433,12 +10433,12 @@
     "entries": [
       {
         "entryId": 704,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "ben",
+        "hiragana": "べん",
+        "meaning": "convenience, mail",
         "wordClass": "noun",
-        "example": "この漢字は便です。(This kanji is 便.)",
-        "exampleKana": "この漢字は便です"
+        "example": "便利な場所にあります。(It's in a convenient location.)",
+        "exampleKana": "べんりなばしょにあります。"
       }
     ]
   },
@@ -10448,12 +10448,12 @@
     "entries": [
       {
         "entryId": 705,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は包です。(This kanji is 包.)",
-        "exampleKana": "この漢字は包です"
+        "romaji": "hou",
+        "hiragana": "ほう",
+        "meaning": "to wrap, package",
+        "wordClass": "verb",
+        "example": "プレゼントを包装しました。(I wrapped the present.)",
+        "exampleKana": "プレゼントをほうそうしました。"
       }
     ]
   },
@@ -10463,12 +10463,12 @@
     "entries": [
       {
         "entryId": 706,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "bou",
+        "hiragana": "ぼう",
+        "meaning": "hope, desire, wish",
         "wordClass": "noun",
-        "example": "この漢字は望です。(This kanji is 望.)",
-        "exampleKana": "この漢字は望です"
+        "example": "将来の希望を語りました。(I talked about future hopes.)",
+        "exampleKana": "しょうらいのきぼうをかたりました。"
       }
     ]
   },
@@ -10478,12 +10478,12 @@
     "entries": [
       {
         "entryId": 707,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "boku",
+        "hiragana": "ぼく",
+        "meaning": "pasture, graze",
         "wordClass": "noun",
-        "example": "この漢字は牧です。(This kanji is 牧.)",
-        "exampleKana": "この漢字は牧です"
+        "example": "牛が牧場で草を食べています。(Cows are eating grass in the pasture.)",
+        "exampleKana": "うしがぼくじょうでくさをたべています。"
       }
     ]
   },
@@ -10493,12 +10493,12 @@
     "entries": [
       {
         "entryId": 708,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "matsu",
+        "hiragana": "まつ",
+        "meaning": "end, tip",
         "wordClass": "noun",
-        "example": "この漢字は末です。(This kanji is 末.)",
-        "exampleKana": "この漢字は末です"
+        "example": "月末に会議があります。(There is a meeting at the end of the month.)",
+        "exampleKana": "げつまつにかいぎがあります。"
       }
     ]
   },
@@ -10508,12 +10508,12 @@
     "entries": [
       {
         "entryId": 709,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は満です。(This kanji is 満.)",
-        "exampleKana": "この漢字は満です"
+        "romaji": "man",
+        "hiragana": "まん",
+        "meaning": "full, satisfied",
+        "wordClass": "adjective",
+        "example": "お腹がいっぱいです。(I am full.)",
+        "exampleKana": "おなかがいっぱいです。"
       }
     ]
   },
@@ -10523,12 +10523,12 @@
     "entries": [
       {
         "entryId": 710,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は未です。(This kanji is 未.)",
-        "exampleKana": "この漢字は未です"
+        "romaji": "mi",
+        "hiragana": "み",
+        "meaning": "not yet, un-",
+        "wordClass": "prefix",
+        "example": "未来に希望を持っています。(I have hope for the future.)",
+        "exampleKana": "みらいにきぼうをもっています。"
       }
     ]
   },
@@ -10538,12 +10538,12 @@
     "entries": [
       {
         "entryId": 711,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "myaku",
+        "hiragana": "みゃく",
+        "meaning": "pulse, vein",
         "wordClass": "noun",
-        "example": "この漢字は脈です。(This kanji is 脈.)",
-        "exampleKana": "この漢字は脈です"
+        "example": "脈拍を測ってください。(Please take my pulse.)",
+        "exampleKana": "みゃくはくをはかってください。"
       }
     ]
   },
@@ -10553,12 +10553,12 @@
     "entries": [
       {
         "entryId": 712,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は無です。(This kanji is 無.)",
-        "exampleKana": "この漢字は無です"
+        "romaji": "mu",
+        "hiragana": "む",
+        "meaning": "nothing, without",
+        "wordClass": "adjective",
+        "example": "無料で使えます。(It can be used for free.)",
+        "exampleKana": "むりょうでつかえます。"
       }
     ]
   },
@@ -10568,12 +10568,12 @@
     "entries": [
       {
         "entryId": 713,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "yuu",
+        "hiragana": "ゆう",
+        "meaning": "courage, brave",
         "wordClass": "noun",
-        "example": "この漢字は勇です。(This kanji is 勇.)",
-        "exampleKana": "この漢字は勇です"
+        "example": "勇気を出してください。(Please have courage.)",
+        "exampleKana": "ゆうきをだしてください。"
       }
     ]
   },
@@ -10583,12 +10583,12 @@
     "entries": [
       {
         "entryId": 714,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は要です。(This kanji is 要.)",
-        "exampleKana": "この漢字は要です"
+        "romaji": "you",
+        "hiragana": "よう",
+        "meaning": "necessary, important",
+        "wordClass": "adjective",
+        "example": "これは重要な情報です。(This is important information.)",
+        "exampleKana": "これはじゅうようなじょうほうです。"
       }
     ]
   },
@@ -10598,12 +10598,12 @@
     "entries": [
       {
         "entryId": 715,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は養です。(This kanji is 養.)",
-        "exampleKana": "この漢字は養です"
+        "romaji": "you",
+        "hiragana": "よう",
+        "meaning": "to nourish, raise",
+        "wordClass": "verb",
+        "example": "子供を育てています。(I am raising children.)",
+        "exampleKana": "こどもをそだてています。"
       }
     ]
   },
@@ -10613,12 +10613,12 @@
     "entries": [
       {
         "entryId": 716,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "yoku",
+        "hiragana": "よく",
+        "meaning": "bath, bathe",
         "wordClass": "noun",
-        "example": "この漢字は浴です。(This kanji is 浴.)",
-        "exampleKana": "この漢字は浴です"
+        "example": "お風呂に入りました。(I took a bath.)",
+        "exampleKana": "おふろにはいりました。"
       }
     ]
   },
@@ -10628,12 +10628,12 @@
     "entries": [
       {
         "entryId": 717,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "ri",
+        "hiragana": "り",
+        "meaning": "profit, advantage",
         "wordClass": "noun",
-        "example": "この漢字は利です。(This kanji is 利.)",
-        "exampleKana": "この漢字は利です"
+        "example": "便利なサービスです。(It's a convenient service.)",
+        "exampleKana": "べんりなサービスです。"
       }
     ]
   },
@@ -10643,12 +10643,12 @@
     "entries": [
       {
         "entryId": 718,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "riku",
+        "hiragana": "りく",
+        "meaning": "land, shore",
         "wordClass": "noun",
-        "example": "この漢字は陸です。(This kanji is 陸.)",
-        "exampleKana": "この漢字は陸です"
+        "example": "陸上選手です。(I'm a track and field athlete.)",
+        "exampleKana": "りくじょうせんしゅです。"
       }
     ]
   },
@@ -10658,12 +10658,12 @@
     "entries": [
       {
         "entryId": 719,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は良です。(This kanji is 良.)",
-        "exampleKana": "この漢字は良です"
+        "romaji": "ryou",
+        "hiragana": "りょう",
+        "meaning": "good, fine",
+        "wordClass": "adjective",
+        "example": "良い天気ですね。(It's nice weather, isn't it?)",
+        "exampleKana": "よいてんきですね。"
       }
     ]
   },
@@ -10673,12 +10673,12 @@
     "entries": [
       {
         "entryId": 720,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "ryou",
+        "hiragana": "りょう",
+        "meaning": "charge, fee, material",
         "wordClass": "noun",
-        "example": "この漢字は料です。(This kanji is 料.)",
-        "exampleKana": "この漢字は料です"
+        "example": "料理を作るのが好きです。(I like cooking.)",
+        "exampleKana": "りょうりをつくるのがすきです。"
       }
     ]
   },
@@ -10688,12 +10688,12 @@
     "entries": [
       {
         "entryId": 721,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "ryou",
+        "hiragana": "りょう",
+        "meaning": "amount, quantity",
         "wordClass": "noun",
-        "example": "この漢字は量です。(This kanji is 量.)",
-        "exampleKana": "この漢字は量です"
+        "example": "量を測ってください。(Please measure the amount.)",
+        "exampleKana": "りょうをはかってください。"
       }
     ]
   },
@@ -10703,12 +10703,12 @@
     "entries": [
       {
         "entryId": 722,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "rei",
+        "hiragana": "れい",
+        "meaning": "command, order",
         "wordClass": "noun",
-        "example": "この漢字は令です。(This kanji is 令.)",
-        "exampleKana": "この漢字は令です"
+        "example": "令和時代になりました。(It became the Reiwa era.)",
+        "exampleKana": "れいわじだいになりました。"
       }
     ]
   },
@@ -10718,12 +10718,12 @@
     "entries": [
       {
         "entryId": 723,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "rei",
+        "hiragana": "れい",
+        "meaning": "example, instance",
         "wordClass": "noun",
-        "example": "この漢字は例です。(This kanji is 例.)",
-        "exampleKana": "この漢字は例です"
+        "example": "例えば、こんな感じです。(For example, like this.)",
+        "exampleKana": "たとえば、こんなかんじです。"
       }
     ]
   },
@@ -10733,12 +10733,12 @@
     "entries": [
       {
         "entryId": 724,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は老です。(This kanji is 老.)",
-        "exampleKana": "この漢字は老です"
+        "romaji": "rou",
+        "hiragana": "ろう",
+        "meaning": "old, elderly",
+        "wordClass": "adjective",
+        "example": "老人を大切にしましょう。(Let's take care of elderly people.)",
+        "exampleKana": "ろうじんをたいせつにしましょう。"
       }
     ]
   },
@@ -10748,12 +10748,12 @@
     "entries": [
       {
         "entryId": 725,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "roku",
+        "hiragana": "ろく",
+        "meaning": "record, register",
         "wordClass": "noun",
-        "example": "この漢字は録です。(This kanji is 録.)",
-        "exampleKana": "この漢字は録です"
+        "example": "記録を更新しました。(I updated the record.)",
+        "exampleKana": "きろくをこうしんしました。"
       }
     ]
   },
@@ -10763,12 +10763,12 @@
     "entries": [
       {
         "entryId": 726,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "atsu",
+        "hiragana": "あつ",
+        "meaning": "pressure, force",
         "wordClass": "noun",
-        "example": "この漢字は圧です。(This kanji is 圧.)",
-        "exampleKana": "この漢字は圧です"
+        "example": "血圧を測ってください。(Please measure my blood pressure.)",
+        "exampleKana": "けつあつをはかってください。"
       }
     ]
   },
@@ -10778,12 +10778,12 @@
     "entries": [
       {
         "entryId": 727,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は移です。(This kanji is 移.)",
-        "exampleKana": "この漢字は移です"
+        "romaji": "i",
+        "hiragana": "い",
+        "meaning": "to move, migrate",
+        "wordClass": "verb",
+        "example": "来年に引っ越します。(I will move next year.)",
+        "exampleKana": "らいねんにひっこします。"
       }
     ]
   },
@@ -10793,12 +10793,12 @@
     "entries": [
       {
         "entryId": 728,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "in",
+        "hiragana": "いん",
+        "meaning": "cause, reason",
         "wordClass": "noun",
-        "example": "この漢字は因です。(This kanji is 因.)",
-        "exampleKana": "この漢字は因です"
+        "example": "原因を調べています。(I am investigating the cause.)",
+        "exampleKana": "げんいんをしらべています。"
       }
     ]
   },
@@ -10808,12 +10808,12 @@
     "entries": [
       {
         "entryId": 729,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は永です。(This kanji is 永.)",
-        "exampleKana": "この漢字は永です"
+        "romaji": "ei",
+        "hiragana": "えい",
+        "meaning": "eternal, permanent",
+        "wordClass": "adjective",
+        "example": "永遠に持続します。(It will last forever.)",
+        "exampleKana": "えいえんにじぞくします。"
       }
     ]
   },
@@ -10823,12 +10823,12 @@
     "entries": [
       {
         "entryId": 730,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は衛です。(This kanji is 衛.)",
-        "exampleKana": "この漢字は衛です"
+        "romaji": "ei",
+        "hiragana": "えい",
+        "meaning": "guard, protect",
+        "wordClass": "verb",
+        "example": "衛生に気を付けてください。(Please pay attention to hygiene.)",
+        "exampleKana": "えいせいにきをつけてください。"
       }
     ]
   },
@@ -10838,12 +10838,12 @@
     "entries": [
       {
         "entryId": 731,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は易です。(This kanji is 易.)",
-        "exampleKana": "この漢字は易です"
+        "romaji": "i",
+        "hiragana": "い",
+        "meaning": "easy, simple",
+        "wordClass": "adjective",
+        "example": "簡単な問題です。(It's a simple problem.)",
+        "exampleKana": "かんたんなもんだいです。"
       }
     ]
   },
@@ -10853,12 +10853,12 @@
     "entries": [
       {
         "entryId": 732,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "eki",
+        "hiragana": "えき",
+        "meaning": "benefit, profit",
         "wordClass": "noun",
-        "example": "この漢字は益です。(This kanji is 益.)",
-        "exampleKana": "この漢字は益です"
+        "example": "利益が上がりました。(Profits went up.)",
+        "exampleKana": "りえきがあがりました。"
       }
     ]
   },
@@ -10868,12 +10868,12 @@
     "entries": [
       {
         "entryId": 733,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "eki",
+        "hiragana": "えき",
+        "meaning": "liquid, fluid",
         "wordClass": "noun",
-        "example": "この漢字は液です。(This kanji is 液.)",
-        "exampleKana": "この漢字は液です"
+        "example": "洗剤液で手を洗います。(I wash my hands with liquid soap.)",
+        "exampleKana": "せんざいえきでてをあらいます。"
       }
     ]
   },
@@ -10883,12 +10883,12 @@
     "entries": [
       {
         "entryId": 734,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は往です。(This kanji is 往.)",
-        "exampleKana": "この漢字は往です"
+        "romaji": "ou",
+        "hiragana": "おう",
+        "meaning": "to go,往",
+        "wordClass": "verb",
+        "example": "往復チケットを買いました。(I bought a round-trip ticket.)",
+        "exampleKana": "おうふくチケットをかいました。"
       }
     ]
   },
@@ -10898,12 +10898,12 @@
     "entries": [
       {
         "entryId": 735,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "sakura",
+        "hiragana": "さくら",
+        "meaning": "cherry blossom",
         "wordClass": "noun",
-        "example": "この漢字は桜です。(This kanji is 桜.)",
-        "exampleKana": "この漢字は桜です"
+        "example": "桜が綺麗に咲いています。(The cherry blossoms are blooming beautifully.)",
+        "exampleKana": "さくらがきれいにさいています。"
       }
     ]
   },
@@ -10913,12 +10913,12 @@
     "entries": [
       {
         "entryId": 736,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "on",
+        "hiragana": "おん",
+        "meaning": "kindness, favor",
         "wordClass": "noun",
-        "example": "この漢字は恩です。(This kanji is 恩.)",
-        "exampleKana": "この漢字は恩です"
+        "example": "ご恩を忘れません。(I won't forget your kindness.)",
+        "exampleKana": "ごおんをわすれません。"
       }
     ]
   },
@@ -10928,12 +10928,12 @@
     "entries": [
       {
         "entryId": 737,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は可です。(This kanji is 可.)",
-        "exampleKana": "この漢字は可です"
+        "romaji": "ka",
+        "hiragana": "か",
+        "meaning": "possible, can",
+        "wordClass": "adjective",
+        "example": "可能な限り努力します。(I will try as much as possible.)",
+        "exampleKana": "かのうなかぎりどりょくします。"
       }
     ]
   },
@@ -10943,12 +10943,12 @@
     "entries": [
       {
         "entryId": 738,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は仮です。(This kanji is 仮.)",
-        "exampleKana": "この漢字は仮です"
+        "romaji": "kari",
+        "hiragana": "かり",
+        "meaning": "temporary, provisional",
+        "wordClass": "adjective",
+        "example": "仮の住所です。(It's a temporary residence.)",
+        "exampleKana": "かりのじゅうしょです。"
       }
     ]
   },
@@ -10958,12 +10958,12 @@
     "entries": [
       {
         "entryId": 739,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "kawa",
+        "hiragana": "かわ",
+        "meaning": "river",
         "wordClass": "noun",
-        "example": "この漢字は河です。(This kanji is 河.)",
-        "exampleKana": "この漢字は河です"
+        "example": "川で釣りをしました。(I went fishing in the river.)",
+        "exampleKana": "かわでつりをしました。"
       }
     ]
   },
@@ -10973,12 +10973,12 @@
     "entries": [
       {
         "entryId": 740,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "ka",
+        "hiragana": "か",
+        "meaning": "past, exceed",
         "wordClass": "noun",
-        "example": "この漢字は過です。(This kanji is 過.)",
-        "exampleKana": "この漢字は過です"
+        "example": "過去の経験を話しました。(I talked about past experiences.)",
+        "exampleKana": "かこのけいけんをはなしました。"
       }
     ]
   },
@@ -10988,12 +10988,12 @@
     "entries": [
       {
         "entryId": 741,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "ga",
+        "hiragana": "が",
+        "meaning": "congratulation, celebration",
         "wordClass": "noun",
-        "example": "この漢字は賀です。(This kanji is 賀.)",
-        "exampleKana": "この漢字は賀です"
+        "example": "新年をお祝いします。(I congratulate the New Year.)",
+        "exampleKana": "しんねんをおいわいします。"
       }
     ]
   },
@@ -11003,12 +11003,12 @@
     "entries": [
       {
         "entryId": 742,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は快です。(This kanji is 快.)",
-        "exampleKana": "この漢字は快です"
+        "romaji": "kai",
+        "hiragana": "かい",
+        "meaning": "pleasant, comfortable",
+        "wordClass": "adjective",
+        "example": "快適な部屋です。(It's a comfortable room.)",
+        "exampleKana": "かいてきなへやです。"
       }
     ]
   },
@@ -11018,12 +11018,12 @@
     "entries": [
       {
         "entryId": 743,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は解です。(This kanji is 解.)",
-        "exampleKana": "この漢字は解です"
+        "romaji": "kai",
+        "hiragana": "かい",
+        "meaning": "solve, understand",
+        "wordClass": "verb",
+        "example": "問題を解きました。(I solved the problem.)",
+        "exampleKana": "もんだいをときました。"
       }
     ]
   },
@@ -11033,12 +11033,12 @@
     "entries": [
       {
         "entryId": 744,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は刊です。(This kanji is 刊.)",
-        "exampleKana": "この漢字は刊です"
+        "romaji": "kan",
+        "hiragana": "かん",
+        "meaning": "publish, issue",
+        "wordClass": "verb",
+        "example": "雑誌が刊行されました。(The magazine was published.)",
+        "exampleKana": "ざっしがかんこうされました。"
       }
     ]
   },
@@ -11048,12 +11048,12 @@
     "entries": [
       {
         "entryId": 745,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "kan",
+        "hiragana": "かん",
+        "meaning": "trunk, main",
         "wordClass": "noun",
-        "example": "この漢字は幹です。(This kanji is 幹.)",
-        "exampleKana": "この漢字は幹です"
+        "example": "木の幹が太いです。(The tree trunk is thick.)",
+        "exampleKana": "きのみきがふといです。"
       }
     ]
   },
@@ -11063,12 +11063,12 @@
     "entries": [
       {
         "entryId": 746,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は慣です。(This kanji is 慣.)",
-        "exampleKana": "この漢字は慣です"
+        "romaji": "kan",
+        "hiragana": "かん",
+        "meaning": "accustomed, custom",
+        "wordClass": "adjective",
+        "example": "日本の習慣に慣れました。(I got used to Japanese customs.)",
+        "exampleKana": "にほんのしゅうかんになれました。"
       }
     ]
   },
@@ -11078,12 +11078,12 @@
     "entries": [
       {
         "entryId": 747,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は寄です。(This kanji is 寄.)",
-        "exampleKana": "この漢字は寄です"
+        "romaji": "ki",
+        "hiragana": "き",
+        "meaning": "approach, contribute",
+        "wordClass": "verb",
+        "example": "寄付をしました。(I made a donation.)",
+        "exampleKana": "きふをしました。"
       }
     ]
   },
@@ -11093,12 +11093,12 @@
     "entries": [
       {
         "entryId": 748,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "ki",
+        "hiragana": "き",
+        "meaning": "rule, standard",
         "wordClass": "noun",
-        "example": "この漢字は規です。(This kanji is 規.)",
-        "exampleKana": "この漢字は規です"
+        "example": "学校の規則です。(These are school rules.)",
+        "exampleKana": "がっこうのきそくです。"
       }
     ]
   },
@@ -11108,12 +11108,12 @@
     "entries": [
       {
         "entryId": 749,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "gi",
+        "hiragana": "ぎ",
+        "meaning": "justice, meaning",
         "wordClass": "noun",
-        "example": "この漢字は義です。(This kanji is 義.)",
-        "exampleKana": "この漢字は義です"
+        "example": "義務教育を受けました。(I received compulsory education.)",
+        "exampleKana": "ぎむきょういくをうけました。"
       }
     ]
   },
@@ -11123,12 +11123,12 @@
     "entries": [
       {
         "entryId": 750,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は逆です。(This kanji is 逆.)",
-        "exampleKana": "この漢字は逆です"
+        "romaji": "gyaku",
+        "hiragana": "ぎゃく",
+        "meaning": "reverse, opposite",
+        "wordClass": "adjective",
+        "example": "逆方向に歩きました。(I walked in the opposite direction.)",
+        "exampleKana": "ぎゃくほうこうにあるきました。"
       }
     ]
   },
@@ -11138,12 +11138,12 @@
     "entries": [
       {
         "entryId": 751,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は久です。(This kanji is 久.)",
-        "exampleKana": "この漢字は久です"
+        "romaji": "kyuu",
+        "hiragana": "きゅう",
+        "meaning": "long time, eternal",
+        "wordClass": "adjective",
+        "example": "久しぶりに会いました。(I met after a long time.)",
+        "exampleKana": "ひさしぶりにあいました。"
       }
     ]
   },
@@ -11153,12 +11153,12 @@
     "entries": [
       {
         "entryId": 752,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は旧です。(This kanji is 旧.)",
-        "exampleKana": "この漢字は旧です"
+        "romaji": "kyuu",
+        "hiragana": "きゅう",
+        "meaning": "old, former",
+        "wordClass": "adjective",
+        "example": "旧友人に会いました。(I met an old friend.)",
+        "exampleKana": "きゅうゆうじんにあいました。"
       }
     ]
   },
@@ -11168,12 +11168,12 @@
     "entries": [
       {
         "entryId": 753,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は居です。(This kanji is 居.)",
-        "exampleKana": "この漢字は居です"
+        "romaji": "i",
+        "hiragana": "い",
+        "meaning": "reside, be present",
+        "wordClass": "verb",
+        "example": "居室でくつろいでいます。(I am relaxing in the living room.)",
+        "exampleKana": "いしつでくつろいでいます。"
       }
     ]
   },
@@ -11183,12 +11183,12 @@
     "entries": [
       {
         "entryId": 754,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は許です。(This kanji is 許.)",
-        "exampleKana": "この漢字は許です"
+        "romaji": "kyo",
+        "hiragana": "きょ",
+        "meaning": "permit, allow",
+        "wordClass": "verb",
+        "example": "許可を取りました。(I got permission.)",
+        "exampleKana": "きょかをとりました。"
       }
     ]
   },
@@ -11198,12 +11198,12 @@
     "entries": [
       {
         "entryId": 755,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "kyou",
+        "hiragana": "きょう",
+        "meaning": "boundary, situation",
         "wordClass": "noun",
-        "example": "この漢字は境です。(This kanji is 境.)",
-        "exampleKana": "この漢字は境です"
+        "example": "環境問題を考えます。(I think about environmental issues.)",
+        "exampleKana": "かんきょうもんだいをかんがえます。"
       }
     ]
   },
@@ -11213,12 +11213,12 @@
     "entries": [
       {
         "entryId": 756,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は均です。(This kanji is 均.)",
-        "exampleKana": "この漢字は均です"
+        "romaji": "kin",
+        "hiragana": "きん",
+        "meaning": "even, uniform",
+        "wordClass": "adjective",
+        "example": "均等に分けました。(I divided it evenly.)",
+        "exampleKana": "きんとうにわけました。"
       }
     ]
   },
@@ -11228,12 +11228,12 @@
     "entries": [
       {
         "entryId": 757,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は禁です。(This kanji is 禁.)",
-        "exampleKana": "この漢字は禁です"
+        "romaji": "kin",
+        "hiragana": "きん",
+        "meaning": "prohibit, forbid",
+        "wordClass": "verb",
+        "example": "禁煙です。(No smoking.)",
+        "exampleKana": "きんえんです。"
       }
     ]
   },
@@ -11243,12 +11243,12 @@
     "entries": [
       {
         "entryId": 758,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "ku",
+        "hiragana": "く",
+        "meaning": "phrase, sentence",
         "wordClass": "noun",
-        "example": "この漢字は句です。(This kanji is 句.)",
-        "exampleKana": "この漢字は句です"
+        "example": "俳句を作りました。(I composed a haiku.)",
+        "exampleKana": "はいくをつくりました。"
       }
     ]
   },
@@ -11258,12 +11258,12 @@
     "entries": [
       {
         "entryId": 759,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "gun",
+        "hiragana": "ぐん",
+        "meaning": "group, crowd",
         "wordClass": "noun",
-        "example": "この漢字は群です。(This kanji is 群.)",
-        "exampleKana": "この漢字は群です"
+        "example": "人の群れが見えます。(I can see a crowd of people.)",
+        "exampleKana": "ひとのむれがみえます。"
       }
     ]
   },
@@ -11273,12 +11273,12 @@
     "entries": [
       {
         "entryId": 760,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は経です。(This kanji is 経.)",
-        "exampleKana": "この漢字は経です"
+        "romaji": "kei",
+        "hiragana": "けい",
+        "meaning": "pass through, experience",
+        "wordClass": "verb",
+        "example": "経験を積みました。(I gained experience.)",
+        "exampleKana": "けいけんをつみました。"
       }
     ]
   },
@@ -11288,12 +11288,12 @@
     "entries": [
       {
         "entryId": 761,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は潔です。(This kanji is 潔.)",
-        "exampleKana": "この漢字は潔です"
+        "romaji": "ketsu",
+        "hiragana": "けつ",
+        "meaning": "pure, clean",
+        "wordClass": "adjective",
+        "example": "潔白を証明しました。(I proved my innocence.)",
+        "exampleKana": "けっぱくをしょうめいしました。"
       }
     ]
   },
@@ -11303,12 +11303,12 @@
     "entries": [
       {
         "entryId": 762,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "ken",
+        "hiragana": "けん",
+        "meaning": "matter, case",
         "wordClass": "noun",
-        "example": "この漢字は件です。(This kanji is 件.)",
-        "exampleKana": "この漢字は件です"
+        "example": "事件を調べています。(I am investigating the case.)",
+        "exampleKana": "じけんをしらべています。"
       }
     ]
   },
@@ -11318,12 +11318,12 @@
     "entries": [
       {
         "entryId": 763,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "ken",
+        "hiragana": "けん",
+        "meaning": "ticket, certificate",
         "wordClass": "noun",
-        "example": "この漢字は券です。(This kanji is 券.)",
-        "exampleKana": "この漢字は券です"
+        "example": "映画の券を買いました。(I bought movie tickets.)",
+        "exampleKana": "えいがのけんをかいました。"
       }
     ]
   },
@@ -11333,12 +11333,12 @@
     "entries": [
       {
         "entryId": 764,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は険です。(This kanji is 険.)",
-        "exampleKana": "この漢字は険です"
+        "romaji": "ken",
+        "hiragana": "けん",
+        "meaning": "steep, dangerous",
+        "wordClass": "adjective",
+        "example": "険しい山道です。(It's a steep mountain path.)",
+        "exampleKana": "けわしいやまみちです。"
       }
     ]
   },
@@ -11348,12 +11348,12 @@
     "entries": [
       {
         "entryId": 765,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は検です。(This kanji is 検.)",
-        "exampleKana": "この漢字は検です"
+        "romaji": "ken",
+        "hiragana": "けん",
+        "meaning": "examine, inspect",
+        "wordClass": "verb",
+        "example": "健康を検査しました。(I had a health checkup.)",
+        "exampleKana": "けんこうをけんさしました。"
       }
     ]
   },
@@ -11363,12 +11363,12 @@
     "entries": [
       {
         "entryId": 766,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "gen",
+        "hiragana": "げん",
+        "meaning": "limit, bound",
         "wordClass": "noun",
-        "example": "この漢字は限です。(This kanji is 限.)",
-        "exampleKana": "この漢字は限です"
+        "example": "時間の制限があります。(There is a time limit.)",
+        "exampleKana": "じかんのせいげんがあります。"
       }
     ]
   },
@@ -11378,12 +11378,12 @@
     "entries": [
       {
         "entryId": 767,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は現です。(This kanji is 現.)",
-        "exampleKana": "この漢字は現です"
+        "romaji": "gen",
+        "hiragana": "げん",
+        "meaning": "present, current",
+        "wordClass": "adjective",
+        "example": "現在の状況です。(This is the current situation.)",
+        "exampleKana": "げんざいのじょうきょうです。"
       }
     ]
   },
@@ -11393,12 +11393,12 @@
     "entries": [
       {
         "entryId": 768,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は減です。(This kanji is 減.)",
-        "exampleKana": "この漢字は減です"
+        "romaji": "gen",
+        "hiragana": "げん",
+        "meaning": "decrease, reduce",
+        "wordClass": "verb",
+        "example": "体重が減りました。(My weight decreased.)",
+        "exampleKana": "たいじゅうがへりました。"
       }
     ]
   },
@@ -11408,12 +11408,12 @@
     "entries": [
       {
         "entryId": 769,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "ko",
+        "hiragana": "こ",
+        "meaning": "reason, cause",
         "wordClass": "noun",
-        "example": "この漢字は故です。(This kanji is 故.)",
-        "exampleKana": "この漢字は故です"
+        "example": "故郷を思い出します。(I remember my hometown.)",
+        "exampleKana": "こきょうをおもいだします。"
       }
     ]
   },
@@ -11423,12 +11423,12 @@
     "entries": [
       {
         "entryId": 770,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は護です。(This kanji is 護.)",
-        "exampleKana": "この漢字は護です"
+        "romaji": "go",
+        "hiragana": "ご",
+        "meaning": "protect, guard",
+        "wordClass": "verb",
+        "example": "看護師になりました。(I became a nurse.)",
+        "exampleKana": "かんごしになりました。"
       }
     ]
   },
@@ -11438,12 +11438,12 @@
     "entries": [
       {
         "entryId": 771,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "kou",
+        "hiragana": "こう",
+        "meaning": "effect, efficacy",
         "wordClass": "noun",
-        "example": "この漢字は効です。(This kanji is 効.)",
-        "exampleKana": "この漢字は効です"
+        "example": "効果がありました。(It was effective.)",
+        "exampleKana": "こうかがありました。"
       }
     ]
   },
@@ -11453,12 +11453,12 @@
     "entries": [
       {
         "entryId": 772,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は耕です。(This kanji is 耕.)",
-        "exampleKana": "この漢字は耕です"
+        "romaji": "kou",
+        "hiragana": "こう",
+        "meaning": "plow, cultivate",
+        "wordClass": "verb",
+        "example": "田んぼを耕します。(I plow the rice field.)",
+        "exampleKana": "たんぼをたがやします。"
       }
     ]
   },
@@ -11468,12 +11468,12 @@
     "entries": [
       {
         "entryId": 773,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "kou",
+        "hiragana": "こう",
+        "meaning": "mineral, ore",
         "wordClass": "noun",
-        "example": "この漢字は鉱です。(This kanji is 鉱.)",
-        "exampleKana": "この漢字は鉱です"
+        "example": "鉱山で働きます。(I work in a mine.)",
+        "exampleKana": "こうざんではたらきます。"
       }
     ]
   },
@@ -11483,12 +11483,12 @@
     "entries": [
       {
         "entryId": 774,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は構です。(This kanji is 構.)",
-        "exampleKana": "この漢字は構です"
+        "romaji": "kou",
+        "hiragana": "こう",
+        "meaning": "construct, structure",
+        "wordClass": "verb",
+        "example": "家を構えます。(I build a house.)",
+        "exampleKana": "いえをかまえます。"
       }
     ]
   },
@@ -11498,12 +11498,12 @@
     "entries": [
       {
         "entryId": 775,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "kyou",
+        "hiragana": "きょう",
+        "meaning": "interest, excitement",
         "wordClass": "noun",
-        "example": "この漢字は興です。(This kanji is 興.)",
-        "exampleKana": "この漢字は興です"
+        "example": "興味があります。(I am interested.)",
+        "exampleKana": "きょうみがあります。"
       }
     ]
   },
@@ -11513,12 +11513,12 @@
     "entries": [
       {
         "entryId": 776,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は混です。(This kanji is 混.)",
-        "exampleKana": "この漢字は混です"
+        "romaji": "kon",
+        "hiragana": "こん",
+        "meaning": "mix, confusion",
+        "wordClass": "verb",
+        "example": "混雑しています。(It's crowded.)",
+        "exampleKana": "こんざつしています。"
       }
     ]
   },
@@ -11528,12 +11528,12 @@
     "entries": [
       {
         "entryId": 777,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は査です。(This kanji is 査.)",
-        "exampleKana": "この漢字は査です"
+        "romaji": "sa",
+        "hiragana": "さ",
+        "meaning": "investigate, examine",
+        "wordClass": "verb",
+        "example": "調査しました。(I investigated.)",
+        "exampleKana": "ちょうさしました。"
       }
     ]
   },
@@ -11543,12 +11543,12 @@
     "entries": [
       {
         "entryId": 778,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は再です。(This kanji is 再.)",
-        "exampleKana": "この漢字は再です"
+        "romaji": "sai",
+        "hiragana": "さい",
+        "meaning": "again, re-",
+        "wordClass": "prefix",
+        "example": "再び来ました。(I came again.)",
+        "exampleKana": "ふたたびきました。"
       }
     ]
   },
@@ -11558,12 +11558,12 @@
     "entries": [
       {
         "entryId": 779,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "sai",
+        "hiragana": "さい",
+        "meaning": "disaster, calamity",
         "wordClass": "noun",
-        "example": "この漢字は災です。(This kanji is 災.)",
-        "exampleKana": "この漢字は災です"
+        "example": "自然災害です。(It's a natural disaster.)",
+        "exampleKana": "しぜんさいがいです。"
       }
     ]
   },
@@ -11573,12 +11573,12 @@
     "entries": [
       {
         "entryId": 780,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "tsuma",
+        "hiragana": "つま",
+        "meaning": "wife",
         "wordClass": "noun",
-        "example": "この漢字は妻です。(This kanji is 妻.)",
-        "exampleKana": "この漢字は妻です"
+        "example": "私の妻です。(This is my wife.)",
+        "exampleKana": "わたしのつまです。"
       }
     ]
   },
@@ -11588,12 +11588,12 @@
     "entries": [
       {
         "entryId": 781,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は採です。(This kanji is 採.)",
-        "exampleKana": "この漢字は採です"
+        "romaji": "sai",
+        "hiragana": "さい",
+        "meaning": "pick, adopt",
+        "wordClass": "verb",
+        "example": "採用されました。(I was hired.)",
+        "exampleKana": "さいようされました。"
       }
     ]
   },
@@ -11603,12 +11603,12 @@
     "entries": [
       {
         "entryId": 782,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "sai",
+        "hiragana": "さい",
+        "meaning": "occasion, time",
         "wordClass": "noun",
-        "example": "この漢字は際です。(This kanji is 際.)",
-        "exampleKana": "この漢字は際です"
+        "example": "その際にお話しします。(I'll talk at that time.)",
+        "exampleKana": "そのさいにおはなしします。"
       }
     ]
   },
@@ -11618,12 +11618,12 @@
     "entries": [
       {
         "entryId": 783,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "zai",
+        "hiragana": "ざい",
+        "meaning": "exist, be present",
         "wordClass": "noun",
-        "example": "この漢字は在です。(This kanji is 在.)",
-        "exampleKana": "この漢字は在です"
+        "example": "彼は今東京に在住している。(He currently resides in Tokyo.)",
+        "exampleKana": "かれはいまとうきょうにざいじゅうしている"
       }
     ]
   },
@@ -11633,12 +11633,12 @@
     "entries": [
       {
         "entryId": 784,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "zai",
+        "hiragana": "ざい",
+        "meaning": "wealth, property",
         "wordClass": "noun",
-        "example": "この漢字は財です。(This kanji is 財.)",
-        "exampleKana": "この漢字は財です"
+        "example": "彼は財産を失った。(He lost his property.)",
+        "exampleKana": "かれはざいさんをうしなった"
       }
     ]
   },
@@ -11648,12 +11648,12 @@
     "entries": [
       {
         "entryId": 785,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "tsumi",
+        "hiragana": "つみ",
+        "meaning": "crime, sin",
         "wordClass": "noun",
-        "example": "この漢字は罪です。(This kanji is 罪.)",
-        "exampleKana": "この漢字は罪です"
+        "example": "彼は罪を犯した。(He committed a crime.)",
+        "exampleKana": "かれはつみをおかした"
       }
     ]
   },
@@ -11663,12 +11663,12 @@
     "entries": [
       {
         "entryId": 786,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は雑です。(This kanji is 雑.)",
-        "exampleKana": "この漢字は雑です"
+        "romaji": "zatsu",
+        "hiragana": "ざつ",
+        "meaning": "miscellaneous, rough",
+        "wordClass": "adjective",
+        "example": "雑音が聞こえる。(I can hear noise.)",
+        "exampleKana": "ざつおんがきこえる"
       }
     ]
   },
@@ -11678,12 +11678,12 @@
     "entries": [
       {
         "entryId": 787,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
+        "romaji": "san",
+        "hiragana": "さん",
+        "meaning": "acid",
         "wordClass": "noun",
-        "example": "この漢字は酸です。(This kanji is 酸.)",
-        "exampleKana": "この漢字は酸です"
+        "example": "レモンは酸っぱい。(Lemons are sour.)",
+        "exampleKana": "れもんはさっぱい"
       }
     ]
   },
@@ -11693,12 +11693,12 @@
     "entries": [
       {
         "entryId": 788,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は賛です。(This kanji is 賛.)",
-        "exampleKana": "この漢字は賛です"
+        "romaji": "san",
+        "hiragana": "さん",
+        "meaning": "approve, praise",
+        "wordClass": "verb",
+        "example": "みんなが彼の提案に賛成した。(Everyone agreed with his proposal.)",
+        "exampleKana": "みんながかれのていあんにさんせいした"
       }
     ]
   },
@@ -11708,12 +11708,12 @@
     "entries": [
       {
         "entryId": 789,
-        "romaji": "character",
-        "hiragana": "character",
-        "meaning": "kanji character",
-        "wordClass": "noun",
-        "example": "この漢字は支です。(This kanji is 支.)",
-        "exampleKana": "この漢字は支です"
+        "romaji": "shi",
+        "hiragana": "し",
+        "meaning": "support, branch",
+        "wordClass": "verb",
+        "example": "彼は家族を支えている。(He supports his family.)",
+        "exampleKana": "かれはかぞくをささえている"
       }
     ]
   },
