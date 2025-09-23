@@ -5,9 +5,9 @@ import { useSearchParams } from "next/navigation";
 import { Suspense, useState, useMemo, useEffect, lazy } from "react";
 import kanjiData from "@/data/kanji.json";
 import Header from "@/components/Header";
-import { useProgress } from "@/hooks/useProgress";
 import { useAuth } from "@/hooks/useAuth";
 import { getProgressColors } from "@/types/progress";
+import { useBatchedProgress } from "@/hooks/useBatchedProgress";
 
 // Lazy load heavy components
 const JapaneseBackground = lazy(() => import("@/components/JapaneseBackground"));
@@ -18,10 +18,12 @@ function HomeContent() {
   const searchParams = useSearchParams();
   const currentPage = parseInt(searchParams.get('page') || '1');
   const kanjiPerPage = 50;
-  const { getKanjiProgress, isKanjiArchived, isLoaded } = useProgress();
   const { isAuthenticated } = useAuth();
+  const { loadProgressBatch } = useBatchedProgress();
 
   const [progressFilter, setProgressFilter] = useState<ProgressFilter>('locked');
+  const [pageProgress, setPageProgress] = useState<Record<number, { progress: number; isArchived: boolean }>>({});
+  const [isLoaded, setIsLoaded] = useState(false);
 
   // Sync filter with URL params on mount
   useEffect(() => {
@@ -30,6 +32,31 @@ function HomeContent() {
       setProgressFilter(filterParam);
     }
   }, [searchParams]);
+
+  // Load progress for current page kanji
+  useEffect(() => {
+    const loadPageProgress = async () => {
+      setIsLoaded(false);
+
+      // Calculate which kanji are on the current page
+      const startIndex = (currentPage - 1) * kanjiPerPage;
+      const endIndex = startIndex + kanjiPerPage;
+      const currentPageKanjiIds = kanjiData
+        .slice(startIndex, endIndex)
+        .map(kanji => kanji.id);
+
+      try {
+        const progress = await loadProgressBatch(currentPageKanjiIds);
+        setPageProgress(progress);
+      } catch (error) {
+        console.error('Failed to load page progress:', error);
+      } finally {
+        setIsLoaded(true);
+      }
+    };
+
+    loadPageProgress();
+  }, [currentPage, loadProgressBatch]);
 
   // Helper function to categorize progress
   const getProgressCategory = (progress: number): ProgressFilter => {
@@ -41,59 +68,37 @@ function HomeContent() {
     return 'locked';
   };
 
-  // Bulk calculate progress for all kanji to avoid individual getKanjiProgress calls
-  const kanjiWithProgress = useMemo(() => {
-    return kanjiData.map(kanji => ({
+  // Calculate progress for current page kanji using batched data
+  const currentPageKanjiWithProgress = useMemo(() => {
+    const startIndex = (currentPage - 1) * kanjiPerPage;
+    const endIndex = startIndex + kanjiPerPage;
+    const currentPageKanji = kanjiData.slice(startIndex, endIndex);
+
+    return currentPageKanji.map(kanji => ({
       ...kanji,
-      progress: isLoaded ? getKanjiProgress(kanji.id) : 0,
-      isArchived: isLoaded ? isKanjiArchived(kanji.id) : false
+      progress: pageProgress[kanji.id]?.progress || 0,
+      isArchived: pageProgress[kanji.id]?.isArchived || false
     }));
-  }, [isLoaded, getKanjiProgress, isKanjiArchived]);
+  }, [currentPage, pageProgress]);
 
-  // Filter out archived kanji and apply progress filter
-  const filteredKanjiData = useMemo(() => {
-    let filtered = kanjiWithProgress.filter(kanji => !kanji.isArchived);
+  // For page-based approach, we work directly with current page kanji
+  const totalPages = Math.ceil(kanjiData.length / kanjiPerPage);
 
-    if (progressFilter !== 'all' && isLoaded) {
-      filtered = filtered.filter(kanji => {
-        return getProgressCategory(kanji.progress) === progressFilter;
-      });
-    }
-
-    return filtered;
-  }, [progressFilter, kanjiWithProgress, isLoaded]);
-
-  const totalPages = Math.ceil(filteredKanjiData.length / kanjiPerPage);
-
-  // Handle case where current page is out of bounds after filtering
+  // Handle case where current page is out of bounds
   const safePage = Math.min(currentPage, Math.max(1, totalPages));
 
-  // Calculate start and end indices for current page
-  const startIndex = (safePage - 1) * kanjiPerPage;
-  const endIndex = startIndex + kanjiPerPage;
-  const currentKanji = filteredKanjiData.slice(startIndex, endIndex);
+  // Current kanji are already filtered to the current page
+  const currentKanji = currentPageKanjiWithProgress;
 
-  // Calculate overall user progress (only for authenticated users)
-  const calculateOverallProgress = () => {
-    // Only calculate progress for authenticated users
-    if (!isLoaded || !isAuthenticated) return 0;
+  // For batched approach, we'll show page-specific counts and disable overall progress
+  // This significantly improves performance by only loading data for current page
 
-    const totalProgressPoints = kanjiWithProgress.reduce((sum, kanji) => sum + kanji.progress, 0);
-    const totalKanjiCount = kanjiWithProgress.length;
-
-    // Formula: sum of (each kanji progress * 1) / total kanji count
-    const overallPercentage = totalProgressPoints / totalKanjiCount;
-    return Math.round(overallPercentage * 100) / 100; // Round to 2 decimal places
-  };
-
-  const overallProgress = calculateOverallProgress();
-
-  // Calculate counts for each progress category using precomputed data
+  // Calculate counts for current page kanji
   const progressCounts = useMemo(() => {
     if (!isLoaded) return { all: 0, locked: 0, discovered: 0, equipped: 0, skilled: 0, mastered: 0 };
 
-    const nonArchivedKanji = kanjiWithProgress.filter(kanji => !kanji.isArchived);
-    const counts = { all: nonArchivedKanji.length, locked: 0, discovered: 0, equipped: 0, skilled: 0, mastered: 0 };
+    const nonArchivedKanji = currentKanji.filter(kanji => !kanji.isArchived);
+    const counts = { all: kanjiData.length, locked: 0, discovered: 0, equipped: 0, skilled: 0, mastered: 0 };
 
     nonArchivedKanji.forEach(kanji => {
       const category = getProgressCategory(kanji.progress);
@@ -101,7 +106,7 @@ function HomeContent() {
     });
 
     return counts;
-  }, [isLoaded, kanjiWithProgress]);
+  }, [isLoaded, currentKanji]);
 
   // Helper function to build URL with current filter
   const buildUrl = (page: number, filter?: ProgressFilter) => {
@@ -150,7 +155,7 @@ function HomeContent() {
           <div className="flex justify-center items-center mt-4 gap-4">
             <div className="text-2xl">🌸</div>
             <div className="text-slate-600 font-medium">
-              Page {safePage} of {totalPages} ({filteredKanjiData.length} {progressFilter !== 'all' ? `${progressFilter} ` : ''}kanji)
+              Page {safePage} of {totalPages} (showing {currentKanji.length} kanji)
             </div>
             <div className="text-2xl">🌸</div>
           </div>
@@ -264,22 +269,14 @@ function HomeContent() {
                 </div>
               )}
 
-              {/* Overall Progress - Only for authenticated users */}
-              {isLoaded && isAuthenticated && overallProgress > 0 && (
-                <div className="px-4 py-2 bg-gradient-to-r from-emerald-50 to-green-50 rounded-lg border border-emerald-200 shadow-sm">
+              {/* Page Progress Info - Show current page info */}
+              {isLoaded && (
+                <div className="px-4 py-2 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-lg border border-blue-200 shadow-sm">
                   <div className="flex items-center gap-2">
-                    <span className="text-emerald-700 font-semibold text-sm">📈 Overall:</span>
-                    <div className="flex items-center gap-2">
-                      <div className="w-16 sm:w-20 bg-gray-200 rounded-full h-2">
-                        <div
-                          className="bg-gradient-to-r from-emerald-400 to-green-500 h-2 rounded-full transition-all duration-500"
-                          style={{ width: `${Math.min(overallProgress, 100)}%` }}
-                        ></div>
-                      </div>
-                      <span className="text-emerald-700 font-bold text-sm whitespace-nowrap">
-                        {overallProgress.toFixed(1)}%
-                      </span>
-                    </div>
+                    <span className="text-blue-700 font-semibold text-sm">📊 Page {safePage}:</span>
+                    <span className="text-blue-700 text-sm">
+                      {currentKanji.length} kanji loaded
+                    </span>
                   </div>
                 </div>
               )}
