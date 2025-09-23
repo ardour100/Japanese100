@@ -122,3 +122,4 @@ Experience the beauty of Japanese language learning! 🌸
 ## License
 
 This project is open source and available under the MIT License.
+# Trigger deployment after rollback
