@@ -9,8 +9,16 @@ export const useAuth = () => {
   const [session, setSession] = useState<Session | null>(null);
   const [loading, setLoading] = useState(true);
   const initialized = useRef(false);
+  const [isHydrated, setIsHydrated] = useState(false);
 
   useEffect(() => {
+    setIsHydrated(true);
+  }, []);
+
+  useEffect(() => {
+    // Wait for hydration before initializing auth
+    if (!isHydrated) return;
+
     // Prevent multiple initializations
     if (initialized.current) {
       return;
@@ -67,7 +75,7 @@ export const useAuth = () => {
     );
 
     return () => subscription.unsubscribe();
-  }, []);
+  }, [isHydrated]);
 
   const signInWithGoogle = useCallback(async () => {
     if (!isSupabaseConfigured()) {
