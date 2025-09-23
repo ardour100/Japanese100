@@ -55,14 +55,14 @@ export default function Header() {
                 <span className="md:hidden">📦</span>
               </Link>
 
-              {/* Joyo Kanji Link */}
+              {/* Progress Link */}
               <Link
-                href="/joyo-kanji"
-                className="inline-flex items-center px-2 sm:px-3 py-2 border border-indigo-300 rounded-lg text-sm font-medium text-indigo-700 bg-gradient-to-r from-indigo-50 to-purple-50 hover:from-indigo-100 hover:to-purple-100 transition-colors shadow-sm"
+                href="/progress"
+                className="inline-flex items-center px-2 sm:px-3 py-2 border border-blue-300 rounded-lg text-sm font-medium text-blue-700 bg-gradient-to-r from-blue-50 to-cyan-50 hover:from-blue-100 hover:to-cyan-100 transition-colors shadow-sm"
               >
-                <span className="text-sm mr-1 sm:mr-2">📚</span>
-                <span className="hidden md:inline">Jōyō Kanji</span>
-                <span className="md:hidden">Jōyō</span>
+                <span className="text-sm mr-1 sm:mr-2">📊</span>
+                <span className="hidden md:inline">Progress</span>
+                <span className="md:hidden">📊</span>
               </Link>
 
               {/* Daily Phrases Link */}
@@ -143,14 +143,14 @@ export default function Header() {
                 <span className="font-medium">Archive</span>
               </Link>
 
-              {/* Joyo Kanji Link */}
+              {/* Progress Link */}
               <Link
-                href="/joyo-kanji"
+                href="/progress"
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="flex items-center px-3 py-3 rounded-lg text-indigo-700 bg-gradient-to-r from-indigo-50 to-purple-50 hover:from-indigo-100 hover:to-purple-100 transition-colors border border-indigo-200"
+                className="flex items-center px-3 py-3 rounded-lg text-blue-700 bg-gradient-to-r from-blue-50 to-cyan-50 hover:from-blue-100 hover:to-cyan-100 transition-colors border border-blue-200"
               >
-                <span className="text-lg mr-3">📚</span>
-                <span className="font-medium">Jōyō Kanji</span>
+                <span className="text-lg mr-3">📊</span>
+                <span className="font-medium">Progress</span>
               </Link>
 
               {/* Daily Phrases Link */}
