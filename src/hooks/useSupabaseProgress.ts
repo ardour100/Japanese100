@@ -15,15 +15,66 @@ export const useSupabaseProgress = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [isHydrated, setIsHydrated] = useState(false);
+  const [hasMigrated, setHasMigrated] = useState(false);
 
   // Handle hydration
   useEffect(() => {
     setIsHydrated(true);
   }, []);
 
+  // Migrate localStorage progress to Supabase when user logs in
+  const migrateLocalProgressToSupabase = useCallback(async () => {
+    if (!isSupabaseConfigured() || !isAuthenticated || !user || hasMigrated) return;
+
+    const localProgress = localStorage.getItem(STORAGE_KEY);
+    if (!localProgress) {
+      setHasMigrated(true);
+      return;
+    }
+
+    try {
+      const parsedProgress: KanjiProgress = JSON.parse(localProgress);
+      const progressEntries = Object.entries(parsedProgress);
+
+      if (progressEntries.length === 0) {
+        setHasMigrated(true);
+        return;
+      }
+
+      // Insert all progress entries
+      const { error } = await supabase
+        .from('user_progress')
+        .upsert(
+          progressEntries.map(([kanjiId, level]) => ({
+            user_id: user.id,
+            kanji_id: parseInt(kanjiId),
+            progress_level: level,
+          })),
+          { onConflict: 'user_id, kanji_id' }
+        );
+
+      if (error) {
+        console.error('Error migrating progress to Supabase:', error);
+      } else {
+        // Clear localStorage after successful migration
+        localStorage.removeItem(STORAGE_KEY);
+        console.log('Successfully migrated progress to Supabase');
+      }
+      setHasMigrated(true);
+    } catch (error) {
+      console.error('Error during progress migration:', error);
+      setHasMigrated(true);
+    }
+  }, [isAuthenticated, user, hasMigrated]);
+
   // Load progress from Supabase or localStorage
   const loadProgress = useCallback(async () => {
     if (isSupabaseConfigured() && isAuthenticated && user) {
+      // First, attempt migration if not done yet
+      if (!hasMigrated) {
+        await migrateLocalProgressToSupabase();
+      }
+
       // Load from Supabase for authenticated users
       try {
         setIsLoading(true);
@@ -74,58 +125,11 @@ export const useSupabaseProgress = () => {
       }
     }
     setIsLoaded(true);
-  }, [isAuthenticated, user]);
-
-  // Migrate localStorage progress to Supabase when user logs in
-  const migrateLocalProgressToSupabase = useCallback(async () => {
-    if (!isSupabaseConfigured() || !isAuthenticated || !user) return;
-
-    const localProgress = localStorage.getItem(STORAGE_KEY);
-    if (!localProgress) return;
-
-    try {
-      const parsedProgress: KanjiProgress = JSON.parse(localProgress);
-      const progressEntries = Object.entries(parsedProgress);
-
-      if (progressEntries.length === 0) return;
-
-      // Insert all progress entries
-      const { error } = await supabase
-        .from('user_progress')
-        .upsert(
-          progressEntries.map(([kanjiId, level]) => ({
-            user_id: user.id,
-            kanji_id: parseInt(kanjiId),
-            progress_level: level,
-          })),
-          { onConflict: 'user_id, kanji_id' }
-        );
-
-      if (error) {
-        console.error('Error migrating progress to Supabase:', error);
-      } else {
-        // Clear localStorage after successful migration
-        localStorage.removeItem(STORAGE_KEY);
-        console.log('Successfully migrated progress to Supabase');
-      }
-    } catch (error) {
-      console.error('Error during progress migration:', error);
-    }
-  }, [isAuthenticated, user]);
+  }, [isAuthenticated, user, hasMigrated, migrateLocalProgressToSupabase]);
 
   useEffect(() => {
     loadProgress();
   }, [loadProgress]);
-
-  useEffect(() => {
-    // Migrate local progress when user logs in
-    if (isSupabaseConfigured() && isAuthenticated && user && isLoaded) {
-      migrateLocalProgressToSupabase().then(() => {
-        // Reload progress after migration
-        loadProgress();
-      });
-    }
-  }, [isAuthenticated, user, isLoaded, migrateLocalProgressToSupabase, loadProgress]);
 
   const updateProgress = useCallback(async (kanjiId: number, level: number) => {
     // Optimistically update local state
