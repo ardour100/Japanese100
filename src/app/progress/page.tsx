@@ -19,7 +19,7 @@ function ProgressContent() {
   const { getKanjiProgress, isKanjiArchived, isLoaded } = useProgress();
   const { isAuthenticated } = useAuth();
 
-  const [progressFilter, setProgressFilter] = useState<ProgressFilter>('locked');
+  const [progressFilter, setProgressFilter] = useState<ProgressFilter>('all');
 
   // Sync filter with URL params on mount
   useEffect(() => {
