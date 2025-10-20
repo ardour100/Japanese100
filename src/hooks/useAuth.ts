@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { User, Session } from '@supabase/supabase-js';
 import { supabase, isSupabaseConfigured } from '@/lib/supabase';
 
@@ -8,6 +8,7 @@ export const useAuth = () => {
   const [user, setUser] = useState<User | null>(null);
   const [session, setSession] = useState<Session | null>(null);
   const [loading, setLoading] = useState(true);
+  const hasHandledSignInRef = useRef(false);
 
   useEffect(() => {
     // If Supabase is not configured, set loading to false and return
@@ -34,14 +35,22 @@ export const useAuth = () => {
     // Listen for auth changes
     const { data: { subscription } } = supabase.auth.onAuthStateChange(
       async (event, session) => {
+        console.log('🔐 Auth state changed:', event, 'User:', session?.user?.email);
         setSession(session);
         setUser(session?.user ?? null);
         setLoading(false);
 
-        // Handle redirect after OAuth
-        if (event === 'SIGNED_IN' && session) {
-          // Redirect to home page after successful login
-          window.location.href = '/';
+        // Handle redirect after OAuth - only once and only from callback page
+        if (event === 'SIGNED_IN' && session && !hasHandledSignInRef.current) {
+          // Only redirect if we're on the auth callback page
+          if (window.location.pathname.includes('/auth/callback')) {
+            console.log('🔄 Redirecting from callback to home page');
+            hasHandledSignInRef.current = true;
+            window.location.href = '/';
+          } else {
+            console.log('✅ Already on app page, skipping redirect');
+            hasHandledSignInRef.current = true;
+          }
         }
       }
     );
