@@ -16,7 +16,7 @@ function ProgressContent() {
   const searchParams = useSearchParams();
   const currentPage = parseInt(searchParams.get('page') || '1');
   const kanjiPerPage = 50;
-  const { getKanjiProgress, isKanjiArchived, isLoaded } = useProgress();
+  const { getKanjiProgress, isKanjiArchived, isLoaded, progress } = useProgress();
   const { isAuthenticated } = useAuth();
 
   const [progressFilter, setProgressFilter] = useState<ProgressFilter>('all');
@@ -64,24 +64,23 @@ function ProgressContent() {
   const currentKanji = filteredKanjiData.slice(startIndex, endIndex);
 
   // Calculate overall user progress (only for authenticated users)
-  const calculateOverallProgress = () => {
+  // Optimized: Use useMemo and iterate only over progress entries instead of all kanji
+  const overallProgress = useMemo(() => {
     // Only calculate progress for authenticated users
     if (!isLoaded || !isAuthenticated) return 0;
 
+    // Sum up all progress values directly from the progress object
+    // This only iterates over kanji that have progress (not all 2000+ kanji)
     let totalProgressPoints = 0;
-    const totalKanjiCount = kanjiData.length; // Use full dataset for progress calculation
+    Object.values(progress).forEach(level => {
+      totalProgressPoints += level;
+    });
 
-    for (let i = 1; i <= totalKanjiCount; i++) {
-      const kanjiProgress = getKanjiProgress(i);
-      totalProgressPoints += kanjiProgress;
-    }
-
-    // Formula: sum of (each kanji progress * 1) / total kanji count
+    // Formula: sum of all progress / total kanji count
+    const totalKanjiCount = kanjiData.length;
     const overallPercentage = totalProgressPoints / totalKanjiCount;
     return Math.round(overallPercentage * 100) / 100; // Round to 2 decimal places
-  };
-
-  const overallProgress = calculateOverallProgress();
+  }, [isLoaded, isAuthenticated, progress]);
 
   // Calculate counts for each progress category
   const progressCounts = useMemo(() => {
