@@ -303,6 +303,46 @@
         "romaji": "takushī wo yonde kudasai",
         "english": "Please call a taxi",
         "context": "Requesting service"
+      },
+      {
+        "id": 35,
+        "japanese": "アメリカから来ました",
+        "hiragana": "アメリカからきました",
+        "romaji": "amerika kara kimashita",
+        "english": "I'm from America",
+        "context": "Stating nationality"
+      },
+      {
+        "id": 36,
+        "japanese": "オーストラリアから来ました",
+        "hiragana": "オーストラリアからきました",
+        "romaji": "ōsutoraria kara kimashita",
+        "english": "I'm from Australia",
+        "context": "Stating nationality"
+      },
+      {
+        "id": 37,
+        "japanese": "ブラジルから来ました",
+        "hiragana": "ブラジルからきました",
+        "romaji": "burajiru kara kimashita",
+        "english": "I'm from Brazil",
+        "context": "Stating nationality"
+      },
+      {
+        "id": 38,
+        "japanese": "シンガポールから来ました",
+        "hiragana": "シンガポールからきました",
+        "romaji": "shingapōru kara kimashita",
+        "english": "I'm from Singapore",
+        "context": "Stating nationality"
+      },
+      {
+        "id": 39,
+        "japanese": "私は中国系シンガポール人です",
+        "hiragana": "わたしはちゅうごくけいシンガポールじんです",
+        "romaji": "watashi wa chūgokukei shingapōrujin desu",
+        "english": "I'm a Singaporean Chinese",
+        "context": "Stating ethnic background"
       }
     ]
   },
@@ -312,7 +352,7 @@
     "icon": "🚨",
     "phrases": [
       {
-        "id": 35,
+        "id": 40,
         "japanese": "助けてください",
         "hiragana": "たすけてください",
         "romaji": "tasukete kudasai",
@@ -320,7 +360,7 @@
         "context": "Emergency"
       },
       {
-        "id": 36,
+        "id": 41,
         "japanese": "英語を話せますか？",
         "hiragana": "えいごをはなせますか？",
         "romaji": "eigo wo hanasemasu ka?",
@@ -328,7 +368,7 @@
         "context": "Seeking help"
       },
       {
-        "id": 37,
+        "id": 42,
         "japanese": "病院はどこですか？",
         "hiragana": "びょういんはどこですか？",
         "romaji": "byōin wa doko desu ka?",
@@ -336,7 +376,7 @@
         "context": "Medical emergency"
       },
       {
-        "id": 38,
+        "id": 43,
         "japanese": "警察を呼んでください",
         "hiragana": "けいさつをよんでください",
         "romaji": "keisatsu wo yonde kudasai",
