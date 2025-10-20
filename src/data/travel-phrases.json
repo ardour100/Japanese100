@@ -1,0 +1,348 @@
+[
+  {
+    "id": 1,
+    "category": "Convenience Store",
+    "icon": "🏪",
+    "phrases": [
+      {
+        "id": 1,
+        "japanese": "いらっしゃいませ",
+        "hiragana": "いらっしゃいませ",
+        "romaji": "irasshaimase",
+        "english": "Welcome!",
+        "context": "Greeting when entering"
+      },
+      {
+        "id": 2,
+        "japanese": "これはいくらですか？",
+        "hiragana": "これはいくらですか？",
+        "romaji": "kore wa ikura desu ka?",
+        "english": "How much is this?",
+        "context": "Asking for price"
+      },
+      {
+        "id": 3,
+        "japanese": "袋は要りますか？",
+        "hiragana": "ふくろはいりますか？",
+        "romaji": "fukuro wa irimasuka?",
+        "english": "Do you need a bag?",
+        "context": "Staff asking about bag"
+      },
+      {
+        "id": 4,
+        "japanese": "レシートは要りますか？",
+        "hiragana": "レシートはいりますか？",
+        "romaji": "reshīto wa irimasuka?",
+        "english": "Do you need a receipt?",
+        "context": "Staff asking about receipt"
+      },
+      {
+        "id": 5,
+        "japanese": "温めますか？",
+        "hiragana": "あたためますか？",
+        "romaji": "atatamemasuka?",
+        "english": "Would you like this warmed?",
+        "context": "Staff asking about heating food"
+      },
+      {
+        "id": 6,
+        "japanese": "温めてください",
+        "hiragana": "あたためてください",
+        "romaji": "atatamete kudasai",
+        "english": "Please warm this",
+        "context": "Requesting to warm food"
+      },
+      {
+        "id": 7,
+        "japanese": "袋をください",
+        "hiragana": "ふくろをください",
+        "romaji": "fukuro wo kudasai",
+        "english": "Please give me a bag",
+        "context": "Requesting a bag"
+      },
+      {
+        "id": 8,
+        "japanese": "大丈夫です",
+        "hiragana": "だいじょうぶです",
+        "romaji": "daijōbu desu",
+        "english": "I'm okay / No thanks",
+        "context": "Declining politely"
+      },
+      {
+        "id": 9,
+        "japanese": "お箸をください",
+        "hiragana": "おはしをください",
+        "romaji": "ohashi wo kudasai",
+        "english": "Please give me chopsticks",
+        "context": "Requesting chopsticks"
+      },
+      {
+        "id": 10,
+        "japanese": "ありがとうございます",
+        "hiragana": "ありがとうございます",
+        "romaji": "arigatō gozaimasu",
+        "english": "Thank you very much",
+        "context": "Thanking staff"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Restaurant",
+    "icon": "🍜",
+    "phrases": [
+      {
+        "id": 11,
+        "japanese": "何名様ですか？",
+        "hiragana": "なんめいさまですか？",
+        "romaji": "nanmei-sama desu ka?",
+        "english": "How many people?",
+        "context": "Staff asking party size"
+      },
+      {
+        "id": 12,
+        "japanese": "二名です",
+        "hiragana": "ふたりです",
+        "romaji": "futari desu",
+        "english": "Two people",
+        "context": "Answering party size"
+      },
+      {
+        "id": 13,
+        "japanese": "メニューをください",
+        "hiragana": "メニューをください",
+        "romaji": "menyū wo kudasai",
+        "english": "Menu, please",
+        "context": "Requesting menu"
+      },
+      {
+        "id": 14,
+        "japanese": "これをください",
+        "hiragana": "これをください",
+        "romaji": "kore wo kudasai",
+        "english": "I'll have this",
+        "context": "Ordering by pointing"
+      },
+      {
+        "id": 15,
+        "japanese": "お水をください",
+        "hiragana": "おみずをください",
+        "romaji": "omizu wo kudasai",
+        "english": "Water, please",
+        "context": "Requesting water"
+      },
+      {
+        "id": 16,
+        "japanese": "お会計お願いします",
+        "hiragana": "おかいけいおねがいします",
+        "romaji": "okaikei onegaishimasu",
+        "english": "Check, please",
+        "context": "Requesting the bill"
+      },
+      {
+        "id": 17,
+        "japanese": "ごちそうさまでした",
+        "hiragana": "ごちそうさまでした",
+        "romaji": "gochisōsama deshita",
+        "english": "Thank you for the meal",
+        "context": "After finishing meal"
+      },
+      {
+        "id": 18,
+        "japanese": "おすすめは何ですか？",
+        "hiragana": "おすすめはなんですか？",
+        "romaji": "osusume wa nan desu ka?",
+        "english": "What do you recommend?",
+        "context": "Asking for recommendations"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Transportation",
+    "icon": "🚇",
+    "phrases": [
+      {
+        "id": 19,
+        "japanese": "すみません",
+        "hiragana": "すみません",
+        "romaji": "sumimasen",
+        "english": "Excuse me",
+        "context": "Getting attention"
+      },
+      {
+        "id": 20,
+        "japanese": "◯◯駅はどこですか？",
+        "hiragana": "◯◯えきはどこですか？",
+        "romaji": "◯◯eki wa doko desu ka?",
+        "english": "Where is ◯◯ station?",
+        "context": "Asking for directions"
+      },
+      {
+        "id": 21,
+        "japanese": "切符売り場はどこですか？",
+        "hiragana": "きっぷうりばはどこですか？",
+        "romaji": "kippu uriba wa doko desu ka?",
+        "english": "Where is the ticket counter?",
+        "context": "Finding ticket machines"
+      },
+      {
+        "id": 22,
+        "japanese": "◯◯までいくらですか？",
+        "hiragana": "◯◯までいくらですか？",
+        "romaji": "◯◯ made ikura desu ka?",
+        "english": "How much to ◯◯?",
+        "context": "Asking fare"
+      },
+      {
+        "id": 23,
+        "japanese": "次の駅は何ですか？",
+        "hiragana": "つぎのえきはなんですか？",
+        "romaji": "tsugi no eki wa nan desu ka?",
+        "english": "What's the next station?",
+        "context": "On the train"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Shopping",
+    "icon": "🛍️",
+    "phrases": [
+      {
+        "id": 24,
+        "japanese": "見ているだけです",
+        "hiragana": "みているだけです",
+        "romaji": "mite iru dake desu",
+        "english": "Just looking",
+        "context": "When approached by staff"
+      },
+      {
+        "id": 25,
+        "japanese": "試着してもいいですか？",
+        "hiragana": "しちゃくしてもいいですか？",
+        "romaji": "shichaku shite mo ii desu ka?",
+        "english": "Can I try this on?",
+        "context": "In clothing store"
+      },
+      {
+        "id": 26,
+        "japanese": "これをください",
+        "hiragana": "これをください",
+        "romaji": "kore wo kudasai",
+        "english": "I'll take this",
+        "context": "Making purchase"
+      },
+      {
+        "id": 27,
+        "japanese": "他の色はありますか？",
+        "hiragana": "ほかのいろはありますか？",
+        "romaji": "hoka no iro wa arimasu ka?",
+        "english": "Do you have other colors?",
+        "context": "Asking about options"
+      },
+      {
+        "id": 28,
+        "japanese": "もう少し安いのはありますか？",
+        "hiragana": "もうすこしやすいのはありますか？",
+        "romaji": "mō sukoshi yasui no wa arimasu ka?",
+        "english": "Do you have something cheaper?",
+        "context": "Looking for budget options"
+      },
+      {
+        "id": 29,
+        "japanese": "カードで払えますか？",
+        "hiragana": "カードではらえますか？",
+        "romaji": "kādo de haraemasu ka?",
+        "english": "Can I pay by card?",
+        "context": "Payment method"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Hotel",
+    "icon": "🏨",
+    "phrases": [
+      {
+        "id": 30,
+        "japanese": "チェックインお願いします",
+        "hiragana": "チェックインおねがいします",
+        "romaji": "chekkuin onegaishimasu",
+        "english": "Check-in, please",
+        "context": "At reception"
+      },
+      {
+        "id": 31,
+        "japanese": "予約しています",
+        "hiragana": "よやくしています",
+        "romaji": "yoyaku shite imasu",
+        "english": "I have a reservation",
+        "context": "At reception"
+      },
+      {
+        "id": 32,
+        "japanese": "Wi-Fiのパスワードは何ですか？",
+        "hiragana": "ワイファイのパスワードはなんですか？",
+        "romaji": "waifai no pasuWādo wa nan desu ka?",
+        "english": "What's the WiFi password?",
+        "context": "Asking for WiFi"
+      },
+      {
+        "id": 33,
+        "japanese": "朝食は何時からですか？",
+        "hiragana": "ちょうしょくはなんじからですか？",
+        "romaji": "chōshoku wa nanji kara desu ka?",
+        "english": "What time is breakfast?",
+        "context": "Asking about meals"
+      },
+      {
+        "id": 34,
+        "japanese": "タクシーを呼んでください",
+        "hiragana": "タクシーをよんでください",
+        "romaji": "takushī wo yonde kudasai",
+        "english": "Please call a taxi",
+        "context": "Requesting service"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Emergency",
+    "icon": "🚨",
+    "phrases": [
+      {
+        "id": 35,
+        "japanese": "助けてください",
+        "hiragana": "たすけてください",
+        "romaji": "tasukete kudasai",
+        "english": "Please help me",
+        "context": "Emergency"
+      },
+      {
+        "id": 36,
+        "japanese": "英語を話せますか？",
+        "hiragana": "えいごをはなせますか？",
+        "romaji": "eigo wo hanasemasu ka?",
+        "english": "Do you speak English?",
+        "context": "Seeking help"
+      },
+      {
+        "id": 37,
+        "japanese": "病院はどこですか？",
+        "hiragana": "びょういんはどこですか？",
+        "romaji": "byōin wa doko desu ka?",
+        "english": "Where is the hospital?",
+        "context": "Medical emergency"
+      },
+      {
+        "id": 38,
+        "japanese": "警察を呼んでください",
+        "hiragana": "けいさつをよんでください",
+        "romaji": "keisatsu wo yonde kudasai",
+        "english": "Please call the police",
+        "context": "Emergency"
+      }
+    ]
+  }
+]
