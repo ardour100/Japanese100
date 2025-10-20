@@ -122,13 +122,8 @@ export default function TravelPhrasesPage() {
                   </div>
 
                   {/* English Translation */}
-                  <div className="text-lg font-medium text-slate-800 mb-2">
+                  <div className="text-lg font-medium text-slate-800">
                     💬 {phrase.english}
-                  </div>
-
-                  {/* Context */}
-                  <div className="text-sm text-slate-600 bg-white/50 rounded-lg px-3 py-2">
-                    <span className="font-medium">Context:</span> {phrase.context}
                   </div>
                 </div>
               ))}
@@ -154,7 +149,7 @@ export default function TravelPhrasesPage() {
               </li>
               <li className="flex items-start">
                 <span className="mr-2">•</span>
-                <span>すみません (sumimasen) is useful for both "excuse me" and "sorry"</span>
+                <span>すみません (sumimasen) is useful for both &quot;excuse me&quot; and &quot;sorry&quot;</span>
               </li>
               <li className="flex items-start">
                 <span className="mr-2">•</span>
