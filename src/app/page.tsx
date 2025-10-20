@@ -101,14 +101,21 @@ function JoyoKanjiContent() {
           </div>
         </div>
 
-        {/* Progress Button */}
-        <div className="text-center mb-6">
+        {/* Action Buttons */}
+        <div className="text-center mb-6 flex flex-wrap justify-center gap-4">
           <Link
             href="/progress"
-            className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-rose-500 to-pink-600 text-white font-medium rounded-lg hover:from-rose-600 hover:to-pink-700 transition-all shadow-md hover:shadow-lg"
+            className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-rose-500 to-pink-600 text-white font-medium rounded-lg hover:from-rose-600 hover:to-pink-700 transition-all shadow-md hover:shadow-lg"
           >
-            <span className="mr-2">→</span>
-            <span>Start Learning Frequent Kanji</span>
+            <span className="mr-2">📚</span>
+            <span>Start Learning Kanji</span>
+          </Link>
+          <Link
+            href="/phrases"
+            className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-teal-500 to-cyan-600 text-white font-medium rounded-lg hover:from-teal-600 hover:to-cyan-700 transition-all shadow-md hover:shadow-lg"
+          >
+            <span className="mr-2">🗾</span>
+            <span>Travel Phrases</span>
           </Link>
         </div>
 
