@@ -1,0 +1,503 @@
+[
+  {
+    "id": 1,
+    "category": "Common Japanese Foods",
+    "icon": "🍱",
+    "words": [
+      {
+        "id": 1,
+        "english": "Rice",
+        "kanji": "米",
+        "hiragana": "こめ",
+        "romaji": "kome",
+        "example": "日本人は米をよく食べます。(Nihonjin wa kome wo yoku tabemasu. - Japanese people often eat rice.)"
+      },
+      {
+        "id": 2,
+        "english": "Sushi",
+        "kanji": "寿司",
+        "hiragana": "すし",
+        "romaji": "sushi",
+        "example": "寿司が大好きです。(Sushi ga daisuki desu. - I love sushi.)"
+      },
+      {
+        "id": 3,
+        "english": "Ramen",
+        "kanji": "拉麺",
+        "hiragana": "ラーメン",
+        "romaji": "ramen",
+        "example": "ラーメン屋さんに行きましょう。(Ramen-ya-san ni ikimashou. - Let's go to a ramen shop.)"
+      },
+      {
+        "id": 4,
+        "english": "Tempura",
+        "kanji": "天ぷら",
+        "hiragana": "てんぷら",
+        "romaji": "tempura",
+        "example": "天ぷらはサクサクしています。(Tempura wa sakusaku shite imasu. - Tempura is crispy.)"
+      },
+      {
+        "id": 5,
+        "english": "Miso Soup",
+        "kanji": "味噌汁",
+        "hiragana": "みそしる",
+        "romaji": "miso shiru",
+        "example": "朝ごはんに味噌汁を飲みます。(Asa gohan ni miso shiru wo nomimasu. - I drink miso soup for breakfast.)"
+      },
+      {
+        "id": 6,
+        "english": "Rice Ball",
+        "kanji": "おにぎり",
+        "hiragana": "おにぎり",
+        "romaji": "onigiri",
+        "example": "コンビニでおにぎりを買いました。(Konbini de onigiri wo kaimashita. - I bought a rice ball at the convenience store.)"
+      },
+      {
+        "id": 7,
+        "english": "Green Tea",
+        "kanji": "緑茶",
+        "hiragana": "りょくちゃ",
+        "romaji": "ryokucha",
+        "example": "緑茶は健康に良いです。(Ryokucha wa kenkou ni yoi desu. - Green tea is good for health.)"
+      },
+      {
+        "id": 8,
+        "english": "Tonkatsu (Pork Cutlet)",
+        "kanji": "豚カツ",
+        "hiragana": "とんかつ",
+        "romaji": "tonkatsu",
+        "example": "豚カツ定食を注文しました。(Tonkatsu teishoku wo chuumon shimashita. - I ordered a tonkatsu set meal.)"
+      },
+      {
+        "id": 9,
+        "english": "Udon Noodles",
+        "kanji": "うどん",
+        "hiragana": "うどん",
+        "romaji": "udon",
+        "example": "きつねうどんをください。(Kitsune udon wo kudasai. - Please give me kitsune udon.)"
+      },
+      {
+        "id": 10,
+        "english": "Soba Noodles",
+        "kanji": "蕎麦",
+        "hiragana": "そば",
+        "romaji": "soba",
+        "example": "冷たい蕎麦が好きです。(Tsumetai soba ga suki desu. - I like cold soba.)"
+      },
+      {
+        "id": 11,
+        "english": "Yakitori (Grilled Chicken)",
+        "kanji": "焼き鳥",
+        "hiragana": "やきとり",
+        "romaji": "yakitori",
+        "example": "焼き鳥を5本ください。(Yakitori wo go-hon kudasai. - Please give me 5 yakitori skewers.)"
+      },
+      {
+        "id": 12,
+        "english": "Gyoza (Dumplings)",
+        "kanji": "餃子",
+        "hiragana": "ぎょうざ",
+        "romaji": "gyoza",
+        "example": "焼き餃子が美味しいです。(Yaki gyoza ga oishii desu. - Grilled gyoza is delicious.)"
+      },
+      {
+        "id": 13,
+        "english": "Curry Rice",
+        "kanji": "カレーライス",
+        "hiragana": "カレーライス",
+        "romaji": "karee raisu",
+        "example": "カレーライスは日本で人気があります。(Karee raisu wa Nihon de ninki ga arimasu. - Curry rice is popular in Japan.)"
+      },
+      {
+        "id": 14,
+        "english": "Takoyaki (Octopus Balls)",
+        "kanji": "たこ焼き",
+        "hiragana": "たこやき",
+        "romaji": "takoyaki",
+        "example": "大阪でたこ焼きを食べました。(Oosaka de takoyaki wo tabemashita. - I ate takoyaki in Osaka.)"
+      },
+      {
+        "id": 15,
+        "english": "Okonomiyaki (Savory Pancake)",
+        "kanji": "お好み焼き",
+        "hiragana": "おこのみやき",
+        "romaji": "okonomiyaki",
+        "example": "お好み焼きは広島が有名です。(Okonomiyaki wa Hiroshima ga yuumei desu. - Hiroshima is famous for okonomiyaki.)"
+      },
+      {
+        "id": 16,
+        "english": "Bento (Lunch Box)",
+        "kanji": "弁当",
+        "hiragana": "べんとう",
+        "romaji": "bentou",
+        "example": "駅弁を買いましょう。(Ekiben wo kaimashou. - Let's buy a station bento.)"
+      },
+      {
+        "id": 17,
+        "english": "Matcha (Green Tea Powder)",
+        "kanji": "抹茶",
+        "hiragana": "まっちゃ",
+        "romaji": "matcha",
+        "example": "抹茶アイスが好きです。(Matcha aisu ga suki desu. - I like matcha ice cream.)"
+      },
+      {
+        "id": 18,
+        "english": "Edamame (Soybeans)",
+        "kanji": "枝豆",
+        "hiragana": "えだまめ",
+        "romaji": "edamame",
+        "example": "ビールと枝豆をください。(Biiru to edamame wo kudasai. - Beer and edamame please.)"
+      },
+      {
+        "id": 19,
+        "english": "Tofu",
+        "kanji": "豆腐",
+        "hiragana": "とうふ",
+        "romaji": "toufu",
+        "example": "冷奴が美味しいです。(Hiyayakko ga oishii desu. - Cold tofu is delicious.)"
+      },
+      {
+        "id": 20,
+        "english": "Sashimi (Raw Fish)",
+        "kanji": "刺身",
+        "hiragana": "さしみ",
+        "romaji": "sashimi",
+        "example": "新鮮な刺身を食べたいです。(Shinsen na sashimi wo tabetai desu. - I want to eat fresh sashimi.)"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Chain Stores & Restaurants",
+    "icon": "🏪",
+    "words": [
+      {
+        "id": 21,
+        "english": "Seven-Eleven",
+        "kanji": "セブンイレブン",
+        "hiragana": "セブンイレブン",
+        "romaji": "sebun irebun",
+        "example": "セブンイレブンは24時間営業です。(Sebun irebun wa nijuu-yo-jikan eigyou desu. - Seven-Eleven is open 24 hours.)"
+      },
+      {
+        "id": 22,
+        "english": "FamilyMart",
+        "kanji": "ファミリーマート",
+        "hiragana": "ファミリーマート",
+        "romaji": "famirii maato",
+        "example": "ファミリーマートでお弁当を買いました。(Famirii maato de obentou wo kaimashita. - I bought a bento at FamilyMart.)"
+      },
+      {
+        "id": 23,
+        "english": "Lawson",
+        "kanji": "ローソン",
+        "hiragana": "ローソン",
+        "romaji": "rooson",
+        "example": "ローソンのからあげくんが人気です。(Rooson no karaage-kun ga ninki desu. - Lawson's fried chicken is popular.)"
+      },
+      {
+        "id": 24,
+        "english": "Don Quijote (Discount Store)",
+        "kanji": "ドンキホーテ",
+        "hiragana": "ドンキホーテ",
+        "romaji": "donki hoote",
+        "example": "ドンキホーテでお土産を買いましょう。(Donki hoote de omiyage wo kaimashou. - Let's buy souvenirs at Don Quijote.)"
+      },
+      {
+        "id": 25,
+        "english": "Daiso (100 Yen Shop)",
+        "kanji": "ダイソー",
+        "hiragana": "ダイソー",
+        "romaji": "daisoo",
+        "example": "ダイソーは安くて便利です。(Daisoo wa yasukute benri desu. - Daiso is cheap and convenient.)"
+      },
+      {
+        "id": 26,
+        "english": "Uniqlo (Clothing Store)",
+        "kanji": "ユニクロ",
+        "hiragana": "ユニクロ",
+        "romaji": "yunikuro",
+        "example": "ユニクロでシャツを買いました。(Yunikuro de shatsu wo kaimashita. - I bought a shirt at Uniqlo.)"
+      },
+      {
+        "id": 27,
+        "english": "Muji (Lifestyle Store)",
+        "kanji": "無印良品",
+        "hiragana": "むじるしりょうひん",
+        "romaji": "mujirushi ryouhin",
+        "example": "無印良品のデザインがシンプルです。(Mujirushi ryouhin no dezain ga shinpuru desu. - Muji's design is simple.)"
+      },
+      {
+        "id": 28,
+        "english": "Yoshinoya (Beef Bowl Chain)",
+        "kanji": "吉野家",
+        "hiragana": "よしのや",
+        "romaji": "yoshinoya",
+        "example": "吉野家の牛丼は安いです。(Yoshinoya no gyuudon wa yasui desu. - Yoshinoya's beef bowl is cheap.)"
+      },
+      {
+        "id": 29,
+        "english": "Sukiya (Beef Bowl Chain)",
+        "kanji": "すき家",
+        "hiragana": "すきや",
+        "romaji": "sukiya",
+        "example": "すき家で朝ごはんを食べました。(Sukiya de asa gohan wo tabemashita. - I ate breakfast at Sukiya.)"
+      },
+      {
+        "id": 30,
+        "english": "Matsuya (Beef Bowl Chain)",
+        "kanji": "松屋",
+        "hiragana": "まつや",
+        "romaji": "matsuya",
+        "example": "松屋のカレーが好きです。(Matsuya no karee ga suki desu. - I like Matsuya's curry.)"
+      },
+      {
+        "id": 31,
+        "english": "CoCo Ichibanya (Curry Chain)",
+        "kanji": "CoCo壱番屋",
+        "hiragana": "ココいちばんや",
+        "romaji": "koko ichibanya",
+        "example": "CoCo壱番屋のカレーは辛さを選べます。(Koko ichibanya no karee wa karasa wo erabemasu. - You can choose the spice level at CoCo Ichibanya.)"
+      },
+      {
+        "id": 32,
+        "english": "Gusto (Family Restaurant)",
+        "kanji": "ガスト",
+        "hiragana": "ガスト",
+        "romaji": "gasuto",
+        "example": "ガストはファミリーレストランです。(Gasuto wa famirii resutoran desu. - Gusto is a family restaurant.)"
+      },
+      {
+        "id": 33,
+        "english": "Saizeriya (Italian Chain)",
+        "kanji": "サイゼリヤ",
+        "hiragana": "サイゼリヤ",
+        "romaji": "saizeriya",
+        "example": "サイゼリヤは安くてワインが飲めます。(Saizeriya wa yasukute wain ga nomemasu. - Saizeriya is cheap and you can drink wine.)"
+      },
+      {
+        "id": 34,
+        "english": "Starbucks",
+        "kanji": "スターバックス",
+        "hiragana": "スターバックス",
+        "romaji": "sutaabakkusu",
+        "example": "スターバックスで抹茶ラテを飲みました。(Sutaabakkusu de matcha rate wo nomimashita. - I drank a matcha latte at Starbucks.)"
+      },
+      {
+        "id": 35,
+        "english": "Mister Donut",
+        "kanji": "ミスタードーナツ",
+        "hiragana": "ミスタードーナツ",
+        "romaji": "misutaa doonatsu",
+        "example": "ミスタードーナツはポン・デ・リングが有名です。(Misutaa doonatsu wa pon de ringu ga yuumei desu. - Mister Donut is famous for Pon de Ring.)"
+      },
+      {
+        "id": 36,
+        "english": "McDonald's",
+        "kanji": "マクドナルド",
+        "hiragana": "マクドナルド",
+        "romaji": "makudonarudo",
+        "example": "マクドナルドはマックとも呼びます。(Makudonarudo wa makku to mo yobimasu. - McDonald's is also called Mac.)"
+      },
+      {
+        "id": 37,
+        "english": "KFC (Kentucky Fried Chicken)",
+        "kanji": "ケンタッキー",
+        "hiragana": "ケンタッキー",
+        "romaji": "kentakkii",
+        "example": "クリスマスにケンタッキーを食べます。(Kurisumasu ni kentakkii wo tabemasu. - We eat KFC at Christmas.)"
+      },
+      {
+        "id": 38,
+        "english": "Mos Burger",
+        "kanji": "モスバーガー",
+        "hiragana": "モスバーガー",
+        "romaji": "mosu baagaa",
+        "example": "モスバーガーのテリヤキバーガーが美味しいです。(Mosu baagaa no teriyaki baagaa ga oishii desu. - Mos Burger's teriyaki burger is delicious.)"
+      },
+      {
+        "id": 39,
+        "english": "Kaiten Sushi (Conveyor Belt Sushi)",
+        "kanji": "回転寿司",
+        "hiragana": "かいてんずし",
+        "romaji": "kaiten zushi",
+        "example": "回転寿司はスシローが人気です。(Kaiten zushi wa sushiroo ga ninki desu. - Sushiro is popular for conveyor belt sushi.)"
+      },
+      {
+        "id": 40,
+        "english": "Ramen Chain Restaurant",
+        "kanji": "ラーメン屋",
+        "hiragana": "ラーメンや",
+        "romaji": "ramen-ya",
+        "example": "一蘭のラーメン屋は有名です。(Ichiran no ramen-ya wa yuumei desu. - Ichiran ramen shop is famous.)"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Common Travel Words",
+    "icon": "🗾",
+    "words": [
+      {
+        "id": 41,
+        "english": "Station",
+        "kanji": "駅",
+        "hiragana": "えき",
+        "romaji": "eki",
+        "example": "次の駅で降ります。(Tsugi no eki de orimasu. - I'll get off at the next station.)"
+      },
+      {
+        "id": 42,
+        "english": "Airport",
+        "kanji": "空港",
+        "hiragana": "くうこう",
+        "romaji": "kuukou",
+        "example": "成田空港に行きたいです。(Narita kuukou ni ikitai desu. - I want to go to Narita Airport.)"
+      },
+      {
+        "id": 43,
+        "english": "Hotel",
+        "kanji": "ホテル",
+        "hiragana": "ホテル",
+        "romaji": "hoteru",
+        "example": "ホテルはどこですか。(Hoteru wa doko desu ka. - Where is the hotel?)"
+      },
+      {
+        "id": 44,
+        "english": "Toilet/Restroom",
+        "kanji": "トイレ",
+        "hiragana": "トイレ",
+        "romaji": "toire",
+        "example": "トイレはどこですか。(Toire wa doko desu ka. - Where is the toilet?)"
+      },
+      {
+        "id": 45,
+        "english": "Ticket",
+        "kanji": "切符",
+        "hiragana": "きっぷ",
+        "romaji": "kippu",
+        "example": "切符を買いたいです。(Kippu wo kaitai desu. - I want to buy a ticket.)"
+      },
+      {
+        "id": 46,
+        "english": "Map",
+        "kanji": "地図",
+        "hiragana": "ちず",
+        "romaji": "chizu",
+        "example": "地図を見せてください。(Chizu wo misete kudasai. - Please show me a map.)"
+      },
+      {
+        "id": 47,
+        "english": "Money",
+        "kanji": "お金",
+        "hiragana": "おかね",
+        "romaji": "okane",
+        "example": "お金を両替したいです。(Okane wo ryougae shitai desu. - I want to exchange money.)"
+      },
+      {
+        "id": 48,
+        "english": "Water",
+        "kanji": "水",
+        "hiragana": "みず",
+        "romaji": "mizu",
+        "example": "お水をください。(Omizu wo kudasai. - Water please.)"
+      },
+      {
+        "id": 49,
+        "english": "Menu",
+        "kanji": "メニュー",
+        "hiragana": "メニュー",
+        "romaji": "menyuu",
+        "example": "英語のメニューはありますか。(Eigo no menyuu wa arimasu ka. - Do you have an English menu?)"
+      },
+      {
+        "id": 50,
+        "english": "Bill/Check",
+        "kanji": "お会計",
+        "hiragana": "おかいけい",
+        "romaji": "okaikei",
+        "example": "お会計をお願いします。(Okaikei wo onegaishimasu. - Check please.)"
+      },
+      {
+        "id": 51,
+        "english": "Wifi",
+        "kanji": "Wi-Fi",
+        "hiragana": "ワイファイ",
+        "romaji": "waifai",
+        "example": "Wi-Fiはありますか。(Waifai wa arimasu ka. - Do you have wifi?)"
+      },
+      {
+        "id": 52,
+        "english": "Entrance",
+        "kanji": "入口",
+        "hiragana": "いりぐち",
+        "romaji": "iriguchi",
+        "example": "入口はどこですか。(Iriguchi wa doko desu ka. - Where is the entrance?)"
+      },
+      {
+        "id": 53,
+        "english": "Exit",
+        "kanji": "出口",
+        "hiragana": "でぐち",
+        "romaji": "deguchi",
+        "example": "出口に向かってください。(Deguchi ni mukatte kudasai. - Please head to the exit.)"
+      },
+      {
+        "id": 54,
+        "english": "Souvenir",
+        "kanji": "お土産",
+        "hiragana": "おみやげ",
+        "romaji": "omiyage",
+        "example": "お土産を買いたいです。(Omiyage wo kaitai desu. - I want to buy souvenirs.)"
+      },
+      {
+        "id": 55,
+        "english": "Department Store",
+        "kanji": "デパート",
+        "hiragana": "デパート",
+        "romaji": "depaato",
+        "example": "デパートで買い物をしました。(Depaato de kaimono wo shimashita. - I shopped at the department store.)"
+      },
+      {
+        "id": 56,
+        "english": "Temple",
+        "kanji": "寺",
+        "hiragana": "てら",
+        "romaji": "tera",
+        "example": "お寺を見学したいです。(Otera wo kengaku shitai desu. - I want to visit a temple.)"
+      },
+      {
+        "id": 57,
+        "english": "Shrine",
+        "kanji": "神社",
+        "hiragana": "じんじゃ",
+        "romaji": "jinja",
+        "example": "明治神宮に行きました。(Meiji jinguu ni ikimashita. - I went to Meiji Shrine.)"
+      },
+      {
+        "id": 58,
+        "english": "Castle",
+        "kanji": "城",
+        "hiragana": "しろ",
+        "romaji": "shiro",
+        "example": "大阪城を見ました。(Oosaka-jou wo mimashita. - I saw Osaka Castle.)"
+      },
+      {
+        "id": 59,
+        "english": "Park",
+        "kanji": "公園",
+        "hiragana": "こうえん",
+        "romaji": "kouen",
+        "example": "公園で散歩しました。(Kouen de sanpo shimashita. - I took a walk in the park.)"
+      },
+      {
+        "id": 60,
+        "english": "Reservation",
+        "kanji": "予約",
+        "hiragana": "よやく",
+        "romaji": "yoyaku",
+        "example": "予約をしたいです。(Yoyaku wo shitai desu. - I want to make a reservation.)"
+      }
+    ]
+  }
+]
