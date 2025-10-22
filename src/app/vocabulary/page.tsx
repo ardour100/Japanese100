@@ -117,7 +117,7 @@ export default function VocabularyPage() {
                       <td className="px-4 py-3 text-sm text-slate-700">{word.example}</td>
                       <td className="px-4 py-3 text-center">
                         <AudioPlayer
-                          text={word.kanji}
+                          text={word.example.split('(')[0].trim()}
                           size="sm"
                           className="inline-flex"
                         />
