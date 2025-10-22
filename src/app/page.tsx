@@ -117,6 +117,13 @@ function JoyoKanjiContent() {
             <span className="mr-2">🗾</span>
             <span>Travel Phrases</span>
           </Link>
+          <Link
+            href="/vocabulary"
+            className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-600 text-white font-medium rounded-lg hover:from-purple-600 hover:to-pink-700 transition-all shadow-md hover:shadow-lg"
+          >
+            <span className="mr-2">📖</span>
+            <span>Vocabulary (単語)</span>
+          </Link>
         </div>
 
 

@@ -75,6 +75,16 @@ export default function Header() {
                 <span className="md:hidden">💬</span>
               </Link>
 
+              {/* Vocabulary Link */}
+              <Link
+                href="/vocabulary"
+                className="inline-flex items-center px-2 sm:px-3 py-2 border border-purple-300 rounded-lg text-sm font-medium text-purple-700 bg-gradient-to-r from-purple-50 to-pink-50 hover:from-purple-100 hover:to-pink-100 transition-colors shadow-sm"
+              >
+                <span className="text-sm mr-1 sm:mr-2">📚</span>
+                <span className="hidden md:inline">Vocabulary</span>
+                <span className="md:hidden">📚</span>
+              </Link>
+
               {/* Introduction Link */}
               <Link
                 href="/introduction"
@@ -161,6 +171,16 @@ export default function Header() {
               >
                 <span className="text-lg mr-3">💬</span>
                 <span className="font-medium">Daily Phrases</span>
+              </Link>
+
+              {/* Vocabulary Link */}
+              <Link
+                href="/vocabulary"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="flex items-center px-3 py-3 rounded-lg text-purple-700 bg-gradient-to-r from-purple-50 to-pink-50 hover:from-purple-100 hover:to-pink-100 transition-colors border border-purple-200"
+              >
+                <span className="text-lg mr-3">📚</span>
+                <span className="font-medium">Vocabulary</span>
               </Link>
 
               {/* Introduction Link */}
