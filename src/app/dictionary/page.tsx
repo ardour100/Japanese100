@@ -63,21 +63,32 @@ export default function DictionaryPage() {
 
       setEnglishDefinition(englishDef || "No definition available");
 
-      // Fetch Chinese translation from LibreTranslate (free API)
-      // Note: This is a simplified approach. For production, consider using a proper Chinese dictionary API
-      const translateResponse = await fetch(
+      // Translate word to Chinese
+      const wordTranslateResponse = await fetch(
         "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q=" +
           encodeURIComponent(searchWord.trim())
       );
+      const wordTranslateData = await wordTranslateResponse.json();
+      const chineseWord = wordTranslateData[0][0][0] || searchWord;
 
-      const translateData = await translateResponse.json();
-      const chineseTranslation = translateData[0][0][0] || searchWord;
+      // Translate the English definitions to Chinese
+      const definitionsToTranslate = englishDef.replace(/\[.*?\]/g, ''); // Remove [noun], [verb] etc for translation
+      const defTranslateResponse = await fetch(
+        "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q=" +
+          encodeURIComponent(definitionsToTranslate)
+      );
+      const defTranslateData = await defTranslateResponse.json();
 
-      // Create a Chinese definition
-      const chineseDef = `中文翻译: ${chineseTranslation}\n\n释义: ${englishDef
-        .split("\n")
-        .slice(0, 5)
-        .join("\n")}`;
+      // Reconstruct translated definitions
+      let chineseDefinitions = "";
+      if (defTranslateData && defTranslateData[0]) {
+        chineseDefinitions = defTranslateData[0]
+          .map((item: any) => item[0])
+          .join("");
+      }
+
+      // Create a Chinese definition with both word and translated definitions
+      const chineseDef = `中文翻译: ${chineseWord}\n\n释义:\n${chineseDefinitions}`;
 
       setChineseDefinition(chineseDef);
       setCurrentWord(searchWord.trim());
