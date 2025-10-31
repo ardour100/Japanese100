@@ -175,8 +175,7 @@ export default function DictionaryPage() {
 
               {/* English Definition */}
               <div className="mb-6">
-                <h3 className="text-lg font-semibold text-slate-700 mb-3 flex items-center">
-                  <span className="text-xl mr-2">🇬🇧</span>
+                <h3 className="text-lg font-semibold text-slate-700 mb-3">
                   English Definition
                 </h3>
                 <div className="bg-slate-50 rounded-lg p-4">
@@ -188,8 +187,7 @@ export default function DictionaryPage() {
 
               {/* Chinese Definition */}
               <div>
-                <h3 className="text-lg font-semibold text-slate-700 mb-3 flex items-center">
-                  <span className="text-xl mr-2">🇨🇳</span>
+                <h3 className="text-lg font-semibold text-slate-700 mb-3">
                   Chinese Definition (中文释义)
                 </h3>
                 <div className="bg-slate-50 rounded-lg p-4">
@@ -239,7 +237,7 @@ export default function DictionaryPage() {
                     </div>
                     <div className="mb-4">
                       <h4 className="font-semibold text-slate-700 mb-2">
-                        🇬🇧 English:
+                        English:
                       </h4>
                       <pre className="whitespace-pre-wrap font-sans text-sm text-slate-600 bg-slate-50 rounded p-3">
                         {note.englishDefinition}
@@ -247,7 +245,7 @@ export default function DictionaryPage() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-slate-700 mb-2">
-                        🇨🇳 Chinese:
+                        Chinese:
                       </h4>
                       <pre className="whitespace-pre-wrap font-sans text-sm text-slate-600 bg-slate-50 rounded p-3">
                         {note.chineseDefinition}
