@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from 'react';
 import { useAuth } from '@/hooks/useAuth';
 import Image from 'next/image';
 import Link from 'next/link';
-import { UserIcon, ArrowRightOnRectangleIcon, PencilSquareIcon, ChevronDownIcon } from '@heroicons/react/24/outline';
+import { UserIcon, ArrowRightOnRectangleIcon, PencilSquareIcon, ChevronDownIcon, BookOpenIcon, LanguageIcon } from '@heroicons/react/24/outline';
 
 export default function AuthButton() {
   const { user, loading, signInWithGoogle, signOut, isAuthenticated, isSupabaseConfigured } = useAuth();
@@ -89,6 +89,22 @@ export default function AuthButton() {
               >
                 <PencilSquareIcon className="w-4 h-4 mr-3 text-orange-600" />
                 Notes
+              </Link>
+              <Link
+                href="/dictionary"
+                onClick={() => setIsDropdownOpen(false)}
+                className="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
+              >
+                <LanguageIcon className="w-4 h-4 mr-3 text-blue-600" />
+                英译中
+              </Link>
+              <Link
+                href="/vocabulary-book"
+                onClick={() => setIsDropdownOpen(false)}
+                className="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-purple-50 hover:text-purple-700 transition-colors"
+              >
+                <BookOpenIcon className="w-4 h-4 mr-3 text-purple-600" />
+                单词本
               </Link>
               <hr className="border-rose-100 my-1" />
               <button

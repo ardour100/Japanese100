@@ -124,13 +124,6 @@ function JoyoKanjiContent() {
             <span className="mr-2">📖</span>
             <span>Vocabulary (単語)</span>
           </Link>
-          <Link
-            href="/dictionary"
-            className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-600 text-white font-medium rounded-lg hover:from-blue-600 hover:to-cyan-700 transition-all shadow-md hover:shadow-lg"
-          >
-            <span className="mr-2">📘</span>
-            <span>English-Chinese Dictionary</span>
-          </Link>
         </div>
 
 

@@ -19,8 +19,6 @@ export default function DictionaryPage() {
   const [englishDefinition, setEnglishDefinition] = useState("");
   const [chineseDefinition, setChineseDefinition] = useState("");
   const [currentWord, setCurrentWord] = useState("");
-  const [savedNotes, setSavedNotes] = useState<SavedWord[]>([]);
-  const [showNotes, setShowNotes] = useState(false);
 
   const searchDictionary = async () => {
     if (!searchWord.trim()) {
@@ -107,24 +105,43 @@ export default function DictionaryPage() {
     }
   };
 
-  const saveToNotes = () => {
+  const saveToVocabularyBook = () => {
     if (!currentWord || !englishDefinition || !chineseDefinition) {
       return;
     }
 
-    const newNote: SavedWord = {
+    const newWord: SavedWord = {
       word: currentWord,
       englishDefinition,
       chineseDefinition,
       timestamp: Date.now(),
     };
 
-    setSavedNotes([newNote, ...savedNotes]);
-    alert(`"${currentWord}" saved to notes!`);
-  };
+    // Load existing words from localStorage
+    const stored = localStorage.getItem("dictionarySavedWords");
+    let existingWords: SavedWord[] = [];
+    if (stored) {
+      try {
+        existingWords = JSON.parse(stored);
+      } catch (e) {
+        console.error("Failed to parse saved words:", e);
+      }
+    }
 
-  const deleteNote = (timestamp: number) => {
-    setSavedNotes(savedNotes.filter((note) => note.timestamp !== timestamp));
+    // Check if word already exists
+    const wordExists = existingWords.some(
+      (w) => w.word.toLowerCase() === currentWord.toLowerCase()
+    );
+
+    if (wordExists) {
+      alert(`"${currentWord}" 已经在单词本中了！`);
+      return;
+    }
+
+    // Add new word and save
+    const updatedWords = [newWord, ...existingWords];
+    localStorage.setItem("dictionarySavedWords", JSON.stringify(updatedWords));
+    alert(`"${currentWord}" 已保存到单词本！`);
   };
 
   return (
@@ -134,10 +151,10 @@ export default function DictionaryPage() {
       <div className="max-w-6xl mx-auto relative z-10 p-4 sm:p-8">
         <header className="text-center mb-8">
           <h1 className="text-3xl sm:text-4xl font-bold text-blue-800 mb-2 drop-shadow-sm">
-            English - Chinese Dictionary
+            英译中词典
           </h1>
           <p className="text-blue-600 mb-4">
-            Search English words and get both English and Chinese explanations
+            搜索英文单词，获取英文和中文释义
           </p>
         </header>
 
@@ -150,7 +167,7 @@ export default function DictionaryPage() {
                 value={searchWord}
                 onChange={(e) => setSearchWord(e.target.value)}
                 onKeyPress={handleKeyPress}
-                placeholder="Enter an English word..."
+                placeholder="输入英文单词..."
                 className="flex-1 px-4 py-3 border border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-800"
               />
               <button
@@ -158,11 +175,11 @@ export default function DictionaryPage() {
                 disabled={loading}
                 className="px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-600 text-white font-medium rounded-lg hover:from-blue-600 hover:to-cyan-700 transition-all shadow-md hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {loading ? "Searching..." : "Search"}
+                {loading ? "搜索中..." : "搜索"}
               </button>
             </div>
             {error && (
-              <p className="mt-3 text-red-600 text-sm">Error: {error}</p>
+              <p className="mt-3 text-red-600 text-sm">错误: {error}</p>
             )}
           </div>
         </div>
@@ -176,18 +193,18 @@ export default function DictionaryPage() {
                   {currentWord}
                 </h2>
                 <button
-                  onClick={saveToNotes}
+                  onClick={saveToVocabularyBook}
                   className="px-4 py-2 bg-gradient-to-r from-green-500 to-emerald-600 text-white font-medium rounded-lg hover:from-green-600 hover:to-emerald-700 transition-all shadow-md hover:shadow-lg flex items-center gap-2"
                 >
                   <span>💾</span>
-                  <span>Save to Notes</span>
+                  <span>保存到单词本</span>
                 </button>
               </div>
 
               {/* English Definition */}
               <div className="mb-6">
                 <h3 className="text-lg font-semibold text-slate-700 mb-3">
-                  English Definition
+                  英文释义
                 </h3>
                 <div className="bg-slate-50 rounded-lg p-4">
                   <pre className="whitespace-pre-wrap font-sans text-slate-700">
@@ -199,7 +216,7 @@ export default function DictionaryPage() {
               {/* Chinese Definition */}
               <div>
                 <h3 className="text-lg font-semibold text-slate-700 mb-3">
-                  Chinese Definition (中文释义)
+                  中文释义
                 </h3>
                 <div className="bg-slate-50 rounded-lg p-4">
                   <pre className="whitespace-pre-wrap font-sans text-slate-700">
@@ -211,65 +228,15 @@ export default function DictionaryPage() {
           </div>
         )}
 
-        {/* Saved Notes Section */}
-        <div className="max-w-4xl mx-auto">
-          <button
-            onClick={() => setShowNotes(!showNotes)}
-            className="w-full mb-4 px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-600 text-white font-medium rounded-lg hover:from-purple-600 hover:to-pink-700 transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2"
+        {/* Link to Vocabulary Book */}
+        <div className="max-w-4xl mx-auto mb-8">
+          <Link
+            href="/vocabulary-book"
+            className="block w-full px-6 py-4 bg-gradient-to-r from-purple-500 to-pink-600 text-white font-medium rounded-lg hover:from-purple-600 hover:to-pink-700 transition-all shadow-md hover:shadow-lg text-center"
           >
-            <span>📝</span>
-            <span>
-              {showNotes ? "Hide" : "Show"} My Notes ({savedNotes.length})
-            </span>
-          </button>
-
-          {showNotes && (
-            <div className="space-y-4">
-              {savedNotes.length === 0 ? (
-                <div className="bg-white rounded-lg p-6 shadow-md border border-slate-200 text-center text-slate-500">
-                  No notes saved yet. Search for words and save them!
-                </div>
-              ) : (
-                savedNotes.map((note) => (
-                  <div
-                    key={note.timestamp}
-                    className="bg-white rounded-lg p-6 shadow-md border border-slate-200"
-                  >
-                    <div className="flex justify-between items-start mb-4">
-                      <h3 className="text-xl font-bold text-blue-800">
-                        {note.word}
-                      </h3>
-                      <button
-                        onClick={() => deleteNote(note.timestamp)}
-                        className="px-3 py-1 bg-red-500 text-white text-sm rounded hover:bg-red-600 transition-colors"
-                      >
-                        Delete
-                      </button>
-                    </div>
-                    <div className="mb-4">
-                      <h4 className="font-semibold text-slate-700 mb-2">
-                        English:
-                      </h4>
-                      <pre className="whitespace-pre-wrap font-sans text-sm text-slate-600 bg-slate-50 rounded p-3">
-                        {note.englishDefinition}
-                      </pre>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-slate-700 mb-2">
-                        Chinese:
-                      </h4>
-                      <pre className="whitespace-pre-wrap font-sans text-sm text-slate-600 bg-slate-50 rounded p-3">
-                        {note.chineseDefinition}
-                      </pre>
-                    </div>
-                    <p className="text-xs text-slate-400 mt-3">
-                      Saved: {new Date(note.timestamp).toLocaleString()}
-                    </p>
-                  </div>
-                ))
-              )}
-            </div>
-          )}
+            <span className="text-xl mr-2">📚</span>
+            <span>查看我的单词本</span>
+          </Link>
         </div>
 
         {/* Back Button */}
@@ -279,7 +246,7 @@ export default function DictionaryPage() {
             className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-slate-500 to-slate-600 text-white font-medium rounded-lg hover:from-slate-600 hover:to-slate-700 transition-all shadow-md hover:shadow-lg"
           >
             <span className="mr-2">←</span>
-            <span>Back to Home</span>
+            <span>返回主页</span>
           </Link>
         </div>
       </div>
