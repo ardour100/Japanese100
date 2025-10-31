@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import JapaneseBackground from "@/components/JapaneseBackground";
 import Header from "@/components/Header";
@@ -19,6 +19,31 @@ export default function DictionaryPage() {
   const [englishDefinition, setEnglishDefinition] = useState("");
   const [chineseDefinition, setChineseDefinition] = useState("");
   const [currentWord, setCurrentWord] = useState("");
+  const [isSaved, setIsSaved] = useState(false);
+
+  // Check if current word is already saved whenever currentWord changes
+  useEffect(() => {
+    if (!currentWord) {
+      setIsSaved(false);
+      return;
+    }
+
+    const stored = localStorage.getItem("dictionarySavedWords");
+    if (stored) {
+      try {
+        const existingWords: SavedWord[] = JSON.parse(stored);
+        const wordExists = existingWords.some(
+          (w) => w.word.toLowerCase() === currentWord.toLowerCase()
+        );
+        setIsSaved(wordExists);
+      } catch (e) {
+        console.error("Failed to parse saved words:", e);
+        setIsSaved(false);
+      }
+    } else {
+      setIsSaved(false);
+    }
+  }, [currentWord]);
 
   const searchDictionary = async () => {
     if (!searchWord.trim()) {
@@ -139,14 +164,14 @@ export default function DictionaryPage() {
     );
 
     if (wordExists) {
-      alert(`"${currentWord}" 已经在单词本中了！`);
+      setIsSaved(true);
       return;
     }
 
     // Add new word and save
     const updatedWords = [newWord, ...existingWords];
     localStorage.setItem("dictionarySavedWords", JSON.stringify(updatedWords));
-    alert(`"${currentWord}" 已保存到单词本！`);
+    setIsSaved(true);
   };
 
   return (
@@ -196,10 +221,15 @@ export default function DictionaryPage() {
               <div className="flex justify-between items-start mb-4">
                 <button
                   onClick={saveToVocabularyBook}
-                  className="px-4 py-2 bg-gradient-to-r from-green-500 to-emerald-600 text-white font-medium rounded-lg hover:from-green-600 hover:to-emerald-700 transition-all shadow-md hover:shadow-lg flex items-center gap-2"
+                  disabled={isSaved}
+                  className={`px-4 py-2 font-medium rounded-lg transition-all shadow-md flex items-center gap-2 ${
+                    isSaved
+                      ? "bg-slate-400 text-white cursor-not-allowed"
+                      : "bg-gradient-to-r from-green-500 to-emerald-600 text-white hover:from-green-600 hover:to-emerald-700 hover:shadow-lg"
+                  }`}
                 >
-                  <span>💾</span>
-                  <span>保存到单词本</span>
+                  <span>{isSaved ? "✓" : "💾"}</span>
+                  <span>{isSaved ? "已保存到单词本" : "保存到单词本"}</span>
                 </button>
               </div>
 
