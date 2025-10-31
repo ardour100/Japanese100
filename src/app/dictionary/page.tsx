@@ -43,25 +43,7 @@ export default function DictionaryPage() {
 
       const englishData = await englishResponse.json();
 
-      // Extract English definition
-      let englishDef = "";
-      if (englishData && englishData[0] && englishData[0].meanings) {
-        const meanings = englishData[0].meanings;
-        englishDef = meanings
-          .map((m: any, idx: number) => {
-            const partOfSpeech = m.partOfSpeech || "";
-            const definitions = m.definitions
-              .slice(0, 3) // Take first 3 definitions
-              .map((d: any, i: number) => `${i + 1}. ${d.definition}`)
-              .join("\n   ");
-            return `${partOfSpeech ? `[${partOfSpeech}]` : ""}\n   ${definitions}`;
-          })
-          .join("\n\n");
-      }
-
-      setEnglishDefinition(englishDef || "No definition available");
-
-      // Translate word to Chinese
+      // Translate word to Chinese first
       const wordTranslateResponse = await fetch(
         "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q=" +
           encodeURIComponent(searchWord.trim())
@@ -69,26 +51,49 @@ export default function DictionaryPage() {
       const wordTranslateData = await wordTranslateResponse.json();
       const chineseWord = wordTranslateData[0][0][0] || searchWord;
 
-      // Translate the English definitions to Chinese
-      const definitionsToTranslate = englishDef.replace(/\[.*?\]/g, ''); // Remove [noun], [verb] etc for translation
-      const defTranslateResponse = await fetch(
-        "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q=" +
-          encodeURIComponent(definitionsToTranslate)
-      );
-      const defTranslateData = await defTranslateResponse.json();
+      // Build combined definition with English and Chinese line by line
+      let combinedDef = `${searchWord} - ${chineseWord}\n\n`;
 
-      // Reconstruct translated definitions
-      let chineseDefinitions = "";
-      if (defTranslateData && defTranslateData[0]) {
-        chineseDefinitions = defTranslateData[0]
-          .map((item: any) => item[0])
-          .join("");
+      if (englishData && englishData[0] && englishData[0].meanings) {
+        const meanings = englishData[0].meanings;
+
+        for (const meaning of meanings) {
+          const partOfSpeech = meaning.partOfSpeech || "";
+          if (partOfSpeech) {
+            combinedDef += `[${partOfSpeech}]\n`;
+          }
+
+          // Get first 3 definitions
+          const definitions = meaning.definitions.slice(0, 3);
+
+          for (let i = 0; i < definitions.length; i++) {
+            const def = definitions[i];
+            const englishDef = def.definition;
+
+            // Translate each definition to Chinese
+            try {
+              const translateResponse = await fetch(
+                "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q=" +
+                  encodeURIComponent(englishDef)
+              );
+              const translateData = await translateResponse.json();
+              const chineseDef = translateData[0][0][0] || englishDef;
+
+              // Add both English and Chinese on consecutive lines
+              combinedDef += `\n${i + 1}. ${englishDef}\n`;
+              combinedDef += `   ${chineseDef}\n`;
+            } catch (e) {
+              // If translation fails, just show English
+              combinedDef += `\n${i + 1}. ${englishDef}\n`;
+            }
+          }
+
+          combinedDef += "\n";
+        }
       }
 
-      // Create a Chinese definition with both word and translated definitions
-      const chineseDef = `中文翻译: ${chineseWord}\n\n释义:\n${chineseDefinitions}`;
-
-      setChineseDefinition(chineseDef);
+      setEnglishDefinition(combinedDef || "未找到释义");
+      setChineseDefinition(""); // No longer needed as combined
       setCurrentWord(searchWord.trim());
     } catch (err) {
       setError(
@@ -106,14 +111,14 @@ export default function DictionaryPage() {
   };
 
   const saveToVocabularyBook = () => {
-    if (!currentWord || !englishDefinition || !chineseDefinition) {
+    if (!currentWord || !englishDefinition) {
       return;
     }
 
     const newWord: SavedWord = {
       word: currentWord,
       englishDefinition,
-      chineseDefinition,
+      chineseDefinition: "", // Not used anymore, kept for compatibility
       timestamp: Date.now(),
     };
 
@@ -185,13 +190,10 @@ export default function DictionaryPage() {
         </div>
 
         {/* Results Section */}
-        {(englishDefinition || chineseDefinition) && (
+        {englishDefinition && (
           <div className="max-w-4xl mx-auto mb-8">
             <div className="bg-white rounded-lg p-6 shadow-lg border border-blue-100">
               <div className="flex justify-between items-start mb-4">
-                <h2 className="text-2xl font-bold text-blue-800">
-                  {currentWord}
-                </h2>
                 <button
                   onClick={saveToVocabularyBook}
                   className="px-4 py-2 bg-gradient-to-r from-green-500 to-emerald-600 text-white font-medium rounded-lg hover:from-green-600 hover:to-emerald-700 transition-all shadow-md hover:shadow-lg flex items-center gap-2"
@@ -201,26 +203,11 @@ export default function DictionaryPage() {
                 </button>
               </div>
 
-              {/* English Definition */}
-              <div className="mb-6">
-                <h3 className="text-lg font-semibold text-slate-700 mb-3">
-                  英文释义
-                </h3>
-                <div className="bg-slate-50 rounded-lg p-4">
-                  <pre className="whitespace-pre-wrap font-sans text-slate-700">
-                    {englishDefinition}
-                  </pre>
-                </div>
-              </div>
-
-              {/* Chinese Definition */}
+              {/* Combined English & Chinese Definition */}
               <div>
-                <h3 className="text-lg font-semibold text-slate-700 mb-3">
-                  中文释义
-                </h3>
                 <div className="bg-slate-50 rounded-lg p-4">
-                  <pre className="whitespace-pre-wrap font-sans text-slate-700">
-                    {chineseDefinition}
+                  <pre className="whitespace-pre-wrap font-sans text-slate-700 leading-relaxed">
+                    {englishDefinition}
                   </pre>
                 </div>
               </div>

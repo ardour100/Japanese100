@@ -143,31 +143,12 @@ export default function VocabularyBookPage() {
                     </button>
                   </div>
 
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    {/* English Definition */}
-                    <div>
-                      <h4 className="font-semibold text-slate-700 mb-2 flex items-center">
-                        <span className="text-blue-600 mr-2">🇬🇧</span>
-                        English
-                      </h4>
-                      <div className="bg-slate-50 rounded p-3 max-h-48 overflow-y-auto">
-                        <pre className="whitespace-pre-wrap font-sans text-sm text-slate-600">
-                          {word.englishDefinition}
-                        </pre>
-                      </div>
-                    </div>
-
-                    {/* Chinese Definition */}
-                    <div>
-                      <h4 className="font-semibold text-slate-700 mb-2 flex items-center">
-                        <span className="text-red-600 mr-2">🇨🇳</span>
-                        中文
-                      </h4>
-                      <div className="bg-slate-50 rounded p-3 max-h-48 overflow-y-auto">
-                        <pre className="whitespace-pre-wrap font-sans text-sm text-slate-600">
-                          {word.chineseDefinition}
-                        </pre>
-                      </div>
+                  {/* Combined Definition */}
+                  <div>
+                    <div className="bg-slate-50 rounded p-4 max-h-96 overflow-y-auto">
+                      <pre className="whitespace-pre-wrap font-sans text-sm text-slate-600 leading-relaxed">
+                        {word.englishDefinition}
+                      </pre>
                     </div>
                   </div>
                 </div>
