@@ -15,6 +15,7 @@ interface SavedWord {
 export default function VocabularyBookPage() {
   const [savedWords, setSavedWords] = useState<SavedWord[]>([]);
   const [searchFilter, setSearchFilter] = useState("");
+  const [expandedWords, setExpandedWords] = useState<Set<number>>(new Set());
 
   // Load saved words from localStorage on mount
   useEffect(() => {
@@ -40,6 +41,18 @@ export default function VocabularyBookPage() {
       setSavedWords([]);
       localStorage.removeItem("dictionarySavedWords");
     }
+  };
+
+  const toggleExpand = (timestamp: number) => {
+    setExpandedWords((prev) => {
+      const newSet = new Set(prev);
+      if (newSet.has(timestamp)) {
+        newSet.delete(timestamp);
+      } else {
+        newSet.add(timestamp);
+      }
+      return newSet;
+    });
   };
 
   // Filter words based on search
@@ -120,39 +133,57 @@ export default function VocabularyBookPage() {
               )}
             </div>
           ) : (
-            <div className="space-y-4">
-              {filteredWords.map((word) => (
-                <div
-                  key={word.timestamp}
-                  className="bg-white rounded-lg p-6 shadow-md border border-slate-200 hover:shadow-lg transition-shadow"
-                >
-                  <div className="flex justify-between items-start mb-4">
-                    <div>
-                      <h3 className="text-2xl font-bold text-purple-800 mb-1">
-                        {word.word}
-                      </h3>
-                      <p className="text-xs text-slate-400">
-                        保存于: {new Date(word.timestamp).toLocaleString("zh-CN")}
-                      </p>
+            <div className="space-y-2">
+              {filteredWords.map((word) => {
+                const isExpanded = expandedWords.has(word.timestamp);
+                return (
+                  <div
+                    key={word.timestamp}
+                    className="bg-white rounded-lg shadow-md border border-slate-200 hover:shadow-lg transition-shadow"
+                  >
+                    {/* Collapsed header - always visible */}
+                    <div className="flex items-center justify-between p-4">
+                      <button
+                        onClick={() => toggleExpand(word.timestamp)}
+                        className="flex items-center gap-3 flex-1 text-left hover:bg-slate-50 rounded p-2 transition-colors"
+                      >
+                        <span
+                          className={`text-slate-500 transition-transform ${
+                            isExpanded ? "rotate-90" : ""
+                          }`}
+                        >
+                          ▶
+                        </span>
+                        <div className="flex-1">
+                          <h3 className="text-xl font-bold text-purple-800">
+                            {word.word}
+                          </h3>
+                          <p className="text-xs text-slate-400">
+                            {new Date(word.timestamp).toLocaleString("zh-CN")}
+                          </p>
+                        </div>
+                      </button>
+                      <button
+                        onClick={() => deleteWord(word.timestamp)}
+                        className="px-3 py-1 bg-red-500 text-white text-sm rounded hover:bg-red-600 transition-colors ml-2"
+                      >
+                        删除
+                      </button>
                     </div>
-                    <button
-                      onClick={() => deleteWord(word.timestamp)}
-                      className="px-3 py-1 bg-red-500 text-white text-sm rounded hover:bg-red-600 transition-colors"
-                    >
-                      删除
-                    </button>
-                  </div>
 
-                  {/* Combined Definition */}
-                  <div>
-                    <div className="bg-slate-50 rounded p-4 max-h-96 overflow-y-auto">
-                      <pre className="whitespace-pre-wrap font-sans text-sm text-slate-600 leading-relaxed">
-                        {word.englishDefinition}
-                      </pre>
-                    </div>
+                    {/* Expanded content - only show when expanded */}
+                    {isExpanded && (
+                      <div className="px-4 pb-4 pt-0">
+                        <div className="bg-slate-50 rounded p-4 max-h-96 overflow-y-auto">
+                          <pre className="whitespace-pre-wrap font-sans text-sm text-slate-600 leading-relaxed">
+                            {word.englishDefinition}
+                          </pre>
+                        </div>
+                      </div>
+                    )}
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           )}
         </div>

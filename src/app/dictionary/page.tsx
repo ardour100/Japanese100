@@ -17,7 +17,6 @@ export default function DictionaryPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [englishDefinition, setEnglishDefinition] = useState("");
-  const [chineseDefinition, setChineseDefinition] = useState("");
   const [currentWord, setCurrentWord] = useState("");
   const [isSaved, setIsSaved] = useState(false);
   const [audioUrl, setAudioUrl] = useState("");
@@ -56,7 +55,6 @@ export default function DictionaryPage() {
     setLoading(true);
     setError("");
     setEnglishDefinition("");
-    setChineseDefinition("");
     setAudioUrl("");
     setPhonetic("");
 
@@ -80,19 +78,19 @@ export default function DictionaryPage() {
         if (englishData[0].phonetics && englishData[0].phonetics.length > 0) {
           // Find the first phonetic with both text and audio
           const phoneticWithAudio = englishData[0].phonetics.find(
-            (p: any) => p.text && p.audio
+            (p: { text?: string; audio?: string }) => p.text && p.audio
           );
           if (phoneticWithAudio) {
-            phoneticText = phoneticWithAudio.text;
-            audio = phoneticWithAudio.audio;
+            phoneticText = phoneticWithAudio.text || "";
+            audio = phoneticWithAudio.audio || "";
           } else {
             // If no phonetic has both, try to find one with text
-            const phoneticObj = englishData[0].phonetics.find((p: any) => p.text);
+            const phoneticObj = englishData[0].phonetics.find((p: { text?: string }) => p.text);
             if (phoneticObj && phoneticObj.text) {
               phoneticText = phoneticObj.text;
             }
             // And try to find one with audio
-            const audioObj = englishData[0].phonetics.find((p: any) => p.audio);
+            const audioObj = englishData[0].phonetics.find((p: { audio?: string }) => p.audio);
             if (audioObj && audioObj.audio) {
               audio = audioObj.audio;
             }
@@ -149,7 +147,7 @@ export default function DictionaryPage() {
               // Add both English and Chinese on consecutive lines
               combinedDef += `\n${i + 1}. ${englishDef}\n`;
               combinedDef += `   ${chineseDef}\n`;
-            } catch (e) {
+            } catch {
               // If translation fails, just show English
               combinedDef += `\n${i + 1}. ${englishDef}\n`;
             }
