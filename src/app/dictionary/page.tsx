@@ -68,6 +68,23 @@ export default function DictionaryPage() {
 
       const englishData = await englishResponse.json();
 
+      // Extract phonetic transcription
+      let phonetic = "";
+      if (englishData && englishData[0]) {
+        // Try to get phonetic from phonetics array
+        if (englishData[0].phonetics && englishData[0].phonetics.length > 0) {
+          // Find the first phonetic with text
+          const phoneticObj = englishData[0].phonetics.find((p: any) => p.text);
+          if (phoneticObj && phoneticObj.text) {
+            phonetic = phoneticObj.text;
+          }
+        }
+        // Fallback to phonetic field if exists
+        if (!phonetic && englishData[0].phonetic) {
+          phonetic = englishData[0].phonetic;
+        }
+      }
+
       // Translate word to Chinese first
       const wordTranslateResponse = await fetch(
         "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q=" +
@@ -77,7 +94,10 @@ export default function DictionaryPage() {
       const chineseWord = wordTranslateData[0][0][0] || searchWord;
 
       // Build combined definition with English and Chinese line by line
-      let combinedDef = `${searchWord} - ${chineseWord}\n\n`;
+      // Include phonetic transcription if available
+      let combinedDef = phonetic
+        ? `${searchWord} ${phonetic} - ${chineseWord}\n\n`
+        : `${searchWord} - ${chineseWord}\n\n`;
 
       if (englishData && englishData[0] && englishData[0].meanings) {
         const meanings = englishData[0].meanings;
