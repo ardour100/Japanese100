@@ -158,7 +158,6 @@ export default function DictionaryPage() {
       }
 
       setEnglishDefinition(combinedDef || "未找到释义");
-      setChineseDefinition(""); // No longer needed as combined
       setCurrentWord(searchWord.trim());
     } catch (err) {
       setError(
