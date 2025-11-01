@@ -17,9 +17,10 @@ export default function DictionaryPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [englishDefinition, setEnglishDefinition] = useState("");
-  const [chineseDefinition, setChineseDefinition] = useState("");
   const [currentWord, setCurrentWord] = useState("");
   const [isSaved, setIsSaved] = useState(false);
+  const [audioUrl, setAudioUrl] = useState("");
+  const [phonetic, setPhonetic] = useState("");
 
   // Check if current word is already saved whenever currentWord changes
   useEffect(() => {
@@ -54,7 +55,8 @@ export default function DictionaryPage() {
     setLoading(true);
     setError("");
     setEnglishDefinition("");
-    setChineseDefinition("");
+    setAudioUrl("");
+    setPhonetic("");
 
     try {
       // Fetch English definition from Free Dictionary API
@@ -68,6 +70,41 @@ export default function DictionaryPage() {
 
       const englishData = await englishResponse.json();
 
+      // Extract phonetic transcription and audio
+      let phoneticText = "";
+      let audio = "";
+      if (englishData && englishData[0]) {
+        // Try to get phonetic and audio from phonetics array
+        if (englishData[0].phonetics && englishData[0].phonetics.length > 0) {
+          // Find the first phonetic with both text and audio
+          const phoneticWithAudio = englishData[0].phonetics.find(
+            (p: { text?: string; audio?: string }) => p.text && p.audio
+          );
+          if (phoneticWithAudio) {
+            phoneticText = phoneticWithAudio.text || "";
+            audio = phoneticWithAudio.audio || "";
+          } else {
+            // If no phonetic has both, try to find one with text
+            const phoneticObj = englishData[0].phonetics.find((p: { text?: string }) => p.text);
+            if (phoneticObj && phoneticObj.text) {
+              phoneticText = phoneticObj.text;
+            }
+            // And try to find one with audio
+            const audioObj = englishData[0].phonetics.find((p: { audio?: string }) => p.audio);
+            if (audioObj && audioObj.audio) {
+              audio = audioObj.audio;
+            }
+          }
+        }
+        // Fallback to phonetic field if exists
+        if (!phoneticText && englishData[0].phonetic) {
+          phoneticText = englishData[0].phonetic;
+        }
+      }
+
+      setPhonetic(phoneticText);
+      setAudioUrl(audio);
+
       // Translate word to Chinese first
       const wordTranslateResponse = await fetch(
         "https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=zh-CN&dt=t&q=" +
@@ -77,7 +114,10 @@ export default function DictionaryPage() {
       const chineseWord = wordTranslateData[0][0][0] || searchWord;
 
       // Build combined definition with English and Chinese line by line
-      let combinedDef = `${searchWord} - ${chineseWord}\n\n`;
+      // Include phonetic transcription if available
+      let combinedDef = phoneticText
+        ? `${searchWord} ${phoneticText} - ${chineseWord}\n\n`
+        : `${searchWord} - ${chineseWord}\n\n`;
 
       if (englishData && englishData[0] && englishData[0].meanings) {
         const meanings = englishData[0].meanings;
@@ -107,7 +147,7 @@ export default function DictionaryPage() {
               // Add both English and Chinese on consecutive lines
               combinedDef += `\n${i + 1}. ${englishDef}\n`;
               combinedDef += `   ${chineseDef}\n`;
-            } catch (e) {
+            } catch {
               // If translation fails, just show English
               combinedDef += `\n${i + 1}. ${englishDef}\n`;
             }
@@ -118,7 +158,6 @@ export default function DictionaryPage() {
       }
 
       setEnglishDefinition(combinedDef || "未找到释义");
-      setChineseDefinition(""); // No longer needed as combined
       setCurrentWord(searchWord.trim());
     } catch (err) {
       setError(
@@ -218,7 +257,28 @@ export default function DictionaryPage() {
         {englishDefinition && (
           <div className="max-w-4xl mx-auto mb-8">
             <div className="bg-white rounded-lg p-6 shadow-lg border border-blue-100">
-              <div className="flex justify-between items-start mb-4">
+              {/* Word header with phonetic and audio */}
+              <div className="mb-4">
+                <div className="flex items-center gap-3 mb-3">
+                  <h2 className="text-2xl font-bold text-blue-800">
+                    {currentWord}
+                  </h2>
+                  {phonetic && (
+                    <span className="text-lg text-slate-600">{phonetic}</span>
+                  )}
+                  {audioUrl && (
+                    <button
+                      onClick={() => {
+                        const audio = new Audio(audioUrl);
+                        audio.play();
+                      }}
+                      className="p-2 rounded-full hover:bg-blue-100 transition-colors"
+                      title="播放发音"
+                    >
+                      <span className="text-xl">🔊</span>
+                    </button>
+                  )}
+                </div>
                 <button
                   onClick={saveToVocabularyBook}
                   disabled={isSaved}
