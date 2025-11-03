@@ -16,6 +16,8 @@ export default function VocabularyBookPage() {
   const [savedWords, setSavedWords] = useState<SavedWord[]>([]);
   const [searchFilter, setSearchFilter] = useState("");
   const [expandedWords, setExpandedWords] = useState<Set<number>>(new Set());
+  const [currentPage, setCurrentPage] = useState(1);
+  const WORDS_PER_PAGE = 20;
 
   // Load saved words from localStorage on mount
   useEffect(() => {
@@ -60,6 +62,17 @@ export default function VocabularyBookPage() {
     word.word.toLowerCase().includes(searchFilter.toLowerCase())
   );
 
+  // Calculate pagination
+  const totalPages = Math.ceil(filteredWords.length / WORDS_PER_PAGE);
+  const startIndex = (currentPage - 1) * WORDS_PER_PAGE;
+  const endIndex = startIndex + WORDS_PER_PAGE;
+  const currentWords = filteredWords.slice(startIndex, endIndex);
+
+  // Reset to page 1 when search filter changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchFilter]);
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-purple-100 relative">
       <Header />
@@ -70,7 +83,9 @@ export default function VocabularyBookPage() {
             我的单词本
           </h1>
           <p className="text-purple-600 mb-4">
-            查看和管理您保存的单词 · {savedWords.length} 个单词
+            查看和管理您保存的单词 · 共 {savedWords.length} 个单词
+            {filteredWords.length !== savedWords.length && ` · 搜索结果: ${filteredWords.length} 个`}
+            {totalPages > 1 && ` · 第 ${currentPage}/${totalPages} 页`}
           </p>
         </header>
 
@@ -134,7 +149,7 @@ export default function VocabularyBookPage() {
             </div>
           ) : (
             <div className="space-y-2">
-              {filteredWords.map((word) => {
+              {currentWords.map((word) => {
                 const isExpanded = expandedWords.has(word.timestamp);
                 return (
                   <div
@@ -187,6 +202,67 @@ export default function VocabularyBookPage() {
             </div>
           )}
         </div>
+
+        {/* Pagination Controls */}
+        {totalPages > 1 && (
+          <div className="max-w-4xl mx-auto mt-6">
+            <div className="flex items-center justify-center gap-2">
+              <button
+                onClick={() => setCurrentPage((prev) => Math.max(1, prev - 1))}
+                disabled={currentPage === 1}
+                className="px-4 py-2 bg-white border border-purple-300 text-purple-700 rounded-lg hover:bg-purple-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              >
+                上一页
+              </button>
+
+              <div className="flex items-center gap-1">
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
+                  // Show first page, last page, current page, and pages around current
+                  const showPage =
+                    page === 1 ||
+                    page === totalPages ||
+                    Math.abs(page - currentPage) <= 1;
+
+                  const showEllipsis =
+                    (page === 2 && currentPage > 3) ||
+                    (page === totalPages - 1 && currentPage < totalPages - 2);
+
+                  if (showEllipsis) {
+                    return (
+                      <span key={page} className="px-2 text-slate-400">
+                        ...
+                      </span>
+                    );
+                  }
+
+                  if (!showPage) return null;
+
+                  return (
+                    <button
+                      key={page}
+                      onClick={() => setCurrentPage(page)}
+                      className={`px-3 py-2 rounded-lg transition-colors ${
+                        currentPage === page
+                          ? "bg-purple-600 text-white"
+                          : "bg-white border border-purple-300 text-purple-700 hover:bg-purple-50"
+                      }`}
+                    >
+                      {page}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <button
+                onClick={() => setCurrentPage((prev) => Math.min(totalPages, prev + 1))}
+                disabled={currentPage === totalPages}
+                className="px-4 py-2 bg-white border border-purple-300 text-purple-700 rounded-lg hover:bg-purple-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              >
+                下一页
+              </button>
+            </div>
+          </div>
+        )}
 
         {/* Back Button */}
         <div className="text-center mt-8">
