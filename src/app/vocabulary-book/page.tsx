@@ -120,6 +120,67 @@ export default function VocabularyBookPage() {
           </div>
         </div>
 
+        {/* Pagination Controls - Top */}
+        {totalPages > 1 && (
+          <div className="max-w-4xl mx-auto mb-6">
+            <div className="flex items-center justify-center gap-2">
+              <button
+                onClick={() => setCurrentPage((prev) => Math.max(1, prev - 1))}
+                disabled={currentPage === 1}
+                className="px-4 py-2 bg-white border border-purple-300 text-purple-700 rounded-lg hover:bg-purple-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              >
+                上一页
+              </button>
+
+              <div className="flex items-center gap-1">
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
+                  // Show first page, last page, current page, and pages around current
+                  const showPage =
+                    page === 1 ||
+                    page === totalPages ||
+                    Math.abs(page - currentPage) <= 1;
+
+                  const showEllipsis =
+                    (page === 2 && currentPage > 3) ||
+                    (page === totalPages - 1 && currentPage < totalPages - 2);
+
+                  if (showEllipsis) {
+                    return (
+                      <span key={page} className="px-2 text-slate-400">
+                        ...
+                      </span>
+                    );
+                  }
+
+                  if (!showPage) return null;
+
+                  return (
+                    <button
+                      key={page}
+                      onClick={() => setCurrentPage(page)}
+                      className={`px-3 py-2 rounded-lg transition-colors ${
+                        currentPage === page
+                          ? "bg-purple-600 text-white"
+                          : "bg-white border border-purple-300 text-purple-700 hover:bg-purple-50"
+                      }`}
+                    >
+                      {page}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <button
+                onClick={() => setCurrentPage((prev) => Math.min(totalPages, prev + 1))}
+                disabled={currentPage === totalPages}
+                className="px-4 py-2 bg-white border border-purple-300 text-purple-700 rounded-lg hover:bg-purple-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              >
+                下一页
+              </button>
+            </div>
+          </div>
+        )}
+
         {/* Words List */}
         <div className="max-w-4xl mx-auto">
           {filteredWords.length === 0 ? (
@@ -202,67 +263,6 @@ export default function VocabularyBookPage() {
             </div>
           )}
         </div>
-
-        {/* Pagination Controls */}
-        {totalPages > 1 && (
-          <div className="max-w-4xl mx-auto mt-6">
-            <div className="flex items-center justify-center gap-2">
-              <button
-                onClick={() => setCurrentPage((prev) => Math.max(1, prev - 1))}
-                disabled={currentPage === 1}
-                className="px-4 py-2 bg-white border border-purple-300 text-purple-700 rounded-lg hover:bg-purple-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-              >
-                上一页
-              </button>
-
-              <div className="flex items-center gap-1">
-                {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => {
-                  // Show first page, last page, current page, and pages around current
-                  const showPage =
-                    page === 1 ||
-                    page === totalPages ||
-                    Math.abs(page - currentPage) <= 1;
-
-                  const showEllipsis =
-                    (page === 2 && currentPage > 3) ||
-                    (page === totalPages - 1 && currentPage < totalPages - 2);
-
-                  if (showEllipsis) {
-                    return (
-                      <span key={page} className="px-2 text-slate-400">
-                        ...
-                      </span>
-                    );
-                  }
-
-                  if (!showPage) return null;
-
-                  return (
-                    <button
-                      key={page}
-                      onClick={() => setCurrentPage(page)}
-                      className={`px-3 py-2 rounded-lg transition-colors ${
-                        currentPage === page
-                          ? "bg-purple-600 text-white"
-                          : "bg-white border border-purple-300 text-purple-700 hover:bg-purple-50"
-                      }`}
-                    >
-                      {page}
-                    </button>
-                  );
-                })}
-              </div>
-
-              <button
-                onClick={() => setCurrentPage((prev) => Math.min(totalPages, prev + 1))}
-                disabled={currentPage === totalPages}
-                className="px-4 py-2 bg-white border border-purple-300 text-purple-700 rounded-lg hover:bg-purple-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-              >
-                下一页
-              </button>
-            </div>
-          </div>
-        )}
 
         {/* Back Button */}
         <div className="text-center mt-8">
