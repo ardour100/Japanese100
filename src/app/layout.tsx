@@ -9,7 +9,7 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "漢字学習 - Japanese Kanji Learning",
+  title: "Kanji Learning - Japanese Kanji Learning",
   description: "Learn the most frequent Japanese Kanji with interactive cards and pronunciation",
 };
 

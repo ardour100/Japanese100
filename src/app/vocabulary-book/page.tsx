@@ -39,7 +39,7 @@ export default function VocabularyBookPage() {
     const wordsToMigrate = savedWords.filter(word => !word.audioUrl);
     if (wordsToMigrate.length === 0) {
       setMigrationStatus('done');
-      alert('所有单词都已是最新。');
+      alert('All words are already up-to-date.');
       return;
     }
 
@@ -83,7 +83,7 @@ export default function VocabularyBookPage() {
     setSavedWords(updatedWords);
     localStorage.setItem('dictionarySavedWords', JSON.stringify(updatedWords));
     setMigrationStatus('done');
-    alert(`完成！${updatedCount}个单词已更新。`);
+    alert(`Complete! ${updatedCount} words updated.`);
   };
 
   const deleteWord = (timestamp: number) => {
@@ -93,7 +93,7 @@ export default function VocabularyBookPage() {
   };
 
   const clearAll = () => {
-    if (confirm("确定要清空所有单词吗？")) {
+    if (confirm("Are you sure you want to clear all words?")) {
       setSavedWords([]);
       localStorage.removeItem("dictionarySavedWords");
     }
@@ -134,12 +134,12 @@ export default function VocabularyBookPage() {
       <div className="max-w-6xl mx-auto relative z-10 p-4 sm:p-8">
         <header className="text-center mb-8">
           <h1 className="text-3xl sm:text-4xl font-bold text-purple-800 mb-2 drop-shadow-sm">
-            我的单词本
+            My Vocabulary Book
           </h1>
           <p className="text-purple-600 mb-4">
-            查看和管理您保存的单词 · 共 {savedWords.length} 个单词
-            {filteredWords.length !== savedWords.length && ` · 搜索结果: ${filteredWords.length} 个`}
-            {totalPages > 1 && ` · 第 ${currentPage}/${totalPages} 页`}
+            View and manage your saved words · Total {savedWords.length} words
+            {filteredWords.length !== savedWords.length && ` · Search Results: ${filteredWords.length}`}
+            {totalPages > 1 && ` · Page ${currentPage}/${totalPages}`}
           </p>
         </header>
 
@@ -151,7 +151,7 @@ export default function VocabularyBookPage() {
                 type="text"
                 value={searchFilter}
                 onChange={(e) => setSearchFilter(e.target.value)}
-                placeholder="搜索单词..."
+                placeholder="Search words..."
                 className="flex-1 px-4 py-2 border border-purple-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-slate-800"
               />
               <div className="flex gap-2">
@@ -159,14 +159,14 @@ export default function VocabularyBookPage() {
                   href="/dictionary"
                   className="px-4 py-2 bg-gradient-to-r from-blue-500 to-cyan-600 text-white font-medium rounded-lg hover:from-blue-600 hover:to-cyan-700 transition-all shadow-md hover:shadow-lg whitespace-nowrap"
                 >
-                  + 添加单词
+                  + Add Word
                 </Link>
                 {savedWords.length > 0 && (
                   <button
                     onClick={clearAll}
                     className="px-4 py-2 bg-red-500 text-white font-medium rounded-lg hover:bg-red-600 transition-all shadow-md hover:shadow-lg"
                   >
-                    清空
+                    Clear All
                   </button>
                 )}
                 {savedWords.length > 0 && (
@@ -175,8 +175,9 @@ export default function VocabularyBookPage() {
                     disabled={migrationStatus === 'running'}
                     className="px-4 py-2 bg-yellow-500 text-white font-medium rounded-lg hover:bg-yellow-600 transition-all shadow-md hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
                   >
-                    {migrationStatus === 'running' ? '更新中...' : '更新旧单词'}
+                    {migrationStatus === 'running' ? 'Updating...' : 'Update Old Words'}
                   </button>
+                )}
               </div>
             </div>
           </div>
@@ -191,7 +192,7 @@ export default function VocabularyBookPage() {
                 disabled={currentPage === 1}
                 className="px-4 py-2 bg-white border border-purple-300 text-purple-700 rounded-lg hover:bg-purple-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
               >
-                上一页
+                Previous Page
               </button>
 
               <div className="flex items-center gap-1">
@@ -237,7 +238,7 @@ export default function VocabularyBookPage() {
                 disabled={currentPage === totalPages}
                 className="px-4 py-2 bg-white border border-purple-300 text-purple-700 rounded-lg hover:bg-purple-50 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
               >
-                下一页
+                Next Page
               </button>
             </div>
           </div>
@@ -250,15 +251,15 @@ export default function VocabularyBookPage() {
               <div className="text-6xl mb-4">📚</div>
               <h3 className="text-xl font-semibold text-slate-700 mb-2">
                 {searchFilter
-                  ? "没有找到匹配的单词"
+                  ? "No matching words found"
                   : savedWords.length === 0
-                  ? "单词本是空的"
-                  : "没有匹配的单词"}
+                  ? "Vocabulary book is empty"
+                  : "No matching words"}
               </h3>
               <p className="text-slate-500 mb-6">
                 {searchFilter
-                  ? "试试其他搜索词"
-                  : "在英译中词典中搜索单词并保存到这里"}
+                  ? "Try other search terms"
+                  : "Search and save words from English-Chinese dictionary here"}
               </p>
               {!searchFilter && savedWords.length === 0 && (
                 <Link
@@ -266,7 +267,7 @@ export default function VocabularyBookPage() {
                   className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-600 text-white font-medium rounded-lg hover:from-blue-600 hover:to-cyan-700 transition-all shadow-md hover:shadow-lg"
                 >
                   <span className="mr-2">🔍</span>
-                  <span>去查单词</span>
+                  <span>Go to Dictionary</span>
                 </Link>
               )}
             </div>
@@ -305,7 +306,7 @@ export default function VocabularyBookPage() {
                                   audio.play();
                                 }}
                                 className="p-2 rounded-full hover:bg-purple-100 transition-colors"
-                                title="播放发音"
+                                title="Play audio"
                               >
                                 <span className="text-xl">🔊</span>
                               </button>
@@ -320,7 +321,7 @@ export default function VocabularyBookPage() {
                         onClick={() => deleteWord(word.timestamp)}
                         className="px-3 py-1 bg-red-500 text-white text-sm rounded hover:bg-red-600 transition-colors ml-2"
                       >
-                        删除
+                        Delete
                       </button>
                     </div>
 
@@ -348,7 +349,7 @@ export default function VocabularyBookPage() {
             className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-slate-500 to-slate-600 text-white font-medium rounded-lg hover:from-slate-600 hover:to-slate-700 transition-all shadow-md hover:shadow-lg"
           >
             <span className="mr-2">←</span>
-            <span>返回主页</span>
+            <span>Back to Home</span>
           </Link>
         </div>
       </div>

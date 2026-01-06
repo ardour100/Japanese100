@@ -96,7 +96,7 @@ export default function AuthButton() {
                 className="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-700 transition-colors"
               >
                 <LanguageIcon className="w-4 h-4 mr-3 text-blue-600" />
-                英译中
+                Dictionary
               </Link>
               <Link
                 href="/vocabulary-book"
@@ -104,7 +104,7 @@ export default function AuthButton() {
                 className="flex items-center px-4 py-3 text-sm text-gray-700 hover:bg-purple-50 hover:text-purple-700 transition-colors"
               >
                 <BookOpenIcon className="w-4 h-4 mr-3 text-purple-600" />
-                单词本
+                Vocabulary Book
               </Link>
               <hr className="border-rose-100 my-1" />
               <button

@@ -38,7 +38,7 @@ export default function Header() {
             <Link href="/" className="flex items-center space-x-2">
               <div className="text-2xl">🌸</div>
               <div>
-                <h1 className="text-xl font-bold text-rose-800">漢字学習</h1>
+                <h1 className="text-xl font-bold text-rose-800">Kanji Learning</h1>
                 <p className="text-xs text-slate-600 hidden sm:block font-medium">Kanji Learning</p>
               </div>
             </Link>

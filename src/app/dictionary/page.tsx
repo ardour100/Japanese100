@@ -158,7 +158,7 @@ export default function DictionaryPage() {
         }
       }
 
-      setEnglishDefinition(combinedDef || "未找到释义");
+      setEnglishDefinition(combinedDef || "Definition not found");
       setCurrentWord(searchWord.trim());
     } catch (err) {
       setError(
@@ -222,10 +222,10 @@ export default function DictionaryPage() {
       <div className="max-w-6xl mx-auto relative z-10 p-4 sm:p-8">
         <header className="text-center mb-8">
           <h1 className="text-3xl sm:text-4xl font-bold text-blue-800 mb-2 drop-shadow-sm">
-            英译中词典
+            English-Chinese Dictionary
           </h1>
           <p className="text-blue-600 mb-4">
-            搜索英文单词，获取英文和中文释义
+            Search English words to get English and Chinese definitions
           </p>
         </header>
 
@@ -238,7 +238,7 @@ export default function DictionaryPage() {
                 value={searchWord}
                 onChange={(e) => setSearchWord(e.target.value)}
                 onKeyPress={handleKeyPress}
-                placeholder="输入英文单词..."
+                placeholder="Enter English word..."
                 className="flex-1 px-4 py-3 border border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-slate-800"
               />
               <button
@@ -246,11 +246,11 @@ export default function DictionaryPage() {
                 disabled={loading}
                 className="px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-600 text-white font-medium rounded-lg hover:from-blue-600 hover:to-cyan-700 transition-all shadow-md hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {loading ? "搜索中..." : "搜索"}
+                {loading ? "Searching..." : "Search"}
               </button>
             </div>
             {error && (
-              <p className="mt-3 text-red-600 text-sm">错误: {error}</p>
+              <p className="mt-3 text-red-600 text-sm">Error: {error}</p>
             )}
           </div>
         </div>
@@ -275,7 +275,7 @@ export default function DictionaryPage() {
                         audio.play();
                       }}
                       className="p-2 rounded-full hover:bg-blue-100 transition-colors"
-                      title="播放发音"
+                      title="Play pronunciation"
                     >
                       <span className="text-xl">🔊</span>
                     </button>
@@ -291,7 +291,7 @@ export default function DictionaryPage() {
                   }`}
                 >
                   <span>{isSaved ? "✓" : "💾"}</span>
-                  <span>{isSaved ? "已保存到单词本" : "保存到单词本"}</span>
+                  <span>{isSaved ? "Saved to Vocabulary Book" : "Save to Vocabulary Book"}</span>
                 </button>
               </div>
 
@@ -314,7 +314,7 @@ export default function DictionaryPage() {
             className="block w-full px-6 py-4 bg-gradient-to-r from-purple-500 to-pink-600 text-white font-medium rounded-lg hover:from-purple-600 hover:to-pink-700 transition-all shadow-md hover:shadow-lg text-center"
           >
             <span className="text-xl mr-2">📚</span>
-            <span>查看我的单词本</span>
+            <span>View My Vocabulary Book</span>
           </Link>
         </div>
 
@@ -325,7 +325,7 @@ export default function DictionaryPage() {
             className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-slate-500 to-slate-600 text-white font-medium rounded-lg hover:from-slate-600 hover:to-slate-700 transition-all shadow-md hover:shadow-lg"
           >
             <span className="mr-2">←</span>
-            <span>返回主页</span>
+            <span>Back to Home</span>
           </Link>
         </div>
       </div>

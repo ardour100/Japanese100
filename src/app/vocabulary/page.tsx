@@ -48,7 +48,7 @@ export default function VocabularyPage() {
         {/* Header */}
         <header className="text-center mb-12">
           <h1 className="text-4xl sm:text-5xl font-bold text-purple-800 mb-4 drop-shadow-sm">
-            📚 Japanese Vocabulary (単語)
+            📚 Japanese Vocabulary
           </h1>
           <p className="text-lg text-purple-600 mb-2">
             Essential Japanese words for travelers
