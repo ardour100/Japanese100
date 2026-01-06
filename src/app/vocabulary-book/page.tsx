@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import JapaneseBackground from "@/components/JapaneseBackground";
 import Header from "@/components/Header";
-import AudioPlayer from "@/components/AudioPlayer";
 
 interface SavedWord {
   word: string;
@@ -237,7 +236,19 @@ export default function VocabularyBookPage() {
                             <h3 className="text-xl font-bold text-purple-800">
                               {word.word}
                             </h3>
-                            {word.audioUrl && <AudioPlayer src={word.audioUrl} />}
+                            {word.audioUrl && (
+                              <button
+                                onClick={(e) => {
+                                  e.stopPropagation(); // Prevent the word from expanding when clicking the button
+                                  const audio = new Audio(word.audioUrl);
+                                  audio.play();
+                                }}
+                                className="p-2 rounded-full hover:bg-purple-100 transition-colors"
+                                title="播放发音"
+                              >
+                                <span className="text-xl">🔊</span>
+                              </button>
+                            )}
                           </div>
                           <p className="text-xs text-slate-400">
                             {new Date(word.timestamp).toLocaleString("zh-CN")}
