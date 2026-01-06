@@ -10,6 +10,7 @@ interface SavedWord {
   englishDefinition: string;
   chineseDefinition: string;
   timestamp: number;
+  audioUrl?: string;
 }
 
 export default function VocabularyBookPage() {
@@ -231,9 +232,24 @@ export default function VocabularyBookPage() {
                           ▶
                         </span>
                         <div className="flex-1">
-                          <h3 className="text-xl font-bold text-purple-800">
-                            {word.word}
-                          </h3>
+                          <div className="flex items-center gap-2">
+                            <h3 className="text-xl font-bold text-purple-800">
+                              {word.word}
+                            </h3>
+                            {word.audioUrl && (
+                              <button
+                                onClick={(e) => {
+                                  e.stopPropagation(); // Prevent the word from expanding when clicking the button
+                                  const audio = new Audio(word.audioUrl);
+                                  audio.play();
+                                }}
+                                className="p-2 rounded-full hover:bg-purple-100 transition-colors"
+                                title="播放发音"
+                              >
+                                <span className="text-xl">🔊</span>
+                              </button>
+                            )}
+                          </div>
                           <p className="text-xs text-slate-400">
                             {new Date(word.timestamp).toLocaleString("zh-CN")}
                           </p>
