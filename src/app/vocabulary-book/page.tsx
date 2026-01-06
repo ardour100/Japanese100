@@ -4,12 +4,14 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import JapaneseBackground from "@/components/JapaneseBackground";
 import Header from "@/components/Header";
+import AudioPlayer from "@/components/AudioPlayer";
 
 interface SavedWord {
   word: string;
   englishDefinition: string;
   chineseDefinition: string;
   timestamp: number;
+  audioUrl?: string;
 }
 
 export default function VocabularyBookPage() {
@@ -231,9 +233,12 @@ export default function VocabularyBookPage() {
                           ▶
                         </span>
                         <div className="flex-1">
-                          <h3 className="text-xl font-bold text-purple-800">
-                            {word.word}
-                          </h3>
+                          <div className="flex items-center gap-2">
+                            <h3 className="text-xl font-bold text-purple-800">
+                              {word.word}
+                            </h3>
+                            {word.audioUrl && <AudioPlayer src={word.audioUrl} />}
+                          </div>
                           <p className="text-xs text-slate-400">
                             {new Date(word.timestamp).toLocaleString("zh-CN")}
                           </p>

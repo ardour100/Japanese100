@@ -10,6 +10,7 @@ interface SavedWord {
   englishDefinition: string;
   chineseDefinition: string;
   timestamp: number;
+  audioUrl?: string;
 }
 
 export default function DictionaryPage() {
@@ -184,6 +185,7 @@ export default function DictionaryPage() {
       englishDefinition,
       chineseDefinition: "", // Not used anymore, kept for compatibility
       timestamp: Date.now(),
+      audioUrl: audioUrl,
     };
 
     // Load existing words from localStorage
