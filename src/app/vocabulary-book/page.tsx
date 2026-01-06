@@ -19,6 +19,7 @@ export default function VocabularyBookPage() {
   const [expandedWords, setExpandedWords] = useState<Set<number>>(new Set());
   const [currentPage, setCurrentPage] = useState(1);
   const WORDS_PER_PAGE = 20;
+  const [migrationStatus, setMigrationStatus] = useState<'idle' | 'running' | 'done'>('idle');
 
   // Load saved words from localStorage on mount
   useEffect(() => {
@@ -32,6 +33,58 @@ export default function VocabularyBookPage() {
       }
     }
   }, []);
+
+  const migrateWords = async () => {
+    setMigrationStatus('running');
+    const wordsToMigrate = savedWords.filter(word => !word.audioUrl);
+    if (wordsToMigrate.length === 0) {
+      setMigrationStatus('done');
+      alert('所有单词都已是最新。');
+      return;
+    }
+
+    let updatedCount = 0;
+    const updatedWords = [...savedWords];
+
+    for (const word of wordsToMigrate) {
+      try {
+        const response = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${word.word}`);
+        if (response.ok) {
+          const data = await response.json();
+          if (data && data[0]) {
+            let audio = '';
+            if (data[0].phonetics && data[0].phonetics.length > 0) {
+              const phoneticWithAudio = data[0].phonetics.find(
+                (p: { text?: string; audio?: string }) => p.text && p.audio
+              );
+              if (phoneticWithAudio) {
+                audio = phoneticWithAudio.audio || '';
+              } else {
+                const audioObj = data[0].phonetics.find((p: { audio?: string }) => p.audio);
+                if (audioObj && audioObj.audio) {
+                  audio = audioObj.audio;
+                }
+              }
+            }
+            if (audio) {
+              const wordIndex = updatedWords.findIndex(w => w.timestamp === word.timestamp);
+              if (wordIndex !== -1) {
+                updatedWords[wordIndex].audioUrl = audio;
+                updatedCount++;
+              }
+            }
+          }
+        }
+      } catch (e) {
+        console.error(`Failed to migrate word: ${word.word}`, e);
+      }
+    }
+
+    setSavedWords(updatedWords);
+    localStorage.setItem('dictionarySavedWords', JSON.stringify(updatedWords));
+    setMigrationStatus('done');
+    alert(`完成！${updatedCount}个单词已更新。`);
+  };
 
   const deleteWord = (timestamp: number) => {
     const updated = savedWords.filter((word) => word.timestamp !== timestamp);
@@ -116,6 +169,14 @@ export default function VocabularyBookPage() {
                     清空
                   </button>
                 )}
+                {savedWords.length > 0 && (
+                  <button
+                    onClick={migrateWords}
+                    disabled={migrationStatus === 'running'}
+                    className="px-4 py-2 bg-yellow-500 text-white font-medium rounded-lg hover:bg-yellow-600 transition-all shadow-md hover:shadow-lg disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    {migrationStatus === 'running' ? '更新中...' : '更新旧单词'}
+                  </button>
               </div>
             </div>
           </div>
