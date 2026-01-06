@@ -112,7 +112,7 @@ export default function GojuonModal({ isOpen, onClose }: GojuonModalProps) {
           {/* Footer Info */}
           <div className="mt-6 p-4 bg-gradient-to-r from-pink-50 to-rose-50 rounded-lg border border-rose-200">
             <p className="text-sm text-rose-600 text-center">
-              <span className="font-semibold">Gojūon (五十音)</span> - The traditional ordering of Japanese syllables
+              <span className="font-semibold">Gojūon</span> - The traditional ordering of Japanese syllables
             </p>
             <p className="text-xs text-rose-500 text-center mt-1">
               Click on any character to hear its pronunciation

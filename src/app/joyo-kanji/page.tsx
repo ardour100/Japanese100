@@ -208,7 +208,7 @@ function JoyoKanjiContent() {
         {/* Information Footer */}
         <div className="text-center text-slate-600 text-sm">
           <p className="mb-2">
-            The Jōyō kanji (常用漢字) are the official list of characters for daily use in Japan.
+            The Jōyō kanji are the official list of characters for daily use in Japan.
           </p>
           <p>
             Last updated by MEXT in 2010 • Current list contains 2,136 characters

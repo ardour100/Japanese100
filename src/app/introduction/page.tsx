@@ -28,7 +28,7 @@ export default function IntroductionPage() {
           {/* Header */}
           <div className="text-center mb-12">
             <div className="text-6xl mb-4">🌸</div>
-            <h1 className="text-4xl font-bold text-rose-800 mb-4">Welcome to 漢字学習</h1>
+            <h1 className="text-4xl font-bold text-rose-800 mb-4">Welcome to Kanji Learning</h1>
             <p className="text-xl text-rose-600 mb-2">Your Journey to Mastering Japanese Kanji</p>
             <p className="text-lg text-slate-600">Learn the 1000+ most frequent kanji characters with our interactive platform</p>
           </div>
