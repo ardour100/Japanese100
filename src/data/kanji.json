@@ -9,8 +9,8 @@
         "hiragana": "いち",
         "meaning": "one",
         "wordClass": "number",
-        "example": "いちばんすきなたべものはすしです。(My most favorite food is sushi.)",
-        "exampleKana": "いちばんすきなたべものはすしです。"
+        "example": "一期一会 (One time, one meeting. It means treasure every encounter, for it will never recur in the exact same way.)",
+        "exampleKana": "いちごいちえ(Ichi-go ichi-e) "
       }
     ]
   },
@@ -20,12 +20,12 @@
     "entries": [
       {
         "entryId": 2,
-        "romaji": "ni",
+        "romaji": "ni/futa",
         "hiragana": "に",
         "meaning": "two",
         "wordClass": "number",
-        "example": "にほんごをべんきょうしています。(I am studying Japanese.)",
-        "exampleKana": "にほんごをべんきょうしています。"
+        "example": "二つ目 (The second one.  The Core Difference between ni and futa: Ni (二) - Onyomi (Chinese Reading): This is the counting reading. It is used for mathematics, dates, time, and formal compound words. It’s like saying Two or Second in a technical sense. Futa (二) - Kunyomi (Native Japanese Reading): This is the descriptive reading. It is used for counting physical objects (when combined with counters) and in native Japanese concepts. It feels more organic)",
+        "exampleKana": "Futa tsume"
       }
     ]
   },
@@ -39,8 +39,8 @@
         "hiragana": "さん",
         "meaning": "three",
         "wordClass": "number",
-        "example": "三時に会議があります。(There is a meeting at three o'clock.)",
-        "exampleKana": "さんじにかいぎがあります。"
+        "example": "三流 (Third-rate, mediocre)",
+        "exampleKana": "Sanryu"
       }
     ]
   },
@@ -54,8 +54,8 @@
         "hiragana": "よん",
         "meaning": "four",
         "wordClass": "number",
-        "example": "四季がある国に住んでいます。(I live in a country with four seasons.)",
-        "exampleKana": "よん季があるくにに住んでいます。"
+        "example": "四通八達(Accessible from all directions,referring to a very convenient transportation network)",
+        "exampleKana": "Shitsu hattatsu"
       }
     ]
   },
@@ -69,8 +69,8 @@
         "hiragana": "ご",
         "meaning": "five",
         "wordClass": "number",
-        "example": "五分後に出発します。(We will leave in five minutes.)",
-        "exampleKana": "ごふんあとにで発します。"
+        "example": "五感 (The five senses)",
+        "exampleKana": "Gokan"
       }
     ]
   },
@@ -84,8 +84,8 @@
         "hiragana": "ろく",
         "meaning": "six",
         "wordClass": "number",
-        "example": "六時に起きました。(I woke up at six o'clock.)",
-        "exampleKana": "ろくじにおきました。"
+        "example": "六感(The sixth sense)",
+        "exampleKana": "Rokkan"
       }
     ]
   },
@@ -99,8 +99,8 @@
         "hiragana": "なな",
         "meaning": "seven",
         "wordClass": "number",
-        "example": "七は私の好きな数字です。(Seven is my favorite number.)",
-        "exampleKana": "ななはわたしのすきなすうじです。"
+        "example": "七転び八起き(Fall down seven times, get up eight (a symbol of resilience))",
+        "exampleKana": "Nana-korobi ya-oki"
       }
     ]
   },
@@ -114,8 +114,8 @@
         "hiragana": "はち",
         "meaning": "eight",
         "wordClass": "number",
-        "example": "八時に学校が始まります。(School starts at eight o'clock.)",
-        "exampleKana": "はちじにがっこうがはじまります。"
+        "example": "口八丁手八丁(Equally eloquent in speech and skilled in action.)",
+        "exampleKana": "Kuchi-hatchō te-hatchō"
       }
     ]
   },
@@ -129,8 +129,8 @@
         "hiragana": "きゅう",
         "meaning": "nine",
         "wordClass": "number",
-        "example": "九はとても大きな数字です。(Nine is a very large number.)",
-        "exampleKana": "きゅうはとてもおおきなすうじです。"
+        "example": "九州 (One of the four main islands of Japan (literally Nine Provinces)",
+        "exampleKana": "Kyūshū"
       }
     ]
   },
@@ -144,8 +144,8 @@
         "hiragana": "じゅう",
         "meaning": "ten",
         "wordClass": "number",
-        "example": "十人の学生がいます。(There are ten students.)",
-        "exampleKana": "じゅうひとのがくせいがいます。"
+        "example": "十字路(Crossroads; intersection)",
+        "exampleKana": "Jūjiro"
       }
     ]
   },
