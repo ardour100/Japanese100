@@ -13,7 +13,7 @@ function JoyoKanjiContent() {
       <div className="max-w-7xl mx-auto relative z-10 p-4 sm:p-8">
         <header className="text-center mb-8">
           <h1 className="text-3xl sm:text-4xl font-bold text-indigo-800 mb-2 drop-shadow-sm">
-            Jōyō Kanji Learning Guide
+            Common Kanji Learning Guide
           </h1>
           <p className="text-indigo-600 mb-4">
             Official 2,136 characters from Japanese Ministry of Education
